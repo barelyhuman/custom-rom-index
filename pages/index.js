@@ -30,7 +30,7 @@ function Home () {
             </Note>
             <div className='flex flex-col justify-center lg:flex-row'>
               <Link href='/devices'>
-                <Button>Devices</Button>
+                <Button>Go To Index</Button>
               </Link>
               <Link href='/submit-rom'>
                 <Button secondary>Submit ROM</Button>

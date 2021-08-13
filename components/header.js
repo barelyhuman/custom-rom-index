@@ -19,7 +19,7 @@ export function Header () {
                 <li>
                   <Link href='/devices'>
                     <a className='px-4 py-1 mr-1 text-base text-gray-600 transition duration-500 ease-in-out transform rounded-md focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:text-black '>
-                      Devices
+                      ROM Index
                     </a>
                   </Link>
                 </li>

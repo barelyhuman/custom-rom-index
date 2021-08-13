@@ -139,8 +139,8 @@ export function DevicesListTable ({ ...props }) {
             <table className='table text-gray-400 border-separate space-y-6 text-sm w-full mx-auto'>
               <thead className='text-gray-500'>
                 <tr className='border-2 border-black'>
-                  <th className='p-3 text-left'>Device Name</th>
                   <th className='p-3 text-left'>Codename</th>
+                  <th className='p-3 text-left'>Device Name</th>
                   <th className='p-3 text-left'>Rom Name</th>
                   <th className='p-3 text-left'>Android Version(s)</th>
                   <th className='p-3 text-left'>Status</th>
@@ -154,16 +154,10 @@ export function DevicesListTable ({ ...props }) {
                       key={deviceItem.id}
                       className='text-gray-600 border-2 border-black mt-1'
                     >
-                      <td className='p-3'>
-                        <div className='flex items-center'>
-                          <div className=''>
-                            <div className='font-semibold'>
-                              {deviceItem.deviceName}
-                            </div>
-                          </div>
-                        </div>
+                      <td className='p-3 font-semibold'>
+                        {deviceItem.codename}
                       </td>
-                      <td className='p-3'>{deviceItem.codename}</td>
+                      <td className='p-3'>{deviceItem.deviceName}</td>
                       <td className='p-3 font-bold'>{deviceItem.rom.name}</td>
                       <td className='p-3'>
                         {deviceItem.rom.androidVersion.join(',')}
