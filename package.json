@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "npx standard",
+    "fix": "npx standard --fix"
   },
   "dependencies": {
     "next": "latest",
@@ -14,5 +16,10 @@
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules"
+    ]
   }
 }

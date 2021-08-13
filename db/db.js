@@ -1,223 +1,223 @@
-const db = [];
+const db = []
 
 export const STATUS_ENUM = {
-  active: "active",
-  discontinued: "discontinued",
-};
+  active: 'active',
+  discontinued: 'discontinued'
+}
 
 const addDevice = (deviceDetails) => {
   db.push({
     ...deviceDetails,
-    id: db.length,
-  });
-};
+    id: db.length
+  })
+}
 
 addDevice({
-  deviceName: "Pixel 4a (5G) ",
-  codename: "bramble",
+  deviceName: 'Pixel 4a (5G) ',
+  codename: 'bramble',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 5 ",
-  codename: "redfin",
+  deviceName: 'Pixel 5 ',
+  codename: 'redfin',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 4a ",
-  codename: "sunfish",
+  deviceName: 'Pixel 4a ',
+  codename: 'sunfish',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 4 XL ",
-  codename: "coral",
+  deviceName: 'Pixel 4 XL ',
+  codename: 'coral',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 4 ",
-  codename: "flame",
+  deviceName: 'Pixel 4 ',
+  codename: 'flame',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 3a XL ",
-  codename: "bonito",
+  deviceName: 'Pixel 3a XL ',
+  codename: 'bonito',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 3a ",
-  codename: "sargo",
+  deviceName: 'Pixel 3a ',
+  codename: 'sargo',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 3 XL ",
-  codename: "crosshatch",
+  deviceName: 'Pixel 3 XL ',
+  codename: 'crosshatch',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 3 ",
-  codename: "blueline",
+  deviceName: 'Pixel 3 ',
+  codename: 'blueline',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 2 XL ",
-  codename: "taimen",
+  deviceName: 'Pixel 2 XL ',
+  codename: 'taimen',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Pixel 2 ",
-  codename: "walleye",
+  deviceName: 'Pixel 2 ',
+  codename: 'walleye',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Xiaomi Mi A2 ",
-  codename: "jasmine_sprout",
+  deviceName: 'Xiaomi Mi A2 ',
+  codename: 'jasmine_sprout',
   rom: {
-    name: "CalyxOS",
+    name: 'CalyxOS',
     androidVersion: [11],
-    status: "active",
-    links: ["https://calyxos.org/get/"],
-  },
-});
+    status: 'active',
+    links: ['https://calyxos.org/get/']
+  }
+})
 
 addDevice({
-  deviceName: "Asus Zenfone Max M1 ",
-  codename: "X00P",
+  deviceName: 'Asus Zenfone Max M1 ',
+  codename: 'X00P',
   rom: {
-    name: "Pixel Experience",
+    name: 'Pixel Experience',
     androidVersion: [11, 10],
-    status: "discontinued",
-    links: ["https://download.pixelexperience.org/X00P"],
-  },
-});
+    status: 'discontinued',
+    links: ['https://download.pixelexperience.org/X00P']
+  }
+})
 
 addDevice({
-  deviceName: "Asus Zenfone Max M2",
-  codename: "X01AD",
+  deviceName: 'Asus Zenfone Max M2',
+  codename: 'X01AD',
   rom: {
-    name: "Pixel Experience",
+    name: 'Pixel Experience',
     androidVersion: [11],
-    status: "active",
-    links: ["https://download.pixelexperience.org/X01AD"],
-  },
-});
+    status: 'active',
+    links: ['https://download.pixelexperience.org/X01AD']
+  }
+})
 addDevice({
-  deviceName: "Asus Zenfone Max M2",
-  codename: "X01AD",
+  deviceName: 'Asus Zenfone Max M2',
+  codename: 'X01AD',
   rom: {
-    name: "Pixel Experience",
+    name: 'Pixel Experience',
     androidVersion: [10],
-    status: "discontinued",
-    links: ["https://download.pixelexperience.org/X01AD"],
-  },
-});
+    status: 'discontinued',
+    links: ['https://download.pixelexperience.org/X01AD']
+  }
+})
 
 addDevice({
-  deviceName: "Asus Zenfone Max Pro M1",
-  codename: "X00TD",
+  deviceName: 'Asus Zenfone Max Pro M1',
+  codename: 'X00TD',
   rom: {
-    name: "Pixel Experience",
+    name: 'Pixel Experience',
     androidVersion: [11],
-    status: "active",
-    links: ["https://download.pixelexperience.org/X00TD"],
-  },
-});
+    status: 'active',
+    links: ['https://download.pixelexperience.org/X00TD']
+  }
+})
 addDevice({
-  deviceName: "Asus Zenfone Max Pro M1",
-  codename: "X00TD",
+  deviceName: 'Asus Zenfone Max Pro M1',
+  codename: 'X00TD',
   rom: {
-    name: "Pixel Experience",
+    name: 'Pixel Experience',
     androidVersion: [10],
-    status: "discontinued",
-    links: ["https://download.pixelexperience.org/X00TD"],
-  },
-});
+    status: 'discontinued',
+    links: ['https://download.pixelexperience.org/X00TD']
+  }
+})
 
 addDevice({
-  deviceName: "Asus Zenfone Max Pro M2",
-  codename: "X01BD",
+  deviceName: 'Asus Zenfone Max Pro M2',
+  codename: 'X01BD',
   rom: {
-    name: "Pixel Experience",
+    name: 'Pixel Experience',
     androidVersion: [11],
-    status: "active",
-    links: ["https://download.pixelexperience.org/X01BD"],
-  },
-});
+    status: 'active',
+    links: ['https://download.pixelexperience.org/X01BD']
+  }
+})
 addDevice({
-  deviceName: "Asus Zenfone Max Pro M2",
-  codename: "X01BD",
+  deviceName: 'Asus Zenfone Max Pro M2',
+  codename: 'X01BD',
   rom: {
-    name: "Pixel Experience",
+    name: 'Pixel Experience',
     androidVersion: [10],
-    status: "discontinued",
-    links: ["https://download.pixelexperience.org/X01BD"],
-  },
-});
+    status: 'discontinued',
+    links: ['https://download.pixelexperience.org/X01BD']
+  }
+})
 
 export const devices = db.sort((x, y) =>
   x.deviceName > y.deviceName ? 1 : -1
-);
+)
