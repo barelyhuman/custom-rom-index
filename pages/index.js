@@ -1,5 +1,5 @@
 import { Button, Footer, Header, Note } from 'components'
-import { ActiveDeviceROMsCount } from 'containers'
+import { ActiveDeviceROMsCount, TopDevicesRomCount } from 'containers'
 import Link from 'next/link'
 
 function Home () {
@@ -8,7 +8,7 @@ function Home () {
       <Header />
       <section className='text-blueGray-700 '>
         <div className='container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28'>
-          <div className='flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0'>
+          <div className='flex flex-col items-center text-center items-start mb-16 text-left lg:flex-grow md:mb-0'>
             <h2 className='mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font'>
               {' '}
               The easiest way to find a rom for your device.{' '}
@@ -39,13 +39,17 @@ function Home () {
           </div>
           {/* TODO: enable this after implementing the ability to raise pull requests */}
           {/* <SubmitNewRomForm /> */}
-          <div className='flex items-center'>
-            <ActiveDeviceROMsCount />
-          </div>
         </div>
       </section>
-      <section className='mx-auto'>
-        <div className='container px-5 mx-auto md:px-32' />
+      <section className='container px-5 mx-auto lg:px-28'>
+        <div className='flex flex-wrap justify-center items-start'>
+          <div className='m-1 p-1'>
+            <ActiveDeviceROMsCount />
+          </div>
+          <div className='m-1 p-1'>
+            <TopDevicesRomCount />
+          </div>
+        </div>
       </section>
       <Footer />
     </>
