@@ -145,83 +145,6 @@ addDevice({
 })
 
 addDevice({
-  deviceName: 'Asus Zenfone Max M1 ',
-  codename: 'X00P',
-  rom: {
-    name: 'Pixel Experience',
-    androidVersion: [11, 10],
-    status: 'discontinued',
-    links: ['https://download.pixelexperience.org/X00P']
-  }
-})
-
-addDevice({
-  deviceName: 'Asus Zenfone Max M2',
-  codename: 'X01AD',
-  rom: {
-    name: 'Pixel Experience',
-    androidVersion: [11],
-    status: 'active',
-    links: ['https://download.pixelexperience.org/X01AD']
-  }
-})
-
-addDevice({
-  deviceName: 'Asus Zenfone Max M2',
-  codename: 'X01AD',
-  rom: {
-    name: 'Pixel Experience',
-    androidVersion: [10],
-    status: 'discontinued',
-    links: ['https://download.pixelexperience.org/X01AD']
-  }
-})
-
-addDevice({
-  deviceName: 'Asus Zenfone Max Pro M1',
-  codename: 'X00TD',
-  rom: {
-    name: 'Pixel Experience',
-    androidVersion: [11],
-    status: 'active',
-    links: ['https://download.pixelexperience.org/X00TD']
-  }
-})
-
-addDevice({
-  deviceName: 'Asus Zenfone Max Pro M1',
-  codename: 'X00TD',
-  rom: {
-    name: 'Pixel Experience',
-    androidVersion: [10],
-    status: 'discontinued',
-    links: ['https://download.pixelexperience.org/X00TD']
-  }
-})
-
-addDevice({
-  deviceName: 'Asus Zenfone Max Pro M2',
-  codename: 'X01BD',
-  rom: {
-    name: 'Pixel Experience',
-    androidVersion: [11],
-    status: 'active',
-    links: ['https://download.pixelexperience.org/X01BD']
-  }
-})
-
-addDevice({
-  deviceName: 'Asus Zenfone Max Pro M2',
-  codename: 'X01BD',
-  rom: {
-    name: 'Pixel Experience',
-    androidVersion: [10],
-    status: 'discontinued',
-    links: ['https://download.pixelexperience.org/X01BD']
-  }
-})
-
-addDevice({
   deviceName: 'Mi 9T Pro',
   codename: 'raphael',
   rom: {
@@ -969,6 +892,7 @@ addDevice({
   }
 })
 
+exports.addDevice = addDevice
 exports.devices = db.sort((x, y) =>
   x.codename.toLowerCase() > y.codename.toLowerCase() ? 1 : -1
 )

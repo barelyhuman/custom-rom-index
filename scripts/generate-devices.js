@@ -22,8 +22,8 @@ async function deviceInfoAPI (codename) {
   }
 }
 
-async function main () {
-  const withReleasesPromises = devices.map(async (item) => {
+async function main (deviceList) {
+  const withReleasesPromises = deviceList.map(async (item) => {
     const deviceInfo = await deviceInfoAPI(item.codename)
     item.releasedOn = item.releasedOn || deviceInfo.release
     return item
@@ -36,4 +36,6 @@ async function main () {
   )
 }
 
-main()
+exports.generateDevices = main
+
+main(devices)

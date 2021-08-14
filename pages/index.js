@@ -1,5 +1,9 @@
 import { Button, Footer, Header, Note } from 'components'
-import { ActiveDeviceROMsCount, TopDevicesRomCount } from 'containers'
+import {
+  ActiveDeviceROMsCount,
+  TopDevicesRomCount,
+  TotalDeviceROMsCount
+} from 'containers'
 import Link from 'next/link'
 
 function Home () {
@@ -43,6 +47,9 @@ function Home () {
       </section>
       <section className='container px-5 mx-auto lg:px-28'>
         <div className='flex flex-wrap justify-center items-start'>
+          <div className='m-1 p-1'>
+            <TotalDeviceROMsCount />
+          </div>
           <div className='m-1 p-1'>
             <ActiveDeviceROMsCount />
           </div>
