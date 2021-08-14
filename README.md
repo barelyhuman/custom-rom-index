@@ -24,3 +24,14 @@ You can access all the devices at [https://cri.reaper.im](https://cri.reaper.im)
 ## Contribute
 
 If you wish to add more devices/ROMs to the list you can follow the steps [here](https://cri.reaper.im/submit-rom).
+
+## Data Credits
+
+While most of them are being added manually right now, we are using a lot of data from the open source repositories listed here,
+they make it easier to handle syncing of data
+
+- [PixelExperience](https://github.com/PixelExperience)
+
+## Credits | Appreciations
+
+- Every other rom developer that's out there doing amazing work for the community! THANKS!
