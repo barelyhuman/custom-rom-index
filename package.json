@@ -6,12 +6,15 @@
     "start": "next start",
     "test": "npx standard",
     "fix": "npx standard --fix",
-    "prepare": "husky install"
+    "sync": "node scripts/generate-devices.js",
+    "prepare": "husky install; npm run sync"
   },
   "dependencies": {
+    "got": "^11.8.2",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

@@ -1,0 +1,1402 @@
+[
+  {
+    "deviceName": "POCO F3",
+    "codename": "alioth",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/alioth"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 36,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Xiaomi Mi 10T ",
+    "codename": "apollo",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 77,
+    "releasedOn": "2020-10-13"
+  },
+  {
+    "deviceName": "Mi 10T",
+    "codename": "apollo",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/apollo"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 37,
+    "releasedOn": "2020-10-13"
+  },
+  {
+    "deviceName": "Xiaomi Poco F1 ",
+    "codename": "beryllium",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 81,
+    "releasedOn": "2018-08"
+  },
+  {
+    "deviceName": "Pixel 3 ",
+    "codename": "blueline",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 8,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Google Pixel 3A XL ",
+    "codename": "bonito",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 62,
+    "releasedOn": "2019-04"
+  },
+  {
+    "deviceName": "Pixel 3a XL ",
+    "codename": "bonito",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 5,
+    "releasedOn": "2019-04"
+  },
+  {
+    "deviceName": "Pixel 4a (5G) ",
+    "codename": "bramble",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 0,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Motorola Moto G7 Play ",
+    "codename": "channel",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 65,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Mi 10 Pro",
+    "codename": "cmi",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/cmi"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 42,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Google Pixel 4 XL ",
+    "codename": "coral",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 63,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Pixel 4 XL ",
+    "codename": "coral",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 3,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Pixel 3 XL ",
+    "codename": "crosshatch",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 7,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 9 ",
+    "codename": "crownlte",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 74,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Xiaomi Mi 9T ",
+    "codename": "davinci",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 79,
+    "releasedOn": "2019-06-06"
+  },
+  {
+    "deviceName": "Mi 9T",
+    "codename": "davinci",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/davinci"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 43,
+    "releasedOn": "2019-06-06"
+  },
+  {
+    "deviceName": "Mi 8",
+    "codename": "dipper",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/dipper"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 44,
+    "releasedOn": "2018-07"
+  },
+  {
+    "deviceName": "OnePlus 6 ",
+    "codename": "enchilada",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 67,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "OnePlus 6T ",
+    "codename": "fajita",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 68,
+    "releasedOn": "2018-11"
+  },
+  {
+    "deviceName": "Pixel 4 ",
+    "codename": "flame",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 4,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Redmi Note 8",
+    "codename": "ginkgo",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/ginkgo"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 45,
+    "releasedOn": "2019-10-16"
+  },
+  {
+    "deviceName": "OnePlus 7 Pro ",
+    "codename": "guacamole",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 69,
+    "releasedOn": "2019-05"
+  },
+  {
+    "deviceName": "OnePlus 7 Pro",
+    "codename": "guacamole",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/guacamole"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 26,
+    "releasedOn": "2019-05"
+  },
+  {
+    "deviceName": "OnePlus 7",
+    "codename": "guacamoleb",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/guacamoleb"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 27,
+    "releasedOn": "2019-05"
+  },
+  {
+    "deviceName": "Asus ROG 2 ",
+    "codename": "I001D",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 57,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Asus Zenfone 6 ",
+    "codename": "I01WD",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 60,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "OnePlus 8",
+    "codename": "instantnoodle",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/instantnoodle"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 28,
+    "releasedOn": "2020-04"
+  },
+  {
+    "deviceName": "OnePlus 8 Pro",
+    "codename": "instantnoodlep",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/instantnoodlep"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 29,
+    "releasedOn": "2020-04"
+  },
+  {
+    "deviceName": "Xiaomi Mi A2 ",
+    "codename": "jasmine_sprout",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 11,
+    "releasedOn": "2018-07"
+  },
+  {
+    "deviceName": "G7 ThinQ",
+    "codename": "judyln",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/judyln"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 22,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Xiaomi POCO M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G ",
+    "codename": "juice",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 80,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Poco M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G",
+    "codename": "juice",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/juice"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 38,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "OnePlus 8T",
+    "codename": "kebab",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/kebab"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 30,
+    "releasedOn": "2020-10"
+  },
+  {
+    "deviceName": "Moto G7 Plus",
+    "codename": "lake",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/lake"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 23,
+    "releasedOn": "2019-02"
+  },
+  {
+    "deviceName": "Mi A3",
+    "codename": "laurel_sprout",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/laurel_sprout"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 46,
+    "releasedOn": "2019-07"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 7/7S ",
+    "codename": "lavender",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 85,
+    "releasedOn": "2019-01"
+  },
+  {
+    "deviceName": "Redmi Note 7",
+    "codename": "lavender",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/lavender"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 47,
+    "releasedOn": "2019-01"
+  },
+  {
+    "deviceName": "OnePlus 9",
+    "codename": "lemonade",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/lemonade"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 31,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "OnePlus 9 Pro",
+    "codename": "lemonadep",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/lemonadep"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 32,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "One Fusion+",
+    "codename": "liber",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/liber"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 25,
+    "releasedOn": "2020-06-08"
+  },
+  {
+    "deviceName": "Redmi K30 Pro / POCO F2 Pro",
+    "codename": "lmi",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/lmi"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 40,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 9S/9 Pro/Pro Max/POCO M2 Pro",
+    "codename": "miatoll",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 86,
+    "releasedOn": "2020-04-30"
+  },
+  {
+    "deviceName": "Redmi Note 9S, 9 Pro, 9 Pro Max / POCO M2 Pro",
+    "codename": "miatoll",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/miatoll"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 48,
+    "releasedOn": "2020-04-30"
+  },
+  {
+    "deviceName": "Asus ROG 3 ",
+    "codename": "obiwan",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 58,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "OnePlus 3/3T ",
+    "codename": "oneplus3",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 66,
+    "releasedOn": [
+      {
+        "A3000": "2016-06"
+      },
+      {
+        "A3003": "2016-10"
+      }
+    ]
+  },
+  {
+    "deviceName": "Redmi K30 / POCO X2",
+    "codename": "phoenix",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/phoenix"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 39,
+    "releasedOn": "2020-02-11"
+  },
+  {
+    "deviceName": "Mi Mix 2s",
+    "codename": "polaris",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/polaris"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 50,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Xiaomi Mi 9 Lite/Mi CC9 Meitu ",
+    "codename": "pyxis",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 78,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Mi 9 Lite",
+    "codename": "pyxis",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/pyxis"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 49,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Xiaomi Redmi K20 Pro / Mi 9T Pro ",
+    "codename": "raphael",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 82,
+    "releasedOn": "2019-08-21"
+  },
+  {
+    "deviceName": "Mi 9T Pro",
+    "codename": "raphael",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/raphael"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 19,
+    "releasedOn": "2019-08-21"
+  },
+  {
+    "deviceName": "Pixel 5 ",
+    "codename": "redfin",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 1,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Realme 2 Pro ",
+    "codename": "RMX1801",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 71,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Realme XT ",
+    "codename": "RMX1921",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 73,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Realme 5 Pro ",
+    "codename": "RMX1971",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 72,
+    "releasedOn": "2019-04-29"
+  },
+  {
+    "deviceName": "Realme 5 Pro",
+    "codename": "RMX1971",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/RMX1971"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 33,
+    "releasedOn": "2019-04-29"
+  },
+  {
+    "deviceName": "Realme 6",
+    "codename": "RMX2001",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/RMX2001"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 34,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Realme 6 Pro",
+    "codename": "RMX206X",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/RMX206X"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 35,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Moto G5S Plus",
+    "codename": "sanders",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/sanders"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 24,
+    "releasedOn": "2017-08"
+  },
+  {
+    "deviceName": "Google Pixel 3A ",
+    "codename": "sargo",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 61,
+    "releasedOn": "2019-04"
+  },
+  {
+    "deviceName": "Pixel 3a ",
+    "codename": "sargo",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 6,
+    "releasedOn": "2019-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S9+ ",
+    "codename": "star2lte",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 76,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Samsung Galaxy S9 ",
+    "codename": "starlte",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 75,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Google Pixel 4A ",
+    "codename": "sunfish",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 64,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Pixel 4a ",
+    "codename": "sunfish",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 2,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Poco X3 NFC ",
+    "codename": "surya",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 70,
+    "releasedOn": "2020-09-08"
+  },
+  {
+    "deviceName": "Poco X3",
+    "codename": "surya",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/surya"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 51,
+    "releasedOn": "2020-09-08"
+  },
+  {
+    "deviceName": "Pixel 2 XL ",
+    "codename": "taimen",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 9,
+    "releasedOn": "2017-10"
+  },
+  {
+    "deviceName": "Mi A1",
+    "codename": "tissot",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/tissot"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 52,
+    "releasedOn": "2017-10"
+  },
+  {
+    "deviceName": "Redmi Note 6 Pro",
+    "codename": "tulip",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/tulip"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 53,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Mi 10",
+    "codename": "umi",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/umi"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 41,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Redmi Note 5/5 Plus",
+    "codename": "vince",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/vince"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 54,
+    "releasedOn": "2018-02"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 7 Pro ",
+    "codename": "violet",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 84,
+    "releasedOn": "2019-03-13"
+  },
+  {
+    "deviceName": "Redmi Note 7 Pro",
+    "codename": "violet",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/violet"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 55,
+    "releasedOn": "2019-03-13"
+  },
+  {
+    "deviceName": "Pixel 2 ",
+    "codename": "walleye",
+    "rom": {
+      "name": "CalyxOS",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://calyxos.org/get/"
+      ]
+    },
+    "id": 10,
+    "releasedOn": "2017-10"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 5 Pro ",
+    "codename": "whyred",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 83,
+    "releasedOn": "2018-02"
+  },
+  {
+    "deviceName": "Redmi Note 5",
+    "codename": "whyred",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/whyred"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 56,
+    "releasedOn": "2018-02"
+  },
+  {
+    "deviceName": "Asus Zenfone Max M1 ",
+    "codename": "X00P",
+    "rom": {
+      "name": "Pixel Experience",
+      "androidVersion": [
+        11,
+        10
+      ],
+      "status": "discontinued",
+      "links": [
+        "https://download.pixelexperience.org/X00P"
+      ]
+    },
+    "id": 12,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Zenfone Max Pro M1",
+    "codename": "X00TD",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/X00TD"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 20,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Asus Zenfone Max Pro M1",
+    "codename": "X00TD",
+    "rom": {
+      "name": "Pixel Experience",
+      "androidVersion": [
+        10
+      ],
+      "status": "discontinued",
+      "links": [
+        "https://download.pixelexperience.org/X00TD"
+      ]
+    },
+    "id": 16,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Asus Zenfone Max Pro M1",
+    "codename": "X00TD",
+    "rom": {
+      "name": "Pixel Experience",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://download.pixelexperience.org/X00TD"
+      ]
+    },
+    "id": 15,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Asus Zenfone Max M2",
+    "codename": "X01AD",
+    "rom": {
+      "name": "Pixel Experience",
+      "androidVersion": [
+        10
+      ],
+      "status": "discontinued",
+      "links": [
+        "https://download.pixelexperience.org/X01AD"
+      ]
+    },
+    "id": 14,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "Asus Zenfone Max M2",
+    "codename": "X01AD",
+    "rom": {
+      "name": "Pixel Experience",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://download.pixelexperience.org/X01AD"
+      ]
+    },
+    "id": 13,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "Asus Zenfone Max Pro M2",
+    "codename": "X01BD",
+    "rom": {
+      "name": "Pixel Experience",
+      "androidVersion": [
+        10
+      ],
+      "status": "discontinued",
+      "links": [
+        "https://download.pixelexperience.org/X01BD"
+      ]
+    },
+    "id": 18,
+    "releasedOn": "2018-12"
+  },
+  {
+    "deviceName": "Asus Zenfone Max Pro M2",
+    "codename": "X01BD",
+    "rom": {
+      "name": "Pixel Experience",
+      "androidVersion": [
+        11
+      ],
+      "status": "active",
+      "links": [
+        "https://download.pixelexperience.org/X01BD"
+      ]
+    },
+    "id": 17,
+    "releasedOn": "2018-12"
+  },
+  {
+    "deviceName": "Asus Zenfone 5Z ",
+    "codename": "Z01R",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://downloads.blissroms.org/"
+      ],
+      "name": "BlissROMS"
+    },
+    "id": 59,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Zenfone 5Z",
+    "codename": "Z01R",
+    "rom": {
+      "status": "active",
+      "androidVersion": [
+        11
+      ],
+      "links": [
+        "https://evolution-x.org/device/Z01R"
+      ],
+      "name": "Evolution X"
+    },
+    "id": 21,
+    "releasedOn": null
+  }
+]

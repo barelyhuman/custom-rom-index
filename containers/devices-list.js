@@ -1,5 +1,6 @@
 import { Input } from 'components'
-import { devices } from 'db'
+import devices from 'db/devices.json'
+import { releaseDateFormatter } from 'lib/date-utils'
 import { normaliseSearchableString } from 'lib/search-utils'
 import { useEffect, useState } from 'react'
 
@@ -144,6 +145,7 @@ export function DevicesListTable ({ ...props }) {
                   <th className='p-3 text-left'>Rom Name</th>
                   <th className='p-3 text-left'>Android Version(s)</th>
                   <th className='p-3 text-left'>Status</th>
+                  <th className='p-3 text-left'>Released On</th>
                   <th className='p-3 text-left'>Links</th>
                 </tr>
               </thead>
@@ -171,6 +173,7 @@ export function DevicesListTable ({ ...props }) {
                           {deviceItem.rom.status}
                         </span>
                       </td>
+                      <td className='p-3'>{_getReleasedOn(deviceItem)}</td>
                       <td className='p-3 '>
                         {deviceItem.rom.links.map((link, index) => (
                           <a
@@ -219,4 +222,24 @@ export function DevicesListTable ({ ...props }) {
       </style>
     </>
   )
+}
+
+const _getReleasedOn = (deviceItem) => {
+  if (!deviceItem.releasedOn) {
+    return 'N/A'
+  }
+
+  if (typeof deviceItem.releasedOn === 'string') {
+    return releaseDateFormatter(String(deviceItem.releasedOn))
+  }
+
+  const multiRelease = deviceItem.releasedOn.map((item) => {
+    return Object.keys(item).map((key) => {
+      return `${key}:${releaseDateFormatter(String(item[key]))}`
+    })
+  })
+
+  console.log({ multiRelease })
+
+  return multiRelease.join(' | ')
 }

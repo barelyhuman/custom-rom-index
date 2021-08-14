@@ -1,6 +1,6 @@
 const db = []
 
-export const STATUS_ENUM = {
+exports.STATUS_ENUM = {
   active: 'active',
   discontinued: 'discontinued'
 }
@@ -969,6 +969,6 @@ addDevice({
   }
 })
 
-export const devices = db.sort((x, y) =>
+exports.devices = db.sort((x, y) =>
   x.codename.toLowerCase() > y.codename.toLowerCase() ? 1 : -1
 )
