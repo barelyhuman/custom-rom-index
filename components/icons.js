@@ -52,3 +52,56 @@ export function LinkedInIcon () {
     </svg>
   )
 }
+
+export function ArrowDownIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      className='w-5 h-5'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      viewBox='0 0 24 24'
+    >
+      <path d='M12 5L12 19' />
+      <path d='M19 12L12 19 5 12' />
+    </svg>
+  )
+}
+
+export function ArrowUpIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      className='w-5 h-5'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      viewBox='0 0 24 24'
+    >
+      <path d='M12 19L12 5' />
+      <path d='M5 12L12 5 19 12' />
+    </svg>
+  )
+}
+
+export function ChevronUpDownIcon () {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      className='w-5 h-5'
+      fill='none'
+      stroke='currentColor'
+      strokeLinecap='round'
+      strokeLinejoin='round'
+      strokeWidth='2'
+      viewBox='0 0 24 24'
+    >
+      <path d='M7 15l5 5 5-5M7 9l5-5 5 5' />
+    </svg>
+  )
+}

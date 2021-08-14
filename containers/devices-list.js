@@ -1,17 +1,53 @@
-import { Input } from 'components'
+import {
+  ArrowDownIcon,
+  ArrowUpIcon,
+  ChevronUpDownIcon,
+  Input
+} from 'components'
 import devices from 'db/devices.json'
 import { releaseDateFormatter } from 'lib/date-utils'
 import { normaliseSearchableString } from 'lib/search-utils'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 const STATUS_COLOR_ENUM = {
   active: 'bg-green-600',
   discontinued: 'bg-red-600'
 }
 
+function useDeviceList () {
+  const [deviceList, setDeviceList] = useState(devices)
+  const [sortDirections, setSortDirections] = useState({
+    releasedOn: 0
+  })
+
+  const sortDevicesByRelease = useCallback(() => {
+    const _byReleaseDate = devices
+      .slice()
+      .sort((x, y) =>
+        _sortByReleaseDateAndDirection(x, y, sortDirections.releasedOn)
+      )
+    setDeviceList(_byReleaseDate)
+  }, [sortDirections.releasedOn])
+
+  useEffect(() => {
+    if (sortDirections.releasedOn) {
+      sortDevicesByRelease(sortDirections.releasedOn)
+    }
+  }, [sortDirections.releasedOn, sortDevicesByRelease])
+
+  return {
+    deviceList,
+    setDeviceList,
+    sortDirections,
+    setSortDirections
+  }
+}
+
 export function DevicesListTable ({ ...props }) {
   const [searchTerm, setSearchTerm] = useState()
-  const [deviceList, setDeviceList] = useState(devices)
+
+  const { deviceList, setDeviceList, sortDirections, setSortDirections } =
+    useDeviceList()
 
   useEffect(() => {
     onSearch()
@@ -103,7 +139,6 @@ export function DevicesListTable ({ ...props }) {
     if (versionsToSearch.length) {
       matchState.push(
         !!versionsToSearch.filter((item) => {
-          console.log({ item, versions: device.rom.androidVersion })
           return device.rom.androidVersion.indexOf(Number(item)) > -1
         }).length
       )
@@ -125,6 +160,25 @@ export function DevicesListTable ({ ...props }) {
     )
   }
 
+  const toggleSortDirection = (key) => {
+    const _sortDirections = Object.assign({}, sortDirections)
+    _sortDirections[key] =
+      _sortDirections[key] && _sortDirections[key] === 1 ? -1 : 1
+    setSortDirections({
+      ..._sortDirections
+    })
+  }
+
+  const _renderSortDirection = useCallback(
+    (key) => {
+      if (!sortDirections[key]) {
+        return <ChevronUpDownIcon />
+      }
+      return sortDirections[key] === 1 ? <ArrowDownIcon /> : <ArrowUpIcon />
+    },
+    [sortDirections]
+  )
+
   return (
     <>
       <div className='container flex flex-col items-center px-5 mx-auto md:flex-row'>
@@ -141,11 +195,19 @@ export function DevicesListTable ({ ...props }) {
               <thead className='text-gray-500'>
                 <tr className='border-2 border-black'>
                   <th className='p-3 text-left'>Codename</th>
-                  <th className='p-3 text-left'>Device Name</th>
+                  <th className='p-3 text-left'>Device Name </th>
                   <th className='p-3 text-left'>Rom Name</th>
                   <th className='p-3 text-left'>Android Version(s)</th>
                   <th className='p-3 text-left'>Status</th>
-                  <th className='p-3 text-left'>Released On</th>
+                  <th
+                    className='p-3 text-left'
+                    onClick={() => toggleSortDirection('releasedOn')}
+                  >
+                    <div className='flex items-center'>
+                      Released On
+                      {_renderSortDirection('releasedOn')}
+                    </div>
+                  </th>
                   <th className='p-3 text-left'>Links</th>
                 </tr>
               </thead>
@@ -239,7 +301,38 @@ const _getReleasedOn = (deviceItem) => {
     })
   })
 
-  console.log({ multiRelease })
-
   return multiRelease.join(' | ')
+}
+
+const _sortByReleaseDateAndDirection = (item, itemTwo, direction = 1) => {
+  if (!item.releasedOn) {
+    return 1
+  }
+  if (!itemTwo.releasedOn) {
+    return -1
+  }
+
+  let firstDateSplits
+  let secondDateSplits
+
+  if (Array.isArray(item.releasedOn)) {
+    firstDateSplits = item.releasedOn[0][Object.keys(item.releasedOn[0])[0]]
+  } else if (typeof item.releasedOn === 'string') {
+    firstDateSplits = item.releasedOn.split('-')
+  }
+
+  if (Array.isArray(itemTwo.releasedOn)) {
+    secondDateSplits =
+      itemTwo.releasedOn[0][Object.keys(itemTwo.releasedOn[0])[0]]
+  } else if (typeof itemTwo.releasedOn === 'string') {
+    secondDateSplits = itemTwo.releasedOn.split('-')
+  }
+
+  const date = new Date(firstDateSplits[0], firstDateSplits[1], 1)
+
+  const secondDate = new Date(secondDateSplits[0], secondDateSplits[1], 1)
+
+  return direction < 0
+    ? date.getTime() - secondDate.getTime()
+    : secondDate.getTime() - date.getTime()
 }
