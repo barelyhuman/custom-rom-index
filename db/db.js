@@ -2,7 +2,8 @@ const db = []
 
 exports.STATUS_ENUM = {
   active: 'active',
-  discontinued: 'discontinued'
+  discontinued: 'discontinued',
+  unknown: 'unknown'
 }
 
 const addDevice = (deviceDetails) => {

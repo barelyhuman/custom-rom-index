@@ -7,7 +7,7 @@
     "test": "npx standard",
     "fix": "npx standard --fix",
     "sync": "node scripts/sync.js",
-    "prepare": "husky install; npm run sync"
+    "prepare": "husky install"
   },
   "dependencies": {
     "got": "^11.8.2",

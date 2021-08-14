@@ -11,7 +11,8 @@ import { useCallback, useEffect, useState } from 'react'
 
 const STATUS_COLOR_ENUM = {
   active: 'bg-green-600',
-  discontinued: 'bg-red-600'
+  discontinued: 'bg-red-600',
+  unknown: 'bg-yellow-500'
 }
 
 function useDeviceList () {
@@ -295,13 +296,19 @@ const _getReleasedOn = (deviceItem) => {
     return releaseDateFormatter(String(deviceItem.releasedOn))
   }
 
-  const multiRelease = deviceItem.releasedOn.map((item) => {
-    return Object.keys(item).map((key) => {
-      return `${key}:${releaseDateFormatter(String(item[key]))}`
+  if (Array.isArray(deviceItem.releasedOn)) {
+    const multiRelease = deviceItem.releasedOn.map((item) => {
+      return Object.keys(item).map((key) => {
+        return `${key}:${releaseDateFormatter(String(item[key]))}`
+      })
     })
-  })
 
-  return multiRelease.join(' | ')
+    return multiRelease.join(' | ')
+  }
+
+  if (typeof deviceItem.releasedOn === 'number') {
+    return deviceItem.releasedOn
+  }
 }
 
 const _sortByReleaseDateAndDirection = (item, itemTwo, direction = 1) => {
@@ -328,9 +335,17 @@ const _sortByReleaseDateAndDirection = (item, itemTwo, direction = 1) => {
     secondDateSplits = itemTwo.releasedOn.split('-')
   }
 
-  const date = new Date(firstDateSplits[0], firstDateSplits[1], 1)
+  if (typeof item.releasedOn === 'number') {
+    firstDateSplits = [item]
+  }
 
-  const secondDate = new Date(secondDateSplits[0], secondDateSplits[1], 1)
+  if (typeof itemTwo.releasedOn === 'number') {
+    secondDateSplits = [itemTwo]
+  }
+
+  const date = new Date(firstDateSplits[0], firstDateSplits[1] || 2, 1)
+
+  const secondDate = new Date(secondDateSplits[0], secondDateSplits[1] || 2, 1)
 
   return direction < 0
     ? date.getTime() - secondDate.getTime()

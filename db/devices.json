@@ -13,7 +13,17 @@
       "name": "Evolution X"
     },
     "id": 29,
-    "releasedOn": null
+    "releasedOn": [
+      {
+        "Poco F3": "2021-03"
+      },
+      {
+        "Redmi K40": "2021-02"
+      },
+      {
+        "Mi 11X": "2021-04"
+      }
+    ]
   },
   {
     "deviceName": "Xiaomi Mi 10T ",
@@ -77,7 +87,7 @@
       ]
     },
     "id": 8,
-    "releasedOn": null
+    "releasedOn": "2018-10"
   },
   {
     "deviceName": "Google Pixel 3A XL ",
@@ -125,7 +135,7 @@
       ]
     },
     "id": 0,
-    "releasedOn": null
+    "releasedOn": "2020-10"
   },
   {
     "deviceName": "Motorola Moto G7 Play ",
@@ -141,7 +151,7 @@
       "name": "BlissROMS"
     },
     "id": 58,
-    "releasedOn": null
+    "releasedOn": "2019-03"
   },
   {
     "deviceName": "Mi 10 Pro",
@@ -156,8 +166,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 35,
-    "releasedOn": null
+    "id": 35
   },
   {
     "deviceName": "Google Pixel 4 XL ",
@@ -173,7 +182,7 @@
       "name": "BlissROMS"
     },
     "id": 56,
-    "releasedOn": null
+    "releasedOn": "2019-09"
   },
   {
     "deviceName": "Pixel 4 XL ",
@@ -189,7 +198,7 @@
       ]
     },
     "id": 3,
-    "releasedOn": null
+    "releasedOn": "2019-09"
   },
   {
     "deviceName": "Pixel 3 XL ",
@@ -205,7 +214,7 @@
       ]
     },
     "id": 7,
-    "releasedOn": null
+    "releasedOn": "2018-10"
   },
   {
     "deviceName": "Samsung Galaxy Note 9 ",
@@ -221,7 +230,7 @@
       "name": "BlissROMS"
     },
     "id": 67,
-    "releasedOn": null
+    "releasedOn": "2018-08-09"
   },
   {
     "deviceName": "Xiaomi Mi 9T ",
@@ -317,7 +326,7 @@
       ]
     },
     "id": 4,
-    "releasedOn": null
+    "releasedOn": "2019-09"
   },
   {
     "deviceName": "Redmi Note 8",
@@ -397,7 +406,7 @@
       "name": "BlissROMS"
     },
     "id": 50,
-    "releasedOn": null
+    "releasedOn": "2019-09"
   },
   {
     "deviceName": "Asus Zenfone 6 ",
@@ -413,7 +422,7 @@
       "name": "BlissROMS"
     },
     "id": 53,
-    "releasedOn": null
+    "releasedOn": "2019-05-16"
   },
   {
     "deviceName": "OnePlus 8",
@@ -476,8 +485,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 15,
-    "releasedOn": null
+    "id": 15
   },
   {
     "deviceName": "Xiaomi POCO M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G ",
@@ -492,8 +500,7 @@
       ],
       "name": "BlissROMS"
     },
-    "id": 73,
-    "releasedOn": null
+    "id": 73
   },
   {
     "deviceName": "Poco M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G",
@@ -508,8 +515,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 31,
-    "releasedOn": null
+    "id": 31
   },
   {
     "deviceName": "OnePlus 8T",
@@ -604,8 +610,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 24,
-    "releasedOn": null
+    "id": 24
   },
   {
     "deviceName": "OnePlus 9 Pro",
@@ -621,7 +626,7 @@
       "name": "Evolution X"
     },
     "id": 25,
-    "releasedOn": null
+    "releasedOn": "2021-03"
   },
   {
     "deviceName": "One Fusion+",
@@ -653,7 +658,17 @@
       "name": "Evolution X"
     },
     "id": 33,
-    "releasedOn": null
+    "releasedOn": [
+      {
+        "POCO F2 Pro": "2020-05"
+      },
+      {
+        "Redmi K30 Pro": "2020-03"
+      },
+      {
+        "Redmi K30 Pro Zoom Edition": "2020-03"
+      }
+    ]
   },
   {
     "deviceName": "Xiaomi Redmi Note 9S/9 Pro/Pro Max/POCO M2 Pro",
@@ -700,8 +715,7 @@
       ],
       "name": "BlissROMS"
     },
-    "id": 51,
-    "releasedOn": null
+    "id": 51
   },
   {
     "deviceName": "OnePlus 3/3T ",
@@ -771,8 +785,7 @@
       ],
       "name": "BlissROMS"
     },
-    "id": 71,
-    "releasedOn": null
+    "id": 71
   },
   {
     "deviceName": "Mi 9 Lite",
@@ -787,8 +800,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 42,
-    "releasedOn": null
+    "id": 42
   },
   {
     "deviceName": "Xiaomi Redmi K20 Pro / Mi 9T Pro ",
@@ -836,7 +848,7 @@
       ]
     },
     "id": 1,
-    "releasedOn": null
+    "releasedOn": "2020-10"
   },
   {
     "deviceName": "Realme 2 Pro ",
@@ -852,7 +864,7 @@
       "name": "BlissROMS"
     },
     "id": 64,
-    "releasedOn": null
+    "releasedOn": "2018-10-11"
   },
   {
     "deviceName": "Realme XT ",
@@ -867,8 +879,7 @@
       ],
       "name": "BlissROMS"
     },
-    "id": 66,
-    "releasedOn": null
+    "id": 66
   },
   {
     "deviceName": "Realme 5 Pro ",
@@ -915,8 +926,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 27,
-    "releasedOn": null
+    "id": 27
   },
   {
     "deviceName": "Realme 6 Pro",
@@ -931,8 +941,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 28,
-    "releasedOn": null
+    "id": 28
   },
   {
     "deviceName": "Moto G5S Plus",
@@ -996,7 +1005,7 @@
       "name": "BlissROMS"
     },
     "id": 69,
-    "releasedOn": null
+    "releasedOn": "2018-03-11"
   },
   {
     "deviceName": "Samsung Galaxy S9 ",
@@ -1012,7 +1021,7 @@
       "name": "BlissROMS"
     },
     "id": 68,
-    "releasedOn": null
+    "releasedOn": "2018-03-11"
   },
   {
     "deviceName": "Google Pixel 4A ",
@@ -1028,7 +1037,7 @@
       "name": "BlissROMS"
     },
     "id": 57,
-    "releasedOn": null
+    "releasedOn": "2020-08"
   },
   {
     "deviceName": "Pixel 4a ",
@@ -1044,7 +1053,7 @@
       ]
     },
     "id": 2,
-    "releasedOn": null
+    "releasedOn": "2020-08"
   },
   {
     "deviceName": "Poco X3 NFC ",
@@ -1124,7 +1133,7 @@
       "name": "Evolution X"
     },
     "id": 46,
-    "releasedOn": null
+    "releasedOn": "2016-09"
   },
   {
     "deviceName": "Mi 10",
@@ -1139,8 +1148,7 @@
       ],
       "name": "Evolution X"
     },
-    "id": 34,
-    "releasedOn": null
+    "id": 34
   },
   {
     "deviceName": "Redmi Note 5/5 Plus",
@@ -1268,7 +1276,7 @@
       "name": "BlissROMS"
     },
     "id": 52,
-    "releasedOn": null
+    "releasedOn": "2018-06"
   },
   {
     "deviceName": "Zenfone 5Z",
@@ -1284,7 +1292,7 @@
       "name": "Evolution X"
     },
     "id": 14,
-    "releasedOn": null
+    "releasedOn": "2018-06"
   },
   {
     "deviceName": "Realme 3 Pro",
@@ -1763,8 +1771,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 109,
-    "releasedOn": null
+    "id": 109
   },
   {
     "deviceName": "Google Pixel 3A XL",
@@ -4531,5 +4538,5717 @@
     },
     "id": 281,
     "releasedOn": "2020-05-05"
+  },
+  {
+    "deviceName": "Lenovo Vibe K5 / K5 Plus",
+    "codename": "A6020",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/A6020"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 282,
+    "releasedOn": "2016-04"
+  },
+  {
+    "deviceName": "Yandex Phone",
+    "codename": "Amber",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/Amber"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 283,
+    "releasedOn": "2018-12"
+  },
+  {
+    "deviceName": "Samsung Galaxy A3 (2016)",
+    "codename": "a3xelte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/a3xelte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 284,
+    "releasedOn": "2015-12"
+  },
+  {
+    "deviceName": "Samsung Galaxy A5 (2016)",
+    "codename": "a5xelte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/a5xelte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 285,
+    "releasedOn": "2015-12"
+  },
+  {
+    "deviceName": "Samsung Galaxy A5 (2017)",
+    "codename": "a5y17lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/a5y17lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 286,
+    "releasedOn": "2017-01-02"
+  },
+  {
+    "deviceName": "Samsung Galaxy A7 (2016)",
+    "codename": "a7xelte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/a7xelte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 287,
+    "releasedOn": "2015-12"
+  },
+  {
+    "deviceName": "Samsung Galaxy A7 (2017)",
+    "codename": "a7y17lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/a7y17lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 288,
+    "releasedOn": "2017-01-02"
+  },
+  {
+    "deviceName": "Motorola Moto Z Play",
+    "codename": "addison",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/addison"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 289,
+    "releasedOn": "2016-09"
+  },
+  {
+    "deviceName": "Motorola Moto E5 Plus (XT1924-3/9)",
+    "codename": "ahannah",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ahannah"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 290,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Sony Xperia XZ2",
+    "codename": "akari",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/akari"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 291,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Sony Xperia XZ3",
+    "codename": "akatsuki",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/akatsuki"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 292,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "Motorola Moto Z2 Play",
+    "codename": "albus",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/albus"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 293,
+    "releasedOn": "2017-06"
+  },
+  {
+    "deviceName": "Xiaomi POCO F3 / Redmi K40 / Mi 11X",
+    "codename": "alioth",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/alioth"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 294,
+    "releasedOn": [
+      {
+        "Poco F3": "2021-03"
+      },
+      {
+        "Redmi K40": "2021-02"
+      },
+      {
+        "Mi 11X": "2021-04"
+      }
+    ]
+  },
+  {
+    "deviceName": "Google Nexus 6P",
+    "codename": "angler",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/angler"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 295,
+    "releasedOn": "2015-09-29"
+  },
+  {
+    "deviceName": "Huawei P20 Lite",
+    "codename": "anne",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/anne"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 296,
+    "releasedOn": "2018-03"
+  },
+  {
+    "deviceName": "Xiaomi Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
+    "codename": "apollon",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/apollon"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 297,
+    "releasedOn": [
+      {
+        "Mi 10T / Mi 10T Pro": "2020-10"
+      },
+      {
+        "Redmi K30S Ultra": "2020-11"
+      }
+    ]
+  },
+  {
+    "deviceName": "Xiaomi Redmi 1S",
+    "codename": "armani",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/armani"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 298,
+    "releasedOn": "2014-05"
+  },
+  {
+    "deviceName": "Motorola Moto G4/G4 Plus",
+    "codename": "athene",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/athene"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 299,
+    "releasedOn": "2016-05"
+  },
+  {
+    "deviceName": "Razer Phone 2",
+    "codename": "aura",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/aura"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 300,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "OnePlus Nord",
+    "codename": "avicii",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/avicii"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 301,
+    "releasedOn": "2020-07-21"
+  },
+  {
+    "deviceName": "ZTE Axon 7",
+    "codename": "axon7",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/axon7"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 302,
+    "releasedOn": "2016-06"
+  },
+  {
+    "deviceName": "OnePlus One",
+    "codename": "bacon",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/bacon"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 303,
+    "releasedOn": "2014-06-06"
+  },
+  {
+    "deviceName": "BQ Aquaris X",
+    "codename": "bardock",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/bardock"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 304,
+    "releasedOn": "2017-06"
+  },
+  {
+    "deviceName": "BQ Aquaris X Pro",
+    "codename": "bardockpro",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/bardockpro"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 305,
+    "releasedOn": "2017-06"
+  },
+  {
+    "deviceName": "Motorola Moto Z3 Play",
+    "codename": "beckham",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/beckham"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 306,
+    "releasedOn": "2018-06"
+  },
+  {
+    "deviceName": "Huawei Honor View 10",
+    "codename": "berkeley",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/berkeley"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 307,
+    "releasedOn": "2018-01"
+  },
+  {
+    "deviceName": "Xiaomi Poco F1",
+    "codename": "beryllium",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/beryllium"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 308,
+    "releasedOn": "2018-08"
+  },
+  {
+    "deviceName": "Samsung Galaxy S10e",
+    "codename": "beyond0lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/beyond0lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 309,
+    "releasedOn": "2019-03-08"
+  },
+  {
+    "deviceName": "Samsung Galaxy S10",
+    "codename": "beyond1lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/beyond1lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 310,
+    "releasedOn": "2019-03-08"
+  },
+  {
+    "deviceName": "Samsung Galaxy S10+",
+    "codename": "beyond2lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/beyond2lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 311,
+    "releasedOn": "2019-03-08"
+  },
+  {
+    "deviceName": "Samsung Galaxy S10 5G",
+    "codename": "beyondx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/beyondx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 312,
+    "releasedOn": "2019-03-08"
+  },
+  {
+    "deviceName": "Google Pixel 3",
+    "codename": "blueline",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/blueline"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 313,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "Google Pixel 3a XL",
+    "codename": "bonito",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/bonito"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 314,
+    "releasedOn": "2019-04"
+  },
+  {
+    "deviceName": "Google Pixel 4a 5G",
+    "codename": "bramble",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/bramble"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 315,
+    "releasedOn": "2020-10"
+  },
+  {
+    "deviceName": "Google Nexus 5X",
+    "codename": "bullhead",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/bullhead"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 316,
+    "releasedOn": "2015-09-29"
+  },
+  {
+    "deviceName": "Xiaomi Mi 3w and Mi 4",
+    "codename": "cancro",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/cancro"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 317,
+    "releasedOn": [
+      {
+        "MI3": "2013-10"
+      },
+      {
+        "MI4": "2014-08"
+      }
+    ]
+  },
+  {
+    "deviceName": "Xiaomi Mi 5s",
+    "codename": "capricorn",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/capricorn"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 318,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "Sony Xperia Tablet Z2 LTE",
+    "codename": "castor",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/castor"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 319,
+    "releasedOn": "2014-03-26"
+  },
+  {
+    "deviceName": "Motorola Moto G5",
+    "codename": "cedric",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/cedric"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 320,
+    "releasedOn": "2017-03"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S 10.5 (LTE)",
+    "codename": "chagalllte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/chagalllte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 321,
+    "releasedOn": 2014
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S 10.5 (Wi-Fi)",
+    "codename": "chagallwifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/chagallwifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 322,
+    "releasedOn": 2014
+  },
+  {
+    "deviceName": "BQ Aquaris U",
+    "codename": "chaozu",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/chaozu"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 323,
+    "releasedOn": 2016
+  },
+  {
+    "deviceName": "Huawei P20 Pro",
+    "codename": "charlotte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/charlotte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 324,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Huawei Honor 4x (China Telecom)",
+    "codename": "che10",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/che10"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 325,
+    "releasedOn": "2014-10"
+  },
+  {
+    "deviceName": "OnePlus 5",
+    "codename": "cheeseburger",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/cheeseburger"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 326,
+    "releasedOn": "2017-06"
+  },
+  {
+    "deviceName": "Motorola Moto G7 Play",
+    "codename": "channel",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/channel"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 327,
+    "releasedOn": "2019-03"
+  },
+  {
+    "deviceName": "Motorola Moto One Power",
+    "codename": "chef",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/chef"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 328,
+    "releasedOn": "2018-10-10"
+  },
+  {
+    "deviceName": "Huawei Honor 4/4x",
+    "codename": "cherry",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/cherry"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 329,
+    "releasedOn": "2014-10"
+  },
+  {
+    "deviceName": "Razer Phone",
+    "codename": "cheryl",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/cheryl"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 330,
+    "releasedOn": "2017-11"
+  },
+  {
+    "deviceName": "Xiaomi Mi MIX 2",
+    "codename": "chiron",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/chiron"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 331,
+    "releasedOn": "2017-09"
+  },
+  {
+    "deviceName": "Motorola Moto X Pure (2015)",
+    "codename": "clark",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/clark"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 332,
+    "releasedOn": "2015-09"
+  },
+  {
+    "deviceName": "Motorola Moto E",
+    "codename": "condor",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/condor"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 333,
+    "releasedOn": "2014-05-13"
+  },
+  {
+    "deviceName": "Google Pixel 4 XL",
+    "codename": "coral",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/coral"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 334,
+    "releasedOn": "2019-09"
+  },
+  {
+    "deviceName": "Wileyfox Swift",
+    "codename": "crackling",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/crackling"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 335,
+    "releasedOn": "2015-10"
+  },
+  {
+    "deviceName": "Google Pixel 3 XL",
+    "codename": "crosshatch",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/crosshatch"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 336,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 9",
+    "codename": "crownlte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/crownlte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 337,
+    "releasedOn": "2018-08-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note10",
+    "codename": "d1",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d1"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 338,
+    "releasedOn": "2019-08-23"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III (AT&T)",
+    "codename": "d2att",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d2att"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 339,
+    "releasedOn": "2012-06-28"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note10+",
+    "codename": "d2s",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d2s"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 340,
+    "releasedOn": "2019-08-23"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III (Sprint)",
+    "codename": "d2spr",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d2spr"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 341,
+    "releasedOn": "2012-06-28"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III (TMO)",
+    "codename": "d2tmo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d2tmo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 342,
+    "releasedOn": "2012-06-21"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III (VZW)",
+    "codename": "d2vzw",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d2vzw"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 343,
+    "releasedOn": "2012-06-28"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note10+ 5G",
+    "codename": "d2x",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d2x"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 344,
+    "releasedOn": "2019-08-23"
+  },
+  {
+    "deviceName": "LG G2 (AT&T)",
+    "codename": "d800",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d800"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 345,
+    "releasedOn": "2013-09-12"
+  },
+  {
+    "deviceName": "LG G2 (TMO)",
+    "codename": "d801",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d801"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 346,
+    "releasedOn": "2013-09-12"
+  },
+  {
+    "deviceName": "LG G2 (Intl)",
+    "codename": "d802",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d802"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 347,
+    "releasedOn": "2013-09-12"
+  },
+  {
+    "deviceName": "LG G2 (Canada)",
+    "codename": "d803",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d803"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 348,
+    "releasedOn": "2013-09-12"
+  },
+  {
+    "deviceName": "LG G3 (AT&T)",
+    "codename": "d850",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d850"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 349,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "LG G3 (TMO)",
+    "codename": "d851",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d851"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 350,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "LG G3 (Canada)",
+    "codename": "d852",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d852"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 351,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "LG G3 (Unlocked)",
+    "codename": "d855",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/d855"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 352,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "Xiaomi Redmi K20 / Mi 9T",
+    "codename": "davinci",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/davinci"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 353,
+    "releasedOn": "2019-06-06"
+  },
+  {
+    "deviceName": "Google Nexus 7 2013 (4G)",
+    "codename": "deb",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/deb"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 354,
+    "releasedOn": "2013-09-09"
+  },
+  {
+    "deviceName": "Xiaomi Mi 8",
+    "codename": "dipper",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/dipper"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 355,
+    "releasedOn": "2018-07"
+  },
+  {
+    "deviceName": "Sony Xperia XA2 Ultra",
+    "codename": "discovery",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/discovery"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 356,
+    "releasedOn": "2018-02"
+  },
+  {
+    "deviceName": "Sony Xperia ZR",
+    "codename": "dogo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/dogo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 357,
+    "releasedOn": "2013-06"
+  },
+  {
+    "deviceName": "Google Pixel C",
+    "codename": "dragon",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/dragon"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 358,
+    "releasedOn": "2015-12-08"
+  },
+  {
+    "deviceName": "OnePlus 5T",
+    "codename": "dumpling",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/dumpling"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 359,
+    "releasedOn": "2017-11"
+  },
+  {
+    "deviceName": "OnePlus 6",
+    "codename": "enchilada",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/enchilada"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 360,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab 2 7.0 / 10.1 (GSM)",
+    "codename": "espresso3g",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/espresso3g"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 361,
+    "releasedOn": "2012-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab 2 7.0 / 10.1 (Wi-Fi)",
+    "codename": "espressowifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/espressowifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 362,
+    "releasedOn": "2012-05"
+  },
+  {
+    "deviceName": "Nextbit Robin",
+    "codename": "ether",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ether"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 363,
+    "releasedOn": "2016-02"
+  },
+  {
+    "deviceName": "Motorola Moto G6 Plus",
+    "codename": "evert",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/evert"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 364,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Fairphone Fairphone 2",
+    "codename": "FP2",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/FP2"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 365,
+    "releasedOn": "2015-12"
+  },
+  {
+    "deviceName": "Fairphone Fairphone 3",
+    "codename": "FP3",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/FP3"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 366,
+    "releasedOn": "2019-09"
+  },
+  {
+    "deviceName": "OPPO F1 (F1f Intl)",
+    "codename": "f1f",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/f1f"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 367,
+    "releasedOn": "2016-01"
+  },
+  {
+    "deviceName": "LG G3 (Korea)",
+    "codename": "f400",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/f400"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 368,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "OnePlus 6T",
+    "codename": "fajita",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/fajita"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 369,
+    "releasedOn": "2018-11"
+  },
+  {
+    "deviceName": "Motorola Moto G",
+    "codename": "falcon",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/falcon"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 370,
+    "releasedOn": "2013-11"
+  },
+  {
+    "deviceName": "Huawei P Smart",
+    "codename": "figo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/figo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 371,
+    "releasedOn": "2017-12"
+  },
+  {
+    "deviceName": "OPPO Find 7a",
+    "codename": "find7",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/find7"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 372,
+    "releasedOn": [
+      {
+        "Find 7a": "2014-03-19"
+      },
+      {
+        "Find 7s": "2014-05-19"
+      }
+    ]
+  },
+  {
+    "deviceName": "OPPO Find 7s",
+    "codename": "find7s",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/find7s"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 373
+  },
+  {
+    "deviceName": "Google Pixel 4",
+    "codename": "flame",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/flame"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 374,
+    "releasedOn": "2019-09"
+  },
+  {
+    "deviceName": "Google Nexus 7 2013 (Wi-Fi)",
+    "codename": "flo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/flo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 375,
+    "releasedOn": "2013-07-26"
+  },
+  {
+    "deviceName": "Google Nexus 7 2013 (Wi-Fi, Repartitioned)",
+    "codename": "flox",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/flox"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 376,
+    "releasedOn": "2013-07-26"
+  },
+  {
+    "deviceName": "Google Nexus 9 (Wi-Fi)",
+    "codename": "flounder",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/flounder"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 377,
+    "releasedOn": "2014-11-03"
+  },
+  {
+    "deviceName": "Google Nexus 9 (LTE)",
+    "codename": "flounder_lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/flounder_lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 378,
+    "releasedOn": "2014-11-03"
+  },
+  {
+    "deviceName": "Nvidia Shield Android TV",
+    "codename": "foster",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/foster"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 379,
+    "releasedOn": "2015-05-28"
+  },
+  {
+    "deviceName": "Google Nexus Player",
+    "codename": "fugu",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/fugu"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 380,
+    "releasedOn": "2014-10"
+  },
+  {
+    "deviceName": "LG G2 Mini",
+    "codename": "g2m",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/g2m"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 381,
+    "releasedOn": "2014-04"
+  },
+  {
+    "deviceName": "Xiaomi Mi 5",
+    "codename": "gemini",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gemini"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 382,
+    "releasedOn": "2016-04"
+  },
+  {
+    "deviceName": "Motorola Moto X 2013",
+    "codename": "ghost",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ghost"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 383,
+    "releasedOn": "2013-08-23"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 8 / 8T",
+    "codename": "ginkgo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ginkgo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 384,
+    "releasedOn": "2019-10-16"
+  },
+  {
+    "deviceName": "BQ Aquaris X5 Plus",
+    "codename": "gohan",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gohan"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 385,
+    "releasedOn": 2016
+  },
+  {
+    "deviceName": "Motorola Moto Z",
+    "codename": "griffin",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/griffin"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 386,
+    "releasedOn": "2016-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab E 9.6 (Wi-Fi)",
+    "codename": "gtelwifiue",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gtelwifiue"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 387,
+    "releasedOn": "2015-07"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab E 8.0 (LTE)",
+    "codename": "gtesqltespr",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gtesqltespr"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 388,
+    "releasedOn": "2016-01"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S2 9.7 (LTE)",
+    "codename": "gts210ltexx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gts210ltexx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 389,
+    "releasedOn": "2015-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S2 9.7 2016 (Wi-Fi)",
+    "codename": "gts210vewifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gts210vewifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 390,
+    "releasedOn": 2016
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S2 9.7 (Wi-Fi)",
+    "codename": "gts210wifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gts210wifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 391,
+    "releasedOn": "2015-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S2 8.0 2016 (Wi-Fi)",
+    "codename": "gts28vewifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gts28vewifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 392,
+    "releasedOn": 2016
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S6 Lite (Wi-Fi)",
+    "codename": "gta4xlwifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gta4xlwifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 393,
+    "releasedOn": "2020-04-02"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S5e (LTE)",
+    "codename": "gts4lv",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gts4lv"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 394,
+    "releasedOn": 2019
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S5e (Wi-Fi)",
+    "codename": "gts4lvwifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/gts4lvwifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 395,
+    "releasedOn": 2019
+  },
+  {
+    "deviceName": "OnePlus 7 Pro",
+    "codename": "guacamole",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/guacamole"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 396,
+    "releasedOn": "2019-05"
+  },
+  {
+    "deviceName": "OnePlus 7",
+    "codename": "guacamoleb",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/guacamoleb"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 397,
+    "releasedOn": "2019-05"
+  },
+  {
+    "deviceName": "LG G4 (TMO)",
+    "codename": "h811",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h811"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 398,
+    "releasedOn": "2015-06"
+  },
+  {
+    "deviceName": "LG G4 (Intl)",
+    "codename": "h815",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h815"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 399,
+    "releasedOn": "2015-06"
+  },
+  {
+    "deviceName": "LG G5 (TMO)",
+    "codename": "h830",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h830"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 400,
+    "releasedOn": "2016-02"
+  },
+  {
+    "deviceName": "LG G5 (Intl)",
+    "codename": "h850",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h850"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 401,
+    "releasedOn": "2016-02"
+  },
+  {
+    "deviceName": "LG G6 (EU)",
+    "codename": "h870",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h870"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 402,
+    "releasedOn": "2017-02"
+  },
+  {
+    "deviceName": "LG V20 (AT&T)",
+    "codename": "h910",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h910"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 403,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "LG V20 (TMO)",
+    "codename": "h918",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h918"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 404,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "LG V20 (Global)",
+    "codename": "h990",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/h990"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 405,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 3 (International 3G)",
+    "codename": "ha3g",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ha3g"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 406,
+    "releasedOn": "2013-09"
+  },
+  {
+    "deviceName": "Zuk ZUK Z1",
+    "codename": "ham",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ham"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 407,
+    "releasedOn": "2015-10-14"
+  },
+  {
+    "deviceName": "Google Nexus 5",
+    "codename": "hammerhead",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hammerhead"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 408,
+    "releasedOn": "2013-10-31"
+  },
+  {
+    "deviceName": "Motorola Moto E5 Plus (XT1924-6/7/8)",
+    "codename": "hannah",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hannah"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 409,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Motorola Moto G4 Play",
+    "codename": "harpia",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/harpia"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 410,
+    "releasedOn": "2016-05"
+  },
+  {
+    "deviceName": "Sony Xperia TX",
+    "codename": "hayabusa",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hayabusa"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 411,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Samsung Galaxy S7 Edge",
+    "codename": "hero2lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hero2lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 412,
+    "releasedOn": "2016-03-18"
+  },
+  {
+    "deviceName": "Samsung Galaxy S7",
+    "codename": "herolte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/herolte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 413,
+    "releasedOn": "2016-03-18"
+  },
+  {
+    "deviceName": "HTC One A9",
+    "codename": "hiae",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hiae"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 414,
+    "releasedOn": "2015-10-20"
+  },
+  {
+    "deviceName": "HTC One A9 (GSM International)",
+    "codename": "hiaeuhl",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hiaeuhl"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 415
+  },
+  {
+    "deviceName": "HTC One A9 (GSM US)",
+    "codename": "hiaeul",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hiaeul"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 416
+  },
+  {
+    "deviceName": "HTC One M9 (GSM)",
+    "codename": "himaul",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/himaul"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 417,
+    "releasedOn": "2015-03"
+  },
+  {
+    "deviceName": "HTC One M9 (VZW)",
+    "codename": "himawl",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/himawl"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 418,
+    "releasedOn": "2015-03"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 3 LTE (N9005/P)",
+    "codename": "hlte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hlte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 419,
+    "releasedOn": "2013-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 3 LTE (N9008V)",
+    "codename": "hltechn",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hltechn"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 420,
+    "releasedOn": "2013-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 3 LTE (N900K/L/S)",
+    "codename": "hltekor",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hltekor"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 421,
+    "releasedOn": "2013-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 3 LTE (N900T/V/W8)",
+    "codename": "hltetmo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hltetmo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 422,
+    "releasedOn": "2013-09"
+  },
+  {
+    "deviceName": "OnePlus 7T Pro",
+    "codename": "hotdog",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hotdog"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 423,
+    "releasedOn": "2019-10"
+  },
+  {
+    "deviceName": "OnePlus 7T",
+    "codename": "hotdogb",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hotdogb"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 424,
+    "releasedOn": "2019-09"
+  },
+  {
+    "deviceName": "Sony Xperia SP",
+    "codename": "huashan",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/huashan"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 425,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Xiaomi Mi Max",
+    "codename": "hydrogen",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/hydrogen"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 426,
+    "releasedOn": "2016-05"
+  },
+  {
+    "deviceName": "Asus ROG Phone 2 (ZS660KL)",
+    "codename": "I001D",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/I001D"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 427,
+    "releasedOn": "2019-09"
+  },
+  {
+    "deviceName": "Asus Zenfone 6 (ZS630KL)",
+    "codename": "I01WD",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/I01WD"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 428,
+    "releasedOn": "2019-05-16"
+  },
+  {
+    "deviceName": "Samsung Galaxy S II (Intl)",
+    "codename": "i9100",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/i9100"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 429,
+    "releasedOn": "2011-02-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III (Intl)",
+    "codename": "i9300",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/i9300"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 430,
+    "releasedOn": "2012-05"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III (GSM LTE)",
+    "codename": "i9305",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/i9305"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 431,
+    "releasedOn": "2012-10"
+  },
+  {
+    "deviceName": "Xiaomi Redmi 3/Prime",
+    "codename": "ido",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ido"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 432,
+    "releasedOn": "2016-01"
+  },
+  {
+    "deviceName": "OnePlus 8",
+    "codename": "instantnoodle",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/instantnoodle"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 433,
+    "releasedOn": "2020-04"
+  },
+  {
+    "deviceName": "OnePlus 8 Pro",
+    "codename": "instantnoodlep",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/instantnoodlep"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 434,
+    "releasedOn": "2020-04"
+  },
+  {
+    "deviceName": "Sony Xperia Z3+",
+    "codename": "ivy",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ivy"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 435,
+    "releasedOn": "2015-06"
+  },
+  {
+    "deviceName": "Samsung Galaxy J7 (2015)",
+    "codename": "j7elte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/j7elte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 436,
+    "releasedOn": "2015-06"
+  },
+  {
+    "deviceName": "Samsung Galaxy S4 Active (GT-I9295)",
+    "codename": "jactivelte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jactivelte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 437,
+    "releasedOn": "2013-06"
+  },
+  {
+    "deviceName": "LG G3 S",
+    "codename": "jag3gds",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jag3gds"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 438,
+    "releasedOn": "2014-08"
+  },
+  {
+    "deviceName": "LG G3 Beat",
+    "codename": "jagnm",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jagnm"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 439,
+    "releasedOn": "2014-08"
+  },
+  {
+    "deviceName": "YU Yunique",
+    "codename": "jalebi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jalebi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 440,
+    "releasedOn": "2015-09"
+  },
+  {
+    "deviceName": "ZTE Trek 2 HD",
+    "codename": "jasmine",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jasmine"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 441,
+    "releasedOn": "2016-08"
+  },
+  {
+    "deviceName": "Xiaomi Mi A2",
+    "codename": "jasmine_sprout",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jasmine_sprout"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 442,
+    "releasedOn": "2018-07"
+  },
+  {
+    "deviceName": "Xiaomi Mi Note 3",
+    "codename": "jason",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jason"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 443,
+    "releasedOn": "2017-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy S4 (SGH-I337)",
+    "codename": "jflteatt",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jflteatt"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 444,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S4 (SCH-R970/C/X,SPH-L720)",
+    "codename": "jfltespr",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jfltespr"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 445,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S4 (SCH-I545)",
+    "codename": "jfltevzw",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jfltevzw"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 446,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S4 (GT-I9505,SGH-I337M,SGH-M919)",
+    "codename": "jfltexx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jfltexx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 447,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S4 Value Edition (GT-I9515/L)",
+    "codename": "jfvelte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/jfvelte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 448,
+    "releasedOn": "2014-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 (International 3G)",
+    "codename": "k3gxx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/k3gxx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 449,
+    "releasedOn": "2014-03"
+  },
+  {
+    "deviceName": "Sony Xperia Z4 Tablet LTE",
+    "codename": "karin",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/karin"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 450,
+    "releasedOn": "2015-10"
+  },
+  {
+    "deviceName": "Sony Xperia Z4 Tablet WiFi",
+    "codename": "karin_windy",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/karin_windy"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 451,
+    "releasedOn": "2015-10"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 Plus",
+    "codename": "kccat6",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kccat6"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 452,
+    "releasedOn": "2014-08-21"
+  },
+  {
+    "deviceName": "OnePlus 8T",
+    "codename": "kebab",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kebab"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 453,
+    "releasedOn": "2020-10"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 3",
+    "codename": "kenzo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kenzo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 454,
+    "releasedOn": "2016-02"
+  },
+  {
+    "deviceName": "Lenovo Vibe Z2 Pro",
+    "codename": "kingdom",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kingdom"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 455,
+    "releasedOn": "2014-09"
+  },
+  {
+    "deviceName": "Wileyfox Storm",
+    "codename": "kipper",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kipper"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 456,
+    "releasedOn": "2015-11"
+  },
+  {
+    "deviceName": "Sony Xperia 10",
+    "codename": "kirin",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kirin"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 457,
+    "releasedOn": "2019-02"
+  },
+  {
+    "deviceName": "Huawei Honor 5X",
+    "codename": "kiwi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kiwi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 458,
+    "releasedOn": "2015-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab S 8.4 (Wi-Fi)",
+    "codename": "klimtwifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/klimtwifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 459,
+    "releasedOn": 2014
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE (G900F/M/R4/R7/T/V/W8)",
+    "codename": "klte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/klte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 460,
+    "releasedOn": "2014-04-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 Active (G870F)",
+    "codename": "klteactivexx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/klteactivexx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 461,
+    "releasedOn": "2014-12"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE (G900AZ/S902L)",
+    "codename": "klteaio",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/klteaio"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 462,
+    "releasedOn": "2014-04-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE (G9006V/8V)",
+    "codename": "kltechn",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kltechn"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 463,
+    "releasedOn": [
+      {
+        "SM-G9006V": "2014-04"
+      },
+      {
+        "SM-G9008V": "2014-05"
+      }
+    ]
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE Duos (G9006W/8W)",
+    "codename": "kltechnduo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kltechnduo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 464,
+    "releasedOn": [
+      {
+        "SM-G9006W": "2014-04"
+      },
+      {
+        "SM-G9008W": "2014-06"
+      },
+      {
+        "SM-G9009W": "2014-04"
+      }
+    ]
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE Duos (G900FD/MD)",
+    "codename": "klteduos",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/klteduos"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 465,
+    "releasedOn": [
+      {
+        "SM-G900FD": "2014-06"
+      },
+      {
+        "SM-G900MD": "2014-07"
+      }
+    ]
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE (G900I/P)",
+    "codename": "kltedv",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kltedv"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 466,
+    "releasedOn": "2014-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE (SC-04F/SCL23)",
+    "codename": "kltekdi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kltekdi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 467,
+    "releasedOn": "2014-05"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE (G900K/L/S)",
+    "codename": "kltekor",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kltekor"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 468,
+    "releasedOn": "2014-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 Sport (SM-G860P)",
+    "codename": "kltesprsports",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kltesprsports"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 469,
+    "releasedOn": "2014-06-23"
+  },
+  {
+    "deviceName": "Samsung Galaxy S4 LTE-A",
+    "codename": "ks01lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ks01lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 470,
+    "releasedOn": "2013-10"
+  },
+  {
+    "deviceName": "Lenovo P2 (P2a42 Intl)",
+    "codename": "kuntao",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/kuntao"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 471,
+    "releasedOn": "2016-11"
+  },
+  {
+    "deviceName": "Motorola Moto G7 Plus",
+    "codename": "lake",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lake"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 472,
+    "releasedOn": "2019-02"
+  },
+  {
+    "deviceName": "Xiaomi Redmi 3S/3X",
+    "codename": "land",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/land"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 473,
+    "releasedOn": "2016-06"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 7",
+    "codename": "lavender",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lavender"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 474,
+    "releasedOn": "2019-01"
+  },
+  {
+    "deviceName": "OnePlus 9 Pro",
+    "codename": "lemonadep",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lemonadep"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 475,
+    "releasedOn": "2021-03"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 LTE-A",
+    "codename": "lentislte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lentislte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 476,
+    "releasedOn": "2014-07-15"
+  },
+  {
+    "deviceName": "YU Yuphoria",
+    "codename": "lettuce",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lettuce"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 477,
+    "releasedOn": "2015-05-12"
+  },
+  {
+    "deviceName": "Xiaomi Mi 4c",
+    "codename": "libra",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/libra"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 478,
+    "releasedOn": "2015-09"
+  },
+  {
+    "deviceName": "Xiaomi Mi MIX",
+    "codename": "lithium",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lithium"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 479,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "Xiaomi POCO F2 Pro / Redmi K30 Pro / Redmi K30 Pro Zoom Edition",
+    "codename": "lmi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lmi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 480,
+    "releasedOn": [
+      {
+        "POCO F2 Pro": "2020-05"
+      },
+      {
+        "Redmi K30 Pro": "2020-03"
+      },
+      {
+        "Redmi K30 Pro Zoom Edition": "2020-03"
+      }
+    ]
+  },
+  {
+    "deviceName": "LG G3 (Sprint)",
+    "codename": "ls990",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ls990"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 481,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "LG V20 (Sprint)",
+    "codename": "ls997",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ls997"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 482,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab 3 7.0 (Sprint)",
+    "codename": "lt02ltespr",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lt02ltespr"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 483,
+    "releasedOn": "2016-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 10.1 2014 (LTE)",
+    "codename": "lt03lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lt03lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 484,
+    "releasedOn": "2013-10"
+  },
+  {
+    "deviceName": "Motorola Moto X Play",
+    "codename": "lux",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/lux"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 485,
+    "releasedOn": "2015-08"
+  },
+  {
+    "deviceName": "Samsung Galaxy M20",
+    "codename": "m20lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/m20lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 486,
+    "releasedOn": "2019-01-28"
+  },
+  {
+    "deviceName": "LG K10",
+    "codename": "m216",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/m216"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 487,
+    "releasedOn": "2016-01"
+  },
+  {
+    "deviceName": "HTC One (GSM)",
+    "codename": "m7",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/m7"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 488,
+    "releasedOn": "2013-03"
+  },
+  {
+    "deviceName": "HTC One (VZW)",
+    "codename": "m7vzw",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/m7vzw"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 489,
+    "releasedOn": "2013-03"
+  },
+  {
+    "deviceName": "HTC One 2014",
+    "codename": "m8",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/m8"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 490,
+    "releasedOn": "2014-03"
+  },
+  {
+    "deviceName": "HTC One 2014 Dual SIM",
+    "codename": "m8d",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/m8d"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 491,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "Google Galaxy Nexus (GSM)",
+    "codename": "maguro",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/maguro"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 492,
+    "releasedOn": "2011-10"
+  },
+  {
+    "deviceName": "Google Nexus 4",
+    "codename": "mako",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/mako"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 493,
+    "releasedOn": "2012-11-13"
+  },
+  {
+    "deviceName": "Google Nexus 10",
+    "codename": "manta",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/manta"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 494,
+    "releasedOn": "2012-11-13"
+  },
+  {
+    "deviceName": "Google Pixel XL",
+    "codename": "marlin",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/marlin"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 495,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "Essential PH-1",
+    "codename": "mata",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/mata"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 496,
+    "releasedOn": "2017-08"
+  },
+  {
+    "deviceName": "Motorola Droid 4",
+    "codename": "maserati",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/maserati"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 497,
+    "releasedOn": "2012-02-10"
+  },
+  {
+    "deviceName": "Motorola Moto G3 Turbo",
+    "codename": "merlin",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/merlin"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 498,
+    "releasedOn": "2015-11"
+  },
+  {
+    "deviceName": "Sony Xperia 10 Plus",
+    "codename": "mermaid",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/mermaid"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 499,
+    "releasedOn": "2019-02"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 4",
+    "codename": "mido",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/mido"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 500,
+    "releasedOn": "2017-01"
+  },
+  {
+    "deviceName": "Sony Xperia T",
+    "codename": "mint",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/mint"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 501,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab Pro 8.4",
+    "codename": "mondrianwifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/mondrianwifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 502,
+    "releasedOn": "2014-01"
+  },
+  {
+    "deviceName": "Motorola Moto G5S",
+    "codename": "montana",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/montana"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 503,
+    "releasedOn": "2017-08"
+  },
+  {
+    "deviceName": "Samsung Galaxy Grand 2",
+    "codename": "ms013g",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ms013g"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 504,
+    "releasedOn": "2013-11-25"
+  },
+  {
+    "deviceName": "Huawei Ascend Mate 2",
+    "codename": "mt2",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/mt2"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 505,
+    "releasedOn": "2014-01"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 10.1 2014 (Wi-Fi)",
+    "codename": "n1awifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/n1awifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 506,
+    "releasedOn": 2013
+  },
+  {
+    "deviceName": "Samsung Galaxy Tab Pro 10.1 (Wi-Fi)",
+    "codename": "n2awifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/n2awifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 507,
+    "releasedOn": 2014
+  },
+  {
+    "deviceName": "OPPO N3",
+    "codename": "n3",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/n3"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 508,
+    "releasedOn": "2015-01"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 8 (GSM)",
+    "codename": "n5100",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/n5100"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 509,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 8 (Wi-Fi)",
+    "codename": "n5110",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/n5110"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 510,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note 8 (LTE)",
+    "codename": "n5120",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/n5120"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 511,
+    "releasedOn": "2013-04"
+  },
+  {
+    "deviceName": "Motorola Moto Z2 Force",
+    "codename": "nash",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/nash"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 512,
+    "releasedOn": "2017-07"
+  },
+  {
+    "deviceName": "Xiaomi Mi 5s Plus",
+    "codename": "natrium",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/natrium"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 513,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "Sony Xperia M",
+    "codename": "nicki",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/nicki"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 514,
+    "releasedOn": "2013-06"
+  },
+  {
+    "deviceName": "Nubia Nubia Z9 Max",
+    "codename": "nx512j",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/nx512j"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 515,
+    "releasedOn": "2015-06"
+  },
+  {
+    "deviceName": "Nubia Nubia Z17",
+    "codename": "nx563j",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/nx563j"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 516,
+    "releasedOn": "2017-06"
+  },
+  {
+    "deviceName": "Sony Xperia ZL",
+    "codename": "odin",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/odin"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 517,
+    "releasedOn": "2013-03"
+  },
+  {
+    "deviceName": "Motorola Moto G7 Power",
+    "codename": "ocean",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/ocean"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 518,
+    "releasedOn": "2019-03-25"
+  },
+  {
+    "deviceName": "Xiaomi Redmi 7",
+    "codename": "onclite",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/onclite"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 519,
+    "releasedOn": "2019-03"
+  },
+  {
+    "deviceName": "OnePlus 2",
+    "codename": "oneplus2",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/oneplus2"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 520,
+    "releasedOn": "2015-08-28"
+  },
+  {
+    "deviceName": "OnePlus 3 / 3T",
+    "codename": "oneplus3",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/oneplus3"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 521,
+    "releasedOn": [
+      {
+        "A3000": "2016-06"
+      },
+      {
+        "A3003": "2016-10"
+      }
+    ]
+  },
+  {
+    "deviceName": "OnePlus X",
+    "codename": "onyx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/onyx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 522,
+    "releasedOn": "2015-11"
+  },
+  {
+    "deviceName": "Motorola Moto G (2015)",
+    "codename": "osprey",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/osprey"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 523,
+    "releasedOn": "2015-07"
+  },
+  {
+    "deviceName": "Motorola Moto E (2015)",
+    "codename": "otus",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/otus"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 524,
+    "releasedOn": "2015-02-25"
+  },
+  {
+    "deviceName": "Asus ZenPad 8.0 (Z380KL)",
+    "codename": "P024",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/P024"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 525,
+    "releasedOn": "2015-07"
+  },
+  {
+    "deviceName": "BQ Aquaris X5",
+    "codename": "paella",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/paella"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 526,
+    "releasedOn": 2015
+  },
+  {
+    "deviceName": "Motorola Moto X4",
+    "codename": "payton",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/payton"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 527,
+    "releasedOn": "2017-10"
+  },
+  {
+    "deviceName": "ARK Benefit A3",
+    "codename": "peach",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/peach"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 528,
+    "releasedOn": "2015-07"
+  },
+  {
+    "deviceName": "Motorola Moto G 4G",
+    "codename": "peregrine",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/peregrine"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 529,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "BQ Aquaris M5",
+    "codename": "piccolo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/piccolo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 530,
+    "releasedOn": "2015-08"
+  },
+  {
+    "deviceName": "Sony Xperia XA2",
+    "codename": "pioneer",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/pioneer"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 531,
+    "releasedOn": "2018-02"
+  },
+  {
+    "deviceName": "Nokia 6.1 (2018)",
+    "codename": "PL2",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/PL2"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 532,
+    "releasedOn": 2018
+  },
+  {
+    "deviceName": "Xiaomi Mi 8 Lite",
+    "codename": "platina",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/platina"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 533,
+    "releasedOn": "2018-09"
+  },
+  {
+    "deviceName": "HTC 10",
+    "codename": "pme",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/pme"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 534,
+    "releasedOn": "2016-05"
+  },
+  {
+    "deviceName": "Xiaomi Mi MIX 2S",
+    "codename": "polaris",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/polaris"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 535,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Sony Xperia Tablet Z LTE",
+    "codename": "pollux",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/pollux"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 536,
+    "releasedOn": "2013-02"
+  },
+  {
+    "deviceName": "Sony Xperia Tablet Z Wi-Fi",
+    "codename": "pollux_windy",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/pollux_windy"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 537,
+    "releasedOn": "2013-02"
+  },
+  {
+    "deviceName": "FxTec Pro1",
+    "codename": "pro1",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/pro1"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 538,
+    "releasedOn": "2019-10"
+  },
+  {
+    "deviceName": "OPPO R5/R5s (R8106/R8106s Intl)",
+    "codename": "r5",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/r5"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 539,
+    "releasedOn": [
+      {
+        "R8106": "2014-12"
+      },
+      {
+        "R8106s": "2015-08"
+      }
+    ]
+  },
+  {
+    "deviceName": "OPPO R7 Plus (R7plusf Intl)",
+    "codename": "r7plus",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/r7plus"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 540,
+    "releasedOn": "2015-05"
+  },
+  {
+    "deviceName": "OPPO R7s (R7sf Intl)",
+    "codename": "r7sf",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/r7sf"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 541,
+    "releasedOn": "2015-11"
+  },
+  {
+    "deviceName": "Motorola Motorola Edge",
+    "codename": "racer",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/racer"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 542,
+    "releasedOn": "2020-05"
+  },
+  {
+    "deviceName": "Google Pixel 5",
+    "codename": "redfin",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/redfin"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 543,
+    "releasedOn": "2020-10"
+  },
+  {
+    "deviceName": "Motorola Moto E5 Plus (XT1924-1/2/4/5)",
+    "codename": "rhannah",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/rhannah"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 544,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Motorola Moto G7",
+    "codename": "river",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/river"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 545,
+    "releasedOn": "2019-02-07"
+  },
+  {
+    "deviceName": "Realme 2 Pro",
+    "codename": "RMX1801",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/RMX1801"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 546,
+    "releasedOn": "2018-10-11"
+  },
+  {
+    "deviceName": "Realme 3 Pro",
+    "codename": "RMX1851",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/RMX1851"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 547,
+    "releasedOn": "2019-04-29"
+  },
+  {
+    "deviceName": "Nvidia Shield Portable",
+    "codename": "roth",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/roth"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 548,
+    "releasedOn": "2013-07-31"
+  },
+  {
+    "deviceName": "LG G5 (US)",
+    "codename": "rs988",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/rs988"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 549,
+    "releasedOn": "2016-02"
+  },
+  {
+    "deviceName": "LeEco Le 2",
+    "codename": "s2",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/s2"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 550,
+    "releasedOn": "2016-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III Neo (Dual SIM)",
+    "codename": "s3ve3gds",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/s3ve3gds"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 551,
+    "releasedOn": "2014-04-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III Neo (Samsung Camera)",
+    "codename": "s3ve3gjv",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/s3ve3gjv"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 552,
+    "releasedOn": "2014-04-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S III Neo (Sony Camera)",
+    "codename": "s3ve3gxx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/s3ve3gxx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 553,
+    "releasedOn": "2014-04-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S5 Neo",
+    "codename": "s5neolte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/s5neolte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 554,
+    "releasedOn": "2015-08"
+  },
+  {
+    "deviceName": "Xiaomi Mi 6",
+    "codename": "sagit",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/sagit"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 555,
+    "releasedOn": "2017-04"
+  },
+  {
+    "deviceName": "Google Pixel",
+    "codename": "sailfish",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/sailfish"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 556,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "Xiaomi Redmi 4(X)",
+    "codename": "santoni",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/santoni"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 557,
+    "releasedOn": "2017-05"
+  },
+  {
+    "deviceName": "Google Pixel 3a",
+    "codename": "sargo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/sargo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 558,
+    "releasedOn": "2019-04"
+  },
+  {
+    "deviceName": "Xiaomi Mi Note 2",
+    "codename": "scorpio",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/scorpio"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 559,
+    "releasedOn": "2016-11"
+  },
+  {
+    "deviceName": "Google Android One 2nd gen",
+    "codename": "seed",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/seed"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 560,
+    "releasedOn": "2015-07"
+  },
+  {
+    "deviceName": "Google Nexus 6",
+    "codename": "shamu",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/shamu"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 561,
+    "releasedOn": "2014-10-29"
+  },
+  {
+    "deviceName": "Nvidia Shield Tablet",
+    "codename": "shieldtablet",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/shieldtablet"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 562,
+    "releasedOn": "2014-07-29"
+  },
+  {
+    "deviceName": "Motorola Droid Razr",
+    "codename": "spyder",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/spyder"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 563,
+    "releasedOn": "2011-11-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S9+",
+    "codename": "star2lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/star2lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 564,
+    "releasedOn": "2018-03-11"
+  },
+  {
+    "deviceName": "Samsung Galaxy S9",
+    "codename": "starlte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/starlte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 565,
+    "releasedOn": "2018-03-11"
+  },
+  {
+    "deviceName": "Sony Xperia Z5",
+    "codename": "sumire",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/sumire"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 566,
+    "releasedOn": "2015-09"
+  },
+  {
+    "deviceName": "Google Pixel 4a",
+    "codename": "sunfish",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/sunfish"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 567,
+    "releasedOn": "2020-08"
+  },
+  {
+    "deviceName": "Motorola Moto E LTE (2015)",
+    "codename": "surnia",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/surnia"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 568,
+    "releasedOn": "2015-02"
+  },
+  {
+    "deviceName": "Sony Xperia Z5 Compact",
+    "codename": "suzuran",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/suzuran"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 569,
+    "releasedOn": "2015-10"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note II (GSM LTE)",
+    "codename": "t0lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/t0lte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 570,
+    "releasedOn": "2012-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note II (Korea)",
+    "codename": "t0ltekor",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/t0ltekor"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 571
+  },
+  {
+    "deviceName": "HTC One Max",
+    "codename": "t6",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/t6"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 572,
+    "releasedOn": "2013-10"
+  },
+  {
+    "deviceName": "HTC One Max (VZW)",
+    "codename": "t6vzw",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/t6vzw"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 573,
+    "releasedOn": "2013-10"
+  },
+  {
+    "deviceName": "Google Pixel 2 XL",
+    "codename": "taimen",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/taimen"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 574,
+    "releasedOn": "2017-10"
+  },
+  {
+    "deviceName": "Sony Xperia L",
+    "codename": "taoshan",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/taoshan"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 575,
+    "releasedOn": "2013-05"
+  },
+  {
+    "deviceName": "Motorola Droid Bionic",
+    "codename": "targa",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/targa"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 576,
+    "releasedOn": "2011-09-08"
+  },
+  {
+    "deviceName": "BQ Aquaris U Plus",
+    "codename": "tenshi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/tenshi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 577,
+    "releasedOn": 2016
+  },
+  {
+    "deviceName": "Motorola Moto G 4G 2014",
+    "codename": "thea",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/thea"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 578,
+    "releasedOn": "2015-01"
+  },
+  {
+    "deviceName": "Xiaomi Mi A1",
+    "codename": "tissot",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/tissot"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 579,
+    "releasedOn": "2017-10"
+  },
+  {
+    "deviceName": "Motorola Moto G 2014",
+    "codename": "titan",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/titan"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 580,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "YU Yureka",
+    "codename": "tomato",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/tomato"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 581,
+    "releasedOn": [
+      {
+        "AO5510": "2014-12-18"
+      },
+      {
+        "YU5510": "2015-07-24"
+      }
+    ]
+  },
+  {
+    "deviceName": "Google Galaxy Nexus (VZW)",
+    "codename": "toro",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/toro"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 582,
+    "releasedOn": "2011-12-15"
+  },
+  {
+    "deviceName": "Google Galaxy Nexus (Sprint)",
+    "codename": "toroplus",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/toroplus"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 583,
+    "releasedOn": "2012-01"
+  },
+  {
+    "deviceName": "Sony Xperia V",
+    "codename": "tsubasa",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/tsubasa"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 584,
+    "releasedOn": null
+  },
+  {
+    "deviceName": "ZTE Axon 7 Mini",
+    "codename": "tulip",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/tulip"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 585,
+    "releasedOn": "2016-09"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 6 Pro",
+    "codename": "twolip",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/twolip"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 586,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "Motorola Razr",
+    "codename": "umts_spyder",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/umts_spyder"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 587,
+    "releasedOn": "2011-11-11"
+  },
+  {
+    "deviceName": "LG V20 (GSM Unlocked)",
+    "codename": "us996",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/us996"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 588,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "LG G6 (US)",
+    "codename": "us997",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/us997"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 589,
+    "releasedOn": "2017-02"
+  },
+  {
+    "deviceName": "Samsung Galaxy Note Pro 12.1 (Wi-Fi)",
+    "codename": "v1awifi",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/v1awifi"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 590,
+    "releasedOn": 2014
+  },
+  {
+    "deviceName": "LG G Pad 7",
+    "codename": "v400",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/v400"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 591,
+    "releasedOn": "2014-07"
+  },
+  {
+    "deviceName": "LG G Pad 7 LTE",
+    "codename": "v410",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/v410"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 592,
+    "releasedOn": "2014-05"
+  },
+  {
+    "deviceName": "LG G Pad 8",
+    "codename": "v480",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/v480"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 593,
+    "releasedOn": "2014-07"
+  },
+  {
+    "deviceName": "LG G Pad 8.3",
+    "codename": "v500",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/v500"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 594,
+    "releasedOn": "2013-10-14"
+  },
+  {
+    "deviceName": "LG G Pad X 8.0 (TMO)",
+    "codename": "v521",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/v521"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 595,
+    "releasedOn": "2016-06"
+  },
+  {
+    "deviceName": "BQ Aquaris E5 4G",
+    "codename": "vegetalte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/vegetalte"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 596,
+    "releasedOn": [
+      {
+        "E5 4G": 2014
+      },
+      {
+        "E5s": 2015
+      }
+    ]
+  },
+  {
+    "deviceName": "Motorola Moto X 2014",
+    "codename": "victara",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/victara"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 597,
+    "releasedOn": "2014-09-26"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 7 Pro",
+    "codename": "violet",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/violet"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 598,
+    "releasedOn": "2019-03-13"
+  },
+  {
+    "deviceName": "Sony Xperia XA2 Plus",
+    "codename": "voyager",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/voyager"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 599,
+    "releasedOn": "2018-07"
+  },
+  {
+    "deviceName": "LG G3 (VZW)",
+    "codename": "vs985",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/vs985"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 600,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "LG V20 (VZW)",
+    "codename": "vs995",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/vs995"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 601,
+    "releasedOn": "2016-10"
+  },
+  {
+    "deviceName": "LG Optimus L70",
+    "codename": "w5",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/w5"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 602,
+    "releasedOn": "2014-04"
+  },
+  {
+    "deviceName": "LG Optimus L90",
+    "codename": "w7",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/w7"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 603,
+    "releasedOn": "2014-02"
+  },
+  {
+    "deviceName": "Google Pixel 2",
+    "codename": "walleye",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/walleye"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 604,
+    "releasedOn": "2017-10"
+  },
+  {
+    "deviceName": "Xiaomi Mi 6X",
+    "codename": "wayne",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/wayne"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 605,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Xiaomi Redmi Note 5 Pro",
+    "codename": "whyred",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/whyred"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 606,
+    "releasedOn": "2018-02"
+  },
+  {
+    "deviceName": "Wingtech Redmi 2",
+    "codename": "wt88047",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/wt88047"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 607,
+    "releasedOn": "2015-01"
+  },
+  {
+    "deviceName": "Asus Zenfone Max Pro M1",
+    "codename": "X00TD",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/X00TD"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 608,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Asus Zenfone Max M2",
+    "codename": "X01AD",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/X01AD"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 609,
+    "releasedOn": "2018-10"
+  },
+  {
+    "deviceName": "Asus Zenfone Max Pro M2",
+    "codename": "X01BD",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/X01BD"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 610,
+    "releasedOn": "2018-12"
+  },
+  {
+    "deviceName": "LeEco Le Max 2",
+    "codename": "x2",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/x2"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 611,
+    "releasedOn": "2016-04"
+  },
+  {
+    "deviceName": "Sony Xperia XZ2 Compact",
+    "codename": "xz2c",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/xz2c"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 612,
+    "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Motorola Photon Q",
+    "codename": "xt897",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/xt897"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 613,
+    "releasedOn": "2012-08-19"
+  },
+  {
+    "deviceName": "Lenovo Yoga Tab 3 Plus Wi-Fi",
+    "codename": "YTX703F",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/YTX703F"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 614,
+    "releasedOn": "2016-12"
+  },
+  {
+    "deviceName": "Lenovo Yoga Tab 3 Plus LTE",
+    "codename": "YTX703L",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/YTX703L"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 615,
+    "releasedOn": "2016-12"
+  },
+  {
+    "deviceName": "Sony Xperia Z",
+    "codename": "yuga",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/yuga"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 616,
+    "releasedOn": "2013-02"
+  },
+  {
+    "deviceName": "Asus Zenfone 2 (720p)",
+    "codename": "Z008",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/Z008"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 617,
+    "releasedOn": "2015-03"
+  },
+  {
+    "deviceName": "Asus Zenfone 2 (1080p)",
+    "codename": "Z00A",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/Z00A"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 618,
+    "releasedOn": "2015-03"
+  },
+  {
+    "deviceName": "Asus Zenfone 2 (Z00D)",
+    "codename": "Z00D",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/Z00D"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 619,
+    "releasedOn": "2015-03"
+  },
+  {
+    "deviceName": "Asus Zenfone 2 Laser (720p)",
+    "codename": "Z00L",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/Z00L"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 620,
+    "releasedOn": "2015-11"
+  },
+  {
+    "deviceName": "Asus Zenfone 2 Laser/Selfie (1080p)",
+    "codename": "Z00T",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/Z00T"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 621,
+    "releasedOn": "2015-11"
+  },
+  {
+    "deviceName": "Asus Zenfone 5Z (ZS620KL)",
+    "codename": "Z01R",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/Z01R"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 622,
+    "releasedOn": "2018-06"
+  },
+  {
+    "deviceName": "Zuk Zuk Z2 Plus",
+    "codename": "z2_plus",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/z2_plus"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 623,
+    "releasedOn": "2016-06"
+  },
+  {
+    "deviceName": "Sony Xperia Z3",
+    "codename": "z3",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/z3"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 624,
+    "releasedOn": "2014-09-04"
+  },
+  {
+    "deviceName": "Sony Xperia Z3 Compact",
+    "codename": "z3c",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/z3c"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 625,
+    "releasedOn": "2014-09-04"
+  },
+  {
+    "deviceName": "BQ Aquaris X2",
+    "codename": "zangya",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/zangya"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 626,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "BQ Aquaris X2 Pro",
+    "codename": "zangyapro",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/zangyapro"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 627,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "Asus Zenfone 3 (ZE520KL/ZE552KL)",
+    "codename": "zenfone3",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/zenfone3"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 628,
+    "releasedOn": "2016-05-30"
+  },
+  {
+    "deviceName": "Samsung Galaxy S6",
+    "codename": "zerofltexx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/zerofltexx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 629,
+    "releasedOn": "2015-04"
+  },
+  {
+    "deviceName": "Samsung Galaxy S6 Edge",
+    "codename": "zeroltexx",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/zeroltexx"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 630,
+    "releasedOn": "2015-04"
+  },
+  {
+    "deviceName": "Lenovo Z6 Pro",
+    "codename": "zippo",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/zippo"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 631,
+    "releasedOn": "2019-09-11"
+  },
+  {
+    "deviceName": "LeEco Le Pro 3",
+    "codename": "zl1",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        "N/A"
+      ],
+      "links": [
+        "https://download.pixelexperience.org/zl1"
+      ],
+      "name": "LineageOS"
+    },
+    "id": 632,
+    "releasedOn": [
+      {
+        "Le Pro3": "2016-10"
+      },
+      {
+        "Le Pro3 Elite": "2017-03"
+      }
+    ]
   }
 ]
