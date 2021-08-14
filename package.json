@@ -6,7 +6,7 @@
     "start": "next start",
     "test": "npx standard",
     "fix": "npx standard --fix",
-    "sync": "node scripts/generate-devices.js",
+    "sync": "node scripts/sync.js",
     "prepare": "husky install; npm run sync"
   },
   "dependencies": {

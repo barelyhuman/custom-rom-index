@@ -7,7 +7,7 @@ const URL =
 
 const ignoreVersionKeys = '_plus'
 
-async function main () {
+async function main (deviceList) {
   const response = await got(URL);
 
   (JSON.parse(response.body) || []).forEach((deviceItem) => {
@@ -42,8 +42,15 @@ async function main () {
       })
   })
 
-  await generateDevices(devices)
-  console.log('✔ Done')
+  console.log('✔ Done, Syncing Pixel Experience')
+  return deviceList
 }
 
-main()
+exports.syncPixelExperience = main
+
+if (require.main === module) {
+  (async () => {
+    const _devices = await main(devices)
+    await generateDevices(_devices)
+  })()
+}
