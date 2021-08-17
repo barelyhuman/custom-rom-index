@@ -5,14 +5,14 @@ import {
   Input
 } from 'components'
 import devices from 'db/devices.json'
-import { releaseDateFormatter } from 'lib/date-utils'
+import { releaseDateFormatter, sortByDate } from 'lib/date-utils'
 import { normaliseSearchableString } from 'lib/search-utils'
 import { useCallback, useEffect, useState } from 'react'
 
 const STATUS_COLOR_ENUM = {
-  active: 'bg-green-600',
-  discontinued: 'bg-red-600',
-  unknown: 'bg-yellow-500'
+  active: 'bg-green-400',
+  discontinued: 'bg-red-400',
+  unknown: 'bg-gray-400'
 }
 
 function useDeviceList () {
@@ -22,11 +22,9 @@ function useDeviceList () {
   })
 
   const sortDevicesByRelease = useCallback(() => {
-    const _byReleaseDate = devices
-      .slice()
-      .sort((x, y) =>
-        _sortByReleaseDateAndDirection(x, y, sortDirections.releasedOn)
-      )
+    const _byReleaseDate = devices.slice().sort((x, y) => {
+      return sortByDate(x.releasedOn, y.releasedOn, sortDirections.releasedOn)
+    })
     setDeviceList(_byReleaseDate)
   }, [sortDirections.releasedOn])
 
@@ -309,45 +307,4 @@ const _getReleasedOn = (deviceItem) => {
   if (typeof deviceItem.releasedOn === 'number') {
     return deviceItem.releasedOn
   }
-}
-
-const _sortByReleaseDateAndDirection = (item, itemTwo, direction = 1) => {
-  if (!item.releasedOn) {
-    return 1
-  }
-  if (!itemTwo.releasedOn) {
-    return -1
-  }
-
-  let firstDateSplits
-  let secondDateSplits
-
-  if (Array.isArray(item.releasedOn)) {
-    firstDateSplits = item.releasedOn[0][Object.keys(item.releasedOn[0])[0]]
-  } else if (typeof item.releasedOn === 'string') {
-    firstDateSplits = item.releasedOn.split('-')
-  }
-
-  if (Array.isArray(itemTwo.releasedOn)) {
-    secondDateSplits =
-      itemTwo.releasedOn[0][Object.keys(itemTwo.releasedOn[0])[0]]
-  } else if (typeof itemTwo.releasedOn === 'string') {
-    secondDateSplits = itemTwo.releasedOn.split('-')
-  }
-
-  if (typeof item.releasedOn === 'number') {
-    firstDateSplits = [item]
-  }
-
-  if (typeof itemTwo.releasedOn === 'number') {
-    secondDateSplits = [itemTwo]
-  }
-
-  const date = new Date(firstDateSplits[0], firstDateSplits[1] || 2, 1)
-
-  const secondDate = new Date(secondDateSplits[0], secondDateSplits[1] || 2, 1)
-
-  return direction < 0
-    ? date.getTime() - secondDate.getTime()
-    : secondDate.getTime() - date.getTime()
 }
