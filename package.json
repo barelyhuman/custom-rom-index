@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@barelyreaper/conch": "^0.0.4",
     "got": "^11.8.2",
     "next": "latest",
     "react": "^17.0.2",

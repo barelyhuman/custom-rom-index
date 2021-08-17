@@ -227,6 +227,11 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     "to-fast-properties" "^2.0.0"
 
+"@barelyreaper/conch@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@barelyreaper/conch/-/conch-0.0.4.tgz#270dde536357daf5b87d3e4ff181a98ccdc37411"
+  integrity sha512-y1Y5JmXoUNdvgfWquFe9olJDrOjJ2iJ6QtSxuGSH2CGtbdaTlj7H+ZIADebs5k7FQE4LwMgrGGGikC+CQd2hvQ==
+
 "@hapi/accept@5.0.2":
   "integrity" "sha512-CmzBx/bXUR8451fnZRuZAJRlzgm0Jgu5dltTX/bszmR2lheb9BpyN47Q1RbaGTsvFzn0PXAEs+lXDKfshccYZw=="
   "resolved" "https://registry.npmjs.org/@hapi/accept/-/accept-5.0.2.tgz"
