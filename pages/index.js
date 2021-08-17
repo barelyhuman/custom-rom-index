@@ -10,14 +10,14 @@ function Home () {
   return (
     <>
       <Header />
-      <section className='text-blueGray-700 '>
+      <section className='text-gray-700'>
         <div className='container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28'>
           <div className='flex flex-col items-center text-center items-start mb-16 text-left lg:flex-grow md:mb-0'>
             <h2 className='mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font'>
               {' '}
               The easiest way to find a rom for your device.{' '}
             </h2>
-            <h1 className='mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font'>
+            <h1 className='mb-8 text-2xl font-black tracking-wide text-black md:text-5xl title-font'>
               {' '}
               Custom Rom Index
             </h1>
@@ -45,6 +45,13 @@ function Home () {
           {/* <SubmitNewRomForm /> */}
         </div>
       </section>
+      <hr className='mb-3' />
+      <section className='container px-5 mx-auto lg:px-28'>
+        <div className='m-1 p-1'>
+          <TopDevicesRomCount />
+        </div>
+      </section>
+      <hr className='mb-3' />
       <section className='container px-5 mx-auto lg:px-28'>
         <div className='flex flex-wrap justify-center items-start'>
           <div className='m-1 p-1'>
@@ -53,9 +60,6 @@ function Home () {
           <div className='m-1 p-1'>
             <ActiveDeviceROMsCount />
           </div>
-        </div>
-        <div className='m-1 p-1'>
-          <TopDevicesRomCount />
         </div>
       </section>
       <Footer />
