@@ -2158,166 +2158,6 @@
     "releasedOn": "2018-11"
   },
   {
-    "deviceName": "Sony Xperia XZ Premium RoW",
-    "codename": "g8141",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8141"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 134,
-    "releasedOn": "2017-06-18"
-  },
-  {
-    "deviceName": "Sony Xperia XZ Premium RoW",
-    "codename": "g8141",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8141"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 135,
-    "releasedOn": "2017-06-18"
-  },
-  {
-    "deviceName": "Sony Xperia XZ Premium DSDS",
-    "codename": "g8142",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8142"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 136,
-    "releasedOn": "2017-06-18"
-  },
-  {
-    "deviceName": "Sony Xperia XZ Premium DSDS",
-    "codename": "g8142",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8142"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 137,
-    "releasedOn": "2017-06-18"
-  },
-  {
-    "deviceName": "Sony Xperia XZ1 RoW",
-    "codename": "g8341",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8341"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 138,
-    "releasedOn": "2017-09-19"
-  },
-  {
-    "deviceName": "Sony Xperia XZ1 RoW",
-    "codename": "g8341",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8341"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 139,
-    "releasedOn": "2017-09-19"
-  },
-  {
-    "deviceName": "Sony Xperia XZ1 DSDS",
-    "codename": "g8342",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8342"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 140,
-    "releasedOn": "2017-09-19"
-  },
-  {
-    "deviceName": "Sony Xperia XZ1 DSDS",
-    "codename": "g8342",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8342"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 141,
-    "releasedOn": "2017-09-19"
-  },
-  {
-    "deviceName": "Sony Xperia XZ1 Compact RoW",
-    "codename": "g8441",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8441"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 142,
-    "releasedOn": "2017-10-05"
-  },
-  {
-    "deviceName": "Sony Xperia XZ1 Compact RoW",
-    "codename": "g8441",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/g8441"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 143,
-    "releasedOn": "2017-10-05"
-  },
-  {
     "deviceName": "Xiaomi Redmi Note 9 Pro 5G/Mi 10i/Mi 10T Lite",
     "codename": "gauguin",
     "rom": {
@@ -2330,7 +2170,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 144,
+    "id": 134,
     "releasedOn": "2020-12-01"
   },
   {
@@ -2346,7 +2186,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 145,
+    "id": 135,
     "releasedOn": "2016-04"
   },
   {
@@ -2362,7 +2202,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 146,
+    "id": 136,
     "releasedOn": "2016-04"
   },
   {
@@ -2378,7 +2218,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 147,
+    "id": 137,
     "releasedOn": "2019-10-16"
   },
   {
@@ -2394,7 +2234,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 148,
+    "id": 138,
     "releasedOn": "2019-10-16"
   },
   {
@@ -2410,7 +2250,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 149,
+    "id": 139,
     "releasedOn": "2018-04"
   },
   {
@@ -2426,7 +2266,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 150,
+    "id": 140,
     "releasedOn": "2019-05"
   },
   {
@@ -2442,7 +2282,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 151,
+    "id": 141,
     "releasedOn": "2019-05"
   },
   {
@@ -2458,7 +2298,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 152,
+    "id": 142,
     "releasedOn": "2019-05"
   },
   {
@@ -2474,394 +2314,10 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 153,
+    "id": 143,
     "releasedOn": "2019-05"
   },
   {
-    "deviceName": "Sony Xperia XA2 RoW",
-    "codename": "h3113",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h3113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 154,
-    "releasedOn": "2018-01-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 RoW",
-    "codename": "h3113",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h3113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 155,
-    "releasedOn": "2018-01-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Ultra RoW",
-    "codename": "h3213",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h3213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 156,
-    "releasedOn": "2018-02-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Ultra RoW",
-    "codename": "h3213",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h3213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 157,
-    "releasedOn": "2018-02-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Plus RoW",
-    "codename": "h3413",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h3413"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 158,
-    "releasedOn": "2018-09-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Plus RoW",
-    "codename": "h3413",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h3413"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 159,
-    "releasedOn": "2018-09-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 DSDS",
-    "codename": "h4113",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h4113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 160,
-    "releasedOn": "2018-01-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 DSDS",
-    "codename": "h4113",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h4113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 161,
-    "releasedOn": "2018-01-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Ultra DSDS",
-    "codename": "h4213",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h4213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 162,
-    "releasedOn": "2018-02-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Ultra DSDS",
-    "codename": "h4213",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h4213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 163,
-    "releasedOn": "2018-02-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Plus DSDS",
-    "codename": "h4413",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h4413"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 164,
-    "releasedOn": "2018-09-05"
-  },
-  {
-    "deviceName": "Sony Xperia XA2 Plus DSDS",
-    "codename": "h4413",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h4413"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 165,
-    "releasedOn": "2018-09-05"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 RoW",
-    "codename": "h8216",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8216"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 166,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 RoW",
-    "codename": "h8216",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8216"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 167,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 DSDS",
-    "codename": "h8266",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8266"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 168,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 DSDS",
-    "codename": "h8266",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8266"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 169,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 Compact RoW",
-    "codename": "h8314",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8314"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 170,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 Compact RoW",
-    "codename": "h8314",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8314"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 171,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 Compact DSDS",
-    "codename": "h8324",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8324"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 172,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ2 Compact DSDS",
-    "codename": "h8324",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8324"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 173,
-    "releasedOn": "2018-04-20"
-  },
-  {
-    "deviceName": "Sony Xperia XZ3 RoW",
-    "codename": "h8416",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8416"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 174,
-    "releasedOn": "2018-10-05"
-  },
-  {
-    "deviceName": "Sony Xperia XZ3 RoW",
-    "codename": "h8416",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h8416"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 175,
-    "releasedOn": "2018-10-05"
-  },
-  {
-    "deviceName": "Sony Xperia XZ3 DSDS",
-    "codename": "h9436",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h9436"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 176,
-    "releasedOn": "2018-10-05"
-  },
-  {
-    "deviceName": "Sony Xperia XZ3 DSDS",
-    "codename": "h9436",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/h9436"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 177,
-    "releasedOn": "2018-10-05"
-  },
-  {
     "deviceName": "Samsung Galaxy S7 Edge",
     "codename": "hero2lte",
     "rom": {
@@ -2874,7 +2330,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 178,
+    "id": 144,
     "releasedOn": "2016-03-18"
   },
   {
@@ -2890,7 +2346,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 179,
+    "id": 145,
     "releasedOn": "2016-03-18"
   },
   {
@@ -2906,7 +2362,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 180,
+    "id": 146,
     "releasedOn": "2016-03-18"
   },
   {
@@ -2922,7 +2378,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 181,
+    "id": 147,
     "releasedOn": "2016-03-18"
   },
   {
@@ -2938,7 +2394,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 182,
+    "id": 148,
     "releasedOn": "2019-10"
   },
   {
@@ -2954,138 +2410,10 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 183,
+    "id": 149,
     "releasedOn": "2019-09"
   },
   {
-    "deviceName": "Sony Xperia 10 RoW",
-    "codename": "i3113",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i3113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 184,
-    "releasedOn": "2019-02-25"
-  },
-  {
-    "deviceName": "Sony Xperia 10 RoW",
-    "codename": "i3113",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i3113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 185,
-    "releasedOn": "2019-02-25"
-  },
-  {
-    "deviceName": "Sony Xperia 10 Plus RoW",
-    "codename": "i3213",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i3213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 186,
-    "releasedOn": "2019-02-25"
-  },
-  {
-    "deviceName": "Sony Xperia 10 Plus RoW",
-    "codename": "i3213",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i3213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 187,
-    "releasedOn": "2019-02-25"
-  },
-  {
-    "deviceName": "Sony Xperia 10 DSDS",
-    "codename": "i4113",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i4113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 188,
-    "releasedOn": "2019-02-25"
-  },
-  {
-    "deviceName": "Sony Xperia 10 DSDS",
-    "codename": "i4113",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i4113"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 189,
-    "releasedOn": "2019-02-25"
-  },
-  {
-    "deviceName": "Sony Xperia 10 Plus DSDS",
-    "codename": "i4213",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i4213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 190,
-    "releasedOn": "2019-02-25"
-  },
-  {
-    "deviceName": "Sony Xperia 10 Plus DSDS",
-    "codename": "i4213",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/i4213"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 191,
-    "releasedOn": "2019-02-25"
-  },
-  {
     "deviceName": "OnePlus 8",
     "codename": "instantnoodle",
     "rom": {
@@ -3098,7 +2426,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 192,
+    "id": 150,
     "releasedOn": "2020-04"
   },
   {
@@ -3114,7 +2442,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 193,
+    "id": 151,
     "releasedOn": "2020-04"
   },
   {
@@ -3130,7 +2458,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 194,
+    "id": 152,
     "releasedOn": "2020-04"
   },
   {
@@ -3146,136 +2474,8 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 195,
+    "id": 153,
     "releasedOn": "2020-04"
-  },
-  {
-    "deviceName": "Sony Xperia 1 RoW",
-    "codename": "j8110",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j8110"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 196,
-    "releasedOn": "2019-05-30"
-  },
-  {
-    "deviceName": "Sony Xperia 1 RoW",
-    "codename": "j8110",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j8110"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 197,
-    "releasedOn": "2019-05-30"
-  },
-  {
-    "deviceName": "Sony Xperia 5 RoW",
-    "codename": "j8210",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j8210"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 198,
-    "releasedOn": "2019-10-05"
-  },
-  {
-    "deviceName": "Sony Xperia 5 RoW",
-    "codename": "j8210",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j8210"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 199,
-    "releasedOn": "2019-10-05"
-  },
-  {
-    "deviceName": "Sony Xperia 1 DSDS",
-    "codename": "j9110",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j9110"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 200,
-    "releasedOn": "2019-05-30"
-  },
-  {
-    "deviceName": "Sony Xperia 1 DSDS",
-    "codename": "j9110",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j9110"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 201,
-    "releasedOn": "2019-05-30"
-  },
-  {
-    "deviceName": "Sony Xperia 5 DSDS",
-    "codename": "j9210",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j9210"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 202,
-    "releasedOn": "2019-10-05"
-  },
-  {
-    "deviceName": "Sony Xperia 5 DSDS",
-    "codename": "j9210",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/j9210"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 203,
-    "releasedOn": "2019-10-05"
   },
   {
     "deviceName": "Xiaomi Mi A2",
@@ -3290,7 +2490,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 204,
+    "id": 154,
     "releasedOn": "2018-07"
   },
   {
@@ -3306,7 +2506,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 205,
+    "id": 155,
     "releasedOn": "2018-07"
   },
   {
@@ -3322,7 +2522,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 206,
+    "id": 156,
     "releasedOn": "2020-10"
   },
   {
@@ -3338,7 +2538,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 207,
+    "id": 157,
     "releasedOn": "2019-05"
   },
   {
@@ -3354,7 +2554,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 208,
+    "id": 158,
     "releasedOn": "2019-05"
   },
   {
@@ -3370,7 +2570,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 209,
+    "id": 159,
     "releasedOn": "2019-02"
   },
   {
@@ -3386,7 +2586,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 210,
+    "id": 160,
     "releasedOn": "2019-02"
   },
   {
@@ -3402,7 +2602,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 211,
+    "id": 161,
     "releasedOn": "2016-06"
   },
   {
@@ -3418,7 +2618,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 212,
+    "id": 162,
     "releasedOn": "2016-06"
   },
   {
@@ -3434,7 +2634,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 213,
+    "id": 163,
     "releasedOn": "2019-07"
   },
   {
@@ -3450,7 +2650,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 214,
+    "id": 164,
     "releasedOn": "2019-01"
   },
   {
@@ -3466,7 +2666,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 215,
+    "id": 165,
     "releasedOn": "2019-01"
   },
   {
@@ -3482,7 +2682,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 216,
+    "id": 166,
     "releasedOn": "2020-06-08"
   },
   {
@@ -3498,7 +2698,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 217,
+    "id": 167,
     "releasedOn": "2016-10"
   },
   {
@@ -3514,7 +2714,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 218,
+    "id": 168,
     "releasedOn": "2016-10"
   },
   {
@@ -3530,7 +2730,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 219,
+    "id": 169,
     "releasedOn": "2016-10"
   },
   {
@@ -3546,7 +2746,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 220,
+    "id": 170,
     "releasedOn": "2016-10"
   },
   {
@@ -3562,7 +2762,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 221,
+    "id": 171,
     "releasedOn": "2017-01"
   },
   {
@@ -3578,7 +2778,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 222,
+    "id": 172,
     "releasedOn": "2017-01"
   },
   {
@@ -3594,7 +2794,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 223,
+    "id": 173,
     "releasedOn": "2021-03-16"
   },
   {
@@ -3610,7 +2810,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 224,
+    "id": 174,
     "releasedOn": "2016-10"
   },
   {
@@ -3626,7 +2826,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 225,
+    "id": 175,
     "releasedOn": "2016-10"
   },
   {
@@ -3642,7 +2842,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 226,
+    "id": 176,
     "releasedOn": "2019-03-25"
   },
   {
@@ -3658,7 +2858,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 227,
+    "id": 177,
     "releasedOn": "2019-03-25"
   },
   {
@@ -3674,7 +2874,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 228,
+    "id": 178,
     "releasedOn": [
       {
         "A3000": "2016-06"
@@ -3697,7 +2897,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 229,
+    "id": 179,
     "releasedOn": [
       {
         "A3000": "2016-06"
@@ -3720,7 +2920,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 230,
+    "id": 180,
     "releasedOn": "2019-09-05"
   },
   {
@@ -3736,7 +2936,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 231,
+    "id": 181,
     "releasedOn": "2017-10"
   },
   {
@@ -3752,7 +2952,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 232,
+    "id": 182,
     "releasedOn": "2017-10"
   },
   {
@@ -3768,7 +2968,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 233,
+    "id": 183,
     "releasedOn": "2020-02-11"
   },
   {
@@ -3784,7 +2984,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 234,
+    "id": 184,
     "releasedOn": "2020-02-11"
   },
   {
@@ -3800,7 +3000,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 235,
+    "id": 185,
     "releasedOn": "2020-01-07"
   },
   {
@@ -3816,7 +3016,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 236,
+    "id": 186,
     "releasedOn": "2018-07"
   },
   {
@@ -3832,7 +3032,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 237,
+    "id": 187,
     "releasedOn": "2018-09"
   },
   {
@@ -3848,7 +3048,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 238,
+    "id": 188,
     "releasedOn": "2018-09"
   },
   {
@@ -3864,7 +3064,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 239,
+    "id": 189,
     "releasedOn": "2018-04"
   },
   {
@@ -3880,7 +3080,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 240,
+    "id": 190,
     "releasedOn": "2018-04"
   },
   {
@@ -3896,7 +3096,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 241,
+    "id": 191,
     "releasedOn": "2017-01"
   },
   {
@@ -3912,7 +3112,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 242,
+    "id": 192,
     "releasedOn": "2017-01"
   },
   {
@@ -3928,7 +3128,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 243,
+    "id": 193,
     "releasedOn": "2019-08-20"
   },
   {
@@ -3944,7 +3144,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 244,
+    "id": 194,
     "releasedOn": "2019-08-21"
   },
   {
@@ -3960,7 +3160,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 245,
+    "id": 195,
     "releasedOn": "2019-08-21"
   },
   {
@@ -3976,7 +3176,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 246,
+    "id": 196,
     "releasedOn": "2017-11"
   },
   {
@@ -3992,7 +3192,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 247,
+    "id": 197,
     "releasedOn": "2017-11"
   },
   {
@@ -4008,7 +3208,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 248,
+    "id": 198,
     "releasedOn": "2019-02-07"
   },
   {
@@ -4024,7 +3224,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 249,
+    "id": 199,
     "releasedOn": "2019-02-07"
   },
   {
@@ -4040,7 +3240,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 250,
+    "id": 200,
     "releasedOn": "2017-12"
   },
   {
@@ -4056,7 +3256,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 251,
+    "id": 201,
     "releasedOn": "2017-12"
   },
   {
@@ -4072,7 +3272,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 252,
+    "id": 202,
     "releasedOn": "2016-10"
   },
   {
@@ -4088,7 +3288,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 253,
+    "id": 203,
     "releasedOn": "2016-10"
   },
   {
@@ -4104,7 +3304,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 254,
+    "id": 204,
     "releasedOn": "2018-07"
   },
   {
@@ -4120,7 +3320,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 255,
+    "id": 205,
     "releasedOn": "2018-07"
   },
   {
@@ -4136,7 +3336,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 256,
+    "id": 206,
     "releasedOn": "2017-08"
   },
   {
@@ -4152,7 +3352,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 257,
+    "id": 207,
     "releasedOn": "2017-08"
   },
   {
@@ -4168,7 +3368,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 258,
+    "id": 208,
     "releasedOn": "2017-05"
   },
   {
@@ -4184,7 +3384,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 259,
+    "id": 209,
     "releasedOn": "2019-04"
   },
   {
@@ -4200,7 +3400,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 260,
+    "id": 210,
     "releasedOn": "2016-11"
   },
   {
@@ -4216,7 +3416,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 261,
+    "id": 211,
     "releasedOn": "2016-11"
   },
   {
@@ -4232,7 +3432,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 262,
+    "id": 212,
     "releasedOn": "2018-06"
   },
   {
@@ -4248,7 +3448,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 263,
+    "id": 213,
     "releasedOn": "2018-06"
   },
   {
@@ -4264,7 +3464,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 264,
+    "id": 214,
     "releasedOn": "2020-09-08"
   },
   {
@@ -4280,7 +3480,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 265,
+    "id": 215,
     "releasedOn": "2021-03-24"
   },
   {
@@ -4296,7 +3496,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 266,
+    "id": 216,
     "releasedOn": "2017-10"
   },
   {
@@ -4312,7 +3512,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 267,
+    "id": 217,
     "releasedOn": "2017-10"
   },
   {
@@ -4328,7 +3528,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 268,
+    "id": 218,
     "releasedOn": "2017-10"
   },
   {
@@ -4344,7 +3544,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 269,
+    "id": 219,
     "releasedOn": "2019-09-05"
   },
   {
@@ -4360,7 +3560,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 270,
+    "id": 220,
     "releasedOn": "2020-02"
   },
   {
@@ -4376,7 +3576,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 271,
+    "id": 221,
     "releasedOn": "2018-02"
   },
   {
@@ -4392,7 +3592,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 272,
+    "id": 222,
     "releasedOn": "2019-03-13"
   },
   {
@@ -4408,7 +3608,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 273,
+    "id": 223,
     "releasedOn": "2019-03-13"
   },
   {
@@ -4424,7 +3624,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 274,
+    "id": 224,
     "releasedOn": "2017-10"
   },
   {
@@ -4440,7 +3640,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 275,
+    "id": 225,
     "releasedOn": "2018-04"
   },
   {
@@ -4456,7 +3656,7 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 276,
+    "id": 226,
     "releasedOn": "2018-02"
   },
   {
@@ -4472,72 +3672,8 @@
       ],
       "name": "Pixel Experience"
     },
-    "id": 277,
+    "id": 227,
     "releasedOn": "2018-02"
-  },
-  {
-    "deviceName": "Sony Xperia 10 II RoW",
-    "codename": "xqau51",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/xqau51"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 278,
-    "releasedOn": "2020-05-05"
-  },
-  {
-    "deviceName": "Sony Xperia 10 II RoW",
-    "codename": "xqau51",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/xqau51"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 279,
-    "releasedOn": "2020-05-05"
-  },
-  {
-    "deviceName": "Sony Xperia 10 II DSDS",
-    "codename": "xqau52",
-    "rom": {
-      "status": "discontinued",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://download.pixelexperience.org/xqau52"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 280,
-    "releasedOn": "2020-05-05"
-  },
-  {
-    "deviceName": "Sony Xperia 10 II DSDS",
-    "codename": "xqau52",
-    "rom": {
-      "status": "active",
-      "androidVersion": [
-        11
-      ],
-      "links": [
-        "https://download.pixelexperience.org/xqau52"
-      ],
-      "name": "Pixel Experience"
-    },
-    "id": 281,
-    "releasedOn": "2020-05-05"
   },
   {
     "deviceName": "Lenovo Vibe K5 / K5 Plus",
@@ -4552,7 +3688,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 282,
+    "id": 228,
     "releasedOn": "2016-04"
   },
   {
@@ -4568,7 +3704,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 283,
+    "id": 229,
     "releasedOn": "2018-12"
   },
   {
@@ -4584,7 +3720,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 284,
+    "id": 230,
     "releasedOn": "2015-12"
   },
   {
@@ -4600,7 +3736,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 285,
+    "id": 231,
     "releasedOn": "2015-12"
   },
   {
@@ -4616,7 +3752,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 286,
+    "id": 232,
     "releasedOn": "2017-01-02"
   },
   {
@@ -4632,7 +3768,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 287,
+    "id": 233,
     "releasedOn": "2015-12"
   },
   {
@@ -4648,7 +3784,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 288,
+    "id": 234,
     "releasedOn": "2017-01-02"
   },
   {
@@ -4664,7 +3800,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 289,
+    "id": 235,
     "releasedOn": "2016-09"
   },
   {
@@ -4680,7 +3816,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 290,
+    "id": 236,
     "releasedOn": "2018-05"
   },
   {
@@ -4696,7 +3832,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 291,
+    "id": 237,
     "releasedOn": "2018-04"
   },
   {
@@ -4712,7 +3848,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 292,
+    "id": 238,
     "releasedOn": "2018-10"
   },
   {
@@ -4728,7 +3864,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 293,
+    "id": 239,
     "releasedOn": "2017-06"
   },
   {
@@ -4744,7 +3880,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 294,
+    "id": 240,
     "releasedOn": [
       {
         "Poco F3": "2021-03"
@@ -4770,7 +3906,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 295,
+    "id": 241,
     "releasedOn": "2015-09-29"
   },
   {
@@ -4786,7 +3922,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 296,
+    "id": 242,
     "releasedOn": "2018-03"
   },
   {
@@ -4802,7 +3938,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 297,
+    "id": 243,
     "releasedOn": [
       {
         "Mi 10T / Mi 10T Pro": "2020-10"
@@ -4825,7 +3961,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 298,
+    "id": 244,
     "releasedOn": "2014-05"
   },
   {
@@ -4841,7 +3977,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 299,
+    "id": 245,
     "releasedOn": "2016-05"
   },
   {
@@ -4857,7 +3993,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 300,
+    "id": 246,
     "releasedOn": "2018-10"
   },
   {
@@ -4873,7 +4009,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 301,
+    "id": 247,
     "releasedOn": "2020-07-21"
   },
   {
@@ -4889,7 +4025,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 302,
+    "id": 248,
     "releasedOn": "2016-06"
   },
   {
@@ -4905,7 +4041,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 303,
+    "id": 249,
     "releasedOn": "2014-06-06"
   },
   {
@@ -4921,7 +4057,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 304,
+    "id": 250,
     "releasedOn": "2017-06"
   },
   {
@@ -4937,7 +4073,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 305,
+    "id": 251,
     "releasedOn": "2017-06"
   },
   {
@@ -4953,7 +4089,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 306,
+    "id": 252,
     "releasedOn": "2018-06"
   },
   {
@@ -4969,7 +4105,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 307,
+    "id": 253,
     "releasedOn": "2018-01"
   },
   {
@@ -4985,7 +4121,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 308,
+    "id": 254,
     "releasedOn": "2018-08"
   },
   {
@@ -5001,7 +4137,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 309,
+    "id": 255,
     "releasedOn": "2019-03-08"
   },
   {
@@ -5017,7 +4153,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 310,
+    "id": 256,
     "releasedOn": "2019-03-08"
   },
   {
@@ -5033,7 +4169,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 311,
+    "id": 257,
     "releasedOn": "2019-03-08"
   },
   {
@@ -5049,7 +4185,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 312,
+    "id": 258,
     "releasedOn": "2019-03-08"
   },
   {
@@ -5065,7 +4201,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 313,
+    "id": 259,
     "releasedOn": "2018-10"
   },
   {
@@ -5081,7 +4217,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 314,
+    "id": 260,
     "releasedOn": "2019-04"
   },
   {
@@ -5097,7 +4233,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 315,
+    "id": 261,
     "releasedOn": "2020-10"
   },
   {
@@ -5113,7 +4249,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 316,
+    "id": 262,
     "releasedOn": "2015-09-29"
   },
   {
@@ -5129,7 +4265,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 317,
+    "id": 263,
     "releasedOn": [
       {
         "MI3": "2013-10"
@@ -5152,7 +4288,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 318,
+    "id": 264,
     "releasedOn": "2016-10"
   },
   {
@@ -5168,7 +4304,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 319,
+    "id": 265,
     "releasedOn": "2014-03-26"
   },
   {
@@ -5184,7 +4320,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 320,
+    "id": 266,
     "releasedOn": "2017-03"
   },
   {
@@ -5200,7 +4336,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 321,
+    "id": 267,
     "releasedOn": 2014
   },
   {
@@ -5216,7 +4352,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 322,
+    "id": 268,
     "releasedOn": 2014
   },
   {
@@ -5232,7 +4368,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 323,
+    "id": 269,
     "releasedOn": 2016
   },
   {
@@ -5248,7 +4384,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 324,
+    "id": 270,
     "releasedOn": "2018-04"
   },
   {
@@ -5264,7 +4400,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 325,
+    "id": 271,
     "releasedOn": "2014-10"
   },
   {
@@ -5280,7 +4416,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 326,
+    "id": 272,
     "releasedOn": "2017-06"
   },
   {
@@ -5296,7 +4432,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 327,
+    "id": 273,
     "releasedOn": "2019-03"
   },
   {
@@ -5312,7 +4448,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 328,
+    "id": 274,
     "releasedOn": "2018-10-10"
   },
   {
@@ -5328,7 +4464,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 329,
+    "id": 275,
     "releasedOn": "2014-10"
   },
   {
@@ -5344,7 +4480,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 330,
+    "id": 276,
     "releasedOn": "2017-11"
   },
   {
@@ -5360,7 +4496,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 331,
+    "id": 277,
     "releasedOn": "2017-09"
   },
   {
@@ -5376,7 +4512,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 332,
+    "id": 278,
     "releasedOn": "2015-09"
   },
   {
@@ -5392,7 +4528,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 333,
+    "id": 279,
     "releasedOn": "2014-05-13"
   },
   {
@@ -5408,7 +4544,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 334,
+    "id": 280,
     "releasedOn": "2019-09"
   },
   {
@@ -5424,7 +4560,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 335,
+    "id": 281,
     "releasedOn": "2015-10"
   },
   {
@@ -5440,7 +4576,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 336,
+    "id": 282,
     "releasedOn": "2018-10"
   },
   {
@@ -5456,7 +4592,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 337,
+    "id": 283,
     "releasedOn": "2018-08-09"
   },
   {
@@ -5472,7 +4608,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 338,
+    "id": 284,
     "releasedOn": "2019-08-23"
   },
   {
@@ -5488,7 +4624,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 339,
+    "id": 285,
     "releasedOn": "2012-06-28"
   },
   {
@@ -5504,7 +4640,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 340,
+    "id": 286,
     "releasedOn": "2019-08-23"
   },
   {
@@ -5520,7 +4656,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 341,
+    "id": 287,
     "releasedOn": "2012-06-28"
   },
   {
@@ -5536,7 +4672,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 342,
+    "id": 288,
     "releasedOn": "2012-06-21"
   },
   {
@@ -5552,7 +4688,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 343,
+    "id": 289,
     "releasedOn": "2012-06-28"
   },
   {
@@ -5568,7 +4704,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 344,
+    "id": 290,
     "releasedOn": "2019-08-23"
   },
   {
@@ -5584,7 +4720,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 345,
+    "id": 291,
     "releasedOn": "2013-09-12"
   },
   {
@@ -5600,7 +4736,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 346,
+    "id": 292,
     "releasedOn": "2013-09-12"
   },
   {
@@ -5616,7 +4752,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 347,
+    "id": 293,
     "releasedOn": "2013-09-12"
   },
   {
@@ -5632,7 +4768,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 348,
+    "id": 294,
     "releasedOn": "2013-09-12"
   },
   {
@@ -5648,7 +4784,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 349,
+    "id": 295,
     "releasedOn": "2014-06"
   },
   {
@@ -5664,7 +4800,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 350,
+    "id": 296,
     "releasedOn": "2014-06"
   },
   {
@@ -5680,7 +4816,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 351,
+    "id": 297,
     "releasedOn": "2014-06"
   },
   {
@@ -5696,7 +4832,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 352,
+    "id": 298,
     "releasedOn": "2014-06"
   },
   {
@@ -5712,7 +4848,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 353,
+    "id": 299,
     "releasedOn": "2019-06-06"
   },
   {
@@ -5728,7 +4864,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 354,
+    "id": 300,
     "releasedOn": "2013-09-09"
   },
   {
@@ -5744,7 +4880,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 355,
+    "id": 301,
     "releasedOn": "2018-07"
   },
   {
@@ -5760,7 +4896,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 356,
+    "id": 302,
     "releasedOn": "2018-02"
   },
   {
@@ -5776,7 +4912,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 357,
+    "id": 303,
     "releasedOn": "2013-06"
   },
   {
@@ -5792,7 +4928,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 358,
+    "id": 304,
     "releasedOn": "2015-12-08"
   },
   {
@@ -5808,7 +4944,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 359,
+    "id": 305,
     "releasedOn": "2017-11"
   },
   {
@@ -5824,7 +4960,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 360,
+    "id": 306,
     "releasedOn": "2018-04"
   },
   {
@@ -5840,7 +4976,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 361,
+    "id": 307,
     "releasedOn": "2012-04"
   },
   {
@@ -5856,7 +4992,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 362,
+    "id": 308,
     "releasedOn": "2012-05"
   },
   {
@@ -5872,7 +5008,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 363,
+    "id": 309,
     "releasedOn": "2016-02"
   },
   {
@@ -5888,7 +5024,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 364,
+    "id": 310,
     "releasedOn": "2018-05"
   },
   {
@@ -5904,7 +5040,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 365,
+    "id": 311,
     "releasedOn": "2015-12"
   },
   {
@@ -5920,7 +5056,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 366,
+    "id": 312,
     "releasedOn": "2019-09"
   },
   {
@@ -5936,7 +5072,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 367,
+    "id": 313,
     "releasedOn": "2016-01"
   },
   {
@@ -5952,7 +5088,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 368,
+    "id": 314,
     "releasedOn": "2014-06"
   },
   {
@@ -5968,7 +5104,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 369,
+    "id": 315,
     "releasedOn": "2018-11"
   },
   {
@@ -5984,7 +5120,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 370,
+    "id": 316,
     "releasedOn": "2013-11"
   },
   {
@@ -6000,7 +5136,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 371,
+    "id": 317,
     "releasedOn": "2017-12"
   },
   {
@@ -6016,7 +5152,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 372,
+    "id": 318,
     "releasedOn": [
       {
         "Find 7a": "2014-03-19"
@@ -6039,7 +5175,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 373
+    "id": 319
   },
   {
     "deviceName": "Google Pixel 4",
@@ -6054,7 +5190,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 374,
+    "id": 320,
     "releasedOn": "2019-09"
   },
   {
@@ -6070,7 +5206,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 375,
+    "id": 321,
     "releasedOn": "2013-07-26"
   },
   {
@@ -6086,7 +5222,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 376,
+    "id": 322,
     "releasedOn": "2013-07-26"
   },
   {
@@ -6102,7 +5238,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 377,
+    "id": 323,
     "releasedOn": "2014-11-03"
   },
   {
@@ -6118,7 +5254,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 378,
+    "id": 324,
     "releasedOn": "2014-11-03"
   },
   {
@@ -6134,7 +5270,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 379,
+    "id": 325,
     "releasedOn": "2015-05-28"
   },
   {
@@ -6150,7 +5286,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 380,
+    "id": 326,
     "releasedOn": "2014-10"
   },
   {
@@ -6166,7 +5302,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 381,
+    "id": 327,
     "releasedOn": "2014-04"
   },
   {
@@ -6182,7 +5318,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 382,
+    "id": 328,
     "releasedOn": "2016-04"
   },
   {
@@ -6198,7 +5334,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 383,
+    "id": 329,
     "releasedOn": "2013-08-23"
   },
   {
@@ -6214,7 +5350,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 384,
+    "id": 330,
     "releasedOn": "2019-10-16"
   },
   {
@@ -6230,7 +5366,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 385,
+    "id": 331,
     "releasedOn": 2016
   },
   {
@@ -6246,7 +5382,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 386,
+    "id": 332,
     "releasedOn": "2016-09"
   },
   {
@@ -6262,7 +5398,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 387,
+    "id": 333,
     "releasedOn": "2015-07"
   },
   {
@@ -6278,7 +5414,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 388,
+    "id": 334,
     "releasedOn": "2016-01"
   },
   {
@@ -6294,7 +5430,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 389,
+    "id": 335,
     "releasedOn": "2015-09"
   },
   {
@@ -6310,7 +5446,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 390,
+    "id": 336,
     "releasedOn": 2016
   },
   {
@@ -6326,7 +5462,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 391,
+    "id": 337,
     "releasedOn": "2015-09"
   },
   {
@@ -6342,7 +5478,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 392,
+    "id": 338,
     "releasedOn": 2016
   },
   {
@@ -6358,7 +5494,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 393,
+    "id": 339,
     "releasedOn": "2020-04-02"
   },
   {
@@ -6374,7 +5510,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 394,
+    "id": 340,
     "releasedOn": 2019
   },
   {
@@ -6390,7 +5526,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 395,
+    "id": 341,
     "releasedOn": 2019
   },
   {
@@ -6406,7 +5542,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 396,
+    "id": 342,
     "releasedOn": "2019-05"
   },
   {
@@ -6422,7 +5558,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 397,
+    "id": 343,
     "releasedOn": "2019-05"
   },
   {
@@ -6438,7 +5574,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 398,
+    "id": 344,
     "releasedOn": "2015-06"
   },
   {
@@ -6454,7 +5590,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 399,
+    "id": 345,
     "releasedOn": "2015-06"
   },
   {
@@ -6470,7 +5606,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 400,
+    "id": 346,
     "releasedOn": "2016-02"
   },
   {
@@ -6486,7 +5622,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 401,
+    "id": 347,
     "releasedOn": "2016-02"
   },
   {
@@ -6502,7 +5638,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 402,
+    "id": 348,
     "releasedOn": "2017-02"
   },
   {
@@ -6518,7 +5654,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 403,
+    "id": 349,
     "releasedOn": "2016-10"
   },
   {
@@ -6534,7 +5670,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 404,
+    "id": 350,
     "releasedOn": "2016-10"
   },
   {
@@ -6550,7 +5686,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 405,
+    "id": 351,
     "releasedOn": "2016-10"
   },
   {
@@ -6566,7 +5702,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 406,
+    "id": 352,
     "releasedOn": "2013-09"
   },
   {
@@ -6582,7 +5718,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 407,
+    "id": 353,
     "releasedOn": "2015-10-14"
   },
   {
@@ -6598,7 +5734,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 408,
+    "id": 354,
     "releasedOn": "2013-10-31"
   },
   {
@@ -6614,7 +5750,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 409,
+    "id": 355,
     "releasedOn": "2018-05"
   },
   {
@@ -6630,7 +5766,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 410,
+    "id": 356,
     "releasedOn": "2016-05"
   },
   {
@@ -6646,7 +5782,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 411,
+    "id": 357,
     "releasedOn": null
   },
   {
@@ -6662,7 +5798,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 412,
+    "id": 358,
     "releasedOn": "2016-03-18"
   },
   {
@@ -6678,7 +5814,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 413,
+    "id": 359,
     "releasedOn": "2016-03-18"
   },
   {
@@ -6694,7 +5830,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 414,
+    "id": 360,
     "releasedOn": "2015-10-20"
   },
   {
@@ -6710,7 +5846,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 415
+    "id": 361
   },
   {
     "deviceName": "HTC One A9 (GSM US)",
@@ -6725,7 +5861,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 416
+    "id": 362
   },
   {
     "deviceName": "HTC One M9 (GSM)",
@@ -6740,7 +5876,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 417,
+    "id": 363,
     "releasedOn": "2015-03"
   },
   {
@@ -6756,7 +5892,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 418,
+    "id": 364,
     "releasedOn": "2015-03"
   },
   {
@@ -6772,7 +5908,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 419,
+    "id": 365,
     "releasedOn": "2013-09"
   },
   {
@@ -6788,7 +5924,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 420,
+    "id": 366,
     "releasedOn": "2013-09"
   },
   {
@@ -6804,7 +5940,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 421,
+    "id": 367,
     "releasedOn": "2013-09"
   },
   {
@@ -6820,7 +5956,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 422,
+    "id": 368,
     "releasedOn": "2013-09"
   },
   {
@@ -6836,7 +5972,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 423,
+    "id": 369,
     "releasedOn": "2019-10"
   },
   {
@@ -6852,7 +5988,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 424,
+    "id": 370,
     "releasedOn": "2019-09"
   },
   {
@@ -6868,7 +6004,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 425,
+    "id": 371,
     "releasedOn": "2013-04"
   },
   {
@@ -6884,7 +6020,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 426,
+    "id": 372,
     "releasedOn": "2016-05"
   },
   {
@@ -6900,7 +6036,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 427,
+    "id": 373,
     "releasedOn": "2019-09"
   },
   {
@@ -6916,7 +6052,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 428,
+    "id": 374,
     "releasedOn": "2019-05-16"
   },
   {
@@ -6932,7 +6068,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 429,
+    "id": 375,
     "releasedOn": "2011-02-11"
   },
   {
@@ -6948,7 +6084,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 430,
+    "id": 376,
     "releasedOn": "2012-05"
   },
   {
@@ -6964,7 +6100,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 431,
+    "id": 377,
     "releasedOn": "2012-10"
   },
   {
@@ -6980,7 +6116,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 432,
+    "id": 378,
     "releasedOn": "2016-01"
   },
   {
@@ -6996,7 +6132,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 433,
+    "id": 379,
     "releasedOn": "2020-04"
   },
   {
@@ -7012,7 +6148,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 434,
+    "id": 380,
     "releasedOn": "2020-04"
   },
   {
@@ -7028,7 +6164,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 435,
+    "id": 381,
     "releasedOn": "2015-06"
   },
   {
@@ -7044,7 +6180,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 436,
+    "id": 382,
     "releasedOn": "2015-06"
   },
   {
@@ -7060,7 +6196,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 437,
+    "id": 383,
     "releasedOn": "2013-06"
   },
   {
@@ -7076,7 +6212,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 438,
+    "id": 384,
     "releasedOn": "2014-08"
   },
   {
@@ -7092,7 +6228,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 439,
+    "id": 385,
     "releasedOn": "2014-08"
   },
   {
@@ -7108,7 +6244,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 440,
+    "id": 386,
     "releasedOn": "2015-09"
   },
   {
@@ -7124,7 +6260,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 441,
+    "id": 387,
     "releasedOn": "2016-08"
   },
   {
@@ -7140,7 +6276,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 442,
+    "id": 388,
     "releasedOn": "2018-07"
   },
   {
@@ -7156,7 +6292,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 443,
+    "id": 389,
     "releasedOn": "2017-09"
   },
   {
@@ -7172,7 +6308,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 444,
+    "id": 390,
     "releasedOn": "2013-04"
   },
   {
@@ -7188,7 +6324,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 445,
+    "id": 391,
     "releasedOn": "2013-04"
   },
   {
@@ -7204,7 +6340,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 446,
+    "id": 392,
     "releasedOn": "2013-04"
   },
   {
@@ -7220,7 +6356,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 447,
+    "id": 393,
     "releasedOn": "2013-04"
   },
   {
@@ -7236,7 +6372,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 448,
+    "id": 394,
     "releasedOn": "2014-04"
   },
   {
@@ -7252,7 +6388,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 449,
+    "id": 395,
     "releasedOn": "2014-03"
   },
   {
@@ -7268,7 +6404,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 450,
+    "id": 396,
     "releasedOn": "2015-10"
   },
   {
@@ -7284,7 +6420,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 451,
+    "id": 397,
     "releasedOn": "2015-10"
   },
   {
@@ -7300,7 +6436,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 452,
+    "id": 398,
     "releasedOn": "2014-08-21"
   },
   {
@@ -7316,7 +6452,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 453,
+    "id": 399,
     "releasedOn": "2020-10"
   },
   {
@@ -7332,7 +6468,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 454,
+    "id": 400,
     "releasedOn": "2016-02"
   },
   {
@@ -7348,7 +6484,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 455,
+    "id": 401,
     "releasedOn": "2014-09"
   },
   {
@@ -7364,7 +6500,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 456,
+    "id": 402,
     "releasedOn": "2015-11"
   },
   {
@@ -7380,7 +6516,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 457,
+    "id": 403,
     "releasedOn": "2019-02"
   },
   {
@@ -7396,7 +6532,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 458,
+    "id": 404,
     "releasedOn": "2015-11"
   },
   {
@@ -7412,7 +6548,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 459,
+    "id": 405,
     "releasedOn": 2014
   },
   {
@@ -7428,7 +6564,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 460,
+    "id": 406,
     "releasedOn": "2014-04-11"
   },
   {
@@ -7444,7 +6580,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 461,
+    "id": 407,
     "releasedOn": "2014-12"
   },
   {
@@ -7460,7 +6596,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 462,
+    "id": 408,
     "releasedOn": "2014-04-11"
   },
   {
@@ -7476,7 +6612,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 463,
+    "id": 409,
     "releasedOn": [
       {
         "SM-G9006V": "2014-04"
@@ -7499,7 +6635,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 464,
+    "id": 410,
     "releasedOn": [
       {
         "SM-G9006W": "2014-04"
@@ -7525,7 +6661,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 465,
+    "id": 411,
     "releasedOn": [
       {
         "SM-G900FD": "2014-06"
@@ -7548,7 +6684,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 466,
+    "id": 412,
     "releasedOn": "2014-04"
   },
   {
@@ -7564,7 +6700,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 467,
+    "id": 413,
     "releasedOn": "2014-05"
   },
   {
@@ -7580,7 +6716,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 468,
+    "id": 414,
     "releasedOn": "2014-04"
   },
   {
@@ -7596,7 +6732,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 469,
+    "id": 415,
     "releasedOn": "2014-06-23"
   },
   {
@@ -7612,7 +6748,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 470,
+    "id": 416,
     "releasedOn": "2013-10"
   },
   {
@@ -7628,7 +6764,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 471,
+    "id": 417,
     "releasedOn": "2016-11"
   },
   {
@@ -7644,7 +6780,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 472,
+    "id": 418,
     "releasedOn": "2019-02"
   },
   {
@@ -7660,7 +6796,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 473,
+    "id": 419,
     "releasedOn": "2016-06"
   },
   {
@@ -7676,7 +6812,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 474,
+    "id": 420,
     "releasedOn": "2019-01"
   },
   {
@@ -7692,7 +6828,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 475,
+    "id": 421,
     "releasedOn": "2021-03"
   },
   {
@@ -7708,7 +6844,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 476,
+    "id": 422,
     "releasedOn": "2014-07-15"
   },
   {
@@ -7724,7 +6860,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 477,
+    "id": 423,
     "releasedOn": "2015-05-12"
   },
   {
@@ -7740,7 +6876,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 478,
+    "id": 424,
     "releasedOn": "2015-09"
   },
   {
@@ -7756,7 +6892,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 479,
+    "id": 425,
     "releasedOn": "2016-10"
   },
   {
@@ -7772,7 +6908,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 480,
+    "id": 426,
     "releasedOn": [
       {
         "POCO F2 Pro": "2020-05"
@@ -7798,7 +6934,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 481,
+    "id": 427,
     "releasedOn": "2014-06"
   },
   {
@@ -7814,7 +6950,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 482,
+    "id": 428,
     "releasedOn": "2016-10"
   },
   {
@@ -7830,7 +6966,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 483,
+    "id": 429,
     "releasedOn": "2016-09"
   },
   {
@@ -7846,7 +6982,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 484,
+    "id": 430,
     "releasedOn": "2013-10"
   },
   {
@@ -7862,7 +6998,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 485,
+    "id": 431,
     "releasedOn": "2015-08"
   },
   {
@@ -7878,7 +7014,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 486,
+    "id": 432,
     "releasedOn": "2019-01-28"
   },
   {
@@ -7894,7 +7030,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 487,
+    "id": 433,
     "releasedOn": "2016-01"
   },
   {
@@ -7910,7 +7046,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 488,
+    "id": 434,
     "releasedOn": "2013-03"
   },
   {
@@ -7926,7 +7062,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 489,
+    "id": 435,
     "releasedOn": "2013-03"
   },
   {
@@ -7942,7 +7078,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 490,
+    "id": 436,
     "releasedOn": "2014-03"
   },
   {
@@ -7958,7 +7094,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 491,
+    "id": 437,
     "releasedOn": "2014-06"
   },
   {
@@ -7974,7 +7110,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 492,
+    "id": 438,
     "releasedOn": "2011-10"
   },
   {
@@ -7990,7 +7126,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 493,
+    "id": 439,
     "releasedOn": "2012-11-13"
   },
   {
@@ -8006,7 +7142,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 494,
+    "id": 440,
     "releasedOn": "2012-11-13"
   },
   {
@@ -8022,7 +7158,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 495,
+    "id": 441,
     "releasedOn": "2016-10"
   },
   {
@@ -8038,7 +7174,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 496,
+    "id": 442,
     "releasedOn": "2017-08"
   },
   {
@@ -8054,7 +7190,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 497,
+    "id": 443,
     "releasedOn": "2012-02-10"
   },
   {
@@ -8070,7 +7206,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 498,
+    "id": 444,
     "releasedOn": "2015-11"
   },
   {
@@ -8086,7 +7222,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 499,
+    "id": 445,
     "releasedOn": "2019-02"
   },
   {
@@ -8102,7 +7238,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 500,
+    "id": 446,
     "releasedOn": "2017-01"
   },
   {
@@ -8118,7 +7254,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 501,
+    "id": 447,
     "releasedOn": null
   },
   {
@@ -8134,7 +7270,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 502,
+    "id": 448,
     "releasedOn": "2014-01"
   },
   {
@@ -8150,7 +7286,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 503,
+    "id": 449,
     "releasedOn": "2017-08"
   },
   {
@@ -8166,7 +7302,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 504,
+    "id": 450,
     "releasedOn": "2013-11-25"
   },
   {
@@ -8182,7 +7318,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 505,
+    "id": 451,
     "releasedOn": "2014-01"
   },
   {
@@ -8198,7 +7334,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 506,
+    "id": 452,
     "releasedOn": 2013
   },
   {
@@ -8214,7 +7350,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 507,
+    "id": 453,
     "releasedOn": 2014
   },
   {
@@ -8230,7 +7366,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 508,
+    "id": 454,
     "releasedOn": "2015-01"
   },
   {
@@ -8246,7 +7382,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 509,
+    "id": 455,
     "releasedOn": "2013-04"
   },
   {
@@ -8262,7 +7398,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 510,
+    "id": 456,
     "releasedOn": "2013-04"
   },
   {
@@ -8278,7 +7414,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 511,
+    "id": 457,
     "releasedOn": "2013-04"
   },
   {
@@ -8294,7 +7430,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 512,
+    "id": 458,
     "releasedOn": "2017-07"
   },
   {
@@ -8310,7 +7446,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 513,
+    "id": 459,
     "releasedOn": "2016-10"
   },
   {
@@ -8326,7 +7462,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 514,
+    "id": 460,
     "releasedOn": "2013-06"
   },
   {
@@ -8342,7 +7478,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 515,
+    "id": 461,
     "releasedOn": "2015-06"
   },
   {
@@ -8358,7 +7494,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 516,
+    "id": 462,
     "releasedOn": "2017-06"
   },
   {
@@ -8374,7 +7510,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 517,
+    "id": 463,
     "releasedOn": "2013-03"
   },
   {
@@ -8390,7 +7526,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 518,
+    "id": 464,
     "releasedOn": "2019-03-25"
   },
   {
@@ -8406,7 +7542,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 519,
+    "id": 465,
     "releasedOn": "2019-03"
   },
   {
@@ -8422,7 +7558,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 520,
+    "id": 466,
     "releasedOn": "2015-08-28"
   },
   {
@@ -8438,7 +7574,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 521,
+    "id": 467,
     "releasedOn": [
       {
         "A3000": "2016-06"
@@ -8461,7 +7597,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 522,
+    "id": 468,
     "releasedOn": "2015-11"
   },
   {
@@ -8477,7 +7613,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 523,
+    "id": 469,
     "releasedOn": "2015-07"
   },
   {
@@ -8493,7 +7629,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 524,
+    "id": 470,
     "releasedOn": "2015-02-25"
   },
   {
@@ -8509,7 +7645,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 525,
+    "id": 471,
     "releasedOn": "2015-07"
   },
   {
@@ -8525,7 +7661,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 526,
+    "id": 472,
     "releasedOn": 2015
   },
   {
@@ -8541,7 +7677,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 527,
+    "id": 473,
     "releasedOn": "2017-10"
   },
   {
@@ -8557,7 +7693,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 528,
+    "id": 474,
     "releasedOn": "2015-07"
   },
   {
@@ -8573,7 +7709,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 529,
+    "id": 475,
     "releasedOn": "2014-06"
   },
   {
@@ -8589,7 +7725,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 530,
+    "id": 476,
     "releasedOn": "2015-08"
   },
   {
@@ -8605,7 +7741,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 531,
+    "id": 477,
     "releasedOn": "2018-02"
   },
   {
@@ -8621,7 +7757,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 532,
+    "id": 478,
     "releasedOn": 2018
   },
   {
@@ -8637,7 +7773,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 533,
+    "id": 479,
     "releasedOn": "2018-09"
   },
   {
@@ -8653,7 +7789,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 534,
+    "id": 480,
     "releasedOn": "2016-05"
   },
   {
@@ -8669,7 +7805,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 535,
+    "id": 481,
     "releasedOn": "2018-04"
   },
   {
@@ -8685,7 +7821,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 536,
+    "id": 482,
     "releasedOn": "2013-02"
   },
   {
@@ -8701,7 +7837,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 537,
+    "id": 483,
     "releasedOn": "2013-02"
   },
   {
@@ -8717,7 +7853,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 538,
+    "id": 484,
     "releasedOn": "2019-10"
   },
   {
@@ -8733,7 +7869,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 539,
+    "id": 485,
     "releasedOn": [
       {
         "R8106": "2014-12"
@@ -8756,7 +7892,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 540,
+    "id": 486,
     "releasedOn": "2015-05"
   },
   {
@@ -8772,7 +7908,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 541,
+    "id": 487,
     "releasedOn": "2015-11"
   },
   {
@@ -8788,7 +7924,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 542,
+    "id": 488,
     "releasedOn": "2020-05"
   },
   {
@@ -8804,7 +7940,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 543,
+    "id": 489,
     "releasedOn": "2020-10"
   },
   {
@@ -8820,7 +7956,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 544,
+    "id": 490,
     "releasedOn": "2018-05"
   },
   {
@@ -8836,7 +7972,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 545,
+    "id": 491,
     "releasedOn": "2019-02-07"
   },
   {
@@ -8852,7 +7988,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 546,
+    "id": 492,
     "releasedOn": "2018-10-11"
   },
   {
@@ -8868,7 +8004,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 547,
+    "id": 493,
     "releasedOn": "2019-04-29"
   },
   {
@@ -8884,7 +8020,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 548,
+    "id": 494,
     "releasedOn": "2013-07-31"
   },
   {
@@ -8900,7 +8036,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 549,
+    "id": 495,
     "releasedOn": "2016-02"
   },
   {
@@ -8916,7 +8052,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 550,
+    "id": 496,
     "releasedOn": "2016-04"
   },
   {
@@ -8932,7 +8068,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 551,
+    "id": 497,
     "releasedOn": "2014-04-11"
   },
   {
@@ -8948,7 +8084,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 552,
+    "id": 498,
     "releasedOn": "2014-04-11"
   },
   {
@@ -8964,7 +8100,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 553,
+    "id": 499,
     "releasedOn": "2014-04-11"
   },
   {
@@ -8980,7 +8116,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 554,
+    "id": 500,
     "releasedOn": "2015-08"
   },
   {
@@ -8996,7 +8132,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 555,
+    "id": 501,
     "releasedOn": "2017-04"
   },
   {
@@ -9012,7 +8148,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 556,
+    "id": 502,
     "releasedOn": "2016-10"
   },
   {
@@ -9028,7 +8164,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 557,
+    "id": 503,
     "releasedOn": "2017-05"
   },
   {
@@ -9044,7 +8180,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 558,
+    "id": 504,
     "releasedOn": "2019-04"
   },
   {
@@ -9060,7 +8196,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 559,
+    "id": 505,
     "releasedOn": "2016-11"
   },
   {
@@ -9076,7 +8212,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 560,
+    "id": 506,
     "releasedOn": "2015-07"
   },
   {
@@ -9092,7 +8228,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 561,
+    "id": 507,
     "releasedOn": "2014-10-29"
   },
   {
@@ -9108,7 +8244,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 562,
+    "id": 508,
     "releasedOn": "2014-07-29"
   },
   {
@@ -9124,7 +8260,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 563,
+    "id": 509,
     "releasedOn": "2011-11-11"
   },
   {
@@ -9140,7 +8276,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 564,
+    "id": 510,
     "releasedOn": "2018-03-11"
   },
   {
@@ -9156,7 +8292,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 565,
+    "id": 511,
     "releasedOn": "2018-03-11"
   },
   {
@@ -9172,7 +8308,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 566,
+    "id": 512,
     "releasedOn": "2015-09"
   },
   {
@@ -9188,7 +8324,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 567,
+    "id": 513,
     "releasedOn": "2020-08"
   },
   {
@@ -9204,7 +8340,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 568,
+    "id": 514,
     "releasedOn": "2015-02"
   },
   {
@@ -9220,7 +8356,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 569,
+    "id": 515,
     "releasedOn": "2015-10"
   },
   {
@@ -9236,7 +8372,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 570,
+    "id": 516,
     "releasedOn": "2012-09"
   },
   {
@@ -9252,7 +8388,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 571
+    "id": 517
   },
   {
     "deviceName": "HTC One Max",
@@ -9267,7 +8403,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 572,
+    "id": 518,
     "releasedOn": "2013-10"
   },
   {
@@ -9283,7 +8419,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 573,
+    "id": 519,
     "releasedOn": "2013-10"
   },
   {
@@ -9299,7 +8435,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 574,
+    "id": 520,
     "releasedOn": "2017-10"
   },
   {
@@ -9315,7 +8451,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 575,
+    "id": 521,
     "releasedOn": "2013-05"
   },
   {
@@ -9331,7 +8467,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 576,
+    "id": 522,
     "releasedOn": "2011-09-08"
   },
   {
@@ -9347,7 +8483,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 577,
+    "id": 523,
     "releasedOn": 2016
   },
   {
@@ -9363,7 +8499,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 578,
+    "id": 524,
     "releasedOn": "2015-01"
   },
   {
@@ -9379,7 +8515,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 579,
+    "id": 525,
     "releasedOn": "2017-10"
   },
   {
@@ -9395,7 +8531,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 580,
+    "id": 526,
     "releasedOn": "2014-06"
   },
   {
@@ -9411,7 +8547,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 581,
+    "id": 527,
     "releasedOn": [
       {
         "AO5510": "2014-12-18"
@@ -9434,7 +8570,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 582,
+    "id": 528,
     "releasedOn": "2011-12-15"
   },
   {
@@ -9450,7 +8586,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 583,
+    "id": 529,
     "releasedOn": "2012-01"
   },
   {
@@ -9466,7 +8602,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 584,
+    "id": 530,
     "releasedOn": null
   },
   {
@@ -9482,7 +8618,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 585,
+    "id": 531,
     "releasedOn": "2016-09"
   },
   {
@@ -9498,7 +8634,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 586,
+    "id": 532,
     "releasedOn": "2018-10"
   },
   {
@@ -9514,7 +8650,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 587,
+    "id": 533,
     "releasedOn": "2011-11-11"
   },
   {
@@ -9530,7 +8666,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 588,
+    "id": 534,
     "releasedOn": "2016-10"
   },
   {
@@ -9546,7 +8682,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 589,
+    "id": 535,
     "releasedOn": "2017-02"
   },
   {
@@ -9562,7 +8698,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 590,
+    "id": 536,
     "releasedOn": 2014
   },
   {
@@ -9578,7 +8714,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 591,
+    "id": 537,
     "releasedOn": "2014-07"
   },
   {
@@ -9594,7 +8730,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 592,
+    "id": 538,
     "releasedOn": "2014-05"
   },
   {
@@ -9610,7 +8746,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 593,
+    "id": 539,
     "releasedOn": "2014-07"
   },
   {
@@ -9626,7 +8762,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 594,
+    "id": 540,
     "releasedOn": "2013-10-14"
   },
   {
@@ -9642,7 +8778,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 595,
+    "id": 541,
     "releasedOn": "2016-06"
   },
   {
@@ -9658,7 +8794,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 596,
+    "id": 542,
     "releasedOn": [
       {
         "E5 4G": 2014
@@ -9681,7 +8817,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 597,
+    "id": 543,
     "releasedOn": "2014-09-26"
   },
   {
@@ -9697,7 +8833,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 598,
+    "id": 544,
     "releasedOn": "2019-03-13"
   },
   {
@@ -9713,7 +8849,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 599,
+    "id": 545,
     "releasedOn": "2018-07"
   },
   {
@@ -9729,7 +8865,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 600,
+    "id": 546,
     "releasedOn": "2014-06"
   },
   {
@@ -9745,7 +8881,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 601,
+    "id": 547,
     "releasedOn": "2016-10"
   },
   {
@@ -9761,7 +8897,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 602,
+    "id": 548,
     "releasedOn": "2014-04"
   },
   {
@@ -9777,7 +8913,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 603,
+    "id": 549,
     "releasedOn": "2014-02"
   },
   {
@@ -9793,7 +8929,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 604,
+    "id": 550,
     "releasedOn": "2017-10"
   },
   {
@@ -9809,7 +8945,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 605,
+    "id": 551,
     "releasedOn": "2018-04"
   },
   {
@@ -9825,7 +8961,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 606,
+    "id": 552,
     "releasedOn": "2018-02"
   },
   {
@@ -9841,7 +8977,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 607,
+    "id": 553,
     "releasedOn": "2015-01"
   },
   {
@@ -9857,7 +8993,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 608,
+    "id": 554,
     "releasedOn": "2018-05"
   },
   {
@@ -9873,7 +9009,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 609,
+    "id": 555,
     "releasedOn": "2018-10"
   },
   {
@@ -9889,7 +9025,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 610,
+    "id": 556,
     "releasedOn": "2018-12"
   },
   {
@@ -9905,7 +9041,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 611,
+    "id": 557,
     "releasedOn": "2016-04"
   },
   {
@@ -9921,7 +9057,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 612,
+    "id": 558,
     "releasedOn": "2018-04"
   },
   {
@@ -9937,7 +9073,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 613,
+    "id": 559,
     "releasedOn": "2012-08-19"
   },
   {
@@ -9953,7 +9089,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 614,
+    "id": 560,
     "releasedOn": "2016-12"
   },
   {
@@ -9969,7 +9105,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 615,
+    "id": 561,
     "releasedOn": "2016-12"
   },
   {
@@ -9985,7 +9121,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 616,
+    "id": 562,
     "releasedOn": "2013-02"
   },
   {
@@ -10001,7 +9137,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 617,
+    "id": 563,
     "releasedOn": "2015-03"
   },
   {
@@ -10017,7 +9153,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 618,
+    "id": 564,
     "releasedOn": "2015-03"
   },
   {
@@ -10033,7 +9169,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 619,
+    "id": 565,
     "releasedOn": "2015-03"
   },
   {
@@ -10049,7 +9185,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 620,
+    "id": 566,
     "releasedOn": "2015-11"
   },
   {
@@ -10065,7 +9201,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 621,
+    "id": 567,
     "releasedOn": "2015-11"
   },
   {
@@ -10081,7 +9217,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 622,
+    "id": 568,
     "releasedOn": "2018-06"
   },
   {
@@ -10097,7 +9233,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 623,
+    "id": 569,
     "releasedOn": "2016-06"
   },
   {
@@ -10113,7 +9249,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 624,
+    "id": 570,
     "releasedOn": "2014-09-04"
   },
   {
@@ -10129,7 +9265,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 625,
+    "id": 571,
     "releasedOn": "2014-09-04"
   },
   {
@@ -10145,7 +9281,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 626,
+    "id": 572,
     "releasedOn": "2018-05"
   },
   {
@@ -10161,7 +9297,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 627,
+    "id": 573,
     "releasedOn": "2018-05"
   },
   {
@@ -10177,7 +9313,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 628,
+    "id": 574,
     "releasedOn": "2016-05-30"
   },
   {
@@ -10193,7 +9329,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 629,
+    "id": 575,
     "releasedOn": "2015-04"
   },
   {
@@ -10209,7 +9345,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 630,
+    "id": 576,
     "releasedOn": "2015-04"
   },
   {
@@ -10225,7 +9361,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 631,
+    "id": 577,
     "releasedOn": "2019-09-11"
   },
   {
@@ -10241,7 +9377,7 @@
       ],
       "name": "LineageOS"
     },
-    "id": 632,
+    "id": 578,
     "releasedOn": [
       {
         "Le Pro3": "2016-10"
