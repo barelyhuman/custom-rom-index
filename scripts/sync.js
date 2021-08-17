@@ -2,6 +2,7 @@ const { devices } = require('../db/db')
 const { generateDevices } = require('./generate-devices')
 const { syncCRAndroid } = require('./sync-crdroid')
 const { syncLineageOS } = require('./sync-lineage-os')
+const { syncLocalReleases } = require('./sync-local-releases')
 const { syncPixelExperience } = require('./sync-pixel-experience')
 
 async function main () {
@@ -9,6 +10,7 @@ async function main () {
   _devices = await syncLineageOS(_devices)
   _devices = await syncCRAndroid(_devices)
   await generateDevices(_devices)
+  syncLocalReleases()
   console.log('✔ Done Syncing everything')
 }
 
