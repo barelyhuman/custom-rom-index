@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const devices = require('../db/devices.json')
 const { writeFileSync } = require('fs')
 const path = require('path')

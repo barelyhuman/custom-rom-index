@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { addDevice, STATUS_ENUM, devices } = require('../db/db')
 const _got = require('got')
 const { generateDevices } = require('./generate-devices')

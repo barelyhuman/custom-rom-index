@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { devices } = require('../db/db')
 const { generateDevices } = require('./generate-devices')
 const { syncCRAndroid } = require('./sync-crdroid')
