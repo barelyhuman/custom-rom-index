@@ -53,9 +53,9 @@ function Home () {
           <div className='m-1 p-1'>
             <ActiveDeviceROMsCount />
           </div>
-          <div className='m-1 p-1'>
-            <TopDevicesRomCount />
-          </div>
+        </div>
+        <div className='m-1 p-1'>
+          <TopDevicesRomCount />
         </div>
       </section>
       <Footer />

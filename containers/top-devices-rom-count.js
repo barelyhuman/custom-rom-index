@@ -1,9 +1,9 @@
-const { topThreeInROMCount } = require('lib/analytical-utils')
+const { topDevicesInROMCount } = require('lib/analytical-utils')
 
 export function TopDevicesRomCount () {
-  const deviceData = topThreeInROMCount()
+  const deviceData = topDevicesInROMCount()
   return (
-    <div className='flex flex-col items-center justify-center border border-gray-100 rounded-lg p-5 shadow'>
+    <div className='flex flex-col items-center justify-center p-5'>
       <h2 className='mb-4 text-xl font-bold text-gray-700 title-font'>
         Top Devices by ROM Count
       </h2>
