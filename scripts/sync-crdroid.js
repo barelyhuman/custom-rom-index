@@ -1,8 +1,13 @@
 #!/usr/bin/env node
-const { addDevice, STATUS_ENUM, devices } = require('../db/db')
+const { addDevice, devices } = require('../db/db')
 const _got = require('got')
 const { generateDevices } = require('./generate-devices')
 const conch = require('@barelyreaper/conch')
+const { logcons } = require('logcons')
+const kluer = require('kleur')
+const { STATUS_ENUM } = require('../db/status_enum')
+const info = kluer.cyan().bold
+const success = kluer.green().bold
 
 const V11_COMMIT =
   'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/11.0'
@@ -12,7 +17,7 @@ const V10_COMMIT =
 async function main (deviceList) {
   await addV11Devices()
   await addV10Devices()
-  console.log('✔ Done, Syncing crAndroid')
+  console.log(success(`${logcons.tick()} Done, Syncing CRDroid`))
   return deviceList
 }
 
@@ -32,7 +37,7 @@ async function addV11Devices () {
   await conch(devicesToSync, (item) => addCRDroidToDevices(item, 11), {
     limit: 1
   })
-  console.log('Synced: 11.0 crDroid')
+  console.log(info(`${logcons.info()} Synced: 11.0 crDroid`))
 }
 
 async function addV10Devices () {
@@ -51,7 +56,7 @@ async function addV10Devices () {
   await conch(devicesToSync, (item) => addCRDroidToDevices(item, 10), {
     limit: 10
   })
-  console.log('Synced: 10.0 crDroid')
+  console.log(info(`${logcons.info()} Synced: 10.0 crDroid`))
 }
 
 async function addCRDroidToDevices (item, version) {

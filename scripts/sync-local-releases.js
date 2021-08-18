@@ -1,21 +1,29 @@
 #!/usr/bin/env node
-const devices = require('../db/devices.json')
+const { db } = require('../db/db')
 const { writeFileSync } = require('fs')
 const path = require('path')
 const localReleaseDB = require('../db/release-dates.json')
 
+const kluer = require('kleur')
+const { logcons } = require('logcons')
+
+const success = kluer.green().bold
+
 async function main () {
-  const withLocalReleaseDates = devices.map((item) => {
-    item.releasedOn = item.releasedOn || localReleaseDB[item.codename]
-    return item
-  })
+  const withLocalReleaseDates = db
+    .get('devices')
+    .map((item) => {
+      item.releasedOn = item.releasedOn || localReleaseDB[item.codename]
+      return item
+    })
+    .value()
 
   writeFileSync(
     path.join(__dirname, '../db/devices.json'),
     JSON.stringify(withLocalReleaseDates, null, 2)
   )
 
-  console.log('✔ Done, Syncing Local Release Dates')
+  console.log(success(`${logcons.tick()} Done, Syncing Local Release Dates`))
 }
 
 exports.syncLocalReleases = main

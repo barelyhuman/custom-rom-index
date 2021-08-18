@@ -5,6 +5,10 @@ const YAML = require('yaml')
 const fs = require('fs')
 const { devices } = require('../db/db.js')
 const path = require('path')
+const { logcons } = require('logcons')
+const kluer = require('kleur')
+const info = kluer.cyan().bold
+const { db } = require('../db/db')
 
 const URL_TEMPLATE = (deviceCodeName) =>
   `https://raw.githubusercontent.com/PixelExperience/wiki/master/_data/devices/${deviceCodeName}.yml`
@@ -40,15 +44,20 @@ async function deviceInfoAPI (codename) {
 }
 
 async function main (deviceList) {
-  console.log('ℹ Generating Devices')
-  const withReleasesPromises = deviceList.map(async (item) => {
-    const { dataSourceOne, dataSourceTwo } = await deviceInfoAPI(item.codename)
-    item.releasedOn =
-      item.releasedOn ||
-      (dataSourceOne && dataSourceOne.release) ||
-      (dataSourceTwo && dataSourceTwo.release)
-    return item
-  })
+  console.log(info(`${logcons.info()} Generating Devices`))
+  const withReleasesPromises = db
+    .get('devices')
+    .map(async (item) => {
+      const { dataSourceOne, dataSourceTwo } = await deviceInfoAPI(
+        item.codename
+      )
+      item.releasedOn =
+        item.releasedOn ||
+        (dataSourceOne && dataSourceOne.release) ||
+        (dataSourceTwo && dataSourceTwo.release)
+      return item
+    })
+    .value()
   const withRelease = await Promise.all(withReleasesPromises)
 
   fs.writeFileSync(

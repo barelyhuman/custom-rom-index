@@ -1,7 +1,12 @@
 #!/usr/bin/env node
-const { addDevice, STATUS_ENUM, devices } = require('../db/db')
+const { addDevice, devices } = require('../db/db')
 const got = require('got')
 const { generateDevices } = require('./generate-devices')
+const kluer = require('kleur')
+const { logcons } = require('logcons')
+const { STATUS_ENUM } = require('../db/status_enum')
+
+const success = kluer.green().bold
 
 const URL =
   'https://raw.githubusercontent.com/LineageOS/hudson/master/updater/devices.json'
@@ -25,7 +30,7 @@ async function main (deviceList) {
     })
   })
 
-  console.log('✔ Done, Syncing LineageOS')
+  console.log(success(`${logcons.tick()} Done, Syncing Lineage OS`))
   return deviceList
 }
 

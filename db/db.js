@@ -1,16 +1,24 @@
-const db = []
+const StormDB = require('stormdb')
 
-exports.STATUS_ENUM = {
-  active: 'active',
-  discontinued: 'discontinued',
-  unknown: 'unknown'
-}
+/* eslint-disable */
+const engine = new StormDB.localFileEngine("./db/devices.json");
+/* eslint-enable */
+
+const db = new StormDB(engine)
+
+db.default({ devices: [] })
+
+exports.db = db
 
 const addDevice = (deviceDetails) => {
-  db.push({
-    ...deviceDetails,
-    id: db.length
-  })
+  const devices = db.get('devices')
+
+  db.get('devices')
+    .push({
+      ...deviceDetails,
+      id: devices.value() ? devices.length().value() : 0
+    })
+    .save()
 }
 
 addDevice({
@@ -894,6 +902,10 @@ addDevice({
 })
 
 exports.addDevice = addDevice
-exports.devices = db.sort((x, y) =>
-  x.codename.toLowerCase() > y.codename.toLowerCase() ? 1 : -1
-)
+
+exports.devices = db
+  .get('devices')
+  .sort((x, y) =>
+    x.codename.toLowerCase() > y.codename.toLowerCase() ? 1 : -1
+  )
+  .value()

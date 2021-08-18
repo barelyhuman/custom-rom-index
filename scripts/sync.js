@@ -6,15 +6,27 @@ const { syncDotOS } = require('./sync-dotos')
 const { syncLineageOS } = require('./sync-lineage-os')
 const { syncLocalReleases } = require('./sync-local-releases')
 const { syncPixelExperience } = require('./sync-pixel-experience')
+const { logcons } = require('logcons')
+const kluer = require('kleur')
+const { db } = require('../db/db')
+
+const bullet = kluer.white().bold
+const success = kluer.green().bold
 
 async function main () {
+  db.set('devices', [])
+  console.log(bullet('Syncing, Pixel Experience...'))
   let _devices = await syncPixelExperience(devices)
+  console.log(bullet('Syncing, Lineage OS...'))
   _devices = await syncLineageOS(_devices)
+  console.log(bullet('Syncing, Dot OS...'))
   _devices = await syncDotOS(_devices)
+  console.log(bullet('Syncing, CRDroid...'))
   _devices = await syncCRAndroid(_devices)
   await generateDevices(_devices)
+  console.log(bullet('Syncing, Local Release Dates...'))
   syncLocalReleases()
-  console.log('✔ Done Syncing everything')
+  console.log(success(`${logcons.tick()} Done Syncing everything`))
 }
 
 main()

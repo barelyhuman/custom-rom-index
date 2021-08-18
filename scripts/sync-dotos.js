@@ -1,8 +1,13 @@
 #!/usr/bin/env node
 
-const { addDevice, STATUS_ENUM, devices } = require('../db/db')
+const { addDevice, devices } = require('../db/db')
 const got = require('got')
 const { generateDevices } = require('./generate-devices')
+const kluer = require('kleur')
+const { logcons } = require('logcons')
+const { STATUS_ENUM } = require('../db/status_enum')
+
+const success = kluer.green().bold
 
 const URL =
   'https://raw.githubusercontent.com/DotOS/official_devices/master/devices.json'
@@ -21,12 +26,12 @@ async function main (deviceList) {
         status: STATUS_ENUM.active,
         androidVersion: ['N/A'],
         links: [deviceItem.xda_thread],
-        name: 'LineageOS'
+        name: 'Dot OS'
       }
     })
   })
 
-  console.log('✔ Done, Syncing DotOS')
+  console.log(success(`${logcons.tick()} Done, Syncing DotOS`))
   return deviceList
 }
 
