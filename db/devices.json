@@ -12153,6 +12153,132 @@
     "id": 751
   },
   {
+    "deviceName": "Galaxy A7 2017",
+    "codename": "a7y17lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-crdroid-6-x-a5-a7-2017-t4054989"
+      ],
+      "name": "crDroid"
+    },
+    "id": 752,
+    "releasedOn": "2017-01-02"
+  },
+  {
+    "deviceName": "Zenfone 5",
+    "codename": "X00QD",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/zenfone-5/development/rom-crdroid-android-6-6-t4110739"
+      ],
+      "name": "crDroid"
+    },
+    "id": 753
+  },
+  {
+    "deviceName": "XT",
+    "codename": "RMX1921",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/realme-xt/development/rom-crdroid-android-6-t4063545"
+      ],
+      "name": "crDroid"
+    },
+    "id": 754
+  },
+  {
+    "deviceName": "Galaxy A5 2017",
+    "codename": "a5y17lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-crdroid-6-x-a5-a7-2017-t4054989"
+      ],
+      "name": "crDroid"
+    },
+    "id": 755,
+    "releasedOn": "2017-01-02"
+  },
+  {
+    "deviceName": "Pocophone F1",
+    "codename": "beryllium",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/t/3975085/"
+      ],
+      "name": "crDroid"
+    },
+    "id": 756,
+    "releasedOn": "2018-08"
+  },
+  {
+    "deviceName": "Zenfone Max Pro M1",
+    "codename": "X00TD",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/crdroid-6-11-t4179123"
+      ],
+      "name": "crDroid"
+    },
+    "id": 757,
+    "releasedOn": "2018-05"
+  },
+  {
+    "deviceName": "OnePlus Nord",
+    "codename": "avicii",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/oneplus-nord/development/official-romcrdroid-t4173207"
+      ],
+      "name": "crDroid"
+    },
+    "id": 758,
+    "releasedOn": "2020-07-21"
+  },
+  {
+    "deviceName": "Redmi Note 8 Pro",
+    "codename": "begonia",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/redmi-note-8-pro/development/rom-crdroid-6-x-t4124805"
+      ],
+      "name": "crDroid"
+    },
+    "id": 759,
+    "releasedOn": "2019-08"
+  },
+  {
     "deviceName": "Nexus 6P",
     "codename": "angler",
     "rom": {
@@ -12165,7 +12291,7 @@
       ],
       "name": "crDroid"
     },
-    "id": 752,
+    "id": 760,
     "releasedOn": "2015-09-29"
   },
   {
@@ -12181,150 +12307,23 @@
       ],
       "name": "crDroid"
     },
-    "id": 753,
+    "id": 761,
     "releasedOn": "2018-12"
   },
   {
-    "deviceName": "Galaxy A7 2017",
-    "codename": "a7y17lte",
+    "deviceName": "Mi Pad 4",
+    "codename": "clover",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-crdroid-6-x-a5-a7-2017-t4054989"
+        "https://forum.xda-developers.com/mi-pad-4/development/rom-crdroid-6-5-t4088677"
       ],
       "name": "crDroid"
     },
-    "id": 754,
-    "releasedOn": "2017-01-02"
-  },
-  {
-    "deviceName": "Zenfone Max Pro M1",
-    "codename": "X00TD",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/crdroid-6-11-t4179123"
-      ],
-      "name": "crDroid"
-    },
-    "id": 755,
-    "releasedOn": "2018-05"
-  },
-  {
-    "deviceName": "Zenfone 5",
-    "codename": "X00QD",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/zenfone-5/development/rom-crdroid-android-6-6-t4110739"
-      ],
-      "name": "crDroid"
-    },
-    "id": 756
-  },
-  {
-    "deviceName": "XT",
-    "codename": "RMX1921",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/realme-xt/development/rom-crdroid-android-6-t4063545"
-      ],
-      "name": "crDroid"
-    },
-    "id": 757
-  },
-  {
-    "deviceName": "Redmi Note 8 Pro",
-    "codename": "begonia",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/redmi-note-8-pro/development/rom-crdroid-6-x-t4124805"
-      ],
-      "name": "crDroid"
-    },
-    "id": 758,
-    "releasedOn": "2019-08"
-  },
-  {
-    "deviceName": "Pocophone F1",
-    "codename": "beryllium",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/t/3975085/"
-      ],
-      "name": "crDroid"
-    },
-    "id": 759,
-    "releasedOn": "2018-08"
-  },
-  {
-    "deviceName": "Galaxy A5 2017",
-    "codename": "a5y17lte",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/samsung-a-series-2017/development/unofficial-crdroid-6-x-a5-a7-2017-t4054989"
-      ],
-      "name": "crDroid"
-    },
-    "id": 760,
-    "releasedOn": "2017-01-02"
-  },
-  {
-    "deviceName": "OnePlus Nord",
-    "codename": "avicii",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/oneplus-nord/development/official-romcrdroid-t4173207"
-      ],
-      "name": "crDroid"
-    },
-    "id": 761,
-    "releasedOn": "2020-07-21"
-  },
-  {
-    "deviceName": "Samsung Galaxy S10+",
-    "codename": "beyond2lte",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/rom-crdroid-android-6-x-t4082161"
-      ],
-      "name": "crDroid"
-    },
-    "id": 762,
-    "releasedOn": "2019-03-08"
+    "id": 762
   },
   {
     "deviceName": "Xiaomi MI9",
@@ -12343,6 +12342,22 @@
     "releasedOn": "2018-04"
   },
   {
+    "deviceName": "LG G3 (AT&T)",
+    "codename": "d850",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+      ],
+      "name": "crDroid"
+    },
+    "id": 764,
+    "releasedOn": "2014-06"
+  },
+  {
     "deviceName": "OnePlus 5",
     "codename": "cheeseburger",
     "rom": {
@@ -12355,24 +12370,8 @@
       ],
       "name": "crDroid"
     },
-    "id": 764,
-    "releasedOn": "2017-06"
-  },
-  {
-    "deviceName": "Note 9 Exynos",
-    "codename": "crownlte",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/galaxy-note-9/development/rom-crdroid-t4092097/"
-      ],
-      "name": "crDroid"
-    },
     "id": 765,
-    "releasedOn": "2018-08-09"
+    "releasedOn": "2017-06"
   },
   {
     "deviceName": "Samsung Galaxy S10",
@@ -12407,35 +12406,52 @@
     "releasedOn": "2019-03"
   },
   {
-    "deviceName": "Mi Pad 4",
-    "codename": "clover",
+    "deviceName": "Samsung Galaxy S10e",
+    "codename": "beyond0lte",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/mi-pad-4/development/rom-crdroid-6-5-t4088677"
+        "https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/rom-crdroid-android-6-x-t4082161"
       ],
       "name": "crDroid"
     },
-    "id": 768
+    "id": 768,
+    "releasedOn": "2019-03-08"
   },
   {
-    "deviceName": "LG G3 (AT&T)",
-    "codename": "d850",
+    "deviceName": "Note 9 Exynos",
+    "codename": "crownlte",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+        "https://forum.xda-developers.com/galaxy-note-9/development/rom-crdroid-t4092097/"
       ],
       "name": "crDroid"
     },
     "id": 769,
-    "releasedOn": "2014-06"
+    "releasedOn": "2018-08-09"
+  },
+  {
+    "deviceName": "Samsung Galaxy S10+",
+    "codename": "beyond2lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/rom-crdroid-android-6-x-t4082161"
+      ],
+      "name": "crDroid"
+    },
+    "id": 770,
+    "releasedOn": "2019-03-08"
   },
   {
     "deviceName": "Mi Mix 2",
@@ -12450,71 +12466,8 @@
       ],
       "name": "crDroid"
     },
-    "id": 770,
-    "releasedOn": "2017-09"
-  },
-  {
-    "deviceName": "Samsung Galaxy S10e",
-    "codename": "beyond0lte",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/rom-crdroid-android-6-x-t4082161"
-      ],
-      "name": "crDroid"
-    },
     "id": 771,
-    "releasedOn": "2019-03-08"
-  },
-  {
-    "deviceName": "LG G3 (International)",
-    "codename": "d855",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
-      ],
-      "name": "crDroid"
-    },
-    "id": 772,
-    "releasedOn": "2014-06"
-  },
-  {
-    "deviceName": "LG G3 (T-Mobile)",
-    "codename": "d851",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
-      ],
-      "name": "crDroid"
-    },
-    "id": 773,
-    "releasedOn": "2014-06"
-  },
-  {
-    "deviceName": "LG G3 (dualsim)",
-    "codename": "g3ds",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
-      ],
-      "name": "crDroid"
-    },
-    "id": 774
+    "releasedOn": "2017-09"
   },
   {
     "deviceName": "OnePlus 5T",
@@ -12529,12 +12482,12 @@
       ],
       "name": "crDroid"
     },
-    "id": 775,
+    "id": 772,
     "releasedOn": "2017-11"
   },
   {
-    "deviceName": "LG G3 (Canada)",
-    "codename": "d852",
+    "deviceName": "LG G3 (Korea)",
+    "codename": "f400",
     "rom": {
       "status": "unknown",
       "androidVersion": [
@@ -12545,24 +12498,72 @@
       ],
       "name": "crDroid"
     },
-    "id": 776,
+    "id": 773,
     "releasedOn": "2014-06"
   },
   {
-    "deviceName": "Mi A2 Lite",
-    "codename": "daisy",
+    "deviceName": "MI 8",
+    "codename": "dipper",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/mi-a2-lite/development/stable-crdroid-rom-t4145515"
+        "https://forum.xda-developers.com/mi-8/development/rom-crdroid-t4122673"
+      ],
+      "name": "crDroid"
+    },
+    "id": 774,
+    "releasedOn": "2018-07"
+  },
+  {
+    "deviceName": "LG G3 (International)",
+    "codename": "d855",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+      ],
+      "name": "crDroid"
+    },
+    "id": 775,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "OnePlus 6T",
+    "codename": "fajita",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/t/rom-official-fajita-10-0-crdroid-v6-20.3984403/"
+      ],
+      "name": "crDroid"
+    },
+    "id": 776,
+    "releasedOn": "2018-11"
+  },
+  {
+    "deviceName": "LG G3 (T-Mobile)",
+    "codename": "d851",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
       ],
       "name": "crDroid"
     },
     "id": 777,
-    "releasedOn": "2018-07"
+    "releasedOn": "2014-06"
   },
   {
     "deviceName": "OnePlus 6",
@@ -12581,15 +12582,15 @@
     "releasedOn": "2018-04"
   },
   {
-    "deviceName": "MI 8",
-    "codename": "dipper",
+    "deviceName": "Mi A2 Lite",
+    "codename": "daisy",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/mi-8/development/rom-crdroid-t4122673"
+        "https://forum.xda-developers.com/mi-a2-lite/development/stable-crdroid-rom-t4145515"
       ],
       "name": "crDroid"
     },
@@ -12597,8 +12598,8 @@
     "releasedOn": "2018-07"
   },
   {
-    "deviceName": "LG G3 (Korea)",
-    "codename": "f400",
+    "deviceName": "LG G3 (Canada)",
+    "codename": "d852",
     "rom": {
       "status": "unknown",
       "androidVersion": [
@@ -12613,83 +12614,19 @@
     "releasedOn": "2014-06"
   },
   {
-    "deviceName": "OnePlus 6T",
-    "codename": "fajita",
+    "deviceName": "LG G3 (dualsim)",
+    "codename": "g3ds",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/t/rom-official-fajita-10-0-crdroid-v6-20.3984403/"
+        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
       ],
       "name": "crDroid"
     },
-    "id": 781,
-    "releasedOn": "2018-11"
-  },
-  {
-    "deviceName": "Samsung Galaxy S7",
-    "codename": "herolte",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/galaxy-s7/development/beta-crdroid-android-6-x-samsung-galaxy-t4040283"
-      ],
-      "name": "crDroid"
-    },
-    "id": 782,
-    "releasedOn": "2016-03-18"
-  },
-  {
-    "deviceName": "Samsung Galaxy S7 edge",
-    "codename": "hero2lte",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/s7-edge/development/beta-crdroid-android-6-x-samsung-galaxy-t4040281"
-      ],
-      "name": "crDroid"
-    },
-    "id": 783,
-    "releasedOn": "2016-03-18"
-  },
-  {
-    "deviceName": "Redmi Note 8/8T",
-    "codename": "ginkgo",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/redmi-note-8/development/rom-crdroidandroid-v6-5-redmi-note-8-t4082247"
-      ],
-      "name": "crDroid"
-    },
-    "id": 784,
-    "releasedOn": "2019-10-16"
-  },
-  {
-    "deviceName": "Lenovo Z5Pro GT",
-    "codename": "heart",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/z5-pro-gt/how-to/rom-lenovo-z5pro-gt-t4074525"
-      ],
-      "name": "crDroid"
-    },
-    "id": 785
+    "id": 781
   },
   {
     "deviceName": "Nexus 5",
@@ -12704,8 +12641,71 @@
       ],
       "name": "crDroid"
     },
-    "id": 786,
+    "id": 782,
     "releasedOn": "2013-10-31"
+  },
+  {
+    "deviceName": "Samsung Galaxy S7",
+    "codename": "herolte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/galaxy-s7/development/beta-crdroid-android-6-x-samsung-galaxy-t4040283"
+      ],
+      "name": "crDroid"
+    },
+    "id": 783,
+    "releasedOn": "2016-03-18"
+  },
+  {
+    "deviceName": "Xiaomi Mi 5",
+    "codename": "gemini",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/mi-5/development/rom-crdroid-android-6-3-t4060061"
+      ],
+      "name": "crDroid"
+    },
+    "id": 784,
+    "releasedOn": "2016-04"
+  },
+  {
+    "deviceName": "OnePlus 7 Pro",
+    "codename": "guacamole",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/t/3982795/"
+      ],
+      "name": "crDroid"
+    },
+    "id": 785,
+    "releasedOn": "2019-05"
+  },
+  {
+    "deviceName": "Lenovo Z5Pro GT",
+    "codename": "heart",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/z5-pro-gt/how-to/rom-lenovo-z5pro-gt-t4074525"
+      ],
+      "name": "crDroid"
+    },
+    "id": 786
   },
   {
     "deviceName": "Samsung Tab A6 (SM-T580)",
@@ -12723,20 +12723,36 @@
     "id": 787
   },
   {
-    "deviceName": "Xiaomi Mi 5",
-    "codename": "gemini",
+    "deviceName": "OnePlus 7",
+    "codename": "guacamoleb",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/mi-5/development/rom-crdroid-android-6-3-t4060061"
+        "https://forum.xda-developers.com/oneplus-7/development/rom-crdroid-v6-3-t4051453"
       ],
       "name": "crDroid"
     },
     "id": 788,
-    "releasedOn": "2016-04"
+    "releasedOn": "2019-05"
+  },
+  {
+    "deviceName": "Samsung Galaxy S7 edge",
+    "codename": "hero2lte",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/s7-edge/development/beta-crdroid-android-6-x-samsung-galaxy-t4040281"
+      ],
+      "name": "crDroid"
+    },
+    "id": 789,
+    "releasedOn": "2016-03-18"
   },
   {
     "deviceName": "Galaxy Note 3",
@@ -12751,104 +12767,39 @@
       ],
       "name": "crDroid"
     },
-    "id": 789,
+    "id": 790,
     "releasedOn": "2013-09"
   },
   {
-    "deviceName": "OnePlus 7 Pro",
-    "codename": "guacamole",
+    "deviceName": "Redmi Note 8/8T",
+    "codename": "ginkgo",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/t/3982795/"
-      ],
-      "name": "crDroid"
-    },
-    "id": 790,
-    "releasedOn": "2019-05"
-  },
-  {
-    "deviceName": "OnePlus 7",
-    "codename": "guacamoleb",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/oneplus-7/development/rom-crdroid-v6-3-t4051453"
+        "https://forum.xda-developers.com/redmi-note-8/development/rom-crdroidandroid-v6-5-redmi-note-8-t4082247"
       ],
       "name": "crDroid"
     },
     "id": 791,
-    "releasedOn": "2019-05"
+    "releasedOn": "2019-10-16"
   },
   {
-    "deviceName": "Redmi Note 7",
-    "codename": "lavender",
+    "deviceName": "Samsung Galaxy J7 2016",
+    "codename": "j7xelte",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/redmi-note-7/development/rom-crdroid-android-6-t3987531"
+        "https://forum.xda-developers.com/t/rom-10-arm64-j710-crdroid-v6-14-for-the-galaxy-j7-2016-official-24-01-2021.4221299/"
       ],
       "name": "crDroid"
     },
-    "id": 792,
-    "releasedOn": "2019-01"
-  },
-  {
-    "deviceName": "Mi Note 3",
-    "codename": "jason",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/mi-note-3/development/rom-crdroid-v6-8-t4143185"
-      ],
-      "name": "crDroid"
-    },
-    "id": 793,
-    "releasedOn": "2017-09"
-  },
-  {
-    "deviceName": "Galaxy Note 3 T-Mobile",
-    "codename": "hltetmo",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
-      ],
-      "name": "crDroid"
-    },
-    "id": 794,
-    "releasedOn": "2013-09"
-  },
-  {
-    "deviceName": "Mi A3",
-    "codename": "laurel_sprout",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/mi-a3/development/rom-crdroid-6-4-t4068463"
-      ],
-      "name": "crDroid"
-    },
-    "id": 795,
-    "releasedOn": "2019-07"
+    "id": 792
   },
   {
     "deviceName": "Mi A2",
@@ -12863,8 +12814,56 @@
       ],
       "name": "crDroid"
     },
-    "id": 796,
+    "id": 793,
     "releasedOn": "2018-07"
+  },
+  {
+    "deviceName": "Mi A3",
+    "codename": "laurel_sprout",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/mi-a3/development/rom-crdroid-6-4-t4068463"
+      ],
+      "name": "crDroid"
+    },
+    "id": 794,
+    "releasedOn": "2019-07"
+  },
+  {
+    "deviceName": "Redmi Note 7",
+    "codename": "lavender",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/redmi-note-7/development/rom-crdroid-android-6-t3987531"
+      ],
+      "name": "crDroid"
+    },
+    "id": 795,
+    "releasedOn": "2019-01"
+  },
+  {
+    "deviceName": "LG G3 (Sprint)",
+    "codename": "ls990",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+      ],
+      "name": "crDroid"
+    },
+    "id": 796,
+    "releasedOn": "2014-06"
   },
   {
     "deviceName": "Galaxy Note 3 Korea",
@@ -12883,35 +12882,20 @@
     "releasedOn": "2013-09"
   },
   {
-    "deviceName": "Samsung Galaxy J7 2016",
-    "codename": "j7xelte",
+    "deviceName": "Mi Note 3",
+    "codename": "jason",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/t/rom-10-arm64-j710-crdroid-v6-14-for-the-galaxy-j7-2016-official-24-01-2021.4221299/"
+        "https://forum.xda-developers.com/mi-note-3/development/rom-crdroid-v6-8-t4143185"
       ],
       "name": "crDroid"
     },
-    "id": 798
-  },
-  {
-    "deviceName": "Galaxy Note 3 China",
-    "codename": "hltechn",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
-      ],
-      "name": "crDroid"
-    },
-    "id": 799,
-    "releasedOn": "2013-09"
+    "id": 798,
+    "releasedOn": "2017-09"
   },
   {
     "deviceName": "Xiaomi POCO F2 Pro",
@@ -12926,7 +12910,7 @@
       ],
       "name": "crDroid"
     },
-    "id": 800,
+    "id": 799,
     "releasedOn": [
       {
         "POCO F2 Pro": "2020-05"
@@ -12940,67 +12924,66 @@
     ]
   },
   {
-    "deviceName": "LG G3 (Sprint)",
-    "codename": "ls990",
+    "deviceName": "Galaxy Note 3 T-Mobile",
+    "codename": "hltetmo",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+        "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
+      ],
+      "name": "crDroid"
+    },
+    "id": 800,
+    "releasedOn": "2013-09"
+  },
+  {
+    "deviceName": "Galaxy Note 3 China",
+    "codename": "hltechn",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
       ],
       "name": "crDroid"
     },
     "id": 801,
-    "releasedOn": "2014-06"
+    "releasedOn": "2013-09"
   },
   {
-    "deviceName": "One M8d",
-    "codename": "m8d",
+    "deviceName": "Meizu 16X",
+    "codename": "m1872",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/htc-one-m8/development/official-romcrdroid-t4068145/post82035239#post82035239"
+        "https://4pda.ru/forum/index.php?showtopic=974342&view=findpost&p=97294255"
       ],
       "name": "crDroid"
     },
-    "id": 802,
-    "releasedOn": "2014-06"
+    "id": 802
   },
   {
-    "deviceName": "Redmi Note 4",
-    "codename": "mido",
+    "deviceName": "Meizu 16th",
+    "codename": "m1882",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/crdroid-6-0-redmi-note-4-4x-t4024723/post81297895#post81297895"
+        "https://4pda.ru/forum/index.php?showtopic=961552&st=5060#entry96508161"
       ],
       "name": "crDroid"
     },
-    "id": 803,
-    "releasedOn": "2017-01"
-  },
-  {
-    "deviceName": "Meizu X8",
-    "codename": "m1852",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://4pda.ru/forum/index.php?showtopic=965227&st=8020#entry96480348"
-      ],
-      "name": "crDroid"
-    },
-    "id": 804
+    "id": 803
   },
   {
     "deviceName": "Xperia XZ Premium",
@@ -13015,7 +12998,23 @@
       ],
       "name": "crDroid"
     },
-    "id": 805
+    "id": 804
+  },
+  {
+    "deviceName": "Redmi Note 4",
+    "codename": "mido",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/crdroid-6-0-redmi-note-4-4x-t4024723/post81297895#post81297895"
+      ],
+      "name": "crDroid"
+    },
+    "id": 805,
+    "releasedOn": "2017-01"
   },
   {
     "deviceName": "Swift 2/2+/2X",
@@ -13033,22 +13032,6 @@
     "id": 806
   },
   {
-    "deviceName": "Moto G7 Power",
-    "codename": "ocean",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/g7-power/development/rom-t4070607"
-      ],
-      "name": "crDroid"
-    },
-    "id": 807,
-    "releasedOn": "2019-03-25"
-  },
-  {
     "deviceName": "Redmi 9s series (miatoll)",
     "codename": "miatoll",
     "rom": {
@@ -13061,38 +13044,39 @@
       ],
       "name": "crDroid"
     },
-    "id": 808,
+    "id": 807,
     "releasedOn": "2020-04-30"
   },
   {
-    "deviceName": "Meizu 16th",
-    "codename": "m1882",
+    "deviceName": "Meizu X8",
+    "codename": "m1852",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://4pda.ru/forum/index.php?showtopic=961552&st=5060#entry96508161"
+        "https://4pda.ru/forum/index.php?showtopic=965227&st=8020#entry96480348"
       ],
       "name": "crDroid"
     },
-    "id": 809
+    "id": 808
   },
   {
-    "deviceName": "Meizu 16X",
-    "codename": "m1872",
+    "deviceName": "One M8d",
+    "codename": "m8d",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://4pda.ru/forum/index.php?showtopic=974342&view=findpost&p=97294255"
+        "https://forum.xda-developers.com/htc-one-m8/development/official-romcrdroid-t4068145/post82035239#post82035239"
       ],
       "name": "crDroid"
     },
-    "id": 810
+    "id": 809,
+    "releasedOn": "2014-06"
   },
   {
     "deviceName": "One M8",
@@ -13107,78 +13091,24 @@
       ],
       "name": "crDroid"
     },
-    "id": 811,
+    "id": 810,
     "releasedOn": "2014-03"
   },
   {
-    "deviceName": "OnePlus 3/3T",
-    "codename": "oneplus3",
+    "deviceName": "Moto G7 Power",
+    "codename": "ocean",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://bit.ly/2QxQfYs"
+        "https://forum.xda-developers.com/g7-power/development/rom-t4070607"
       ],
       "name": "crDroid"
     },
-    "id": 812,
-    "releasedOn": [
-      {
-        "A3000": "2016-06"
-      },
-      {
-        "A3003": "2016-10"
-      }
-    ]
-  },
-  {
-    "deviceName": "MI 9 Lite",
-    "codename": "pyxis",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/mi-cc9/development/rom-crdroid-6-3-t4057599"
-      ],
-      "name": "crDroid"
-    },
-    "id": 813
-  },
-  {
-    "deviceName": "Moto G 2015",
-    "codename": "osprey",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/2015-moto-g/development/rom-t4075505"
-      ],
-      "name": "crDroid"
-    },
-    "id": 814,
-    "releasedOn": "2015-07"
-  },
-  {
-    "deviceName": "Moto G5 Plus",
-    "codename": "potter",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/g5-plus/development/rom-crdroid-v6-2-t4041689"
-      ],
-      "name": "crDroid"
-    },
-    "id": 815,
-    "releasedOn": "2017-01"
+    "id": 811,
+    "releasedOn": "2019-03-25"
   },
   {
     "deviceName": "POCO X2",
@@ -13193,24 +13123,40 @@
       ],
       "name": "crDroid"
     },
-    "id": 816,
+    "id": 812,
     "releasedOn": "2020-02-11"
   },
   {
-    "deviceName": "Redmi K20 PRO/Mi 9T PRO",
-    "codename": "raphael",
+    "deviceName": "Xperia XA2",
+    "codename": "pioneer",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/k20-pro/development/rom-crdroid-android-6-t4022373"
+        "https://forum.xda-developers.com/xperia-xa2/development/rom-crdroidandroid-v6-0-t4015327"
       ],
       "name": "crDroid"
     },
-    "id": 817,
-    "releasedOn": "2019-08-21"
+    "id": 813,
+    "releasedOn": "2018-02"
+  },
+  {
+    "deviceName": "Moto G5 Plus",
+    "codename": "potter",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/g5-plus/development/rom-crdroid-v6-2-t4041689"
+      ],
+      "name": "crDroid"
+    },
+    "id": 814,
+    "releasedOn": "2017-01"
   },
   {
     "deviceName": "Mi Mix 2s",
@@ -13225,8 +13171,62 @@
       ],
       "name": "crDroid"
     },
-    "id": 818,
+    "id": 815,
     "releasedOn": "2018-04"
+  },
+  {
+    "deviceName": "Mi Mix 3",
+    "codename": "perseus",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/mi-mix-3"
+      ],
+      "name": "crDroid"
+    },
+    "id": 816
+  },
+  {
+    "deviceName": "Moto G 2015",
+    "codename": "osprey",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/2015-moto-g/development/rom-t4075505"
+      ],
+      "name": "crDroid"
+    },
+    "id": 817,
+    "releasedOn": "2015-07"
+  },
+  {
+    "deviceName": "OnePlus 3/3T",
+    "codename": "oneplus3",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://bit.ly/2QxQfYs"
+      ],
+      "name": "crDroid"
+    },
+    "id": 818,
+    "releasedOn": [
+      {
+        "A3000": "2016-06"
+      },
+      {
+        "A3003": "2016-10"
+      }
+    ]
   },
   {
     "deviceName": "OnePlus 2",
@@ -13245,67 +13245,51 @@
     "releasedOn": "2015-08-28"
   },
   {
-    "deviceName": "Xperia XA2",
-    "codename": "pioneer",
+    "deviceName": "Redmi K20 PRO/Mi 9T PRO",
+    "codename": "raphael",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/xperia-xa2/development/rom-crdroidandroid-v6-0-t4015327"
+        "https://forum.xda-developers.com/k20-pro/development/rom-crdroid-android-6-t4022373"
       ],
       "name": "crDroid"
     },
     "id": 820,
-    "releasedOn": "2018-02"
+    "releasedOn": "2019-08-21"
   },
   {
-    "deviceName": "Mi Mix 3",
-    "codename": "perseus",
+    "deviceName": "MI 9 Lite",
+    "codename": "pyxis",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/mi-mix-3"
+        "https://forum.xda-developers.com/mi-cc9/development/rom-crdroid-6-3-t4057599"
       ],
       "name": "crDroid"
     },
     "id": 821
   },
   {
-    "deviceName": "Redmi 5",
-    "codename": "rosy",
+    "deviceName": "Redmi 4X",
+    "codename": "santoni",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/redmi-5/development/rom-crdroid-v6-8-t4132279"
+        "https://forum.xda-developers.com/t/rom-official-10-0-11-0-crdroidandroid-6-x-7-x-santoni-stable.4176461/"
       ],
       "name": "crDroid"
     },
     "id": 822,
-    "releasedOn": "2017-12"
-  },
-  {
-    "deviceName": "Nexus 6",
-    "codename": "shamu",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://bit.ly/2HzFsdw"
-      ],
-      "name": "crDroid"
-    },
-    "id": 823,
-    "releasedOn": "2014-10-29"
+    "releasedOn": "2017-05"
   },
   {
     "deviceName": "S9+ Exynos",
@@ -13320,7 +13304,7 @@
       ],
       "name": "crDroid"
     },
-    "id": 824,
+    "id": 823,
     "releasedOn": "2018-03-11"
   },
   {
@@ -13336,7 +13320,7 @@
       ],
       "name": "crDroid"
     },
-    "id": 825
+    "id": 824
   },
   {
     "deviceName": "Xiaomi Mi 5X",
@@ -13351,7 +13335,7 @@
       ],
       "name": "crDroid"
     },
-    "id": 826
+    "id": 825
   },
   {
     "deviceName": "S9 Exynos",
@@ -13366,40 +13350,8 @@
       ],
       "name": "crDroid"
     },
-    "id": 827,
+    "id": 826,
     "releasedOn": "2018-03-11"
-  },
-  {
-    "deviceName": "Mi 6",
-    "codename": "sagit",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/mi-6/development/10-0-crdroid-v6-9-t4144747"
-      ],
-      "name": "crDroid"
-    },
-    "id": 828,
-    "releasedOn": "2017-04"
-  },
-  {
-    "deviceName": "Redmi 4X",
-    "codename": "santoni",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/t/rom-official-10-0-11-0-crdroidandroid-6-x-7-x-santoni-stable.4176461/"
-      ],
-      "name": "crDroid"
-    },
-    "id": 829,
-    "releasedOn": "2017-05"
   },
   {
     "deviceName": "MI 8 SE",
@@ -13414,8 +13366,24 @@
       ],
       "name": "crDroid"
     },
-    "id": 830,
+    "id": 827,
     "releasedOn": "2018-06"
+  },
+  {
+    "deviceName": "Redmi 5",
+    "codename": "rosy",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/redmi-5/development/rom-crdroid-v6-8-t4132279"
+      ],
+      "name": "crDroid"
+    },
+    "id": 828,
+    "releasedOn": "2017-12"
   },
   {
     "deviceName": "Moto G5S Plus",
@@ -13430,8 +13398,56 @@
       ],
       "name": "crDroid"
     },
-    "id": 831,
+    "id": 829,
     "releasedOn": "2017-08"
+  },
+  {
+    "deviceName": "Nexus 6",
+    "codename": "shamu",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://bit.ly/2HzFsdw"
+      ],
+      "name": "crDroid"
+    },
+    "id": 830,
+    "releasedOn": "2014-10-29"
+  },
+  {
+    "deviceName": "Mi 6",
+    "codename": "sagit",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/mi-6/development/10-0-crdroid-v6-9-t4144747"
+      ],
+      "name": "crDroid"
+    },
+    "id": 831,
+    "releasedOn": "2017-04"
+  },
+  {
+    "deviceName": "Xiaomi Mi A1",
+    "codename": "tissot",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://forum.xda-developers.com/mi-a1/development/rom-crdroid-6-5-tissot-13-04-2020-t4082359"
+      ],
+      "name": "crDroid"
+    },
+    "id": 832,
+    "releasedOn": "2017-10"
   },
   {
     "deviceName": "Redmi Note 6 Pro",
@@ -13446,7 +13462,7 @@
       ],
       "name": "crDroid"
     },
-    "id": 832,
+    "id": 833,
     "releasedOn": "2016-09"
   },
   {
@@ -13462,24 +13478,8 @@
       ],
       "name": "crDroid"
     },
-    "id": 833,
-    "releasedOn": "2016-04"
-  },
-  {
-    "deviceName": "Redmi Note 5 Pro/AI",
-    "codename": "whyred",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://bit.ly/crwhyredqxda"
-      ],
-      "name": "crDroid"
-    },
     "id": 834,
-    "releasedOn": "2018-02"
+    "releasedOn": "2016-04"
   },
   {
     "deviceName": "Mi 6X",
@@ -13498,38 +13498,6 @@
     "releasedOn": "2018-04"
   },
   {
-    "deviceName": "Redmi 5 Plus/Redmi Note 5",
-    "codename": "vince",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://bit.ly/crvinceqxda"
-      ],
-      "name": "crDroid"
-    },
-    "id": 836,
-    "releasedOn": "2018-02"
-  },
-  {
-    "deviceName": "LG G3 (Verizon)",
-    "codename": "vs985",
-    "rom": {
-      "status": "unknown",
-      "androidVersion": [
-        10
-      ],
-      "links": [
-        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
-      ],
-      "name": "crDroid"
-    },
-    "id": 837,
-    "releasedOn": "2014-06"
-  },
-  {
     "deviceName": "Lenovo ZUK Z2 Plus",
     "codename": "z2_plus",
     "rom": {
@@ -13542,8 +13510,24 @@
       ],
       "name": "crDroid"
     },
-    "id": 838,
+    "id": 836,
     "releasedOn": "2016-06"
+  },
+  {
+    "deviceName": "Redmi Note 5 Pro/AI",
+    "codename": "whyred",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://bit.ly/crwhyredqxda"
+      ],
+      "name": "crDroid"
+    },
+    "id": 837,
+    "releasedOn": "2018-02"
   },
   {
     "deviceName": "Redmi Note 7 Pro",
@@ -13558,23 +13542,39 @@
       ],
       "name": "crDroid"
     },
-    "id": 839,
+    "id": 838,
     "releasedOn": "2019-03-13"
   },
   {
-    "deviceName": "Xiaomi Mi A1",
-    "codename": "tissot",
+    "deviceName": "LG G3 (Verizon)",
+    "codename": "vs985",
     "rom": {
       "status": "unknown",
       "androidVersion": [
         10
       ],
       "links": [
-        "https://forum.xda-developers.com/mi-a1/development/rom-crdroid-6-5-tissot-13-04-2020-t4082359"
+        "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+      ],
+      "name": "crDroid"
+    },
+    "id": 839,
+    "releasedOn": "2014-06"
+  },
+  {
+    "deviceName": "Redmi 5 Plus/Redmi Note 5",
+    "codename": "vince",
+    "rom": {
+      "status": "unknown",
+      "androidVersion": [
+        10
+      ],
+      "links": [
+        "https://bit.ly/crvinceqxda"
       ],
       "name": "crDroid"
     },
     "id": 840,
-    "releasedOn": "2017-10"
+    "releasedOn": "2018-02"
   }
 ]
