@@ -47,6 +47,7 @@ async function main (deviceList) {
   console.log(info(`${logcons.info()} Generating Devices`))
   const withReleasesPromises = db
     .get('devices')
+    .value()
     .map(async (item) => {
       const { dataSourceOne, dataSourceTwo } = await deviceInfoAPI(
         item.codename
@@ -57,7 +58,6 @@ async function main (deviceList) {
         (dataSourceTwo && dataSourceTwo.release)
       return item
     })
-    .value()
   const withRelease = await Promise.all(withReleasesPromises)
 
   fs.writeFileSync(

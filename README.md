@@ -9,6 +9,7 @@
 <p align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/barelyhuman/custom-rom-index?logoColor=000&colorA=000000&colorB=000000">
 <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?colorA=000000&colorB=000000" alt="JavaScript Style Guide"></a>
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/barelyhuman/custom-rom-index/Node.js%20CI?color=000&label=Sync%20ROMs&colorA=000000&colorB=000000">
 </p>
 
 As an enthusiast, I’ve wasted hours together to find a working ROM
@@ -31,6 +32,8 @@ While most of them are being added manually right now, we are using a lot of dat
 they make it easier to handle syncing of data
 
 - [PixelExperience](https://github.com/PixelExperience)
+- [DotOS](https://github.com/DotOS)
+- [LineageOS](https://github.com/LineageOS)
 
 ## Credits | Appreciations
 
