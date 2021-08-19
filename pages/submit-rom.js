@@ -6,15 +6,15 @@ function SubmitRom ({ ...props }) {
       <Header />
       <div className='container items-center mx-auto'>
         <div className='p-5 overflow-y-auto whitespace-nowrap'>
-          <h1 class='mx-auto mb-12 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font'>
+          <h1 className='mx-auto mb-12 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font'>
             Want to add a new rom to the list?
           </h1>
 
-          <p class='mx-auto text-base font-medium leading-relaxed text-gray-700 '>
+          <p className='mx-auto text-base font-medium leading-relaxed text-gray-700 '>
             If you wish to add a rom to the list for whatever reason, follow the
             below steps
           </p>
-          <ol class='list-decimal mt-4 list-inside mx-auto text-base font-medium leading-relaxed text-gray-700 '>
+          <ol className='list-decimal mt-4 list-inside mx-auto text-base font-medium leading-relaxed text-gray-700 '>
             <li>
               Visit
               <a
@@ -28,13 +28,16 @@ function SubmitRom ({ ...props }) {
             </li>
             <li>Fork the repository</li>
             <li>
-              Modify <code className='bg-gray-100 p-1 rounded-sm'>db.js</code>{' '}
+              Modify{' '}
+              <code className='bg-gray-100 p-1 rounded-sm'>
+                scripts/sync-manual-devices.js
+              </code>{' '}
               to add your rom with the needed data
             </li>
             <li>Raise a new Pull Request</li>
             <li>Done!</li>
           </ol>
-          <p class='mx-auto mt-2 text-base font-medium leading-relaxed text-gray-700 '>
+          <p className='mx-auto mt-2 text-base font-medium leading-relaxed text-gray-700 '>
             Your <strong>ROM</strong> will be added as soon as we're done
             reviewing the addition
           </p>
