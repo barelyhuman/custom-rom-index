@@ -3,7 +3,6 @@
 const got = require('got')
 const YAML = require('yaml')
 const fs = require('fs')
-const { devices } = require('../db/db.js')
 const path = require('path')
 const { logcons } = require('logcons')
 const kluer = require('kleur')
@@ -43,7 +42,7 @@ async function deviceInfoAPI (codename) {
   }
 }
 
-async function main (deviceList) {
+async function main () {
   console.log(info(`${logcons.info()} Generating Devices`))
   const withReleasesPromises = db
     .get('devices')
@@ -62,12 +61,18 @@ async function main (deviceList) {
 
   fs.writeFileSync(
     path.join(__dirname, '../db/devices.json'),
-    JSON.stringify(withRelease, null, 2)
+    JSON.stringify(
+      {
+        devices: withRelease
+      },
+      null,
+      2
+    )
   )
 }
 
 exports.generateDevices = main
 
 if (require.main === module) {
-  main(devices)
+  main()
 }

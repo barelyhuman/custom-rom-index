@@ -14,11 +14,10 @@ const V11_COMMIT =
 const V10_COMMIT =
   'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/10.0'
 
-async function main (deviceList) {
+async function main () {
   await addV11Devices()
   await addV10Devices()
   console.log(success(`${logcons.tick()} Done, Syncing CRDroid`))
-  return deviceList
 }
 
 async function addV11Devices () {

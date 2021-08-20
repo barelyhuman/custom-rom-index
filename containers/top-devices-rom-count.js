@@ -1,4 +1,4 @@
-import { releaseDateFormatter } from 'lib/date-utils'
+import { getReleasedOn } from 'lib/date-utils'
 
 const { topDevicesInROMCount } = require('lib/analytical-utils')
 
@@ -18,7 +18,7 @@ export function TopDevicesRomCount () {
             >
               <div className='w-1/3 text-left'>{item.name}</div>
               <div className='w-1/3 text-left'>
-                Released: {releaseDateFormatter(item.releasedOn)}
+                Released: {getReleasedOn(item)}
               </div>
               <div className='w-1/3 text-right font-bold'>
                 {item.count} ROM(s)

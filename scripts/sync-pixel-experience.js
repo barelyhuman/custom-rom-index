@@ -13,7 +13,7 @@ const URL =
 
 const ignoreVersionKeys = '_plus'
 
-async function main (deviceList) {
+async function main () {
   const response = await got(URL);
 
   (JSON.parse(response.body) || []).forEach((deviceItem) => {
@@ -49,7 +49,6 @@ async function main (deviceList) {
   })
 
   console.log(success(`${logcons.tick()} Done, Syncing Pixel Experience`))
-  return deviceList
 }
 
 exports.syncPixelExperience = main

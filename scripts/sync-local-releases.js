@@ -20,7 +20,13 @@ async function main () {
 
   writeFileSync(
     path.join(__dirname, '../db/devices.json'),
-    JSON.stringify(withLocalReleaseDates, null, 2)
+    JSON.stringify(
+      {
+        devices: withLocalReleaseDates
+      },
+      null,
+      2
+    )
   )
 
   console.log(success(`${logcons.tick()} Done, Syncing Local Release Dates`))

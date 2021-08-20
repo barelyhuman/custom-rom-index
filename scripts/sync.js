@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const { devices } = require('../db/db')
 const { generateDevices } = require('./generate-devices')
 const { syncCRAndroid } = require('./sync-crdroid')
 const { syncDotOS } = require('./sync-dotos')
@@ -10,6 +9,7 @@ const { logcons } = require('logcons')
 const kluer = require('kleur')
 const { db } = require('../db/db')
 const { syncManualDevices } = require('./sync-manual-devices')
+const { syncArrowOS } = require('./sync-arrowos')
 
 const bullet = kluer.white().bold
 const success = kluer.green().bold
@@ -17,16 +17,18 @@ const success = kluer.green().bold
 async function main () {
   db.set('devices', [])
   console.log(bullet('Syncing, Manual Devices...'))
-  let _devices = await syncManualDevices()
+  await syncManualDevices()
   console.log(bullet('Syncing, Pixel Experience...'))
-  _devices = await syncPixelExperience(devices)
+  await syncPixelExperience()
   console.log(bullet('Syncing, Lineage OS...'))
-  _devices = await syncLineageOS(_devices)
+  await syncLineageOS()
   console.log(bullet('Syncing, Dot OS...'))
-  _devices = await syncDotOS(_devices)
+  await syncDotOS()
+  console.log(bullet('Syncing, ArrowOS...'))
+  await syncArrowOS()
   console.log(bullet('Syncing, CRDroid...'))
-  _devices = await syncCRAndroid(_devices)
-  await generateDevices(_devices)
+  await syncCRAndroid()
+  await generateDevices()
   console.log(bullet('Syncing, Local Release Dates...'))
   syncLocalReleases()
   console.log(success(`${logcons.tick()} Done Syncing everything`))

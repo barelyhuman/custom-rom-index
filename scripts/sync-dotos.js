@@ -12,7 +12,7 @@ const success = kluer.green().bold
 const URL =
   'https://raw.githubusercontent.com/DotOS/official_devices/master/devices.json'
 
-async function main (deviceList) {
+async function main () {
   const response = await got(URL);
 
   (JSON.parse(response.body) || []).forEach((deviceItem) => {
@@ -32,7 +32,6 @@ async function main (deviceList) {
   })
 
   console.log(success(`${logcons.tick()} Done, Syncing DotOS`))
-  return deviceList
 }
 
 exports.syncDotOS = main

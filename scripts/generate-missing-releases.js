@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-const allDevices = require('../db/devices.json')
+const devicesJSON = require('../db/devices.json')
 const { writeFileSync } = require('fs')
 const path = require('path')
 
 const missing = {}
 
-allDevices.forEach((item) => {
+devicesJSON.devices.forEach((item) => {
   if (missing[item.codename]) {
     return
   }
