@@ -34,7 +34,10 @@ they make it easier to handle syncing of data
 - [PixelExperience](https://github.com/PixelExperience)
 - [DotOS](https://github.com/DotOS)
 - [LineageOS](https://github.com/LineageOS)
+- [AospExtended](https://github.com/AospExtended)
+- [crDroid](https://github.com/crdroidandroid/)
+- [ArrowOS](https://github.com/ArrowOS)
 
-## Credits | Appreciations
+## Appreciations
 
-- Every other rom developer that's out there doing amazing work for the community! THANKS!
+Every ROM developer that's out there doing amazing work for the community! THANKS!
