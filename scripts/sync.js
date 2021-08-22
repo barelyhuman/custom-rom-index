@@ -10,6 +10,7 @@ const kluer = require('kleur')
 const { db } = require('../db/db')
 const { syncManualDevices } = require('./sync-manual-devices')
 const { syncArrowOS } = require('./sync-arrowos')
+const { syncAospExtended } = require('./sync-aospextended')
 
 const bullet = kluer.white().bold
 const success = kluer.green().bold
@@ -26,6 +27,8 @@ async function main () {
   await syncDotOS()
   console.log(bullet('Syncing, ArrowOS...'))
   await syncArrowOS()
+  console.log(bullet('Syncing, AOSPExtended...'))
+  await syncAospExtended()
   console.log(bullet('Syncing, CRDroid...'))
   await syncCRAndroid()
   await generateDevices()
