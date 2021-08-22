@@ -25,17 +25,17 @@ function useDeviceList () {
   })
 
   const sortDevicesByRelease = useCallback(() => {
-    const _byReleaseDate = devices.slice().sort((x, y) => {
+    const _byReleaseDate = deviceList.slice().sort((x, y) => {
       return sortByDate(x.releasedOn, y.releasedOn, sortDirections.releasedOn)
     })
     setDeviceList(_byReleaseDate)
-  }, [sortDirections.releasedOn])
+  }, [sortDirections.releasedOn, deviceList])
 
   useEffect(() => {
     if (sortDirections.releasedOn) {
       sortDevicesByRelease(sortDirections.releasedOn)
     }
-  }, [sortDirections.releasedOn, sortDevicesByRelease])
+  }, [sortDirections.releasedOn, sortDevicesByRelease, deviceList])
 
   return {
     deviceList,
