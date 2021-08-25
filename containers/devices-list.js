@@ -226,7 +226,9 @@ export function DevicesListTable ({ ...props }) {
                       <td className='p-3'>{deviceItem.deviceName}</td>
                       <td className='p-3 font-bold'>{deviceItem.rom.name}</td>
                       <td className='p-3'>
-                        {deviceItem.rom.androidVersion.join(',')}
+                        {deviceItem.rom.androidVersion
+                          ? deviceItem.rom.androidVersion.join(',')
+                          : 'N/A'}
                       </td>
                       <td className='p-3'>
                         <span
