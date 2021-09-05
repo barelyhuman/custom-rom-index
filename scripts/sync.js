@@ -13,6 +13,7 @@ const { syncArrowOS } = require('./sync-arrowos')
 const { syncAospExtended } = require('./sync-aospextended')
 const { syncParanoidAndroid } = require('./sync-aospa')
 const { syncHavocOS } = require('./sync-havocos')
+const { syncPotatoProject } = require('./sync-potatorom')
 
 const bullet = kluer.white().bold
 const success = kluer.green().bold
@@ -25,6 +26,8 @@ async function main () {
   await syncPixelExperience()
   console.log(bullet('Syncing, Lineage OS...'))
   await syncLineageOS()
+  console.log(bullet('Syncing, Potato Project...'))
+  await syncPotatoProject()
   console.log(bullet('Syncing, Dot OS...'))
   await syncDotOS()
   console.log(bullet('Syncing, ArrowOS...'))
