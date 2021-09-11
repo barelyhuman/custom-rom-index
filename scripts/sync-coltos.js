@@ -22,13 +22,13 @@ async function syncColtOSDevices () {
   const response = await got(URL)
   const devices = parse(response.body)
 
-  await conch(devices, (item) => addHavocOSToDevices(item, 11), {
+  await conch(devices, (item) => addColtOSToDevices(item), {
     limit: 1
   })
-  console.log(info(`${logcons.info()} Synced: 11.0 Havoc OS`))
+  console.log(info(`${logcons.info()} Synced: Colt OS`))
 }
 
-async function addHavocOSToDevices (item, version) {
+async function addColtOSToDevices (item) {
   const { parse } = JSON
   const deviceBlob = await got(item.url)
   const fileContent = Buffer.from(
@@ -51,8 +51,9 @@ async function addHavocOSToDevices (item, version) {
     return true
   }
 
-  const deviceData =
-    (parsedFileData.response && parsedFileData.response[0]) || false
+  console.log(parsedFileData)
+
+  const deviceData = parsedFileData || false
 
   if (!deviceData) {
     return true
