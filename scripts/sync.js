@@ -11,7 +11,7 @@ const { db } = require('../db/db')
 const { syncManualDevices } = require('./sync-manual-devices')
 const { syncArrowOS } = require('./sync-arrowos')
 const { syncAospExtended } = require('./sync-aospextended')
-const { syncParanoidAndroid } = require('./sync-aospa')
+// const { syncParanoidAndroid } = require("./sync-aospa");
 const { syncHavocOS } = require('./sync-havocos')
 const { syncPotatoProject } = require('./sync-potatorom')
 const { syncColtOS } = require('./sync-coltos')
@@ -35,13 +35,16 @@ async function main () {
   await syncArrowOS()
   console.log(bullet('Syncing, AOSPExtended...'))
   await syncAospExtended()
-  console.log(bullet('Syncing, AOSPA - Paranoid Android...'))
-  await syncParanoidAndroid()
+
+  // Disabled cause their API is down.
+  // console.log(bullet('Syncing, AOSPA - Paranoid Android...'))
+  // await syncParanoidAndroid()
+
   console.log(bullet('Syncing, CRDroid...'))
   await syncCRAndroid()
   console.log(bullet('Syncing, HavocOS...'))
   await syncHavocOS()
-  console.log(bullet('Syncing, HavocOS...'))
+  console.log(bullet('Syncing, ColtOS...'))
   await syncColtOS()
   await generateDevices()
   console.log(bullet('Syncing, Local Release Dates...'))
