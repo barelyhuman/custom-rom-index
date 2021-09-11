@@ -14,6 +14,7 @@ const { syncAospExtended } = require('./sync-aospextended')
 const { syncParanoidAndroid } = require('./sync-aospa')
 const { syncHavocOS } = require('./sync-havocos')
 const { syncPotatoProject } = require('./sync-potatorom')
+const { syncColtOS } = require('./sync-coltos')
 
 const bullet = kluer.white().bold
 const success = kluer.green().bold
@@ -40,6 +41,8 @@ async function main () {
   await syncCRAndroid()
   console.log(bullet('Syncing, HavocOS...'))
   await syncHavocOS()
+  console.log(bullet('Syncing, HavocOS...'))
+  await syncColtOS()
   await generateDevices()
   console.log(bullet('Syncing, Local Release Dates...'))
   syncLocalReleases()
