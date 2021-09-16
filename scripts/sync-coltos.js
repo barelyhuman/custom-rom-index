@@ -51,8 +51,6 @@ async function addColtOSToDevices (item) {
     return true
   }
 
-  console.log(parsedFileData)
-
   const deviceData = parsedFileData || false
 
   if (!deviceData) {
