@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { addDevice, devices } = require('../db/db')
-const got = require('got')
+const _got = require('got')
 const { generateDevices } = require('./generate-devices')
 const kluer = require('kleur')
 const { logcons } = require('logcons')
@@ -66,6 +66,14 @@ async function addDotOSToDevices (item) {
       androidVersion: ['11'],
       links: [deviceData.links.xda],
       name: 'Dot OS'
+    }
+  })
+}
+
+function got (url) {
+  return _got(url, {
+    headers: {
+      Authorization: `token ${process.env.GH_TOKEN}`
     }
   })
 }
