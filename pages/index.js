@@ -4,7 +4,9 @@ import {
   TopDevicesRomCount,
   TotalDeviceROMsCount
 } from 'containers'
+import { SyncedROMS } from 'db/synced-roms-static'
 import Link from 'next/link'
+import React from 'react'
 
 function Home () {
   return (
@@ -47,18 +49,37 @@ function Home () {
       </section>
       <hr className='mb-3' />
       <section className='container px-5 mx-auto lg:px-28'>
+        <div className='grid grid-flow-row grid-cols-1 md:grid-cols-3 auto-rows-max gap-4'>
+          <TotalDeviceROMsCount />
+          <ActiveDeviceROMsCount />
+        </div>
+      </section>
+      <hr className='my-3' />
+      <section className='container px-5 mx-auto lg:px-28'>
         <div className='m-1 p-1'>
           <TopDevicesRomCount />
         </div>
       </section>
       <hr className='mb-3' />
       <section className='container px-5 mx-auto lg:px-28'>
-        <div className='flex flex-wrap justify-center items-start'>
-          <div className='m-1 p-1'>
-            <TotalDeviceROMsCount />
-          </div>
-          <div className='m-1 p-1'>
-            <ActiveDeviceROMsCount />
+        <div className='flex flex-col items-center justify-center p-5'>
+          <h2 className='mb-2 text-xl font-bold text-gray-700 title-font'>
+            Current Syncing ROMS
+          </h2>
+          <p>Custom ROM(s) that are synced automatically right now</p>
+
+          <div className='w-full mt-3 grid grid-flow-row grid-cols-1 md:grid-cols-3 auto-rows-max gap-4 text-gray-600'>
+            {SyncedROMS.map((item, index) => {
+              return (
+                <React.Fragment key={`rom-key-${item}-${index}`}>
+                  <div className='flex min-w-full m-1 flex-col items-center justify-center border border-gray-100 rounded-lg p-5 shadow'>
+                    <p className='text-gray-600 title-font font-bold text-lg'>
+                      {item}
+                    </p>
+                  </div>
+                </React.Fragment>
+              )
+            })}
           </div>
         </div>
       </section>
