@@ -9,31 +9,31 @@ const { STATUS_ENUM } = require('../db/status_enum')
 const success = kluer.green().bold
 
 const URL =
-  'https://raw.githubusercontent.com/LineageOS/hudson/master/updater/devices.json'
+  'https://raw.githubusercontent.com/legionos-devices/OTA/11/devices.json'
 
 async function main () {
   const response = await got(URL);
 
   (JSON.parse(response.body) || []).forEach((deviceItem) => {
-    const codename = deviceItem.model
-    const deviceName = `${deviceItem.oem} ${deviceItem.name}`
+    const codename = deviceItem.codename
+    const deviceName = `${deviceItem.brand} ${deviceItem.name}`
 
     addDevice({
       deviceName: deviceName,
       codename: codename,
       rom: {
-        status: STATUS_ENUM.unknown,
-        androidVersion: ['N/A'],
-        links: [`https://download.lineageos.org/${codename}`],
-        name: 'LineageOS'
+        status: deviceItem.active ? STATUS_ENUM.active : STATUS_ENUM.unknown,
+        androidVersion: ['11'],
+        links: [deviceItem.xda_thread],
+        name: 'LegionOS'
       }
     })
   })
 
-  console.log(success(`${logcons.tick()} Done, Syncing Lineage OS`))
+  console.log(success(`${logcons.tick()} Done, Syncing Legion OS`))
 }
 
-exports.syncLineageOS = main
+exports.syncLegionOS = main
 
 if (require.main === module) {
   (async () => {

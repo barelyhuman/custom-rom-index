@@ -11,5 +11,6 @@ export const SyncedROMS = [
   'Potato ROM',
   'Potato ROM',
   'Potato ROM',
-  'Pixel Experience'
+  'Pixel Experience',
+  'Legion OS'
 ]
