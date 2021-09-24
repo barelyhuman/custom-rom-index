@@ -9,8 +9,6 @@ export const SyncedROMS = [
   'Havoc OS',
   'Pixel Experience',
   'Potato ROM',
-  'Potato ROM',
-  'Potato ROM',
   'Pixel Experience',
   'Legion OS'
 ]
