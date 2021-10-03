@@ -16,6 +16,7 @@ const { syncHavocOS } = require('./sync-havocos')
 const { syncPotatoProject } = require('./sync-potatorom')
 const { syncColtOS } = require('./sync-coltos')
 const { syncLegionOS } = require('./sync-legionos')
+const { syncPixysOS } = require('./sync-pixys-os')
 
 const bullet = kluer.white().bold
 const success = kluer.green().bold
@@ -28,6 +29,8 @@ async function main () {
   await syncPixelExperience()
   console.log(bullet('Syncing, Lineage OS...'))
   await syncLineageOS()
+  console.log(bullet('Syncing, Pixys OS...'))
+  await syncPixysOS()
   console.log(bullet('Syncing, Potato Project...'))
   await syncPotatoProject()
   console.log(bullet('Syncing, Dot OS...'))
