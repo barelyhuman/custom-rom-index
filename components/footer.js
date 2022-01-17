@@ -1,34 +1,31 @@
-import { GithubIcon, LinkedInIcon, TwitterIcon } from 'components'
+import { GithubIcon, TwitterIcon } from 'components'
 
 export function Footer ({ ...props }) {
   return (
-    <div>
-      <footer>
+    <footer className='flex flex-col w-100 items-center justify-center'>
+      <div>
+        <span>
+          <a className='mx-1 my-1' href='https://twitter.com/barelyreaper'>
+            <TwitterIcon />
+          </a>
+          <a
+            className='mx-1 my-1'
+            href='http://github.com/barelyhuman/custom-rom-index'
+          >
+            <GithubIcon />
+          </a>
+        </span>
+      </div>
+      <div>
         <div>
-          <span>
-            <a href='https://twitter.com/barelyreaper'>
-              <TwitterIcon />
+          <p>
+            2021 - present &copy;{' '}
+            <a href='https://reaper.im' className=' hover:text-black'>
+              Reaper
             </a>
-            <a href='http://github.com/barelyhuman'>
-              <GithubIcon />
-            </a>
-
-            <a href='https://www.linkedin.com/in/reaperim/'>
-              <LinkedInIcon />
-            </a>
-          </span>
+          </p>
         </div>
-        <div>
-          <div>
-            <p>
-              2021 - present &copy;{' '}
-              <a href='https://reaper.im' className=' hover:text-black'>
-                Reaper
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   )
 }

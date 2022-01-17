@@ -1,5 +1,6 @@
-import { Button, Header, Note } from 'components'
+import { Button, Footer, Header, Note } from 'components'
 import Box from 'components/box'
+import { totalDevices, totalUniqueRoms } from 'lib/analytical-utils'
 import Link from 'next/link'
 import React from 'react'
 
@@ -10,15 +11,18 @@ function Home () {
       <Box paddingY-100>
         <div className='text-left'>
           <div>
-            <h2> The easiest way to find a rom for your device. </h2>
+            <h2> The easiest way to find a rom for your phone. </h2>
             <h1> Custom Rom Index</h1>
             <p>
-              As an enthusiast, I’ve wasted hours together to find a working ROM
-              for my devices and also, sometimes I feel like it’s better to
-              spend on devices that already have a great collection of roms.
-              Which is why this website was created so you don’t have to waste
-              time like I did.
+              If you've wasted hours looking on XDA for android phone's that
+              have a custom rom? Well, here's the solution to it all.
             </p>
+            <article>
+              With about <h3 className='inline-block'>{totalDevices()}</h3>{' '}
+              devices and <h3 className='inline-block'>{totalUniqueRoms()}</h3>{' '}
+              ROM's syncing daily the <strong>Custom Rom Index</strong> has it
+              all listed in a friendly and easy to use table.
+            </article>
             <Note>
               It is community sourced so if a device is missing, consider
               submitting a request for the same.
@@ -36,6 +40,16 @@ function Home () {
           </div>
         </div>
       </Box>
+      <Box marginY-50>
+        <h2>Support</h2>
+        <p>
+          This project is run by an indie developer and it would be really
+          appreciated if you were to support / sponsor the project. You can get
+          started by doing so on{' '}
+          <a href='https://barelyhuman.dev/donate'>barelyhuman.dev/donate</a>
+        </p>
+      </Box>
+      <Footer />
     </>
   )
 }
