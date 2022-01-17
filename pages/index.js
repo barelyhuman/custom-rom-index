@@ -1,10 +1,5 @@
-import { Button, Footer, Header, Note } from 'components'
-import {
-  ActiveDeviceROMsCount,
-  TopDevicesRomCount,
-  TotalDeviceROMsCount
-} from 'containers'
-import { SyncedROMS } from 'db/synced-roms-static'
+import { Button, Header, Note } from 'components'
+import Box from 'components/box'
 import Link from 'next/link'
 import React from 'react'
 
@@ -12,18 +7,12 @@ function Home () {
   return (
     <>
       <Header />
-      <section className='text-gray-700'>
-        <div className='container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28'>
-          <div className='flex flex-col items-center text-center items-start mb-16 text-left lg:flex-grow md:mb-0'>
-            <h2 className='mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font'>
-              {' '}
-              The easiest way to find a rom for your device.{' '}
-            </h2>
-            <h1 className='mb-8 text-2xl font-black tracking-wide text-black md:text-5xl title-font'>
-              {' '}
-              Custom Rom Index
-            </h1>
-            <p className='mb-8 text-base leading-relaxed text-left text-blueGray-600 '>
+      <Box paddingY-100>
+        <div className='text-left'>
+          <div>
+            <h2> The easiest way to find a rom for your device. </h2>
+            <h1> Custom Rom Index</h1>
+            <p>
               As an enthusiast, I’ve wasted hours together to find a working ROM
               for my devices and also, sometimes I feel like it’s better to
               spend on devices that already have a great collection of roms.
@@ -34,56 +23,19 @@ function Home () {
               It is community sourced so if a device is missing, consider
               submitting a request for the same.
             </Note>
-            <div className='flex flex-col justify-center lg:flex-row'>
+            <Box marginT-50 className='flex flex-wrap'>
               <Link href='/devices'>
-                <Button>Go To Index</Button>
+                <Button primary marginR-16 marginB-12>
+                  Go To Index
+                </Button>
               </Link>
               <Link href='/submit-rom'>
-                <Button secondary>Submit ROM</Button>
+                <Button marginB-12>Submit ROM</Button>
               </Link>
-            </div>
-          </div>
-          {/* TODO: enable this after implementing the ability to raise pull requests */}
-          {/* <SubmitNewRomForm /> */}
-        </div>
-      </section>
-      <hr className='mb-3' />
-      <section className='container px-5 mx-auto lg:px-28'>
-        <div className='grid grid-flow-row grid-cols-1 md:grid-cols-3 auto-rows-max gap-4'>
-          <TotalDeviceROMsCount />
-          <ActiveDeviceROMsCount />
-        </div>
-      </section>
-      <hr className='my-3' />
-      <section className='container px-5 mx-auto lg:px-28'>
-        <div className='m-1 p-1'>
-          <TopDevicesRomCount />
-        </div>
-      </section>
-      <hr className='mb-3' />
-      <section className='container px-5 mx-auto lg:px-28'>
-        <div className='flex flex-col items-center justify-center p-5'>
-          <h2 className='mb-2 text-xl font-bold text-gray-700 title-font'>
-            Current Syncing ROMS
-          </h2>
-          <p>Custom ROM(s) that are synced automatically right now</p>
-
-          <div className='w-full mt-3 grid grid-flow-row grid-cols-1 md:grid-cols-3 auto-rows-max gap-4 text-gray-600'>
-            {SyncedROMS.map((item, index) => {
-              return (
-                <React.Fragment key={`rom-key-${item}-${index}`}>
-                  <div className='flex min-w-full m-1 flex-col items-center justify-center border border-gray-100 rounded-lg p-5 shadow'>
-                    <p className='text-gray-600 title-font font-bold text-lg'>
-                      {item}
-                    </p>
-                  </div>
-                </React.Fragment>
-              )
-            })}
+            </Box>
           </div>
         </div>
-      </section>
-      <Footer />
+      </Box>
     </>
   )
 }

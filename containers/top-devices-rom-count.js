@@ -5,24 +5,18 @@ const { topDevicesInROMCount } = require('lib/analytical-utils')
 export function TopDevicesRomCount () {
   const deviceData = topDevicesInROMCount()
   return (
-    <div className='flex flex-col items-center justify-center p-5'>
-      <h2 className='mb-4 text-xl font-bold text-gray-700 title-font'>
-        Top Devices by ROM Count
-      </h2>
-      <ol className='list-decimal my-4 list-inside w-full text-gray-600'>
+    <div>
+      <h2>Top Devices by ROM Count</h2>
+      <ol>
         {deviceData.map((item, index) => {
           return (
             <li
               key={index}
-              className='flex justify-between p-2 text-xs border m-1 md:border-0 md:text-base rounded-sm hover:bg-gray-100 hover:cursor-default'
+              className='flex justify-between p-2 border m-1 rounded-sm md:border-0  hover:bg-gray-100 hover:cursor-default'
             >
-              <div className='w-1/3 text-left'>{item.name}</div>
-              <div className='w-1/3 text-left'>
-                Released: {getReleasedOn(item)}
-              </div>
-              <div className='w-1/3 text-right font-bold'>
-                {item.count} ROM(s)
-              </div>
+              <div className='w-1/3'>{item.name}</div>
+              <div className='w-1/3'>Released: {getReleasedOn(item)}</div>
+              <div className='w-1/3'>{item.count} ROM(s)</div>
             </li>
           )
         })}

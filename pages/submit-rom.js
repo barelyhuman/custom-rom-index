@@ -4,22 +4,19 @@ function SubmitRom ({ ...props }) {
   return (
     <>
       <Header />
-      <div className='container items-center mx-auto'>
-        <div className='p-5 overflow-y-auto whitespace-nowrap'>
-          <h1 className='mx-auto mb-12 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font'>
-            Want to add a new rom to the list?
-          </h1>
-
-          <p className='mx-auto text-base font-medium leading-relaxed text-gray-700 '>
+      <div>
+        <div>
+          <h1>Want to add a new rom to the list?</h1>
+          <p>
             If you wish to add a rom to the list for whatever reason, follow the
             below steps
           </p>
-          <ol className='list-decimal mt-4 list-inside mx-auto text-base font-medium leading-relaxed text-gray-700 '>
+          <ol>
             <li>
               Visit
               <a
                 href='https://github.com/barelyhuman/custom-rom-index'
-                className='text-gray-500 hover:text-black'
+                className=' hover:text-black'
               >
                 {' '}
                 https://github.com/barelyhuman/custom-rom-index
@@ -28,22 +25,21 @@ function SubmitRom ({ ...props }) {
             </li>
             <li>Fork the repository</li>
             <li>
-              Modify{' '}
-              <code className='bg-gray-100 p-1 rounded-sm'>
-                scripts/sync-manual-devices.js
-              </code>{' '}
-              to add your rom with the needed data
+              Modify <code>scripts/sync-manual-devices.js</code> to add your rom
+              with the needed data
             </li>
             <li>Raise a new Pull Request</li>
             <li>Done!</li>
           </ol>
-          <p className='mx-auto mt-2 text-base font-medium leading-relaxed text-gray-700 '>
+          <p>
             Your <strong>ROM</strong> will be added as soon as we're done
             reviewing the addition
           </p>
-          <div className='mt-8'>
+          <div>
             <a href='https://github.com/barelyhuman/custom-rom-index/'>
-              <Button>Submit ROM</Button>
+              <Button marginY-50 primary>
+                Submit ROM
+              </Button>
             </a>
           </div>
         </div>

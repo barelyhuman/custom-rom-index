@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
+@import url("https://unpkg.com/zinccolors@0.0.1/css/zinc.min.css");
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* the brightest color */
+  --bright: var(--zinc-50);
+  /* the darkest color */
+  --dark: var(--zinc-900);
+
+  /* set of colors that control visual elements */
+  --base: var(--zinc-900);
+  --surface: var(--zinc-800);
+  --text: var(--zinc-400);
+  --dim: var(--zinc-500);
+  --dimmer: var(--zinc-600);
+  --accent: #4f46e5;
+
+  --success: #98c379;
+  --error: #e06c75;
+  --warn: #e5c07b;
+
+  /* fonts */
+  --font: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--base);
+  color: var(--text);
+  max-width: 1100px;
+  font-family: var(--font);
+  margin: 0 auto;
+  padding: 16px;
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--bright);
+}
+
+p,
+article,
+main,
+li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(16px * 1.5);
+  margin: 8px 0px;
+  padding: 0px;
+}
+
+.text-dim {
+  color: var(--dim);
+}
+
+code {
+  font-family: monospace;
+  display: inline-block;
+  font-weight: 400;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  background: var(--surface);
+}
+
+pre.code {
+  padding: 8px;
+  background: var(--surface);
+  border-radius: 4px;
+}
+pre.code > code {
+  background: none;
+}
+
+.button {
+  --btn-background: var(--surface);
+  background-color: var(--btn-background);
+  appearance: none;
+  border: 2px solid var(--btn-background);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button.primary {
+  --btn-background: var(--success);
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 0px;
+  color: var(--text);
+  text-align: center;
+  outline: transparent;
+  background: var(--surface);
+  width: 100%;
+}
+
+.text-success {
+  color: var(--success);
+}
+.text-error {
+  color: var(--error);
+}
+.text-warn {
+  color: var(--warn);
+}
+
+table {
+  table-layout: fixed;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px 12px;
+  padding-left: 0px;
+  word-wrap: break-word;
+}
+
+th:last-child,
+td:last-child {
+  text-align: right;
+  padding-right: 0px;
+}

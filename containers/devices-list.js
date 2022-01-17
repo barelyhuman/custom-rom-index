@@ -13,9 +13,9 @@ import { useCallback, useEffect, useState } from 'react'
 const { devices } = devicesJSON
 
 const STATUS_COLOR_ENUM = {
-  active: 'bg-green-400',
-  discontinued: 'bg-red-400',
-  unknown: 'bg-gray-400'
+  active: 'text-success',
+  discontinued: 'text-error',
+  unknown: 'text-warn'
 }
 
 function useDeviceList () {
@@ -183,34 +183,31 @@ export function DevicesListTable ({ ...props }) {
 
   return (
     <>
-      <div className='container flex flex-col items-center px-5 mx-auto md:flex-row'>
-        <div className='w-full'>
-          <div className='pr-5 mx-auto'>
+      <div>
+        <div>
+          <div>
             <Input
-              label='Search'
-              placeholder=' eg: device:pixel, codename:bramble, rom:calyx, version:11'
+              marginY-50
+              placeholder='Search (eg: device:pixel, codename:bramble, rom:calyx, version:11)'
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
-          <div className='overflow-auto lg:overflow-visible '>
-            <table className='table text-gray-400 border-separate space-y-6 text-sm w-full mx-auto'>
-              <thead className='text-gray-500'>
-                <tr className='border-2 border-black'>
-                  <th className='p-3 text-left'>Codename</th>
-                  <th className='p-3 text-left'>Device Name </th>
-                  <th className='p-3 text-left'>Rom Name</th>
-                  <th className='p-3 text-left'>Android Version(s)</th>
-                  <th className='p-3 text-left'>Status</th>
-                  <th
-                    className='p-3 text-left'
-                    onClick={() => toggleSortDirection('releasedOn')}
-                  >
-                    <div className='flex items-center'>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Codename</th>
+                  <th>Device Name </th>
+                  <th>Rom Name</th>
+                  <th>Android Version(s)</th>
+                  <th>Status</th>
+                  <th onClick={() => toggleSortDirection('releasedOn')}>
+                    <div>
                       Released On
                       {_renderSortDirection('releasedOn')}
                     </div>
                   </th>
-                  <th className='p-3 text-left'>Links</th>
+                  <th>Links</th>
                 </tr>
               </thead>
               <tbody>
@@ -218,38 +215,30 @@ export function DevicesListTable ({ ...props }) {
                   return (
                     <tr
                       key={deviceItem.id}
-                      className='text-gray-600 border-2 border-black mt-1'
+                      className=' border-2 border-black mt-1'
                     >
-                      <td className='p-3 font-semibold'>
-                        {deviceItem.codename}
-                      </td>
-                      <td className='p-3'>{deviceItem.deviceName}</td>
-                      <td className='p-3 font-bold'>{deviceItem.rom.name}</td>
-                      <td className='p-3'>
+                      <td>{deviceItem.codename}</td>
+                      <td>{deviceItem.deviceName}</td>
+                      <td>{deviceItem.rom.name}</td>
+                      <td>
                         {deviceItem.rom.androidVersion
                           ? deviceItem.rom.androidVersion.join(',')
                           : 'N/A'}
                       </td>
-                      <td className='p-3'>
+                      <td>
                         <span
                           className={`${
                             STATUS_COLOR_ENUM[deviceItem.rom.status]
-                          } text-gray-50 rounded-md px-3 py-1`}
+                          }`}
                         >
                           {deviceItem.rom.status}
                         </span>
                       </td>
-                      <td className='p-3'>{getReleasedOn(deviceItem)}</td>
-                      <td className='p-3 '>
+                      <td>{getReleasedOn(deviceItem)}</td>
+                      <td>
                         {deviceItem.rom.links.map((link, index) => (
-                          <a
-                            key={index}
-                            href={link}
-                            className='text-gray-400 hover:text-black mr-2'
-                          >
-                            <i className='material-icons-outlined text-base'>
-                              launch
-                            </i>
+                          <a key={index} href={link}>
+                            <i className='material-icons'>launch</i>
                           </a>
                         ))}
                       </td>
@@ -263,26 +252,8 @@ export function DevicesListTable ({ ...props }) {
       </div>
       <style jsx>
         {`
-          .table {
-            border-spacing: 0 15px;
-          }
-
           i {
             font-size: 1rem !important;
-          }
-
-          .table tr {
-            border-radius: 20px;
-          }
-
-          tr td:nth-child(n + 5),
-          tr th:nth-child(n + 5) {
-            border-radius: 0 0.625rem 0.625rem 0;
-          }
-
-          tr td:nth-child(1),
-          tr th:nth-child(1) {
-            border-radius: 0.625rem 0 0 0.625rem;
           }
         `}
       </style>
