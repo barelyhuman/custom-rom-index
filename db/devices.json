@@ -11948,26 +11948,10 @@
         ],
         "status": "active",
         "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/deen/Arrow-v10.0-deen-COMMUNITY-20201109-VANILLA.zip"
+          "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/deen/Arrow-v10.0-deen-COMMUNITY-20201112-VANILLA.zip"
         ]
       },
       "id": 743
-    },
-    {
-      "deviceName": "Redmi 5 Plus",
-      "codename": "vince",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          10
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/vince/Arrow-v10.0-vince-COMMUNITY-20201004-VANILLA.zip"
-        ]
-      },
-      "id": 744,
-      "releasedOn": "2018-02"
     },
     {
       "deviceName": "POCOPHONE F1",
@@ -11982,7 +11966,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/beryllium/Arrow-v10.0-beryllium-OFFICIAL-20200929-VANILLA.zip"
         ]
       },
-      "id": 745,
+      "id": 744,
       "releasedOn": "2018-08"
     },
     {
@@ -11998,7 +11982,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/davinci/Arrow-v10.0-davinci-UNOFFICIAL-20200910-VANILLA.zip"
         ]
       },
-      "id": 746,
+      "id": 745,
       "releasedOn": "2019-06-06"
     },
     {
@@ -12014,7 +11998,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/lmi/Arrow-v10.0-lmi-UNOFFICIAL-20201126-VANILLA.zip"
         ]
       },
-      "id": 747,
+      "id": 746,
       "releasedOn": [
         {
           "POCO F2 Pro": "2020-05"
@@ -12040,7 +12024,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/marlin/Arrow-v10.0-marlin-UNOFFICIAL-20210215-VANILLA.zip"
         ]
       },
-      "id": 748,
+      "id": 747,
       "releasedOn": "2016-10"
     },
     {
@@ -12056,7 +12040,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/mido/Arrow-v10.0-mido-UNOFFICIAL-20201107-VANILLA.zip"
         ]
       },
-      "id": 749,
+      "id": 748,
       "releasedOn": "2017-01"
     },
     {
@@ -12072,7 +12056,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/polaris/Arrow-v10.0-polaris-UNOFFICIAL-20201108-VANILLA.zip"
         ]
       },
-      "id": 750,
+      "id": 749,
       "releasedOn": "2018-04"
     },
     {
@@ -12088,7 +12072,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/potter/Arrow-v10.0-potter-OFFICIAL-20200914-VANILLA.zip"
         ]
       },
-      "id": 751,
+      "id": 750,
       "releasedOn": "2017-01"
     },
     {
@@ -12104,7 +12088,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/sailfish/Arrow-v10.0-sailfish-UNOFFICIAL-20210131-VANILLA.zip"
         ]
       },
-      "id": 752,
+      "id": 751,
       "releasedOn": "2016-10"
     },
     {
@@ -12120,276 +12104,8 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/violet/Arrow-v10.0-violet-UNOFFICIAL-20200914-VANILLA.zip"
         ]
       },
-      "id": 753,
+      "id": 752,
       "releasedOn": "2019-03-13"
-    },
-    {
-      "deviceName": "Motorola One",
-      "codename": "deen",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          10
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/deen/Arrow-v10.0-deen-COMMUNITY-20201112-VANILLA.zip"
-        ]
-      },
-      "id": 754
-    },
-    {
-      "deviceName": "Realme 2 Pro",
-      "codename": "RMX1801",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/RMX1801/Arrow-v11.0-RMX1801-COMMUNITY-20210920-VANILLA.zip"
-        ]
-      },
-      "id": 755,
-      "releasedOn": "2018-10-11"
-    },
-    {
-      "deviceName": "Asus Zenfone Max M2",
-      "codename": "X01AD",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/X01AD/Arrow-v11.0-X01AD-COMMUNITY-20220131-VANILLA.zip"
-        ]
-      },
-      "id": 756,
-      "releasedOn": "2018-10"
-    },
-    {
-      "deviceName": "M2007J1SC",
-      "codename": "cas",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cas/Arrow-v11.0-cas-COMMUNITY-20211004-VANILLA.zip"
-        ]
-      },
-      "id": 757
-    },
-    {
-      "deviceName": "Mi 9",
-      "codename": "cepheus",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cepheus/Arrow-v11.0-cepheus-COMMUNITY-20210907-VANILLA.zip"
-        ]
-      },
-      "id": 758,
-      "releasedOn": "2018-04"
-    },
-    {
-      "deviceName": "Mi MIX 2",
-      "codename": "chiron",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/chiron/Arrow-v11.0-chiron-COMMUNITY-20210423-VANILLA.zip"
-        ]
-      },
-      "id": 759,
-      "releasedOn": "2017-09"
-    },
-    {
-      "deviceName": "MI 10 Pro",
-      "codename": "cmi",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cmi/Arrow-v11.0-cmi-COMMUNITY-20210204-VANILLA.zip"
-        ]
-      },
-      "id": 760,
-      "releasedOn": "2020-02-13"
-    },
-    {
-      "deviceName": "Juice",
-      "codename": "juice",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/juice/Arrow-v11.0-juice-COMMUNITY-20210820-VANILLA.zip"
-        ]
-      },
-      "id": 761
-    },
-    {
-      "deviceName": "KB2000",
-      "codename": "kebab",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/kebab/Arrow-v11.0-kebab-COMMUNITY-20211004-VANILLA.zip"
-        ]
-      },
-      "id": 762,
-      "releasedOn": "2020-10"
-    },
-    {
-      "deviceName": "moto g(7) power",
-      "codename": "ocean",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/ocean/Arrow-v11.0-ocean-COMMUNITY-20210405-VANILLA.zip"
-        ]
-      },
-      "id": 763,
-      "releasedOn": "2019-03-25"
-    },
-    {
-      "deviceName": "Redmi 7",
-      "codename": "onclite",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/onclite/Arrow-v11.0-onclite-COMMUNITY-20210924-VANILLA.zip"
-        ]
-      },
-      "id": 764,
-      "releasedOn": "2019-03"
-    },
-    {
-      "deviceName": "Realme 5 Series",
-      "codename": "r5x",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/r5x/Arrow-v11.0-r5x-COMMUNITY-20210823-VANILLA.zip"
-        ]
-      },
-      "id": 765,
-      "releasedOn": "2019-08-20"
-    },
-    {
-      "deviceName": "Redmi 5",
-      "codename": "rosy",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/rosy/Arrow-v11.0-rosy-COMMUNITY-20210418-VANILLA.zip"
-        ]
-      },
-      "id": 766,
-      "releasedOn": "2017-12"
-    },
-    {
-      "deviceName": "Redmi Note 6 Pro",
-      "codename": "tulip",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/tulip/Arrow-v11.0-tulip-COMMUNITY-20211009-VANILLA.zip"
-        ]
-      },
-      "id": 767,
-      "releasedOn": "2016-09"
-    },
-    {
-      "deviceName": "MI 10",
-      "codename": "umi",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/umi/Arrow-v11.0-umi-COMMUNITY-20210204-VANILLA.zip"
-        ]
-      },
-      "id": 768
-    },
-    {
-      "deviceName": "Redmi 5 Plus",
-      "codename": "vince",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/vince/Arrow-v11.0-vince-COMMUNITY-20220122-VANILLA.zip"
-        ]
-      },
-      "id": 769,
-      "releasedOn": "2018-02"
-    },
-    {
-      "deviceName": "Z2 Plus",
-      "codename": "z2_plus",
-      "rom": {
-        "name": "ArrowOS (community)",
-        "androidVersion": [
-          11
-        ],
-        "status": "active",
-        "links": [
-          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/z2_plus/Arrow-v11.0-z2_plus-COMMUNITY-20211221-VANILLA.zip"
-        ]
-      },
-      "id": 770,
-      "releasedOn": "2016-06"
     },
     {
       "deviceName": "Realme 2 Pro",
@@ -12404,7 +12120,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/RMX1801/Arrow-v11.0-RMX1801-COMMUNITY-20211004-VANILLA.zip"
         ]
       },
-      "id": 771,
+      "id": 753,
       "releasedOn": "2018-10-11"
     },
     {
@@ -12420,7 +12136,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/X01AD/Arrow-v11.0-X01AD-COMMUNITY-20211220-VANILLA.zip"
         ]
       },
-      "id": 772,
+      "id": 754,
       "releasedOn": "2018-10"
     },
     {
@@ -12436,7 +12152,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cas/Arrow-v11.0-cas-COMMUNITY-20210927-VANILLA.zip"
         ]
       },
-      "id": 773
+      "id": 755
     },
     {
       "deviceName": "Mi 9",
@@ -12451,7 +12167,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cepheus/Arrow-v11.0-cepheus-COMMUNITY-20220129-VANILLA.zip"
         ]
       },
-      "id": 774,
+      "id": 756,
       "releasedOn": "2018-04"
     },
     {
@@ -12467,7 +12183,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/channel/Arrow-v11.0-channel-COMMUNITY-20211120-VANILLA.zip"
         ]
       },
-      "id": 775,
+      "id": 757,
       "releasedOn": "2019-03"
     },
     {
@@ -12483,7 +12199,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/chiron/Arrow-v11.0-chiron-COMMUNITY-20210424-VANILLA.zip"
         ]
       },
-      "id": 776,
+      "id": 758,
       "releasedOn": "2017-09"
     },
     {
@@ -12499,7 +12215,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cmi/Arrow-v11.0-cmi-COMMUNITY-20210219-VANILLA.zip"
         ]
       },
-      "id": 777,
+      "id": 759,
       "releasedOn": "2020-02-13"
     },
     {
@@ -12515,7 +12231,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/juice/Arrow-v11.0-juice-COMMUNITY-20210808-VANILLA.zip"
         ]
       },
-      "id": 778
+      "id": 760
     },
     {
       "deviceName": "KB2000",
@@ -12530,7 +12246,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/kebab/Arrow-v11.0-kebab-COMMUNITY-20211007-VANILLA.zip"
         ]
       },
-      "id": 779,
+      "id": 761,
       "releasedOn": "2020-10"
     },
     {
@@ -12546,7 +12262,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/ocean/Arrow-v11.0-ocean-COMMUNITY-20220129-VANILLA.zip"
         ]
       },
-      "id": 780,
+      "id": 762,
       "releasedOn": "2019-03-25"
     },
     {
@@ -12562,7 +12278,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/onclite/Arrow-v11.0-onclite-COMMUNITY-20211220-VANILLA.zip"
         ]
       },
-      "id": 781,
+      "id": 763,
       "releasedOn": "2019-03"
     },
     {
@@ -12578,7 +12294,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/r5x/Arrow-v11.0-r5x-COMMUNITY-20210908-VANILLA.zip"
         ]
       },
-      "id": 782,
+      "id": 764,
       "releasedOn": "2019-08-20"
     },
     {
@@ -12594,7 +12310,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/river/Arrow-v11.0-river-COMMUNITY-20220129-VANILLA.zip"
         ]
       },
-      "id": 783,
+      "id": 765,
       "releasedOn": "2019-02-07"
     },
     {
@@ -12610,7 +12326,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/rosy/Arrow-v11.0-rosy-COMMUNITY-20210424-VANILLA.zip"
         ]
       },
-      "id": 784,
+      "id": 766,
       "releasedOn": "2017-12"
     },
     {
@@ -12626,7 +12342,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/tulip/Arrow-v11.0-tulip-COMMUNITY-20211008-VANILLA.zip"
         ]
       },
-      "id": 785,
+      "id": 767,
       "releasedOn": "2016-09"
     },
     {
@@ -12642,7 +12358,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/umi/Arrow-v11.0-umi-COMMUNITY-20210219-VANILLA.zip"
         ]
       },
-      "id": 786
+      "id": 768
     },
     {
       "deviceName": "Redmi 5 Plus",
@@ -12657,7 +12373,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/vince/Arrow-v11.0-vince-COMMUNITY-20211012-VANILLA.zip"
         ]
       },
-      "id": 787,
+      "id": 769,
       "releasedOn": "2018-02"
     },
     {
@@ -12673,8 +12389,39 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/z2_plus/Arrow-v11.0-z2_plus-COMMUNITY-20210913-VANILLA.zip"
         ]
       },
-      "id": 788,
+      "id": 770,
       "releasedOn": "2016-06"
+    },
+    {
+      "deviceName": "Motorola One",
+      "codename": "deen",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          10
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/deen/Arrow-v10.0-deen-COMMUNITY-20201109-VANILLA.zip"
+        ]
+      },
+      "id": 771
+    },
+    {
+      "deviceName": "Redmi 5 Plus",
+      "codename": "vince",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          10
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/vince/Arrow-v10.0-vince-COMMUNITY-20201004-VANILLA.zip"
+        ]
+      },
+      "id": 772,
+      "releasedOn": "2018-02"
     },
     {
       "deviceName": "Vibe K5",
@@ -12689,7 +12436,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/A6020/Arrow-v10.0-A6020-OFFICIAL-20210311-VANILLA.zip"
         ]
       },
-      "id": 789,
+      "id": 773,
       "releasedOn": "2016-04"
     },
     {
@@ -12705,7 +12452,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/I01WD/Arrow-v10.0-I01WD-OFFICIAL-20200802-VANILLA.zip"
         ]
       },
-      "id": 790,
+      "id": 774,
       "releasedOn": "2019-05-16"
     },
     {
@@ -12721,7 +12468,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/X01BD/Arrow-v10.0-X01BD-OFFICIAL-20200414-VANILLA.zip"
         ]
       },
-      "id": 791,
+      "id": 775,
       "releasedOn": "2018-12"
     },
     {
@@ -12737,7 +12484,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/angler/Arrow-v10.0-angler-OFFICIAL-20200823-VANILLA.zip"
         ]
       },
-      "id": 792,
+      "id": 776,
       "releasedOn": "2015-09-29"
     },
     {
@@ -12753,7 +12500,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/beryllium/Arrow-v10.0-beryllium-OFFICIAL-20210217-VANILLA.zip"
         ]
       },
-      "id": 793,
+      "id": 777,
       "releasedOn": "2018-08"
     },
     {
@@ -12769,7 +12516,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/cheeseburger/Arrow-v10.0-cheeseburger-OFFICIAL-20201108-VANILLA.zip"
         ]
       },
-      "id": 794,
+      "id": 778,
       "releasedOn": "2017-06"
     },
     {
@@ -12785,7 +12532,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/chiron/Arrow-v10.0-chiron-OFFICIAL-20200802-VANILLA.zip"
         ]
       },
-      "id": 795,
+      "id": 779,
       "releasedOn": "2017-09"
     },
     {
@@ -12801,7 +12548,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/clover/Arrow-v10.0-clover-OFFICIAL-20210310-VANILLA.zip"
         ]
       },
-      "id": 796
+      "id": 780
     },
     {
       "deviceName": "Mi 9T",
@@ -12816,7 +12563,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/davinci/Arrow-v10.0-davinci-OFFICIAL-20201109-VANILLA.zip"
         ]
       },
-      "id": 797,
+      "id": 781,
       "releasedOn": "2019-06-06"
     },
     {
@@ -12832,7 +12579,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/dumpling/Arrow-v10.0-dumpling-OFFICIAL-20200629-VANILLA.zip"
         ]
       },
-      "id": 798,
+      "id": 782,
       "releasedOn": "2017-11"
     },
     {
@@ -12848,7 +12595,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/enchilada/Arrow-v10.0-enchilada-OFFICIAL-20201109-VANILLA.zip"
         ]
       },
-      "id": 799,
+      "id": 783,
       "releasedOn": "2018-04"
     },
     {
@@ -12864,7 +12611,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/ginkgo/Arrow-v10.0-ginkgo-OFFICIAL-20201228-VANILLA.zip"
         ]
       },
-      "id": 800,
+      "id": 784,
       "releasedOn": "2019-10-16"
     },
     {
@@ -12880,7 +12627,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/land/Arrow-v10.0-land-OFFICIAL-20201108-VANILLA.zip"
         ]
       },
-      "id": 801,
+      "id": 785,
       "releasedOn": "2016-06"
     },
     {
@@ -12896,7 +12643,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/lmi/Arrow-v10.0-lmi-OFFICIAL-20201227-VANILLA.zip"
         ]
       },
-      "id": 802,
+      "id": 786,
       "releasedOn": [
         {
           "POCO F2 Pro": "2020-05"
@@ -12922,7 +12669,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/marlin/Arrow-v10.0-marlin-OFFICIAL-20210310-VANILLA.zip"
         ]
       },
-      "id": 803,
+      "id": 787,
       "releasedOn": "2016-10"
     },
     {
@@ -12938,7 +12685,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/miatoll/Arrow-v10.0-miatoll-OFFICIAL-20201109-VANILLA.zip"
         ]
       },
-      "id": 804,
+      "id": 788,
       "releasedOn": [
         {
           "POCO M2 Pro": "2020-07-14"
@@ -12970,7 +12717,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/mido/Arrow-v10.0-mido-OFFICIAL-20201108-VANILLA.zip"
         ]
       },
-      "id": 805,
+      "id": 789,
       "releasedOn": "2017-01"
     },
     {
@@ -12986,7 +12733,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/perseus/Arrow-v10.0-perseus-OFFICIAL-20201109-VANILLA.zip"
         ]
       },
-      "id": 806
+      "id": 790
     },
     {
       "deviceName": "POCO X2",
@@ -13001,7 +12748,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/phoenix/Arrow-v10.0-phoenix-OFFICIAL-20201109-VANILLA.zip"
         ]
       },
-      "id": 807,
+      "id": 791,
       "releasedOn": "2020-02-11"
     },
     {
@@ -13017,7 +12764,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/polaris/Arrow-v10.0-polaris-OFFICIAL-20201227-VANILLA.zip"
         ]
       },
-      "id": 808,
+      "id": 792,
       "releasedOn": "2018-04"
     },
     {
@@ -13033,7 +12780,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/potter/Arrow-v10.0-potter-OFFICIAL-20210310-VANILLA.zip"
         ]
       },
-      "id": 809,
+      "id": 793,
       "releasedOn": "2017-01"
     },
     {
@@ -13049,7 +12796,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/raphael/Arrow-v10.0-raphael-OFFICIAL-20201231-VANILLA.zip"
         ]
       },
-      "id": 810,
+      "id": 794,
       "releasedOn": "2019-08-21"
     },
     {
@@ -13065,7 +12812,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/s2/Arrow-v10.0-s2-OFFICIAL-20200126-VANILLA.zip"
         ]
       },
-      "id": 811,
+      "id": 795,
       "releasedOn": "2016-04"
     },
     {
@@ -13081,7 +12828,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/sailfish/Arrow-v10.0-sailfish-OFFICIAL-20210310-VANILLA.zip"
         ]
       },
-      "id": 812,
+      "id": 796,
       "releasedOn": "2016-10"
     },
     {
@@ -13097,7 +12844,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/sanders/Arrow-v10.0-sanders-OFFICIAL-20210310-VANILLA.zip"
         ]
       },
-      "id": 813,
+      "id": 797,
       "releasedOn": "2017-08"
     },
     {
@@ -13113,7 +12860,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/violet/Arrow-v10.0-violet-OFFICIAL-20201109-VANILLA.zip"
         ]
       },
-      "id": 814,
+      "id": 798,
       "releasedOn": "2019-03-13"
     },
     {
@@ -13129,7 +12876,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/wayne/Arrow-v10.0-wayne-OFFICIAL-20200916-VANILLA.zip"
         ]
       },
-      "id": 815,
+      "id": 799,
       "releasedOn": "2018-04"
     },
     {
@@ -13145,7 +12892,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/whyred/Arrow-v10.0-whyred-OFFICIAL-20201227-VANILLA.zip"
         ]
       },
-      "id": 816,
+      "id": 800,
       "releasedOn": "2018-02"
     },
     {
@@ -13161,7 +12908,7 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/z2_plus/Arrow-v10.0-z2_plus-OFFICIAL-20210310-VANILLA.zip"
         ]
       },
-      "id": 817,
+      "id": 801,
       "releasedOn": "2016-06"
     },
     {
@@ -13177,7 +12924,260 @@
           "https://sourceforge.net/projects/arrow-os/files/arrow-10.0/z2_row/Arrow-v10.0-z2_row-OFFICIAL-20210310-VANILLA.zip"
         ]
       },
-      "id": 818
+      "id": 802
+    },
+    {
+      "deviceName": "Realme 2 Pro",
+      "codename": "RMX1801",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/RMX1801/Arrow-v11.0-RMX1801-COMMUNITY-20210920-VANILLA.zip"
+        ]
+      },
+      "id": 803,
+      "releasedOn": "2018-10-11"
+    },
+    {
+      "deviceName": "Asus Zenfone Max M2",
+      "codename": "X01AD",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/X01AD/Arrow-v11.0-X01AD-COMMUNITY-20220131-VANILLA.zip"
+        ]
+      },
+      "id": 804,
+      "releasedOn": "2018-10"
+    },
+    {
+      "deviceName": "M2007J1SC",
+      "codename": "cas",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cas/Arrow-v11.0-cas-COMMUNITY-20211004-VANILLA.zip"
+        ]
+      },
+      "id": 805
+    },
+    {
+      "deviceName": "Mi 9",
+      "codename": "cepheus",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cepheus/Arrow-v11.0-cepheus-COMMUNITY-20210907-VANILLA.zip"
+        ]
+      },
+      "id": 806,
+      "releasedOn": "2018-04"
+    },
+    {
+      "deviceName": "Mi MIX 2",
+      "codename": "chiron",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/chiron/Arrow-v11.0-chiron-COMMUNITY-20210423-VANILLA.zip"
+        ]
+      },
+      "id": 807,
+      "releasedOn": "2017-09"
+    },
+    {
+      "deviceName": "MI 10 Pro",
+      "codename": "cmi",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/cmi/Arrow-v11.0-cmi-COMMUNITY-20210204-VANILLA.zip"
+        ]
+      },
+      "id": 808,
+      "releasedOn": "2020-02-13"
+    },
+    {
+      "deviceName": "Juice",
+      "codename": "juice",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/juice/Arrow-v11.0-juice-COMMUNITY-20210820-VANILLA.zip"
+        ]
+      },
+      "id": 809
+    },
+    {
+      "deviceName": "KB2000",
+      "codename": "kebab",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/kebab/Arrow-v11.0-kebab-COMMUNITY-20211004-VANILLA.zip"
+        ]
+      },
+      "id": 810,
+      "releasedOn": "2020-10"
+    },
+    {
+      "deviceName": "moto g(7) power",
+      "codename": "ocean",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/ocean/Arrow-v11.0-ocean-COMMUNITY-20210405-VANILLA.zip"
+        ]
+      },
+      "id": 811,
+      "releasedOn": "2019-03-25"
+    },
+    {
+      "deviceName": "Redmi 7",
+      "codename": "onclite",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/onclite/Arrow-v11.0-onclite-COMMUNITY-20210924-VANILLA.zip"
+        ]
+      },
+      "id": 812,
+      "releasedOn": "2019-03"
+    },
+    {
+      "deviceName": "Realme 5 Series",
+      "codename": "r5x",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/r5x/Arrow-v11.0-r5x-COMMUNITY-20210823-VANILLA.zip"
+        ]
+      },
+      "id": 813,
+      "releasedOn": "2019-08-20"
+    },
+    {
+      "deviceName": "Redmi 5",
+      "codename": "rosy",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/rosy/Arrow-v11.0-rosy-COMMUNITY-20210418-VANILLA.zip"
+        ]
+      },
+      "id": 814,
+      "releasedOn": "2017-12"
+    },
+    {
+      "deviceName": "Redmi Note 6 Pro",
+      "codename": "tulip",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/tulip/Arrow-v11.0-tulip-COMMUNITY-20211009-VANILLA.zip"
+        ]
+      },
+      "id": 815,
+      "releasedOn": "2016-09"
+    },
+    {
+      "deviceName": "MI 10",
+      "codename": "umi",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/umi/Arrow-v11.0-umi-COMMUNITY-20210204-VANILLA.zip"
+        ]
+      },
+      "id": 816
+    },
+    {
+      "deviceName": "Redmi 5 Plus",
+      "codename": "vince",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/vince/Arrow-v11.0-vince-COMMUNITY-20220122-VANILLA.zip"
+        ]
+      },
+      "id": 817,
+      "releasedOn": "2018-02"
+    },
+    {
+      "deviceName": "Z2 Plus",
+      "codename": "z2_plus",
+      "rom": {
+        "name": "ArrowOS (community)",
+        "androidVersion": [
+          11
+        ],
+        "status": "active",
+        "links": [
+          "https://sourceforge.net/projects/arrow-os/files/arrow-11.0/z2_plus/Arrow-v11.0-z2_plus-COMMUNITY-20211221-VANILLA.zip"
+        ]
+      },
+      "id": 818,
+      "releasedOn": "2016-06"
     },
     {
       "deviceName": "Asus Zenfone Max Pro M1",
@@ -17261,66 +17261,20 @@
       "releasedOn": "2017-01-02"
     },
     {
-      "deviceName": "Zenfone Max Pro M1",
-      "codename": "X00TD",
+      "deviceName": "Zenfone Max Pro M2",
+      "codename": "X01BD",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/crdroid-6-11-t4179123"
+          "https://forum.xda-developers.com/max-pro-m2/development/rom-crdroid-v6-0-t4022863"
         ],
         "name": "crDroid"
       },
       "id": 1068,
-      "releasedOn": "2018-05"
-    },
-    {
-      "deviceName": "Zenfone 5",
-      "codename": "X00QD",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/zenfone-5/development/rom-crdroid-android-6-6-t4110739"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1069
-    },
-    {
-      "deviceName": "OnePlus Nord",
-      "codename": "avicii",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/oneplus-nord/development/official-romcrdroid-t4173207"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1070,
-      "releasedOn": "2020-07-21"
-    },
-    {
-      "deviceName": "XT",
-      "codename": "RMX1921",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/realme-xt/development/rom-crdroid-android-6-t4063545"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1071
+      "releasedOn": "2018-12"
     },
     {
       "deviceName": "Galaxy A5 2017",
@@ -17335,8 +17289,55 @@
         ],
         "name": "crDroid"
       },
-      "id": 1072,
+      "id": 1069,
       "releasedOn": "2017-01-02"
+    },
+    {
+      "deviceName": "Redmi Note 8 Pro",
+      "codename": "begonia",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/redmi-note-8-pro/development/rom-crdroid-6-x-t4124805"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1070,
+      "releasedOn": "2019-08"
+    },
+    {
+      "deviceName": "OnePlus Nord",
+      "codename": "avicii",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/oneplus-nord/development/official-romcrdroid-t4173207"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1071,
+      "releasedOn": "2020-07-21"
+    },
+    {
+      "deviceName": "Zenfone 5",
+      "codename": "X00QD",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/zenfone-5/development/rom-crdroid-android-6-6-t4110739"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1072
     },
     {
       "deviceName": "Nexus 6P",
@@ -17355,6 +17356,21 @@
       "releasedOn": "2015-09-29"
     },
     {
+      "deviceName": "XT",
+      "codename": "RMX1921",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/realme-xt/development/rom-crdroid-android-6-t4063545"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1074
+    },
+    {
       "deviceName": "Pocophone F1",
       "codename": "beryllium",
       "rom": {
@@ -17367,40 +17383,24 @@
         ],
         "name": "crDroid"
       },
-      "id": 1074,
+      "id": 1075,
       "releasedOn": "2018-08"
     },
     {
-      "deviceName": "Redmi Note 8 Pro",
-      "codename": "begonia",
+      "deviceName": "Zenfone Max Pro M1",
+      "codename": "X00TD",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/redmi-note-8-pro/development/rom-crdroid-6-x-t4124805"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1075,
-      "releasedOn": "2019-08"
-    },
-    {
-      "deviceName": "Zenfone Max Pro M2",
-      "codename": "X01BD",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/max-pro-m2/development/rom-crdroid-v6-0-t4022863"
+          "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/crdroid-6-11-t4179123"
         ],
         "name": "crDroid"
       },
       "id": 1076,
-      "releasedOn": "2018-12"
+      "releasedOn": "2018-05"
     },
     {
       "deviceName": "OnePlus 5",
@@ -17419,102 +17419,6 @@
       "releasedOn": "2017-06"
     },
     {
-      "deviceName": "Xiaomi MI9",
-      "codename": "cepheus",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/Mi-9/development/rom-crdroid-v6-3-t4053505/post81807239#post81807239"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1078,
-      "releasedOn": "2018-04"
-    },
-    {
-      "deviceName": "Mi Mix 2",
-      "codename": "chiron",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/t/rom-10-0-monthly-official-crdroid-6-16-chiron-12-03-2021.4246221/"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1079,
-      "releasedOn": "2017-09"
-    },
-    {
-      "deviceName": "Note 9 Exynos",
-      "codename": "crownlte",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/galaxy-note-9/development/rom-crdroid-t4092097/"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1080,
-      "releasedOn": "2018-08-09"
-    },
-    {
-      "deviceName": "Moto g7 Play",
-      "codename": "channel",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/t/rom-10-0-arm64-crdroid-v6-13-channel-18-12-2020.4204579/"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1081,
-      "releasedOn": "2019-03"
-    },
-    {
-      "deviceName": "Samsung Galaxy S10+",
-      "codename": "beyond2lte",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/rom-crdroid-android-6-x-t4082161"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1082,
-      "releasedOn": "2019-03-08"
-    },
-    {
-      "deviceName": "LG G3 (AT&T)",
-      "codename": "d850",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1083,
-      "releasedOn": "2014-06"
-    },
-    {
       "deviceName": "Samsung Galaxy S10",
       "codename": "beyond1lte",
       "rom": {
@@ -17527,7 +17431,23 @@
         ],
         "name": "crDroid"
       },
-      "id": 1084,
+      "id": 1078,
+      "releasedOn": "2019-03-08"
+    },
+    {
+      "deviceName": "Samsung Galaxy S10e",
+      "codename": "beyond0lte",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/galaxy-s10/samsung-galaxy-s10--s10--s10-5g-cross-device-development-exynos/rom-crdroid-android-6-x-t4082161"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1079,
       "releasedOn": "2019-03-08"
     },
     {
@@ -17543,11 +17463,11 @@
         ],
         "name": "crDroid"
       },
-      "id": 1085
+      "id": 1080
     },
     {
-      "deviceName": "Samsung Galaxy S10e",
-      "codename": "beyond0lte",
+      "deviceName": "Samsung Galaxy S10+",
+      "codename": "beyond2lte",
       "rom": {
         "status": "unknown",
         "androidVersion": [
@@ -17558,24 +17478,104 @@
         ],
         "name": "crDroid"
       },
-      "id": 1086,
+      "id": 1081,
       "releasedOn": "2019-03-08"
     },
     {
-      "deviceName": "Mi A2 Lite",
-      "codename": "daisy",
+      "deviceName": "LG G3 (AT&T)",
+      "codename": "d850",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/mi-a2-lite/development/stable-crdroid-rom-t4145515"
+          "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1082,
+      "releasedOn": "2014-06"
+    },
+    {
+      "deviceName": "Moto g7 Play",
+      "codename": "channel",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/t/rom-10-0-arm64-crdroid-v6-13-channel-18-12-2020.4204579/"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1083,
+      "releasedOn": "2019-03"
+    },
+    {
+      "deviceName": "Note 9 Exynos",
+      "codename": "crownlte",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/galaxy-note-9/development/rom-crdroid-t4092097/"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1084,
+      "releasedOn": "2018-08-09"
+    },
+    {
+      "deviceName": "Mi Mix 2",
+      "codename": "chiron",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/t/rom-10-0-monthly-official-crdroid-6-16-chiron-12-03-2021.4246221/"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1085,
+      "releasedOn": "2017-09"
+    },
+    {
+      "deviceName": "Xiaomi MI9",
+      "codename": "cepheus",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/Mi-9/development/rom-crdroid-v6-3-t4053505/post81807239#post81807239"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1086,
+      "releasedOn": "2018-04"
+    },
+    {
+      "deviceName": "LG G3 (T-Mobile)",
+      "codename": "d851",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
         ],
         "name": "crDroid"
       },
       "id": 1087,
-      "releasedOn": "2018-07"
+      "releasedOn": "2014-06"
     },
     {
       "deviceName": "LG G3 (International)",
@@ -17594,22 +17594,6 @@
       "releasedOn": "2014-06"
     },
     {
-      "deviceName": "LG G3 (Canada)",
-      "codename": "d852",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1089,
-      "releasedOn": "2014-06"
-    },
-    {
       "deviceName": "OnePlus 5T",
       "codename": "dumpling",
       "rom": {
@@ -17622,12 +17606,28 @@
         ],
         "name": "crDroid"
       },
-      "id": 1090,
+      "id": 1089,
       "releasedOn": "2017-11"
     },
     {
-      "deviceName": "LG G3 (T-Mobile)",
-      "codename": "d851",
+      "deviceName": "LG G3 (Canada)",
+      "codename": "d852",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1090,
+      "releasedOn": "2014-06"
+    },
+    {
+      "deviceName": "LG G3 (Korea)",
+      "codename": "f400",
       "rom": {
         "status": "unknown",
         "androidVersion": [
@@ -17642,19 +17642,20 @@
       "releasedOn": "2014-06"
     },
     {
-      "deviceName": "LG G3 (dualsim)",
-      "codename": "g3ds",
+      "deviceName": "MI 8",
+      "codename": "dipper",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/lg-g3/development/official-romcrdroid-t4069373"
+          "https://forum.xda-developers.com/mi-8/development/rom-crdroid-t4122673"
         ],
         "name": "crDroid"
       },
-      "id": 1092
+      "id": 1092,
+      "releasedOn": "2018-07"
     },
     {
       "deviceName": "OnePlus 6",
@@ -17673,15 +17674,15 @@
       "releasedOn": "2018-04"
     },
     {
-      "deviceName": "MI 8",
-      "codename": "dipper",
+      "deviceName": "Mi A2 Lite",
+      "codename": "daisy",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/mi-8/development/rom-crdroid-t4122673"
+          "https://forum.xda-developers.com/mi-a2-lite/development/stable-crdroid-rom-t4145515"
         ],
         "name": "crDroid"
       },
@@ -17705,8 +17706,8 @@
       "releasedOn": "2018-11"
     },
     {
-      "deviceName": "LG G3 (Korea)",
-      "codename": "f400",
+      "deviceName": "LG G3 (dualsim)",
+      "codename": "g3ds",
       "rom": {
         "status": "unknown",
         "androidVersion": [
@@ -17717,103 +17718,7 @@
         ],
         "name": "crDroid"
       },
-      "id": 1096,
-      "releasedOn": "2014-06"
-    },
-    {
-      "deviceName": "Redmi Note 8/8T",
-      "codename": "ginkgo",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/redmi-note-8/development/rom-crdroidandroid-v6-5-redmi-note-8-t4082247"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1097,
-      "releasedOn": "2019-10-16"
-    },
-    {
-      "deviceName": "Xiaomi Mi 5",
-      "codename": "gemini",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/mi-5/development/rom-crdroid-android-6-3-t4060061"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1098,
-      "releasedOn": "2016-04"
-    },
-    {
-      "deviceName": "OnePlus 7",
-      "codename": "guacamoleb",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/oneplus-7/development/rom-crdroid-v6-3-t4051453"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1099,
-      "releasedOn": "2019-05"
-    },
-    {
-      "deviceName": "Nexus 5",
-      "codename": "hammerhead",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://bit.ly/2w6wvmP"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1100,
-      "releasedOn": "2013-10-31"
-    },
-    {
-      "deviceName": "Samsung Tab A6 (SM-T580)",
-      "codename": "gtaxlwifi",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/galaxy-tab-a/development/sm-crdroid-6-x-t4105629"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1101
-    },
-    {
-      "deviceName": "Lenovo Z5Pro GT",
-      "codename": "heart",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/z5-pro-gt/how-to/rom-lenovo-z5pro-gt-t4074525"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1102,
-      "releasedOn": "2019-01-29"
+      "id": 1096
     },
     {
       "deviceName": "Samsung Galaxy S7",
@@ -17828,8 +17733,55 @@
         ],
         "name": "crDroid"
       },
-      "id": 1103,
+      "id": 1097,
       "releasedOn": "2016-03-18"
+    },
+    {
+      "deviceName": "Samsung Tab A6 (SM-T580)",
+      "codename": "gtaxlwifi",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/galaxy-tab-a/development/sm-crdroid-6-x-t4105629"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1098
+    },
+    {
+      "deviceName": "Lenovo Z5Pro GT",
+      "codename": "heart",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/z5-pro-gt/how-to/rom-lenovo-z5pro-gt-t4074525"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1099,
+      "releasedOn": "2019-01-29"
+    },
+    {
+      "deviceName": "Redmi Note 8/8T",
+      "codename": "ginkgo",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/redmi-note-8/development/rom-crdroidandroid-v6-5-redmi-note-8-t4082247"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1100,
+      "releasedOn": "2019-10-16"
     },
     {
       "deviceName": "Galaxy Note 3",
@@ -17844,23 +17796,23 @@
         ],
         "name": "crDroid"
       },
-      "id": 1104,
+      "id": 1101,
       "releasedOn": "2013-09"
     },
     {
-      "deviceName": "OnePlus 7 Pro",
-      "codename": "guacamole",
+      "deviceName": "OnePlus 7",
+      "codename": "guacamoleb",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/t/3982795/"
+          "https://forum.xda-developers.com/oneplus-7/development/rom-crdroid-v6-3-t4051453"
         ],
         "name": "crDroid"
       },
-      "id": 1105,
+      "id": 1102,
       "releasedOn": "2019-05"
     },
     {
@@ -17876,24 +17828,72 @@
         ],
         "name": "crDroid"
       },
-      "id": 1106,
+      "id": 1103,
       "releasedOn": "2016-03-18"
     },
     {
-      "deviceName": "Galaxy Note 3 China",
-      "codename": "hltechn",
+      "deviceName": "Xiaomi Mi 5",
+      "codename": "gemini",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
+          "https://forum.xda-developers.com/mi-5/development/rom-crdroid-android-6-3-t4060061"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1104,
+      "releasedOn": "2016-04"
+    },
+    {
+      "deviceName": "Nexus 5",
+      "codename": "hammerhead",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://bit.ly/2w6wvmP"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1105,
+      "releasedOn": "2013-10-31"
+    },
+    {
+      "deviceName": "OnePlus 7 Pro",
+      "codename": "guacamole",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/t/3982795/"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1106,
+      "releasedOn": "2019-05"
+    },
+    {
+      "deviceName": "Mi Note 3",
+      "codename": "jason",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/mi-note-3/development/rom-crdroid-v6-8-t4143185"
         ],
         "name": "crDroid"
       },
       "id": 1107,
-      "releasedOn": "2013-09"
+      "releasedOn": "2017-09"
     },
     {
       "deviceName": "Samsung Galaxy J7 2016",
@@ -17911,8 +17911,8 @@
       "id": 1108
     },
     {
-      "deviceName": "Galaxy Note 3 Korea",
-      "codename": "hltekor",
+      "deviceName": "Galaxy Note 3 T-Mobile",
+      "codename": "hltetmo",
       "rom": {
         "status": "unknown",
         "androidVersion": [
@@ -17927,20 +17927,52 @@
       "releasedOn": "2013-09"
     },
     {
-      "deviceName": "Mi Note 3",
-      "codename": "jason",
+      "deviceName": "Mi A3",
+      "codename": "laurel_sprout",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/mi-note-3/development/rom-crdroid-v6-8-t4143185"
+          "https://forum.xda-developers.com/mi-a3/development/rom-crdroid-6-4-t4068463"
         ],
         "name": "crDroid"
       },
       "id": 1110,
-      "releasedOn": "2017-09"
+      "releasedOn": "2019-07"
+    },
+    {
+      "deviceName": "Galaxy Note 3 Korea",
+      "codename": "hltekor",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1111,
+      "releasedOn": "2013-09"
+    },
+    {
+      "deviceName": "Galaxy Note 3 China",
+      "codename": "hltechn",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1112,
+      "releasedOn": "2013-09"
     },
     {
       "deviceName": "LG G3 (Sprint)",
@@ -17955,40 +17987,8 @@
         ],
         "name": "crDroid"
       },
-      "id": 1111,
-      "releasedOn": "2014-06"
-    },
-    {
-      "deviceName": "Mi A2",
-      "codename": "jasmine_sprout",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/mi-a2/development/rom-crdroid-android-v6-0-t4029525"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1112,
-      "releasedOn": "2018-07"
-    },
-    {
-      "deviceName": "Galaxy Note 3 T-Mobile",
-      "codename": "hltetmo",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/galaxy-note-3/development/rom-crdroid-v6-1-t4028863"
-        ],
-        "name": "crDroid"
-      },
       "id": 1113,
-      "releasedOn": "2013-09"
+      "releasedOn": "2014-06"
     },
     {
       "deviceName": "Xiaomi POCO F2 Pro",
@@ -18033,112 +18033,20 @@
       "releasedOn": "2019-01"
     },
     {
-      "deviceName": "Mi A3",
-      "codename": "laurel_sprout",
+      "deviceName": "Mi A2",
+      "codename": "jasmine_sprout",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/mi-a3/development/rom-crdroid-6-4-t4068463"
+          "https://forum.xda-developers.com/mi-a2/development/rom-crdroid-android-v6-0-t4029525"
         ],
         "name": "crDroid"
       },
       "id": 1116,
-      "releasedOn": "2019-07"
-    },
-    {
-      "deviceName": "Meizu 16X",
-      "codename": "m1872",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://4pda.ru/forum/index.php?showtopic=974342&view=findpost&p=97294255"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1117
-    },
-    {
-      "deviceName": "One M8",
-      "codename": "m8",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/htc-one-m8/development/official-romcrdroid-t4068145/post82035239#post82035239"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1118,
-      "releasedOn": "2014-03"
-    },
-    {
-      "deviceName": "Meizu 16th",
-      "codename": "m1882",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://4pda.ru/forum/index.php?showtopic=961552&st=5060#entry96508161"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1119
-    },
-    {
-      "deviceName": "One M8d",
-      "codename": "m8d",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/htc-one-m8/development/official-romcrdroid-t4068145/post82035239#post82035239"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1120,
-      "releasedOn": "2014-06"
-    },
-    {
-      "deviceName": "Xperia XZ Premium",
-      "codename": "maple",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/xz-premium/development/rom-crdroid-v6-7-t4124821"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1121
-    },
-    {
-      "deviceName": "Swift 2/2+/2X",
-      "codename": "marmite",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://bit.ly/2UIKrBZ"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1122
+      "releasedOn": "2018-07"
     },
     {
       "deviceName": "Redmi 9s series (miatoll)",
@@ -18153,7 +18061,7 @@
         ],
         "name": "crDroid"
       },
-      "id": 1123,
+      "id": 1117,
       "releasedOn": [
         {
           "POCO M2 Pro": "2020-07-14"
@@ -18173,6 +18081,98 @@
       ]
     },
     {
+      "deviceName": "One M8d",
+      "codename": "m8d",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/htc-one-m8/development/official-romcrdroid-t4068145/post82035239#post82035239"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1118,
+      "releasedOn": "2014-06"
+    },
+    {
+      "deviceName": "Meizu X8",
+      "codename": "m1852",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://4pda.ru/forum/index.php?showtopic=965227&st=8020#entry96480348"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1119
+    },
+    {
+      "deviceName": "One M8",
+      "codename": "m8",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/htc-one-m8/development/official-romcrdroid-t4068145/post82035239#post82035239"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1120,
+      "releasedOn": "2014-03"
+    },
+    {
+      "deviceName": "Xperia XZ Premium",
+      "codename": "maple",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/xz-premium/development/rom-crdroid-v6-7-t4124821"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1121
+    },
+    {
+      "deviceName": "Meizu 16X",
+      "codename": "m1872",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://4pda.ru/forum/index.php?showtopic=974342&view=findpost&p=97294255"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1122
+    },
+    {
+      "deviceName": "Swift 2/2+/2X",
+      "codename": "marmite",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://bit.ly/2UIKrBZ"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1123
+    },
+    {
       "deviceName": "Redmi Note 4",
       "codename": "mido",
       "rom": {
@@ -18189,6 +18189,21 @@
       "releasedOn": "2017-01"
     },
     {
+      "deviceName": "Meizu 16th",
+      "codename": "m1882",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://4pda.ru/forum/index.php?showtopic=961552&st=5060#entry96508161"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1125
+    },
+    {
       "deviceName": "Moto G7 Power",
       "codename": "ocean",
       "rom": {
@@ -18201,39 +18216,8 @@
         ],
         "name": "crDroid"
       },
-      "id": 1125,
+      "id": 1126,
       "releasedOn": "2019-03-25"
-    },
-    {
-      "deviceName": "Meizu X8",
-      "codename": "m1852",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://4pda.ru/forum/index.php?showtopic=965227&st=8020#entry96480348"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1126
-    },
-    {
-      "deviceName": "OnePlus 2",
-      "codename": "oneplus2",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/oneplus-2/development/rom-crdroid-android-6-t3985197"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1127,
-      "releasedOn": "2015-08-28"
     },
     {
       "deviceName": "Mi Mix 3",
@@ -18248,77 +18232,7 @@
         ],
         "name": "crDroid"
       },
-      "id": 1128
-    },
-    {
-      "deviceName": "OnePlus 3/3T",
-      "codename": "oneplus3",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://bit.ly/2QxQfYs"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1129,
-      "releasedOn": [
-        {
-          "A3000": "2016-06"
-        },
-        {
-          "A3003": "2016-10"
-        }
-      ]
-    },
-    {
-      "deviceName": "MI 9 Lite",
-      "codename": "pyxis",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/mi-cc9/development/rom-crdroid-6-3-t4057599"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1130
-    },
-    {
-      "deviceName": "Mi Mix 2s",
-      "codename": "polaris",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/xiaomi-mi-mix-2s/development/rom-crdroid-v6-1-t4030895"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1131,
-      "releasedOn": "2018-04"
-    },
-    {
-      "deviceName": "Moto G5 Plus",
-      "codename": "potter",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/g5-plus/development/rom-crdroid-v6-2-t4041689"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1132,
-      "releasedOn": "2017-01"
+      "id": 1127
     },
     {
       "deviceName": "Moto G 2015",
@@ -18333,8 +18247,24 @@
         ],
         "name": "crDroid"
       },
-      "id": 1133,
+      "id": 1128,
       "releasedOn": "2015-07"
+    },
+    {
+      "deviceName": "OnePlus 2",
+      "codename": "oneplus2",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/oneplus-2/development/rom-crdroid-android-6-t3985197"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1129,
+      "releasedOn": "2015-08-28"
     },
     {
       "deviceName": "POCO X2",
@@ -18349,24 +18279,78 @@
         ],
         "name": "crDroid"
       },
-      "id": 1134,
+      "id": 1130,
       "releasedOn": "2020-02-11"
     },
     {
-      "deviceName": "Redmi K20 PRO/Mi 9T PRO",
-      "codename": "raphael",
+      "deviceName": "Moto G5 Plus",
+      "codename": "potter",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/k20-pro/development/rom-crdroid-android-6-t4022373"
+          "https://forum.xda-developers.com/g5-plus/development/rom-crdroid-v6-2-t4041689"
         ],
         "name": "crDroid"
       },
-      "id": 1135,
-      "releasedOn": "2019-08-21"
+      "id": 1131,
+      "releasedOn": "2017-01"
+    },
+    {
+      "deviceName": "MI 9 Lite",
+      "codename": "pyxis",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/mi-cc9/development/rom-crdroid-6-3-t4057599"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1132
+    },
+    {
+      "deviceName": "OnePlus 3/3T",
+      "codename": "oneplus3",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://bit.ly/2QxQfYs"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1133,
+      "releasedOn": [
+        {
+          "A3000": "2016-06"
+        },
+        {
+          "A3003": "2016-10"
+        }
+      ]
+    },
+    {
+      "deviceName": "Mi Mix 2s",
+      "codename": "polaris",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/xiaomi-mi-mix-2s/development/rom-crdroid-v6-1-t4030895"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1134,
+      "releasedOn": "2018-04"
     },
     {
       "deviceName": "Xperia XA2",
@@ -18381,24 +18365,24 @@
         ],
         "name": "crDroid"
       },
-      "id": 1136,
+      "id": 1135,
       "releasedOn": "2018-02"
     },
     {
-      "deviceName": "Mi 6",
-      "codename": "sagit",
+      "deviceName": "Redmi K20 PRO/Mi 9T PRO",
+      "codename": "raphael",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/mi-6/development/10-0-crdroid-v6-9-t4144747"
+          "https://forum.xda-developers.com/k20-pro/development/rom-crdroid-android-6-t4022373"
         ],
         "name": "crDroid"
       },
-      "id": 1137,
-      "releasedOn": "2017-04"
+      "id": 1136,
+      "releasedOn": "2019-08-21"
     },
     {
       "deviceName": "MI 8 SE",
@@ -18413,7 +18397,7 @@
         ],
         "name": "crDroid"
       },
-      "id": 1138,
+      "id": 1137,
       "releasedOn": "2018-06"
     },
     {
@@ -18429,23 +18413,24 @@
         ],
         "name": "crDroid"
       },
-      "id": 1139,
+      "id": 1138,
       "releasedOn": "2017-08"
     },
     {
-      "deviceName": "Xiaomi Mi 5X",
-      "codename": "tiffany",
+      "deviceName": "Redmi 4X",
+      "codename": "santoni",
       "rom": {
         "status": "unknown",
         "androidVersion": [
           10
         ],
         "links": [
-          "https://forum.xda-developers.com/mi-5x/development/rom-crdroid-android-6-t4038085"
+          "https://forum.xda-developers.com/t/rom-official-10-0-11-0-crdroidandroid-6-x-7-x-santoni-stable.4176461/"
         ],
         "name": "crDroid"
       },
-      "id": 1140
+      "id": 1139,
+      "releasedOn": "2017-05"
     },
     {
       "deviceName": "Nexus 6",
@@ -18460,8 +18445,55 @@
         ],
         "name": "crDroid"
       },
-      "id": 1141,
+      "id": 1140,
       "releasedOn": "2014-10-29"
+    },
+    {
+      "deviceName": "Xiaomi Mi 5X",
+      "codename": "tiffany",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/mi-5x/development/rom-crdroid-android-6-t4038085"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1141
+    },
+    {
+      "deviceName": "Mi 6",
+      "codename": "sagit",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/mi-6/development/10-0-crdroid-v6-9-t4144747"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1142,
+      "releasedOn": "2017-04"
+    },
+    {
+      "deviceName": "Redmi 5",
+      "codename": "rosy",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/redmi-5/development/rom-crdroid-v6-8-t4132279"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1143,
+      "releasedOn": "2017-12"
     },
     {
       "deviceName": "S9 Exynos",
@@ -18476,7 +18508,7 @@
         ],
         "name": "crDroid"
       },
-      "id": 1142,
+      "id": 1144,
       "releasedOn": "2018-03-11"
     },
     {
@@ -18492,23 +18524,7 @@
         ],
         "name": "crDroid"
       },
-      "id": 1143
-    },
-    {
-      "deviceName": "Redmi 4X",
-      "codename": "santoni",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/t/rom-official-10-0-11-0-crdroidandroid-6-x-7-x-santoni-stable.4176461/"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1144,
-      "releasedOn": "2017-05"
+      "id": 1145
     },
     {
       "deviceName": "S9+ Exynos",
@@ -18523,40 +18539,8 @@
         ],
         "name": "crDroid"
       },
-      "id": 1145,
-      "releasedOn": "2018-03-11"
-    },
-    {
-      "deviceName": "Redmi 5",
-      "codename": "rosy",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/redmi-5/development/rom-crdroid-v6-8-t4132279"
-        ],
-        "name": "crDroid"
-      },
       "id": 1146,
-      "releasedOn": "2017-12"
-    },
-    {
-      "deviceName": "Redmi Note 6 Pro",
-      "codename": "tulip",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/redmi-note-6-pro/development/10-0-crdroid-android-6-8-t4136991"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1147,
-      "releasedOn": "2016-09"
+      "releasedOn": "2018-03-11"
     },
     {
       "deviceName": "Redmi Note 7 Pro",
@@ -18571,24 +18555,8 @@
         ],
         "name": "crDroid"
       },
-      "id": 1148,
+      "id": 1147,
       "releasedOn": "2019-03-13"
-    },
-    {
-      "deviceName": "Redmi 5 Plus/Redmi Note 5",
-      "codename": "vince",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://bit.ly/crvinceqxda"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1149,
-      "releasedOn": "2018-02"
     },
     {
       "deviceName": "Xiaomi Mi A1",
@@ -18603,24 +18571,8 @@
         ],
         "name": "crDroid"
       },
-      "id": 1150,
+      "id": 1148,
       "releasedOn": "2017-10"
-    },
-    {
-      "deviceName": "Mi 6X",
-      "codename": "wayne",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/mi-a2/how-to/rom-crdroid-6-7-mi-6x-wayne-19-6-2020-t4119385"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1151,
-      "releasedOn": "2018-04"
     },
     {
       "deviceName": "Redmi Note 5 Pro/AI",
@@ -18635,8 +18587,24 @@
         ],
         "name": "crDroid"
       },
-      "id": 1152,
+      "id": 1149,
       "releasedOn": "2018-02"
+    },
+    {
+      "deviceName": "Mi 6X",
+      "codename": "wayne",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/mi-a2/how-to/rom-crdroid-6-7-mi-6x-wayne-19-6-2020-t4119385"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1150,
+      "releasedOn": "2018-04"
     },
     {
       "deviceName": "LG G3 (Verizon)",
@@ -18651,24 +18619,8 @@
         ],
         "name": "crDroid"
       },
-      "id": 1153,
+      "id": 1151,
       "releasedOn": "2014-06"
-    },
-    {
-      "deviceName": "LeEco Le Max 2",
-      "codename": "x2",
-      "rom": {
-        "status": "unknown",
-        "androidVersion": [
-          10
-        ],
-        "links": [
-          "https://forum.xda-developers.com/le-max-2/how-to/rom-crdroidandroid-t4184439"
-        ],
-        "name": "crDroid"
-      },
-      "id": 1154,
-      "releasedOn": "2016-04"
     },
     {
       "deviceName": "Lenovo ZUK Z2 Plus",
@@ -18683,8 +18635,56 @@
         ],
         "name": "crDroid"
       },
-      "id": 1155,
+      "id": 1152,
       "releasedOn": "2016-06"
+    },
+    {
+      "deviceName": "Redmi 5 Plus/Redmi Note 5",
+      "codename": "vince",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://bit.ly/crvinceqxda"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1153,
+      "releasedOn": "2018-02"
+    },
+    {
+      "deviceName": "Redmi Note 6 Pro",
+      "codename": "tulip",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/redmi-note-6-pro/development/10-0-crdroid-android-6-8-t4136991"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1154,
+      "releasedOn": "2016-09"
+    },
+    {
+      "deviceName": "LeEco Le Max 2",
+      "codename": "x2",
+      "rom": {
+        "status": "unknown",
+        "androidVersion": [
+          10
+        ],
+        "links": [
+          "https://forum.xda-developers.com/le-max-2/how-to/rom-crdroidandroid-t4184439"
+        ],
+        "name": "crDroid"
+      },
+      "id": 1155,
+      "releasedOn": "2016-04"
     },
     {
       "deviceName": "Asus Zenfone 6",
