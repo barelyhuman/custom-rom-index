@@ -91,7 +91,7 @@ async function addCRDroidToDevices (item, version) {
   const codename = item.path.replace('.json', '')
   addDevice({
     deviceName: deviceData.device,
-    codename: codename,
+    codename,
     rom: {
       status: STATUS_ENUM.unknown,
       androidVersion: [version],

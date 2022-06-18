@@ -75,7 +75,7 @@ async function addHavocOSToDevices (item, version) {
   const codename = deviceData.codename
   addDevice({
     deviceName: deviceData.name,
-    codename: codename,
+    codename,
     rom: {
       status: STATUS_ENUM.active,
       androidVersion: [version],

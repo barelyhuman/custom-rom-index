@@ -7,7 +7,7 @@ const Box = function ({ elm = 'div', children, ...props }) {
   return React.createElement(
     elm,
     {
-      style: style,
+      style,
       ...sanitizedProps
     },
     children

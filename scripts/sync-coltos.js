@@ -61,7 +61,7 @@ async function addColtOSToDevices (item) {
 
   addDevice({
     deviceName: deviceData.devicename,
-    codename: codename,
+    codename,
     rom: {
       status: STATUS_ENUM.active,
       androidVersion: [parseInt(deviceData.version, 10)],

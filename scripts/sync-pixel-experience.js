@@ -34,8 +34,8 @@ async function main () {
         }
 
         addDevice({
-          deviceName: deviceName,
-          codename: codename,
+          deviceName,
+          codename,
           rom: {
             status: deviceVersionItem.deprecated
               ? STATUS_ENUM.discontinued

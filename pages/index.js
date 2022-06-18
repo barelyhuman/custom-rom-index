@@ -1,10 +1,10 @@
+import React from 'react'
 import { Button, Footer, Header, Note } from 'components'
 import Box from 'components/box'
 import { totalDevices, totalUniqueRoms } from 'lib/analytical-utils'
 import Link from 'next/link'
-import React from 'react'
 
-function Home () {
+function Home ({ totalDevices, totalUniqueRoms }) {
   return (
     <>
       <Header />
@@ -18,8 +18,8 @@ function Home () {
               have a custom rom? Well, here's the solution to it all.
             </p>
             <article>
-              With about <h3 className='inline-block'>{totalDevices()}</h3>{' '}
-              devices and <h3 className='inline-block'>{totalUniqueRoms()}</h3>{' '}
+              With about <h3 className='inline-block'>{totalDevices}</h3>{' '}
+              devices and <h3 className='inline-block'>{totalUniqueRoms}</h3>{' '}
               ROM's syncing daily the <strong>Custom Rom Index</strong> has it
               all listed in a friendly and easy to use table.
             </article>
@@ -55,3 +55,12 @@ function Home () {
 }
 
 export default Home
+
+export async function getServerSideProps () {
+  return {
+    props: {
+      totalDevices: totalDevices(),
+      totalUniqueRoms: totalUniqueRoms()
+    }
+  }
+}

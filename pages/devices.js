@@ -1,7 +1,12 @@
 import { Header } from 'components'
 import { DevicesListTable } from 'containers'
+import devicesJSON from 'db/devices.json'
+import { sortByDate } from 'lib/date-utils'
+import { filterDevices } from 'lib/filter-devices'
 
-function Devices () {
+const { devices } = devicesJSON
+
+function Devices ({ deviceList, searchTerm, sort }) {
   return (
     <>
       <Header />
@@ -13,9 +18,50 @@ function Devices () {
           </a>
         </div>
       </div>
-      <DevicesListTable />
+      <DevicesListTable
+        list={deviceList}
+        searchTerm={searchTerm}
+        sortOrder={sort}
+      />
     </>
   )
 }
 
 export default Devices
+
+export async function getServerSideProps ({ query }) {
+  let deviceList = devices
+
+  if (query.sort) {
+    switch (query.sort) {
+      case 'releasedOn:asc': {
+        deviceList = deviceList.sort((x, y) =>
+          sortByDate(x.releasedOn, y.releasedOn, 1)
+        )
+        break
+      }
+      case 'releasedOn:desc': {
+        deviceList = deviceList.sort((x, y) =>
+          sortByDate(x.releasedOn, y.releasedOn, -1)
+        )
+        break
+      }
+      default: {
+        deviceList = devices.slice()
+        break
+      }
+    }
+  }
+
+  if (query.q) {
+    deviceList = deviceList.filter((x) => filterDevices(x, query.q))
+  }
+
+  return {
+    props: {
+      deviceList,
+      searchTerm: query.q || '',
+      sort: query.sort || 'releasedOn:desc'
+    }
+  }
+}

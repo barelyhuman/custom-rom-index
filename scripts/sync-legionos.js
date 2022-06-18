@@ -19,8 +19,8 @@ async function main () {
     const deviceName = `${deviceItem.brand} ${deviceItem.name}`
 
     addDevice({
-      deviceName: deviceName,
-      codename: codename,
+      deviceName,
+      codename,
       rom: {
         status: deviceItem.active ? STATUS_ENUM.active : STATUS_ENUM.unknown,
         androidVersion: ['11'],

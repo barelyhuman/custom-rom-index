@@ -88,7 +88,8 @@ pre.code {
   background: var(--surface);
   border-radius: 4px;
 }
-pre.code > code {
+
+pre.code>code {
   background: none;
 }
 
@@ -151,12 +152,24 @@ pre.code > code {
   width: 100%;
 }
 
+.select {
+  appearance: none;
+  background: var(--surface);
+  outline: transparent;
+  border: 1px solid var(--surface);
+  text-align: center;
+  color: var(--text);
+  padding: 12px 20px;
+}
+
 .text-success {
   color: var(--success);
 }
+
 .text-error {
   color: var(--error);
 }
+
 .text-warn {
   color: var(--warn);
 }

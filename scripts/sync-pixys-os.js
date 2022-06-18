@@ -23,8 +23,8 @@ async function main () {
         (versionDef.name === 'ten' && 10) ||
         (versionDef.name === 'eleven' && 11)
       addDevice({
-        deviceName: deviceName,
-        codename: codename,
+        deviceName,
+        codename,
         rom: {
           status: STATUS_ENUM.active,
           androidVersion: [version],

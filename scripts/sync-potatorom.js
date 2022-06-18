@@ -21,7 +21,7 @@ async function main () {
 
     addDevice({
       deviceName: '',
-      codename: codename,
+      codename,
       rom: {
         status: STATUS_ENUM.active,
         androidVersion: ['N/A'],

@@ -59,8 +59,8 @@ async function addDotOSToDevices (item) {
   const deviceName = `${deviceData.brandName} ${deviceData.deviceName}`
 
   addDevice({
-    deviceName: deviceName,
-    codename: codename,
+    deviceName,
+    codename,
     rom: {
       status: STATUS_ENUM.active,
       androidVersion: ['11'],

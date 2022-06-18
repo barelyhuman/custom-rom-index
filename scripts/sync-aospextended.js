@@ -31,8 +31,8 @@ async function main () {
         version = 11
       }
       addDevice({
-        deviceName: deviceName,
-        codename: codename,
+        deviceName,
+        codename,
         rom: {
           status: STATUS_ENUM.active,
           androidVersion: [version],
