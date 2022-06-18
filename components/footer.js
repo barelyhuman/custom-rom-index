@@ -1,6 +1,6 @@
-import { GithubIcon, TwitterIcon } from 'components'
+import { GithubIcon, TwitterIcon } from 'components';
 
-export function Footer ({ ...props }) {
+export function Footer({ ...props }) {
   return (
     <footer className='flex flex-col w-100 items-center justify-center'>
       <div>
@@ -27,5 +27,5 @@ export function Footer ({ ...props }) {
         </div>
       </div>
     </footer>
-  )
+  );
 }

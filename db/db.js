@@ -1,31 +1,31 @@
-const StormDB = require('stormdb')
+const StormDB = require('stormdb');
 
 /* eslint-disable */
-const engine = new StormDB.localFileEngine("./db/devices.json");
+const engine = new StormDB.localFileEngine('./db/devices.json');
 /* eslint-enable */
 
-const db = new StormDB(engine)
+const db = new StormDB(engine);
 
-db.default({ devices: [] })
+db.default({ devices: [] });
 
-exports.db = db
+exports.db = db;
 
-const addDevice = (deviceDetails) => {
-  const devices = db.get('devices')
+const addDevice = deviceDetails => {
+  const devices = db.get('devices');
 
   db.get('devices')
     .push({
       ...deviceDetails,
-      id: devices.value() ? devices.length().value() : 0
+      id: devices.value() ? devices.length().value() : 0,
     })
-    .save()
-}
+    .save();
+};
 
-exports.addDevice = addDevice
+exports.addDevice = addDevice;
 
 exports.devices = db
   .get('devices')
   .sort((x, y) =>
     x.codename.toLowerCase() > y.codename.toLowerCase() ? 1 : -1
   )
-  .value()
+  .value();

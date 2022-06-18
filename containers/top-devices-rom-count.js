@@ -1,9 +1,9 @@
-import { getReleasedOn } from 'lib/date-utils'
+import { getReleasedOn } from 'lib/date-utils';
 
-const { topDevicesInROMCount } = require('lib/analytical-utils')
+const { topDevicesInROMCount } = require('lib/analytical-utils');
 
-export function TopDevicesRomCount () {
-  const deviceData = topDevicesInROMCount()
+export function TopDevicesRomCount() {
+  const deviceData = topDevicesInROMCount();
   return (
     <div>
       <h2>Top Devices by ROM Count</h2>
@@ -18,9 +18,9 @@ export function TopDevicesRomCount () {
               <div className='w-1/3'>Released: {getReleasedOn(item)}</div>
               <div className='w-1/3'>{item.count} ROM(s)</div>
             </li>
-          )
+          );
         })}
       </ol>
     </div>
-  )
+  );
 }

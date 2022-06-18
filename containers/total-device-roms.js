@@ -1,6 +1,6 @@
-import { totalDevices, totalRoms } from 'lib/analytical-utils'
+import { totalDevices, totalRoms } from 'lib/analytical-utils';
 
-export function TotalDeviceROMsCount () {
+export function TotalDeviceROMsCount() {
   return (
     <>
       <div>
@@ -12,5 +12,5 @@ export function TotalDeviceROMsCount () {
         <h2>{totalRoms()}</h2>
       </div>
     </>
-  )
+  );
 }

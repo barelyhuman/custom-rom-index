@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
-@import url("https://unpkg.com/zinccolors@0.0.1/css/zinc.min.css");
-@import url("https://rsms.me/inter/inter.css");
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
+@import url('https://unpkg.com/zinccolors@0.0.1/css/zinc.min.css');
+@import url('https://rsms.me/inter/inter.css');
 
 @tailwind utilities;
 
@@ -35,7 +35,7 @@ body {
   --warn: #e5c07b;
 
   /* fonts */
-  --font: "Inter", sans-serif;
+  --font: 'Inter', sans-serif;
 }
 
 body {
@@ -89,7 +89,7 @@ pre.code {
   border-radius: 4px;
 }
 
-pre.code>code {
+pre.code > code {
   background: none;
 }
 
@@ -103,8 +103,8 @@ pre.code>code {
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
   font-weight: 600;
   line-height: normal;

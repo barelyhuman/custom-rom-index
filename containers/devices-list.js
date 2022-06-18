@@ -1,16 +1,16 @@
-import { Input } from 'components'
+import { Input } from 'components';
 
-import { getReleasedOn } from 'lib/date-utils'
-import { useRef } from 'react'
+import { getReleasedOn } from 'lib/date-utils';
+import { useRef } from 'react';
 
 const STATUS_COLOR_ENUM = {
   active: 'text-success',
   discontinued: 'text-error',
-  unknown: 'text-warn'
-}
+  unknown: 'text-warn',
+};
 
-export function DevicesListTable ({ list, searchTerm, sortOrder, ...props }) {
-  const sortDropRef = useRef()
+export function DevicesListTable({ list, searchTerm, sortOrder, ...props }) {
+  const sortDropRef = useRef();
 
   return (
     <>
@@ -55,7 +55,7 @@ export function DevicesListTable ({ list, searchTerm, sortOrder, ...props }) {
                 </tr>
               </thead>
               <tbody>
-                {list.map((deviceItem) => {
+                {list.map(deviceItem => {
                   return (
                     <tr
                       key={deviceItem.id}
@@ -87,7 +87,7 @@ export function DevicesListTable ({ list, searchTerm, sortOrder, ...props }) {
                         ))}
                       </td>
                     </tr>
-                  )
+                  );
                 })}
               </tbody>
             </table>
@@ -102,5 +102,5 @@ export function DevicesListTable ({ list, searchTerm, sortOrder, ...props }) {
         `}
       </style>
     </>
-  )
+  );
 }

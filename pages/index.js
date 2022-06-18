@@ -1,10 +1,10 @@
-import React from 'react'
-import { Button, Footer, Header, Note } from 'components'
-import Box from 'components/box'
-import { totalDevices, totalUniqueRoms } from 'lib/analytical-utils'
-import Link from 'next/link'
+import React from 'react';
+import { Button, Footer, Header, Note } from 'components';
+import Box from 'components/box';
+import { totalDevices, totalUniqueRoms } from 'lib/analytical-utils';
+import Link from 'next/link';
 
-function Home ({ totalDevices, totalUniqueRoms }) {
+function Home({ totalDevices, totalUniqueRoms }) {
   return (
     <>
       <Header />
@@ -51,16 +51,16 @@ function Home ({ totalDevices, totalUniqueRoms }) {
       </Box>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
 
-export async function getServerSideProps () {
+export async function getServerSideProps() {
   return {
     props: {
       totalDevices: totalDevices(),
-      totalUniqueRoms: totalUniqueRoms()
-    }
-  }
+      totalUniqueRoms: totalUniqueRoms(),
+    },
+  };
 }

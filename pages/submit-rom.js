@@ -1,6 +1,6 @@
-import { Button, Header } from 'components'
+import { Button, Header } from 'components';
 
-function SubmitRom ({ ...props }) {
+function SubmitRom({ ...props }) {
   return (
     <>
       <Header />
@@ -45,7 +45,7 @@ function SubmitRom ({ ...props }) {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default SubmitRom
+export default SubmitRom;

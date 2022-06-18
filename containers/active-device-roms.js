@@ -1,6 +1,6 @@
-const { totalActiveRoms } = require('lib/analytical-utils')
+const { totalActiveRoms } = require('lib/analytical-utils');
 
-export function ActiveDeviceROMsCount () {
+export function ActiveDeviceROMsCount() {
   return (
     <div>
       <p>
@@ -8,5 +8,5 @@ export function ActiveDeviceROMsCount () {
       </p>
       <h2>{totalActiveRoms()}</h2>
     </div>
-  )
+  );
 }

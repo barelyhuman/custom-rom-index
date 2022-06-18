@@ -1,6 +1,6 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
-export function Header () {
+export function Header() {
   return (
     <>
       <div>
@@ -35,5 +35,5 @@ export function Header () {
         </div>
       </div>
     </>
-  )
+  );
 }

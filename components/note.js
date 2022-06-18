@@ -1,4 +1,4 @@
-export function Note ({ children, ...props }) {
+export function Note({ children, ...props }) {
   return (
     <>
       <p>
@@ -6,5 +6,5 @@ export function Note ({ children, ...props }) {
         {children}
       </p>
     </>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-import { Button, Input } from 'components'
+import { Button, Input } from 'components';
 
-export function SubmitNewRomForm () {
+export function SubmitNewRomForm() {
   return (
     <>
       <div className='lg:w-5/6 lg:max-w-lg md:w-1/2'>
@@ -19,5 +19,5 @@ export function SubmitNewRomForm () {
         </div>
       </div>
     </>
-  )
+  );
 }

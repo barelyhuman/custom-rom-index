@@ -1,78 +1,74 @@
 #!/usr/bin/env node
 
-const got = require('got')
-const YAML = require('yaml')
-const fs = require('fs')
-const path = require('path')
-const { logcons } = require('logcons')
-const kluer = require('kleur')
-const info = kluer.cyan().bold
-const { db } = require('../db/db')
+const got = require('got');
+const YAML = require('yaml');
+const fs = require('fs');
+const path = require('path');
+const { logcons } = require('logcons');
+const kluer = require('kleur');
+const info = kluer.cyan().bold;
+const { db } = require('../db/db');
 
-const URL_TEMPLATE = (deviceCodeName) =>
-  `https://raw.githubusercontent.com/PixelExperience/wiki/master/_data/devices/${deviceCodeName}.yml`
+const URL_TEMPLATE = deviceCodeName =>
+  `https://raw.githubusercontent.com/PixelExperience/wiki/master/_data/devices/${deviceCodeName}.yml`;
 
-const URL_TEMPLATE_TWO = (deviceCodeName) =>
-  `https://raw.githubusercontent.com/LineageOS/lineage_wiki/master/_data/devices/${deviceCodeName}.yml`
+const URL_TEMPLATE_TWO = deviceCodeName =>
+  `https://raw.githubusercontent.com/LineageOS/lineage_wiki/master/_data/devices/${deviceCodeName}.yml`;
 
-function parseYAML (text) {
+function parseYAML(text) {
   try {
-    return text && YAML.parse(text)
+    return text && YAML.parse(text);
   } catch (err) {
-    return null
+    return null;
   }
 }
 
-async function deviceInfoAPI (codename) {
+async function deviceInfoAPI(codename) {
   try {
-    const response = await got(URL_TEMPLATE(codename)).catch((err) => err)
-    const responseTwo = await got(URL_TEMPLATE_TWO(codename)).catch(
-      (err) => err
-    )
-    const text = response.body
-    const textTwo = responseTwo.body
-    const parsed = parseYAML(text)
-    const parsedTwo = parseYAML(textTwo)
+    const response = await got(URL_TEMPLATE(codename)).catch(err => err);
+    const responseTwo = await got(URL_TEMPLATE_TWO(codename)).catch(err => err);
+    const text = response.body;
+    const textTwo = responseTwo.body;
+    const parsed = parseYAML(text);
+    const parsedTwo = parseYAML(textTwo);
     return {
       dataSourceOne: parsed,
-      dataSourceTwo: parsedTwo
-    }
+      dataSourceTwo: parsedTwo,
+    };
   } catch (err) {
-    console.log(`Failed: ${codename}`)
+    console.log(`Failed: ${codename}`);
   }
 }
 
-async function main () {
-  console.log(info(`${logcons.info()} Generating Devices`))
+async function main() {
+  console.log(info(`${logcons.info()} Generating Devices`));
   const withReleasesPromises = db
     .get('devices')
     .value()
-    .map(async (item) => {
+    .map(async item => {
       const { dataSourceOne, dataSourceTwo } = await deviceInfoAPI(
         item.codename
-      )
+      );
       item.releasedOn =
         item.releasedOn ||
         (dataSourceOne && dataSourceOne.release) ||
-        (dataSourceTwo && dataSourceTwo.release)
-      return item
-    })
-  const withRelease = await Promise.all(withReleasesPromises)
+        (dataSourceTwo && dataSourceTwo.release);
+      return item;
+    });
+  const withRelease = await Promise.all(withReleasesPromises);
 
   fs.writeFileSync(
     path.join(__dirname, '../db/devices.json'),
     JSON.stringify(
       {
-        devices: withRelease
+        devices: withRelease,
       },
       null,
       2
     )
-  )
+  );
 }
 
-exports.generateDevices = main
+exports.generateDevices = main;
 
-if (require.main === module) {
-  main()
-}
+if (require.main === module) main();

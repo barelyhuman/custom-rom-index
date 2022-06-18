@@ -1,16 +1,14 @@
 {
   "private": true,
-  "packageManager": "pnpm@6.32.10",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
+    "prepare": "husky install",
     "start": "next start",
-    "test": "npx standard",
-    "fix": "npx standard --fix",
+    "fix": "eslint --fix .; prettier --write .",
     "presync": "shx rm -rf ./db/devices.json",
     "sync": "node scripts/sync.js",
-    "postsync": "./scripts/generate-missing-releases.js",
-    "prepare": "husky install"
+    "postsync": "./scripts/generate-missing-releases.js"
   },
   "dependencies": {
     "@barelyreaper/conch": "^0.0.4",
@@ -26,19 +24,15 @@
     "yaml": "^1.10.2"
   },
   "devDependencies": {
+    "@barelyhuman/prettier-config": "^1.0.0",
+    "@evilmartians/lefthook": "^0.8.0",
     "autoprefixer": "^10.2.6",
-    "husky": "^7.0.2",
-    "lint-staged": "^11.1.2",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
     "postcss": "^8.3.5",
+    "prettier": "^2.7.1",
     "shx": "^0.3.3",
     "tailwindcss": "^3.0.15"
   },
-  "standard": {
-    "ignore": [
-      "node_modules"
-    ]
-  },
-  "lint-staged": {
-    "*.js": "npm run fix"
-  }
+  "packageManager": "pnpm@6.32.10"
 }

@@ -1,6 +1,6 @@
-const { addDevice } = require('../db/db')
+const { addDevice } = require('../db/db');
 
-function main () {
+function main() {
   addDevice({
     deviceName: 'Pixel 4a (5G) ',
     codename: 'bramble',
@@ -8,9 +8,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 5 ',
@@ -19,9 +19,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 4a ',
@@ -30,9 +30,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 4 XL ',
@@ -41,9 +41,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 4 ',
@@ -52,9 +52,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 3a XL ',
@@ -63,9 +63,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 3a ',
@@ -74,9 +74,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 3 XL ',
@@ -85,9 +85,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 3 ',
@@ -96,9 +96,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 2 XL ',
@@ -107,9 +107,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Pixel 2 ',
@@ -118,9 +118,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Mi A2 ',
@@ -129,9 +129,9 @@ function main () {
       name: 'CalyxOS',
       androidVersion: [11],
       status: 'active',
-      links: ['https://calyxos.org/get/']
-    }
-  })
+      links: ['https://calyxos.org/get/'],
+    },
+  });
 
   addDevice({
     deviceName: 'Mi 9T Pro',
@@ -140,9 +140,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/raphael'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Zenfone Max Pro M1',
@@ -151,9 +151,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/X00TD'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Zenfone 5Z',
@@ -162,9 +162,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/Z01R'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'G7 ThinQ',
@@ -173,9 +173,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/judyln'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Moto G7 Plus',
@@ -184,9 +184,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/lake'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Moto G5S Plus',
@@ -195,9 +195,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/sanders'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'One Fusion+',
@@ -206,9 +206,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/liber'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 7 Pro',
@@ -217,9 +217,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/guacamole'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 7',
@@ -228,9 +228,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/guacamoleb'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 8',
@@ -239,9 +239,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/instantnoodle'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 8 Pro',
@@ -250,9 +250,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/instantnoodlep'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 8T',
@@ -261,9 +261,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/kebab'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 9',
@@ -272,9 +272,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/lemonade'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 9 Pro',
@@ -283,9 +283,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/lemonadep'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Realme 5 Pro',
@@ -294,9 +294,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/RMX1971'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Realme 6',
@@ -305,9 +305,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/RMX2001'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Realme 6 Pro',
@@ -316,9 +316,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/RMX206X'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'POCO F3',
@@ -327,9 +327,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/alioth'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi 10T',
@@ -338,9 +338,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/apollo'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Poco M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G',
@@ -349,9 +349,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/juice'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi K30 / POCO X2',
@@ -360,9 +360,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/phoenix'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi K30 Pro / POCO F2 Pro',
@@ -371,9 +371,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/lmi'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi 10',
@@ -382,9 +382,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/umi'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi 10 Pro',
@@ -393,9 +393,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/cmi'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi 9T',
@@ -404,9 +404,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/davinci'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi 8',
@@ -415,9 +415,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/dipper'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi Note 8',
@@ -426,9 +426,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/ginkgo'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi A3',
@@ -437,9 +437,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/laurel_sprout'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi Note 7',
@@ -448,9 +448,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/lavender'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi Note 9S, 9 Pro, 9 Pro Max / POCO M2 Pro',
@@ -459,9 +459,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/miatoll'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi 9 Lite',
@@ -470,9 +470,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/pyxis'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi Mix 2s',
@@ -481,9 +481,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/polaris'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Poco X3',
@@ -492,9 +492,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/surya'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Mi A1',
@@ -503,9 +503,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/tissot'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi Note 6 Pro',
@@ -514,9 +514,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/tulip'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi Note 5/5 Plus',
@@ -525,9 +525,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/vince'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi Note 7 Pro',
@@ -536,9 +536,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/violet'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Redmi Note 5',
@@ -547,9 +547,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://evolution-x.org/device/whyred'],
-      name: 'Evolution X'
-    }
-  })
+      name: 'Evolution X',
+    },
+  });
 
   addDevice({
     deviceName: 'Asus ROG 2 ',
@@ -558,9 +558,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Asus ROG 3 ',
@@ -569,9 +569,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Asus Zenfone 5Z ',
@@ -580,9 +580,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Asus Zenfone 6 ',
@@ -591,9 +591,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Google Pixel 3A ',
@@ -602,9 +602,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Google Pixel 3A XL ',
@@ -613,9 +613,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Google Pixel 4 XL ',
@@ -624,9 +624,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Google Pixel 4A ',
@@ -635,9 +635,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Motorola Moto G7 Play ',
@@ -646,9 +646,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 3/3T ',
@@ -657,9 +657,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 6 ',
@@ -668,9 +668,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 6T ',
@@ -679,9 +679,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'OnePlus 7 Pro ',
@@ -690,9 +690,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Poco X3 NFC ',
@@ -701,9 +701,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Realme 2 Pro ',
@@ -712,9 +712,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Realme 5 Pro ',
@@ -723,9 +723,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Realme XT ',
@@ -734,9 +734,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Samsung Galaxy Note 9 ',
@@ -745,9 +745,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Samsung Galaxy S9 ',
@@ -756,9 +756,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Samsung Galaxy S9+ ',
@@ -767,9 +767,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Mi 10T ',
@@ -778,9 +778,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Mi 9 Lite/Mi CC9 Meitu ',
@@ -789,9 +789,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Mi 9T ',
@@ -800,9 +800,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi POCO M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G ',
@@ -811,9 +811,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Poco F1 ',
@@ -822,9 +822,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Redmi K20 Pro / Mi 9T Pro ',
@@ -833,9 +833,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Redmi Note 5 Pro ',
@@ -844,9 +844,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Redmi Note 7 Pro ',
@@ -855,9 +855,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Redmi Note 7/7S ',
@@ -866,9 +866,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 
   addDevice({
     deviceName: 'Xiaomi Redmi Note 9S/9 Pro/Pro Max/POCO M2 Pro',
@@ -877,9 +877,9 @@ function main () {
       status: 'active',
       androidVersion: [11],
       links: ['https://downloads.blissroms.org/'],
-      name: 'BlissROMS'
-    }
-  })
+      name: 'BlissROMS',
+    },
+  });
 }
 
-exports.syncManualDevices = main
+exports.syncManualDevices = main;

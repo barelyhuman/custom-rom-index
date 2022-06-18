@@ -1,17 +1,17 @@
-import React from 'react'
-import { modsToStyle } from 'spacery'
+import React from 'react';
+import { modsToStyle } from 'spacery';
 
 const Box = function ({ elm = 'div', children, ...props }) {
-  const { style, sanitizedProps } = modsToStyle(props, '') // pass dimension as an empty string so it used the actual numbers
+  const { style, sanitizedProps } = modsToStyle(props, ''); // pass dimension as an empty string so it used the actual numbers
 
   return React.createElement(
     elm,
     {
       style,
-      ...sanitizedProps
+      ...sanitizedProps,
     },
     children
-  )
-}
+  );
+};
 
-export default Box
+export default Box;

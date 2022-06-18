@@ -1,6 +1,6 @@
-import NextHead from 'next/head'
+import NextHead from 'next/head';
 
-export function Head ({ ...props }) {
+export function Head({ ...props }) {
   return (
     <NextHead {...props}>
       <title>Custom Rom Index | CRI </title>
@@ -36,5 +36,5 @@ export function Head ({ ...props }) {
       />
       {props.children}
     </NextHead>
-  )
+  );
 }

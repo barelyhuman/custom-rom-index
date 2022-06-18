@@ -1,13 +1,13 @@
-import 'styles/styles.css'
-import { Head } from 'components'
+import 'styles/styles.css';
+import { Head } from 'components';
 
-function MyApp ({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head />
       <Component {...pageProps} />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
