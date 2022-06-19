@@ -3,7 +3,6 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "prepare": "husky install",
     "start": "next start",
     "fix": "eslint --fix .; prettier --write .",
     "presync": "shx rm -rf ./db/devices.json",
