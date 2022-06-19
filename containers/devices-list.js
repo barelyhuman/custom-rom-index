@@ -32,7 +32,7 @@ export function DevicesListTable({ list, searchTerm, sortOrder, ...props }) {
               <input type='submit' className='invisible w-0 h-0' />
               <select
                 defaultValue={sortOrder}
-                className='select'
+                className='select rounded-md'
                 name='sort'
                 onChange={() => sortDropRef.current.submit()}
               >
