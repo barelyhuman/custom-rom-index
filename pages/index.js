@@ -46,7 +46,7 @@ function Home({ totalDevices, totalUniqueRoms }) {
           This project is run by an indie developer and it would be really
           appreciated if you were to support / sponsor the project. You can get
           started by doing so on{' '}
-          <a href='https://barelyhuman.dev/donate'>barelyhuman.dev/donate</a>
+          <a href='http://github.com/sponsors/barelyhuman'>github sponsors</a>
         </p>
       </Box>
       <Footer />
