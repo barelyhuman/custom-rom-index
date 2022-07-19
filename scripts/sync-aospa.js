@@ -5,7 +5,7 @@ const got = require('got');
 const { STATUS_ENUM } = require('../db/status_enum');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
-const { findOrCreate } = require('../lib/sdk');
+const { upsertDevice } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -16,7 +16,7 @@ async function main() {
   const deviceList = JSON.parse(response.body);
 
   const promises = deviceList.devices.map(async deviceItem => {
-    await findOrCreate({
+    await upsertDevice({
       deviceName: deviceItem.manufacturer + deviceItem.description,
       codename: deviceItem.name,
       rom: {

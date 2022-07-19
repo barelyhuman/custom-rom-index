@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const got = require('got');
-const { findOrCreate } = require('../lib/sdk');
+const {  upsertDevice } = require('../lib/sdk');
 
 const urlsToSyncV11 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-11.0_vanilla_builds_unofficial.json',
@@ -30,7 +30,7 @@ async function syncArrowOSData(url, version) {
         );
       }
 
-      await findOrCreate({
+      await upsertDevice({
         deviceName: device.model,
         codename: deviceKey,
         rom: {

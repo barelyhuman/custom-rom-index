@@ -1,12 +1,9 @@
 #!/usr/bin/env node
-
-const { addDevice, devices } = require('../db/db');
 const got = require('got');
-const { generateDevices } = require('./generate-devices');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
-const { findOrCreate } = require('../lib/sdk');
+const { upsertDevice } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -20,7 +17,7 @@ async function main() {
     const codename = deviceCodeName;
     const device = deviceList[deviceCodeName];
 
-    await findOrCreate({
+    await upsertDevice({
       deviceName: '',
       codename,
       rom: {
@@ -40,8 +37,10 @@ async function main() {
 exports.syncPotatoProject = main;
 
 if (require.main === module) {
-  (async () => {
-    const _devices = await main(devices);
-    await generateDevices(_devices);
-  })();
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
 }

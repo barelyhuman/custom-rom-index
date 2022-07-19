@@ -3,7 +3,7 @@ const got = require('got');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
-const { findOrCreate } = require('../lib/sdk');
+const {  upsertDevice } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -17,7 +17,7 @@ async function main() {
     const codename = deviceItem.codename;
     const deviceName = `${deviceItem.brand} ${deviceItem.name}`;
 
-    await findOrCreate({
+    await upsertDevice({
       deviceName,
       codename,
       rom: {

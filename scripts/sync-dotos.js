@@ -7,7 +7,7 @@ const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
 
 const conch = require('@barelyreaper/conch');
-const { findOrCreate } = require('../lib/sdk');
+const {  upsertDevice } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -52,7 +52,7 @@ async function addDotOSToDevices(item) {
   const codename = deviceData.codename;
   const deviceName = `${deviceData.brandName} ${deviceData.deviceName}`;
 
-  await findOrCreate({
+  await upsertDevice({
     deviceName,
     codename,
     rom: {

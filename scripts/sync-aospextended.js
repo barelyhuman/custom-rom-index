@@ -3,7 +3,7 @@
 const got = require('got');
 
 const kluer = require('kleur');
-const { findOrCreate } = require('../lib/sdk');
+const {  upsertDevice } = require('../lib/sdk');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
 
@@ -28,7 +28,7 @@ async function main() {
 
         if (device.version_code === 'r') version = 11;
 
-        await findOrCreate({
+        await upsertDevice({
           deviceName,
           codename,
           rom: {

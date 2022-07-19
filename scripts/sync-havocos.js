@@ -6,7 +6,7 @@ const conch = require('@barelyreaper/conch');
 const { logcons } = require('logcons');
 const kluer = require('kleur');
 const { STATUS_ENUM } = require('../db/status_enum');
-const { findOrCreate } = require('../lib/sdk');
+const {  upsertDevice } = require('../lib/sdk');
 const info = kluer.cyan().bold;
 const success = kluer.green().bold;
 
@@ -68,7 +68,7 @@ async function addHavocOSToDevices(item, version) {
   if (!deviceData) return true;
 
   const codename = deviceData.codename;
-  await findOrCreate({
+  await upsertDevice({
     deviceName: deviceData.name,
     codename,
     rom: {
