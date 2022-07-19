@@ -6,6 +6,7 @@ const { generateDevices } = require('./generate-devices');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
+const { findOrCreate } = require('lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -15,11 +16,11 @@ const URL =
 async function main() {
   const response = await got(URL);
   const deviceList = JSON.parse(response.body) || {};
-  Object.keys(deviceList).forEach(deviceCodeName => {
+  const promises = Object.keys(deviceList).map(async deviceCodeName => {
     const codename = deviceCodeName;
     const device = deviceList[deviceCodeName];
 
-    addDevice({
+    await findOrCreate({
       deviceName: '',
       codename,
       rom: {
@@ -30,6 +31,8 @@ async function main() {
       },
     });
   });
+
+  await Promise.all(promises);
 
   console.log(success(`${logcons.tick()} Done, Syncing Potato Project`));
 }

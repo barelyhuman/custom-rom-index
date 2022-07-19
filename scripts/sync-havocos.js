@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-const { addDevice, devices } = require('../db/db');
+
 const _got = require('got');
-const { generateDevices } = require('./generate-devices');
+
 const conch = require('@barelyreaper/conch');
 const { logcons } = require('logcons');
 const kluer = require('kleur');
 const { STATUS_ENUM } = require('../db/status_enum');
+const { findOrCreate } = require('../lib/sdk');
 const info = kluer.cyan().bold;
 const success = kluer.green().bold;
 
@@ -67,7 +68,7 @@ async function addHavocOSToDevices(item, version) {
   if (!deviceData) return true;
 
   const codename = deviceData.codename;
-  addDevice({
+  await findOrCreate({
     deviceName: deviceData.name,
     codename,
     rom: {
@@ -90,8 +91,10 @@ function got(url) {
 exports.syncHavocOS = main;
 
 if (require.main === module) {
-  (async () => {
-    const _devices = await main(devices);
-    await generateDevices(_devices);
-  })();
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
 }

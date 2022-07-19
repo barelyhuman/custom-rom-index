@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { addDevice, devices } = require('../db/db');
+const { findOrCreate } = require('../lib/sdk');
 const got = require('got');
 const { generateDevices } = require('./generate-devices');
 const kluer = require('kleur');
@@ -29,7 +29,7 @@ async function main() {
 
         if (deviceVersionItem.version_code === 'ten') versions.push(10);
 
-        addDevice({
+        findOrCreate({
           deviceName,
           codename,
           rom: {
@@ -51,7 +51,6 @@ exports.syncPixelExperience = main;
 
 if (require.main === module) {
   (async () => {
-    const _devices = await main(devices);
-    await generateDevices(_devices);
+    await main();
   })();
 }

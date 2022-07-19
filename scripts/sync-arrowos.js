@@ -2,6 +2,7 @@
 
 const { addDevice } = require('../db/db');
 const got = require('got');
+const { findOrCreate } = require('lib/sdk');
 
 const urlsToSyncV11 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-11.0_vanilla_builds_unofficial.json',
@@ -21,9 +22,9 @@ async function syncArrowOSData(url, version) {
   const response = await got(url);
   const deviceList = JSON.parse(response.body);
 
-  Object.keys(deviceList).forEach(deviceKey => {
+  const promises = Object.keys(deviceList).map(async deviceKey => {
     const deviceItems = deviceList[deviceKey];
-    deviceItems.forEach(device => {
+    const _internalPromises = deviceItems.map(async device => {
       const links = [];
       if (device.filepath) {
         links.push(
@@ -31,7 +32,7 @@ async function syncArrowOSData(url, version) {
         );
       }
 
-      addDevice({
+      await findOrCreate({
         deviceName: device.model,
         codename: deviceKey,
         rom: {
@@ -42,7 +43,11 @@ async function syncArrowOSData(url, version) {
         },
       });
     });
+
+    return Promise.all(_internalPromises);
   });
+
+  await Promise.all(promises);
 }
 
 async function main() {
@@ -53,4 +58,11 @@ async function main() {
 
 exports.syncArrowOS = main;
 
-if (require.main === module) main();
+if (require.main === module) {
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
+}

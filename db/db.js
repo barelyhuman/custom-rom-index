@@ -1,31 +1,22 @@
-const StormDB = require('stormdb');
+const knex = require('knex');
+const kconfig = require('../knexfile');
 
-/* eslint-disable */
-const engine = new StormDB.localFileEngine('./db/devices.json');
-/* eslint-enable */
+/**
+ * @type { import("knex").Knex }
+ */
+let connection;
 
-const db = new StormDB(engine);
+const createConnection = () => {
+  if (connection) return connection;
 
-db.default({ devices: [] });
+  connection = knex({
+    ...kconfig[process.env.NODE_ENV || 'development'],
+    useNullAsDefault: true,
+  });
 
-exports.db = db;
-
-const addDevice = deviceDetails => {
-  const devices = db.get('devices');
-
-  db.get('devices')
-    .push({
-      ...deviceDetails,
-      id: devices.value() ? devices.length().value() : 0,
-    })
-    .save();
+  return connection;
 };
 
-exports.addDevice = addDevice;
+const db = createConnection();
 
-exports.devices = db
-  .get('devices')
-  .sort((x, y) =>
-    x.codename.toLowerCase() > y.codename.toLowerCase() ? 1 : -1
-  )
-  .value();
+exports.db = db;

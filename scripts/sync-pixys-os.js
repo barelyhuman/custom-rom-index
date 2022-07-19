@@ -14,26 +14,32 @@ const URL =
 async function main() {
   const response = await got(URL);
 
-  (JSON.parse(response.body) || []).forEach(deviceItem => {
+  const promises = (JSON.parse(response.body) || []).map(async deviceItem => {
     const codename = deviceItem.codename;
     const deviceName = `${deviceItem.brand} ${deviceItem.name}`;
 
-    (deviceItem.supported_bases || []).forEach(versionDef => {
-      const version =
-        (versionDef.name === 'ten' && 10) ||
-        (versionDef.name === 'eleven' && 11);
-      addDevice({
-        deviceName,
-        codename,
-        rom: {
-          status: STATUS_ENUM.active,
-          androidVersion: [version],
-          links: [versionDef.xda_thread],
-          name: 'Pixys OS',
-        },
-      });
-    });
+    const _internalPromises = (deviceItem.supported_bases || []).map(
+      async versionDef => {
+        const version =
+          (versionDef.name === 'ten' && 10) ||
+          (versionDef.name === 'eleven' && 11);
+        addDevice({
+          deviceName,
+          codename,
+          rom: {
+            status: STATUS_ENUM.active,
+            androidVersion: [version],
+            links: [versionDef.xda_thread],
+            name: 'Pixys OS',
+          },
+        });
+      }
+    );
+
+    await Promise.all(_internalPromises);
   });
+
+  await Promise.all(promises);
 
   console.log(success(`${logcons.tick()} Done, Syncing PixysOS`));
 }
@@ -41,8 +47,10 @@ async function main() {
 exports.syncPixysOS = main;
 
 if (require.main === module) {
-  (async () => {
-    const _devices = await main(devices);
-    await generateDevices(_devices);
-  })();
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
 }

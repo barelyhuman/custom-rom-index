@@ -6,6 +6,7 @@ const conch = require('@barelyreaper/conch');
 const { logcons } = require('logcons');
 const kluer = require('kleur');
 const { STATUS_ENUM } = require('../db/status_enum');
+const { findOrCreate } = require('../lib/sdk');
 const info = kluer.cyan().bold;
 const success = kluer.green().bold;
 
@@ -53,7 +54,7 @@ async function addColtOSToDevices(item) {
 
   const codename = item.name.replace('.json', '');
 
-  addDevice({
+  await findOrCreate({
     deviceName: deviceData.devicename,
     codename,
     rom: {
@@ -76,8 +77,10 @@ function got(url) {
 exports.syncColtOS = main;
 
 if (require.main === module) {
-  (async () => {
-    const _devices = await main(devices);
-    await generateDevices(_devices);
-  })();
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
 }

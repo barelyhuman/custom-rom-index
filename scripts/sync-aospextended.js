@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-const { addDevice } = require('../db/db');
+
 const got = require('got');
-const { generateDevices } = require('./generate-devices');
+
 const kluer = require('kleur');
+const { findOrCreate } = require('lib/sdk');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
 
@@ -14,30 +15,36 @@ const URL =
 async function main() {
   const response = await got(URL);
 
-  (JSON.parse(response.body) || []).forEach(deviceItem => {
+  const promises = (JSON.parse(response.body) || []).map(async deviceItem => {
     const codename = deviceItem.codename;
     const deviceName = `${deviceItem.brand} ${deviceItem.name}`;
 
-    (deviceItem.supported_versions || []).forEach(device => {
-      if (device.version_code !== 'q' && device.version_code !== 'r') return;
+    const _internalPromises = (deviceItem.supported_versions || []).map(
+      async device => {
+        if (device.version_code !== 'q' && device.version_code !== 'r') return;
 
-      let version;
-      if (device.version_code === 'q') version = 10;
+        let version;
+        if (device.version_code === 'q') version = 10;
 
-      if (device.version_code === 'r') version = 11;
+        if (device.version_code === 'r') version = 11;
 
-      addDevice({
-        deviceName,
-        codename,
-        rom: {
-          status: STATUS_ENUM.active,
-          androidVersion: [version],
-          links: [device.xda_thread],
-          name: 'AospExtended',
-        },
-      });
-    });
+        await findOrCreate({
+          deviceName,
+          codename,
+          rom: {
+            status: STATUS_ENUM.active,
+            androidVersion: [version],
+            links: [device.xda_thread],
+            name: 'AospExtended',
+          },
+        });
+      }
+    );
+
+    await Promise.all(_internalPromises);
   });
+
+  await Promise.all(promises);
 
   console.log(success(`${logcons.tick()} Done, Syncing AOSPExtended`));
 }
@@ -45,8 +52,10 @@ async function main() {
 exports.syncAospExtended = main;
 
 if (require.main === module) {
-  (async () => {
-    await main();
-    await generateDevices();
-  })();
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
 }

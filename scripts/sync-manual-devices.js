@@ -1,7 +1,7 @@
-const { addDevice } = require('../db/db');
+const { findOrCreate } = require('../lib/sdk');
 
-function main() {
-  addDevice({
+async function main() {
+  await findOrCreate({
     deviceName: 'Pixel 4a (5G) ',
     codename: 'bramble',
     rom: {
@@ -12,7 +12,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 5 ',
     codename: 'redfin',
     rom: {
@@ -23,7 +23,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 4a ',
     codename: 'sunfish',
     rom: {
@@ -34,7 +34,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 4 XL ',
     codename: 'coral',
     rom: {
@@ -45,7 +45,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 4 ',
     codename: 'flame',
     rom: {
@@ -56,7 +56,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 3a XL ',
     codename: 'bonito',
     rom: {
@@ -67,7 +67,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 3a ',
     codename: 'sargo',
     rom: {
@@ -78,7 +78,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 3 XL ',
     codename: 'crosshatch',
     rom: {
@@ -89,7 +89,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 3 ',
     codename: 'blueline',
     rom: {
@@ -100,7 +100,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 2 XL ',
     codename: 'taimen',
     rom: {
@@ -111,7 +111,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Pixel 2 ',
     codename: 'walleye',
     rom: {
@@ -122,7 +122,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Mi A2 ',
     codename: 'jasmine_sprout',
     rom: {
@@ -133,7 +133,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi 9T Pro',
     codename: 'raphael',
     rom: {
@@ -144,7 +144,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Zenfone Max Pro M1',
     codename: 'X00TD',
     rom: {
@@ -155,7 +155,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Zenfone 5Z',
     codename: 'Z01R',
     rom: {
@@ -166,7 +166,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'G7 ThinQ',
     codename: 'judyln',
     rom: {
@@ -177,7 +177,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Moto G7 Plus',
     codename: 'lake',
     rom: {
@@ -188,7 +188,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Moto G5S Plus',
     codename: 'sanders',
     rom: {
@@ -199,7 +199,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'One Fusion+',
     codename: 'liber',
     rom: {
@@ -210,7 +210,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 7 Pro',
     codename: 'guacamole',
     rom: {
@@ -221,7 +221,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 7',
     codename: 'guacamoleb',
     rom: {
@@ -232,7 +232,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 8',
     codename: 'instantnoodle',
     rom: {
@@ -243,7 +243,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 8 Pro',
     codename: 'instantnoodlep',
     rom: {
@@ -254,7 +254,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 8T',
     codename: 'kebab',
     rom: {
@@ -265,7 +265,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 9',
     codename: 'lemonade',
     rom: {
@@ -276,7 +276,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 9 Pro',
     codename: 'lemonadep',
     rom: {
@@ -287,7 +287,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Realme 5 Pro',
     codename: 'RMX1971',
     rom: {
@@ -298,7 +298,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Realme 6',
     codename: 'RMX2001',
     rom: {
@@ -309,7 +309,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Realme 6 Pro',
     codename: 'RMX206X',
     rom: {
@@ -320,7 +320,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'POCO F3',
     codename: 'alioth',
     rom: {
@@ -331,7 +331,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi 10T',
     codename: 'apollo',
     rom: {
@@ -342,7 +342,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Poco M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G',
     codename: 'juice',
     rom: {
@@ -353,7 +353,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi K30 / POCO X2',
     codename: 'phoenix',
     rom: {
@@ -364,7 +364,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi K30 Pro / POCO F2 Pro',
     codename: 'lmi',
     rom: {
@@ -375,7 +375,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi 10',
     codename: 'umi',
     rom: {
@@ -386,7 +386,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi 10 Pro',
     codename: 'cmi',
     rom: {
@@ -397,7 +397,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi 9T',
     codename: 'davinci',
     rom: {
@@ -408,7 +408,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi 8',
     codename: 'dipper',
     rom: {
@@ -419,7 +419,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi Note 8',
     codename: 'ginkgo',
     rom: {
@@ -430,7 +430,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi A3',
     codename: 'laurel_sprout',
     rom: {
@@ -441,7 +441,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi Note 7',
     codename: 'lavender',
     rom: {
@@ -452,7 +452,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi Note 9S, 9 Pro, 9 Pro Max / POCO M2 Pro',
     codename: 'miatoll',
     rom: {
@@ -463,7 +463,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi 9 Lite',
     codename: 'pyxis',
     rom: {
@@ -474,7 +474,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi Mix 2s',
     codename: 'polaris',
     rom: {
@@ -485,7 +485,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Poco X3',
     codename: 'surya',
     rom: {
@@ -496,7 +496,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Mi A1',
     codename: 'tissot',
     rom: {
@@ -507,7 +507,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi Note 6 Pro',
     codename: 'tulip',
     rom: {
@@ -518,7 +518,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi Note 5/5 Plus',
     codename: 'vince',
     rom: {
@@ -529,7 +529,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi Note 7 Pro',
     codename: 'violet',
     rom: {
@@ -540,7 +540,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Redmi Note 5',
     codename: 'whyred',
     rom: {
@@ -551,7 +551,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Asus ROG 2 ',
     codename: 'I001D',
     rom: {
@@ -562,7 +562,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Asus ROG 3 ',
     codename: 'obiwan',
     rom: {
@@ -573,7 +573,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Asus Zenfone 5Z ',
     codename: 'Z01R',
     rom: {
@@ -584,7 +584,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Asus Zenfone 6 ',
     codename: 'I01WD',
     rom: {
@@ -595,7 +595,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Google Pixel 3A ',
     codename: 'sargo',
     rom: {
@@ -606,7 +606,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Google Pixel 3A XL ',
     codename: 'bonito',
     rom: {
@@ -617,7 +617,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Google Pixel 4 XL ',
     codename: 'coral',
     rom: {
@@ -628,7 +628,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Google Pixel 4A ',
     codename: 'sunfish',
     rom: {
@@ -639,7 +639,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Motorola Moto G7 Play ',
     codename: 'channel',
     rom: {
@@ -650,7 +650,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 3/3T ',
     codename: 'oneplus3',
     rom: {
@@ -661,7 +661,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 6 ',
     codename: 'enchilada',
     rom: {
@@ -672,7 +672,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 6T ',
     codename: 'fajita',
     rom: {
@@ -683,7 +683,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'OnePlus 7 Pro ',
     codename: 'guacamole',
     rom: {
@@ -694,7 +694,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Poco X3 NFC ',
     codename: 'surya',
     rom: {
@@ -705,7 +705,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Realme 2 Pro ',
     codename: 'RMX1801',
     rom: {
@@ -716,7 +716,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Realme 5 Pro ',
     codename: 'RMX1971',
     rom: {
@@ -727,7 +727,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Realme XT ',
     codename: 'RMX1921',
     rom: {
@@ -738,7 +738,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Samsung Galaxy Note 9 ',
     codename: 'crownlte',
     rom: {
@@ -749,7 +749,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Samsung Galaxy S9 ',
     codename: 'starlte',
     rom: {
@@ -760,7 +760,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Samsung Galaxy S9+ ',
     codename: 'star2lte',
     rom: {
@@ -771,7 +771,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Mi 10T ',
     codename: 'apollo',
     rom: {
@@ -782,7 +782,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Mi 9 Lite/Mi CC9 Meitu ',
     codename: 'pyxis',
     rom: {
@@ -793,7 +793,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Mi 9T ',
     codename: 'davinci',
     rom: {
@@ -804,7 +804,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi POCO M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G ',
     codename: 'juice',
     rom: {
@@ -815,7 +815,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Poco F1 ',
     codename: 'beryllium',
     rom: {
@@ -826,7 +826,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Redmi K20 Pro / Mi 9T Pro ',
     codename: 'raphael',
     rom: {
@@ -837,7 +837,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Redmi Note 5 Pro ',
     codename: 'whyred',
     rom: {
@@ -848,7 +848,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Redmi Note 7 Pro ',
     codename: 'violet',
     rom: {
@@ -859,7 +859,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Redmi Note 7/7S ',
     codename: 'lavender',
     rom: {
@@ -870,7 +870,7 @@ function main() {
     },
   });
 
-  addDevice({
+  await findOrCreate({
     deviceName: 'Xiaomi Redmi Note 9S/9 Pro/Pro Max/POCO M2 Pro',
     codename: 'miatoll',
     rom: {

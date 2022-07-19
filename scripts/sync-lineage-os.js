@@ -1,10 +1,9 @@
 #!/usr/bin/env node
-const { addDevice, devices } = require('../db/db');
 const got = require('got');
-const { generateDevices } = require('./generate-devices');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
+const { findOrCreate } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -14,11 +13,11 @@ const URL =
 async function main() {
   const response = await got(URL);
 
-  (JSON.parse(response.body) || []).forEach(deviceItem => {
+  const promises = (JSON.parse(response.body) || []).map(async deviceItem => {
     const codename = deviceItem.model;
     const deviceName = `${deviceItem.oem} ${deviceItem.name}`;
 
-    addDevice({
+    await findOrCreate({
       deviceName,
       codename,
       rom: {
@@ -30,14 +29,18 @@ async function main() {
     });
   });
 
+  await Promise.all(promises);
+
   console.log(success(`${logcons.tick()} Done, Syncing Lineage OS`));
 }
 
 exports.syncLineageOS = main;
 
 if (require.main === module) {
-  (async () => {
-    const _devices = await main(devices);
-    await generateDevices(_devices);
-  })();
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
 }

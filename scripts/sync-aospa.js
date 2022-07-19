@@ -5,6 +5,7 @@ const got = require('got');
 const { STATUS_ENUM } = require('../db/status_enum');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
+const { findOrCreate } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -14,8 +15,8 @@ async function main() {
   const response = await got(URL);
   const deviceList = JSON.parse(response.body);
 
-  deviceList.devices.forEach(deviceItem => {
-    addDevice({
+  const promises = deviceList.devices.map(async deviceItem => {
+    await findOrCreate({
       deviceName: deviceItem.manufacturer + deviceItem.description,
       codename: deviceItem.name,
       rom: {
@@ -26,6 +27,8 @@ async function main() {
     });
   });
 
+  await Promise.all(promises);
+
   console.log(
     success(`${logcons.tick()} Done, Syncing AOSPA - Paranoid Android...`)
   );
@@ -33,4 +36,11 @@ async function main() {
 
 exports.syncParanoidAndroid = main;
 
-if (require.main === module) main();
+if (require.main === module) {
+  main()
+    .then(() => process.exit(0))
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
+}
