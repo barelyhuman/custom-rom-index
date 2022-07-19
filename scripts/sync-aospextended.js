@@ -3,7 +3,7 @@
 const got = require('got');
 
 const kluer = require('kleur');
-const { findOrCreate } = require('lib/sdk');
+const { findOrCreate } = require('../lib/sdk');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
 

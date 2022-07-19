@@ -1,8 +1,6 @@
 #!/usr/bin/env node
-
-const { addDevice } = require('../db/db');
 const got = require('got');
-const { findOrCreate } = require('lib/sdk');
+const { findOrCreate } = require('../lib/sdk');
 
 const urlsToSyncV11 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-11.0_vanilla_builds_unofficial.json',

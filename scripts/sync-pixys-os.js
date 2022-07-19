@@ -5,6 +5,7 @@ const { generateDevices } = require('./generate-devices');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
+const { findOrCreate } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
@@ -23,7 +24,7 @@ async function main() {
         const version =
           (versionDef.name === 'ten' && 10) ||
           (versionDef.name === 'eleven' && 11);
-        addDevice({
+        await findOrCreate({
           deviceName,
           codename,
           rom: {

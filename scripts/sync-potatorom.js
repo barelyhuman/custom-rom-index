@@ -6,7 +6,7 @@ const { generateDevices } = require('./generate-devices');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
-const { findOrCreate } = require('lib/sdk');
+const { findOrCreate } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 
