@@ -3,7 +3,7 @@ const got = require('got');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
-const {  upsertDevice } = require('../lib/sdk');
+const { upsertDevice } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 

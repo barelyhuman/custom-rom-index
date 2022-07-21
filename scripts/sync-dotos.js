@@ -7,7 +7,7 @@ const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');
 
 const conch = require('@barelyreaper/conch');
-const {  upsertDevice } = require('../lib/sdk');
+const { upsertDevice } = require('../lib/sdk');
 
 const success = kluer.green().bold;
 

@@ -1,10 +1,6 @@
 import { Header } from 'components';
 import { DevicesListTable } from 'containers';
-import devicesJSON from 'db/devices.json';
-import { sortByDate } from 'lib/date-utils';
-import { filterDevices } from 'lib/filter-devices';
-
-const { devices } = devicesJSON;
+import { getDevices } from 'lib/sdk';
 
 function Devices({ deviceList, searchTerm, sort }) {
   return (
@@ -30,30 +26,25 @@ function Devices({ deviceList, searchTerm, sort }) {
 export default Devices;
 
 export async function getServerSideProps({ query }) {
-  let deviceList = devices;
+  const deviceList = await getDevices();
+
+  console.log({ deviceList });
 
   if (query.sort) {
     switch (query.sort) {
       case 'releasedOn:asc': {
-        deviceList = deviceList.sort((x, y) =>
-          sortByDate(x.releasedOn, y.releasedOn, 1)
-        );
         break;
       }
       case 'releasedOn:desc': {
-        deviceList = deviceList.sort((x, y) =>
-          sortByDate(x.releasedOn, y.releasedOn, -1)
-        );
         break;
       }
       default: {
-        deviceList = devices.slice();
         break;
       }
     }
   }
 
-  if (query.q) deviceList = deviceList.filter(x => filterDevices(x, query.q));
+  // if (query.q) deviceList = deviceList.filter(x => filterDevices(x, query.q));
 
   return {
     props: {

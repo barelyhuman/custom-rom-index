@@ -1,4 +1,4 @@
-const {  upsertDevice } = require('../lib/sdk');
+const { upsertDevice } = require('../lib/sdk');
 
 async function main() {
   await upsertDevice({

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button, Footer, Header, Note } from 'components';
 import Box from 'components/box';
-import { totalDevices, totalUniqueRoms } from 'lib/analytical-utils';
+import { totalDevices, totalActiveRoms } from 'lib/analytical-utils';
 import Link from 'next/link';
 
-function Home({ totalDevices, totalUniqueRoms }) {
+function Home({ totalDevices, totalActiveRoms }) {
   return (
     <>
       <Header />
@@ -19,7 +19,7 @@ function Home({ totalDevices, totalUniqueRoms }) {
             </p>
             <article>
               With about <h3 className='inline-block'>{totalDevices}</h3>{' '}
-              devices and <h3 className='inline-block'>{totalUniqueRoms}</h3>{' '}
+              devices and <h3 className='inline-block'>{totalActiveRoms}</h3>{' '}
               ROM's syncing daily the <strong>Custom Rom Index</strong> has it
               all listed in a friendly and easy to use table.
             </article>
@@ -59,8 +59,8 @@ export default Home;
 export async function getServerSideProps() {
   return {
     props: {
-      totalDevices: totalDevices(),
-      totalUniqueRoms: totalUniqueRoms(),
+      totalDevices: await totalDevices(),
+      totalActiveRoms: await totalActiveRoms(),
     },
   };
 }
