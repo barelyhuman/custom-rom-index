@@ -3,7 +3,7 @@ import { DevicesListTable } from 'containers';
 
 import { getDevices } from 'lib/sdk';
 
-function Devices({ deviceList, searchTerm, sort, status, limit }) {
+function Devices({ deviceList, searchTerm, sort, status, limit,currPage,maxPage, }) {
   return (
     <>
       <Header />
@@ -22,6 +22,8 @@ function Devices({ deviceList, searchTerm, sort, status, limit }) {
           sortOrder={sort}
           statusFilter={status}
           limitFilter={limit}
+          maxPage={maxPage}
+          currPage={currPage}
         />
       }
     </>
@@ -51,12 +53,14 @@ export async function getServerSideProps({ query }) {
     }
   }
 
-  const deviceList = await getDevices({
+  const {deviceList,count} = await getDevices({
     page: query.page || 0,
     limit: query.limit || defaultLimit,
     status: query.status || 'all',
     order,
   });
+
+  const limit = query.limit || defaultLimit
 
   return {
     props: {
@@ -64,7 +68,9 @@ export async function getServerSideProps({ query }) {
       searchTerm: query.q || '',
       sort: query.sort || 'releasedOn:desc',
       status: query.status || 'all',
-      limit: query.limit || defaultLimit,
+      limit,
+      currPage: query.page || 0 ,
+      maxPage: Math.floor(count/limit),
     },
   };
 }

@@ -1,5 +1,7 @@
 import { Input } from 'components';
 import { options } from 'db/options';
+import { useRouter } from 'next/router';
+import { Router } from 'next/router';
 
 import { useRef } from 'react';
 
@@ -15,11 +17,29 @@ export function DevicesListTable({
   sortOrder,
   statusFilter,
   limitFilter,
+  maxPage,
+  currPage,
   ...props
 }) {
   const sortDropRef = useRef();
+  const router = useRouter();
 
   const pageLimits = [15, 25, 50, 100];
+
+  const onNextPage = () => {
+    const _pageNum = parseInt(currPage, 10) + 1;
+    if (_pageNum > maxPage) return;
+
+    router.query.page = _pageNum;
+    router.push(router);
+  };
+  const onPrevPage = () => {
+    const _pageNum = parseInt(currPage, 10) - 1;
+    if (_pageNum  < 0) return;
+
+    router.query.page = _pageNum;
+    router.push(router);
+  };
 
   return (
     <>
@@ -36,43 +56,64 @@ export function DevicesListTable({
               <button type='submit' className='invisible' />
             </form>
           </div>
-          <div className='w-full flex justify-end'>
-            <form ref={sortDropRef}>
-              <input type='submit' className='invisible w-0 h-0' />
-              <select
-                defaultValue={sortOrder}
-                className='m-1 select rounded-md'
-                name='sort'
-                onChange={() => sortDropRef.current.submit()}
-              >
-                <option value='releasedOn:desc'>Released On: Desc</option>
-                <option value='releasedOn:asc'>Released On: Asc</option>
-              </select>
-              <select
-                defaultValue={statusFilter}
-                className='m-1 select rounded-md'
-                name='status'
-                onChange={() => sortDropRef.current.submit()}
-              >
-                <option value=''>Status: All</option>
-                {Object.keys(options.STATUS).map(x => (
-                  <option key={x} value={options.STATUS[x].value}>
-                    Status: {options.STATUS[x].label}
-                  </option>
-                ))}
-              </select>
-              <select
-                defaultValue={limitFilter}
-                className='m-1 select rounded-md'
-                name='limit'
-                onChange={() => sortDropRef.current.submit()}
-              >
-                {pageLimits.map(x => (
-                  <option value={x} key={x}>
-                    Per Page: {x}
-                  </option>
-                ))}
-              </select>
+          <div className='w-full flex'>
+            <form ref={sortDropRef} className='w-full flex'>
+              <div className='inline-flex items-center'>
+                <button
+                  type='button'
+                  onClick={onPrevPage}
+                  className='mx-2 bg-zinc-800 hover:cursor-pointer hover:bg-zinc-700 border-0 rounded-md font-bold text-white py-2 px-3'
+                >
+                  <span className='h-4 w-4'> &larr; </span>
+                </button>
+                <span>
+                  Page {currPage} of {maxPage}
+                </span>
+                <button
+                  type='button'
+                  onClick={onNextPage}
+                  className='mx-2 bg-zinc-800 hover:cursor-pointer hover:bg-zinc-700 border-0 rounded-md font-bold text-white py-2 px-3'
+                >
+                  <span className='h-4 w-4'> &rarr; </span>
+                </button>
+              </div>
+              <div className='ml-auto'>
+                <input type='submit' className='invisible w-0 h-0' />
+                <select
+                  defaultValue={sortOrder}
+                  className='m-1 select rounded-md hover:bg-zinc-700 hover:cursor-pointer'
+                  name='sort'
+                  onChange={() => sortDropRef.current.submit()}
+                >
+                  <option value='releasedOn:desc'>Released On: Desc</option>
+                  <option value='releasedOn:asc'>Released On: Asc</option>
+                </select>
+                <select
+                  defaultValue={statusFilter}
+                  className='m-1 select rounded-md hover:bg-zinc-700 hover:cursor-pointer'
+                  name='status'
+                  onChange={() => sortDropRef.current.submit()}
+                >
+                  <option value=''>Status: All</option>
+                  {Object.keys(options.STATUS).map(x => (
+                    <option key={x} value={options.STATUS[x].value}>
+                      Status: {options.STATUS[x].label}
+                    </option>
+                  ))}
+                </select>
+                <select
+                  defaultValue={limitFilter}
+                  className='m-1 select rounded-md hover:bg-zinc-700 hover:cursor-pointer'
+                  name='limit'
+                  onChange={() => sortDropRef.current.submit()}
+                >
+                  {pageLimits.map(x => (
+                    <option value={x} key={x}>
+                      Per Page: {x}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </form>
           </div>
           <div>
