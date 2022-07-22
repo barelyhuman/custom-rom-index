@@ -8,6 +8,8 @@ const { logcons } = require('logcons');
 const kluer = require('kleur');
 const info = kluer.cyan().bold;
 const { db } = require('../db/db');
+const conch = require('@barelyreaper/conch');
+const { getReleasedOn, dateStringToDate } = require('../lib/date-utils');
 
 const URL_TEMPLATE = deviceCodeName =>
   `https://raw.githubusercontent.com/PixelExperience/wiki/master/_data/devices/${deviceCodeName}.yml`;
@@ -41,34 +43,32 @@ async function deviceInfoAPI(codename) {
 }
 
 async function main() {
-  console.log(info(`${logcons.info()} Generating Devices`));
-  const withReleasesPromises = db
-    .get('devices')
-    .value()
-    .map(async item => {
-      const { dataSourceOne, dataSourceTwo } = await deviceInfoAPI(
-        item.codename
-      );
-      item.releasedOn =
-        item.releasedOn ||
-        (dataSourceOne && dataSourceOne.release) ||
-        (dataSourceTwo && dataSourceTwo.release);
-      return item;
-    });
-  const withRelease = await Promise.all(withReleasesPromises);
+  const devices = await db('devices').where({ released_on: null });
+  const mapper = async device => {
+    const { dataSourceOne, dataSourceTwo } = await deviceInfoAPI(
+      device.codename
+    );
+    const releaseDate =
+      (dataSourceOne && dataSourceOne.release) ||
+      (dataSourceTwo && dataSourceTwo.release);
 
-  fs.writeFileSync(
-    path.join(__dirname, '../db/devices.json'),
-    JSON.stringify(
-      {
-        devices: withRelease,
-      },
-      null,
-      2
-    )
-  );
+    if (!releaseDate) return;
+
+    const dateData = getReleasedOn(releaseDate);
+
+    if (dateData) {
+      const _date = dateData && dateStringToDate(dateData);
+      await db('devices')
+        .update({
+          released_on: _date,
+        })
+        .where({
+          id: device.id,
+        });
+    }
+  };
+
+  await conch(devices, mapper, { limit: 5 });
 }
 
-exports.generateDevices = main;
-
-if (require.main === module) main();
+if (require.main === module) main().then(() => process.exit(0));

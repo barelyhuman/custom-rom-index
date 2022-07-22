@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const { addDevice, devices } = require('../db/db');
 const _got = require('got');
-const { generateDevices } = require('./generate-devices');
 const conch = require('@barelyreaper/conch');
 const { logcons } = require('logcons');
 const kluer = require('kleur');

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { addDevice, devices } = require('../db/db');
 const got = require('got');
-const { generateDevices } = require('./generate-devices');
+const { generateDevices } = require('./fill-release-dates');
 const kluer = require('kleur');
 const { logcons } = require('logcons');
 const { STATUS_ENUM } = require('../db/status_enum');

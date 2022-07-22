@@ -19,14 +19,21 @@ const options = {
 };
 
 const findInOptions = (identifier, value) => {
-  const opt = Object.entries(options).find(
-    ([k, v]) => k === identifier && v.value === value
-  );
+  let opt;
+  Object.entries(options).forEach(([k, v]) => {
+    if (k !== identifier) return;
+    Object.entries(v).forEach(([k1, v1]) => {
+      if (v1.value !== value) return;
+      opt = v[k1];
+    });
+  });
 
-  if (!opt[1]) return null;
+  if (!opt) return null;
 
-  return opt[1];
+  return opt;
 };
 
-exports.findInOptions = findInOptions;
-exports.options = options;
+module.exports = {
+  findInOptions,
+  options,
+};

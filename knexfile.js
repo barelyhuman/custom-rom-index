@@ -11,7 +11,7 @@ module.exports = {
     },
   },
   production: {
-    client: 'sqlite3',
+    client: 'better-sqlite3',
     connection: {
       filename: './db/db.sqlite3',
     },

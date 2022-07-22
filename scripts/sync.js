@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-const { generateDevices } = require('./generate-devices');
 const { syncCRAndroid } = require('./sync-crdroid');
 const { syncDotOS } = require('./sync-dotos');
 const { syncLineageOS } = require('./sync-lineage-os');

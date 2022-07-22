@@ -1,8 +1,9 @@
 import { Header } from 'components';
 import { DevicesListTable } from 'containers';
+
 import { getDevices } from 'lib/sdk';
 
-function Devices({ deviceList, searchTerm, sort }) {
+function Devices({ deviceList, searchTerm, sort, status, limit }) {
   return (
     <>
       <Header />
@@ -14,11 +15,15 @@ function Devices({ deviceList, searchTerm, sort }) {
           </a>
         </div>
       </div>
-      <DevicesListTable
-        list={deviceList}
-        searchTerm={searchTerm}
-        sortOrder={sort}
-      />
+      {
+        <DevicesListTable
+          list={deviceList}
+          searchTerm={searchTerm}
+          sortOrder={sort}
+          statusFilter={status}
+          limitFilter={limit}
+        />
+      }
     </>
   );
 }
@@ -26,16 +31,17 @@ function Devices({ deviceList, searchTerm, sort }) {
 export default Devices;
 
 export async function getServerSideProps({ query }) {
-  const deviceList = await getDevices();
-
-  console.log({ deviceList });
-
+  const order = {
+    release: 'desc',
+  };
   if (query.sort) {
     switch (query.sort) {
       case 'releasedOn:asc': {
+        order.release = 'asc';
         break;
       }
       case 'releasedOn:desc': {
+        order.release = 'desc';
         break;
       }
       default: {
@@ -44,13 +50,20 @@ export async function getServerSideProps({ query }) {
     }
   }
 
-  // if (query.q) deviceList = deviceList.filter(x => filterDevices(x, query.q));
+  const deviceList = await getDevices({
+    page: query.page || 0,
+    limit: query.limit || 10,
+    status: query.status || 'all',
+    order,
+  });
 
   return {
     props: {
       deviceList,
       searchTerm: query.q || '',
       sort: query.sort || 'releasedOn:desc',
+      status: query.status || 'all',
+      limit: query.limit || 15,
     },
   };
 }

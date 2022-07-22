@@ -4,7 +4,7 @@ import Box from 'components/box';
 import { totalDevices, totalActiveRoms } from 'lib/analytical-utils';
 import Link from 'next/link';
 
-function Home({ totalDevices, totalActiveRoms }) {
+function Home({ totalDevicesCount, totalActiveRomsCount }) {
   return (
     <>
       <Header />
@@ -18,10 +18,11 @@ function Home({ totalDevices, totalActiveRoms }) {
               have a custom rom? Well, here's the solution to it all.
             </p>
             <article>
-              With about <h3 className='inline-block'>{totalDevices}</h3>{' '}
-              devices and <h3 className='inline-block'>{totalActiveRoms}</h3>{' '}
-              ROM's syncing daily the <strong>Custom Rom Index</strong> has it
-              all listed in a friendly and easy to use table.
+              With about <h3 className='inline-block'>{totalDevicesCount}</h3>{' '}
+              devices and{' '}
+              <h3 className='inline-block'>{totalActiveRomsCount}</h3> ROM's
+              syncing daily the <strong>Custom Rom Index</strong> has it all
+              listed in a friendly and easy to use table.
             </article>
             <Note>
               It is community sourced so if a device is missing, consider
@@ -59,8 +60,8 @@ export default Home;
 export async function getServerSideProps() {
   return {
     props: {
-      totalDevices: await totalDevices(),
-      totalActiveRoms: await totalActiveRoms(),
+      totalDevicesCount: await totalDevices(),
+      totalActiveRomsCount: await totalActiveRoms(),
     },
   };
 }

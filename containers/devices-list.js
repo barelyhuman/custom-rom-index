@@ -1,16 +1,25 @@
 import { Input } from 'components';
+import { options } from 'db/options';
 
-import { getReleasedOn } from 'lib/date-utils';
 import { useRef } from 'react';
 
 const STATUS_COLOR_ENUM = {
-  active: 'text-success',
-  discontinued: 'text-error',
-  unknown: 'text-warn',
+  [options.STATUS.active.value]: 'text-success',
+  [options.STATUS.discontinued.value]: 'text-error',
+  [options.STATUS.unknown.value]: 'text-warn',
 };
 
-export function DevicesListTable({ list, searchTerm, sortOrder, ...props }) {
+export function DevicesListTable({
+  list,
+  searchTerm,
+  sortOrder,
+  statusFilter,
+  limitFilter,
+  ...props
+}) {
   const sortDropRef = useRef();
+
+  const pageLimits = [15, 25, 50, 100];
 
   return (
     <>
@@ -32,12 +41,37 @@ export function DevicesListTable({ list, searchTerm, sortOrder, ...props }) {
               <input type='submit' className='invisible w-0 h-0' />
               <select
                 defaultValue={sortOrder}
-                className='select rounded-md'
+                className='m-1 select rounded-md'
                 name='sort'
                 onChange={() => sortDropRef.current.submit()}
               >
                 <option value='releasedOn:desc'>Released On: Desc</option>
                 <option value='releasedOn:asc'>Released On: Asc</option>
+              </select>
+              <select
+                defaultValue={statusFilter}
+                className='m-1 select rounded-md'
+                name='status'
+                onChange={() => sortDropRef.current.submit()}
+              >
+                <option value=''>Status: All</option>
+                {Object.keys(options.STATUS).map(x => (
+                  <option key={x} value={options.STATUS[x].value}>
+                    Status: {options.STATUS[x].label}
+                  </option>
+                ))}
+              </select>
+              <select
+                defaultValue={limitFilter}
+                className='m-1 select rounded-md'
+                name='limit'
+                onChange={() => sortDropRef.current.submit()}
+              >
+                {pageLimits.map(x => (
+                  <option value={x} key={x}>
+                    Per Page: {x}
+                  </option>
+                ))}
               </select>
             </form>
           </div>
@@ -58,34 +92,28 @@ export function DevicesListTable({ list, searchTerm, sortOrder, ...props }) {
                 {list.map(deviceItem => {
                   return (
                     <tr
-                      key={deviceItem.id}
+                      key={deviceItem.mapping_id}
                       className=' border-2 border-black mt-1'
                     >
                       <td>{deviceItem.codename}</td>
-                      <td>{deviceItem.deviceName}</td>
-                      <td>{deviceItem.rom.name}</td>
-                      <td>
-                        {deviceItem.rom.androidVersion
-                          ? deviceItem.rom.androidVersion.join(',')
-                          : 'N/A'}
-                      </td>
+                      <td>{deviceItem.basename}</td>
+                      <td>{deviceItem.name}</td>
+                      <td>{deviceItem.android_version || 'N/A'}</td>
                       <td>
                         <span
-                          className={`${
-                            STATUS_COLOR_ENUM[deviceItem.rom.status]
-                          }`}
+                          className={`${STATUS_COLOR_ENUM[deviceItem.status]}`}
                         >
-                          {deviceItem.rom.status}
+                          {deviceItem.status_label}
                         </span>
                       </td>
-                      <td>{getReleasedOn(deviceItem)}</td>
-                      <td>
+                      <td>{deviceItem.released_on_formatted}</td>
+                      {/* <td>
                         {deviceItem.rom.links.map((link, index) => (
                           <a key={index} href={link}>
                             <i className='material-icons'>launch</i>
                           </a>
                         ))}
-                      </td>
+                      </td> */}
                     </tr>
                   );
                 })}
