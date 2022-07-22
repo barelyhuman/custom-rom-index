@@ -84,8 +84,8 @@ export function DevicesListTable({
                   <th>Rom Name</th>
                   <th>Android Version(s)</th>
                   <th>Status</th>
-                  <th>Released On</th>
-                  <th>Links</th>
+                  <th className='pr-0 pl-1'>Released On</th>
+                  <th className='pr-0 pl-1'>Links</th>
                 </tr>
               </thead>
               <tbody>
@@ -96,8 +96,8 @@ export function DevicesListTable({
                       className=' border-2 border-black mt-1'
                     >
                       <td>{deviceItem.codename}</td>
-                      <td>{deviceItem.basename}</td>
-                      <td>{deviceItem.name}</td>
+                      <td className='w-[250px]'>{deviceItem.basename}</td>
+                      <td className='w-[250px]'>{deviceItem.name}</td>
                       <td>{deviceItem.android_version || 'N/A'}</td>
                       <td>
                         <span

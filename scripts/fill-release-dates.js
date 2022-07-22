@@ -57,7 +57,7 @@ async function main() {
     const dateData = getReleasedOn(releaseDate);
 
     if (dateData) {
-      const _date = dateData && dateStringToDate(dateData);
+      const _date = dateData;
       await db('devices')
         .update({
           released_on: _date,
@@ -68,7 +68,7 @@ async function main() {
     }
   };
 
-  await conch(devices, mapper, { limit: 5 });
+  await conch(devices, mapper, { limit: 20 });
 }
 
 if (require.main === module) main().then(() => process.exit(0));

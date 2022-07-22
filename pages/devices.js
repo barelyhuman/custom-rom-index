@@ -31,28 +31,29 @@ function Devices({ deviceList, searchTerm, sort, status, limit }) {
 export default Devices;
 
 export async function getServerSideProps({ query }) {
+  const defaultLimit = 15;
   const order = {
     release: 'desc',
   };
-  if (query.sort) {
-    switch (query.sort) {
-      case 'releasedOn:asc': {
-        order.release = 'asc';
-        break;
-      }
-      case 'releasedOn:desc': {
-        order.release = 'desc';
-        break;
-      }
-      default: {
-        break;
-      }
+
+  switch (query.sort) {
+    case 'releasedOn:asc': {
+      order.release = 'asc';
+      break;
+    }
+    case 'releasedOn:desc': {
+      order.release = 'desc';
+      break;
+    }
+    default: {
+      order.release = 'desc';
+      break;
     }
   }
 
   const deviceList = await getDevices({
     page: query.page || 0,
-    limit: query.limit || 10,
+    limit: query.limit || defaultLimit,
     status: query.status || 'all',
     order,
   });
@@ -63,7 +64,7 @@ export async function getServerSideProps({ query }) {
       searchTerm: query.q || '',
       sort: query.sort || 'releasedOn:desc',
       status: query.status || 'all',
-      limit: query.limit || 15,
+      limit: query.limit || defaultLimit,
     },
   };
 }
