@@ -14,6 +14,7 @@ const { syncPotatoProject } = require('./sync-potatorom');
 const { syncColtOS } = require('./sync-coltos');
 const { syncLegionOS } = require('./sync-legionos');
 const { syncPixysOS } = require('./sync-pixys-os');
+const { syncSearchIndex } = require('./sync-search-index');
 
 const bullet = kluer.white().bold;
 const success = kluer.green().bold;
@@ -48,6 +49,8 @@ async function main() {
   await syncHavocOS();
   console.log(bullet('Syncing, ColtOS...'));
   await syncColtOS();
+  console.log(bullet('Syncinc,Search Index...'));
+  await syncSearchIndex();
   console.log(success(`${logcons.tick()} Done Syncing everything`));
 }
 
