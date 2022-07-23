@@ -35,7 +35,7 @@ export function DevicesListTable({
   };
   const onPrevPage = () => {
     const _pageNum = parseInt(currPage, 10) - 1;
-    if (_pageNum  < 0) return;
+    if (_pageNum < 0) return;
 
     router.query.page = _pageNum;
     router.push(router);
@@ -50,7 +50,8 @@ export function DevicesListTable({
               <Input
                 name='q'
                 marginY-50
-                placeholder='Search'
+                placeholder='Search (min. 3 characters)'
+                pattern='\w{3,}'
                 defaultValue={searchTerm}
               />
               <button type='submit' className='invisible' />
