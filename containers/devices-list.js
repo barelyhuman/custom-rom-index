@@ -153,13 +153,13 @@ export function DevicesListTable({
                         </span>
                       </td>
                       <td>{deviceItem.released_on_formatted}</td>
-                      {/* <td>
-                        {deviceItem.rom.links.map((link, index) => (
+                      <td>
+                        {deviceItem.links.map((link, index) => (
                           <a key={index} href={link}>
                             <i className='material-icons'>launch</i>
                           </a>
                         ))}
-                      </td> */}
+                      </td>
                     </tr>
                   );
                 })}

@@ -40,12 +40,8 @@ exports.up = function (knex) {
     .createTable('links', function (table) {
       table.increments('id').unique().primary().notNullable();
       table.text('link').notNullable();
-      table.integer('rom_id').nullable();
-      table.integer('device_id').nullable();
-
-      table.foreign('rom_id').references('roms.id');
-      table.foreign('device_id').references('devices.id');
-
+      table.integer('rom_mapping_id').nullable();
+      table.foreign('rom_mapping_id').references('roms_devices_mapping.id');
       table.timestamps(true, true);
     })
     .createTable('options', function (table) {
