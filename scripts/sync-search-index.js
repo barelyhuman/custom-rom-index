@@ -2,7 +2,7 @@ const conch = require("@barelyreaper/conch");
 const { db } = require("../db/db");
 
 async function main() {
-  await db("roms_devices_mapping").del();
+  await db("roms_search_index").del();
   const romData = await db("roms_devices_mapping")
     .leftJoin("roms", "roms_devices_mapping.rom_id", "roms.id")
     .leftJoin("devices", "roms_devices_mapping.device_id", "devices.id")

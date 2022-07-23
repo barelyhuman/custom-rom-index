@@ -50,7 +50,7 @@ export function DevicesListTable({
               <Input
                 name='q'
                 marginY-50
-                placeholder='Search (eg: device:pixel, codename:bramble, rom:calyx, version:11)'
+                placeholder='Search'
                 defaultValue={searchTerm}
               />
               <button type='submit' className='invisible' />
