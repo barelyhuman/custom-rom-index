@@ -23,7 +23,7 @@ jobs:
         with:
           version: 6.32.10
       - run: pnpm i
-      - run: GH_TOKEN=${{ secrets.GH_TOKEN }} npm run sync
+      - run: export GH_TOKEN=${{ secrets.GH_TOKEN }}; npm run sync; node scripts/fill-release-dates.js;
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:
