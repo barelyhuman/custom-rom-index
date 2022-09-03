@@ -3,10 +3,10 @@ const got = require('got');
 const { upsertDevice } = require('../lib/sdk');
 
 const urlsToSyncV13 = [
-  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13_vanilla_builds_unofficial.json',
-  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13_vanilla_builds_official.json',
-  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13_vanilla_builds_community_unofficial.json',
-  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13_vanilla_builds_community.json',
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_unofficial.json',
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_official.json',
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_community_unofficial.json',
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_community.json',
 ];
 
 const urlsToSyncV12_1 = [
