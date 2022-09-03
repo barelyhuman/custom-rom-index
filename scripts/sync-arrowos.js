@@ -70,11 +70,11 @@ async function syncArrowOSData(url, version) {
 }
 
 async function main() {
-  const syncPromisesV13 = urlsToSyncV13.map(item => syncArrowOSData(item, 11));
+  const syncPromisesV13 = urlsToSyncV13.map(item => syncArrowOSData(item, 13));
   const syncPromisesV12_1 = urlsToSyncV12_1.map(item =>
-    syncArrowOSData(item, 11)
+    syncArrowOSData(item, 12.1)
   );
-  const syncPromisesV12 = urlsToSyncV12.map(item => syncArrowOSData(item, 11));
+  const syncPromisesV12 = urlsToSyncV12.map(item => syncArrowOSData(item, 12));
   const syncPromisesV11 = urlsToSyncV11.map(item => syncArrowOSData(item, 11));
   const syncPromisesV10 = urlsToSyncV10.map(item => syncArrowOSData(item, 10));
   await Promise.all([
