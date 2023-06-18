@@ -10,9 +10,9 @@
   "dependencies": {
     "@barelyreaper/conch": "^1.2.0",
     "better-sqlite3": "^7.6.2",
-    "got": "^11.8.2",
-    "kleur": "^4.1.4",
-    "knex": "^2.1.0",
+    "got": "^11.8.5",
+    "kleur": "^4.1.5",
+    "knex": "^2.2.0",
     "logcons": "^0.0.4",
     "luxon": "^3.0.1",
     "next": "^12.2.2",
@@ -24,14 +24,14 @@
   "devDependencies": {
     "@barelyhuman/prettier-config": "^1.0.0",
     "@evilmartians/lefthook": "^0.8.0",
-    "autoprefixer": "^10.2.6",
-    "eslint": "^8.18.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
-    "postcss": "^8.3.5",
+    "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.12",
-    "shx": "^0.3.3",
-    "tailwindcss": "^3.0.15"
+    "shx": "^0.3.4",
+    "tailwindcss": "^3.1.6"
   },
   "packageManager": "pnpm@6.32.10"
 }

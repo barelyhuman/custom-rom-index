@@ -45,6 +45,7 @@ export async function getServerSideProps({ query }) {
   const order = {
     release: 'desc',
   };
+  const limit = query.limit || defaultLimit;
 
   switch (query.sort) {
     case 'releasedOn:asc': {
@@ -63,13 +64,11 @@ export async function getServerSideProps({ query }) {
 
   const { deviceList, count } = await getDevices({
     page: query.page || 0,
-    limit: query.limit || defaultLimit,
+    limit,
     status: query.status || 'all',
     searchTerm: query.q || '',
     order,
   });
-
-  const limit = query.limit || defaultLimit;
 
   return {
     props: {
