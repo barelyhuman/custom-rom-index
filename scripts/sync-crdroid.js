@@ -2,7 +2,7 @@
 
 const _got = require('got');
 
-const conch = require('@barelyreaper/conch');
+const {conch} = require('@barelyreaper/conch');
 const { logcons } = require('logcons');
 const kluer = require('kleur');
 const { STATUS_ENUM } = require('../db/status_enum');

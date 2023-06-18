@@ -8,7 +8,7 @@ const { logcons } = require('logcons');
 const kluer = require('kleur');
 const info = kluer.cyan().bold;
 const { db } = require('../db/db');
-const conch = require('@barelyreaper/conch');
+const {conch} = require('@barelyreaper/conch');
 const { getReleasedOn, dateStringToDate } = require('../lib/date-utils');
 
 const URL_TEMPLATE = deviceCodeName =>

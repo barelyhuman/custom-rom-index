@@ -1,4 +1,4 @@
-const conch = require("@barelyreaper/conch");
+const {conch} = require("@barelyreaper/conch");
 const { db } = require("../db/db");
 
 async function main() {
