@@ -7,7 +7,19 @@ module.exports = {
   ],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        base: 'var(--base)',
+        surface: 'var(--surface)',
+        overlay: 'var(--overlay)',
+        dimmer: 'var(--dimmer)',
+        dim: 'var(--dim)',
+        text: 'var(--text)',
+        success: 'var(--success)',
+        error: 'var(--error)',
+        warn: 'var(--warn)',
+      },
+    },
   },
   variants: {
     extend: {},

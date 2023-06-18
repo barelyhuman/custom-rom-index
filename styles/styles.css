@@ -8,8 +8,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 * {
@@ -25,6 +25,7 @@ body {
   /* set of colors that control visual elements */
   --base: var(--zinc-900);
   --surface: var(--zinc-800);
+  --overlay: var(--zinc-700);
   --text: var(--zinc-400);
   --dim: var(--zinc-500);
   --dimmer: var(--zinc-600);
@@ -33,16 +34,12 @@ body {
   --success: #98c379;
   --error: #e06c75;
   --warn: #e5c07b;
-
-  /* fonts */
-  --font: 'Inter', sans-serif;
 }
 
 body {
   background-color: var(--base);
   color: var(--text);
   max-width: 1100px;
-  font-family: var(--font);
   margin: 0 auto;
   padding: 16px;
 }
@@ -67,10 +64,6 @@ li {
   line-height: calc(16px * 1.5);
   margin: 8px 0px;
   padding: 0px;
-}
-
-.text-dim {
-  color: var(--dim);
 }
 
 code {
@@ -138,56 +131,4 @@ pre.code > code {
 .button:active {
   box-shadow: none;
   transform: translateY(0);
-}
-
-.input {
-  padding: 12px 20px;
-  font-size: 1rem;
-  border-radius: 6px;
-  border: 0px;
-  color: var(--text);
-  text-align: center;
-  outline: transparent;
-  background: var(--surface);
-  width: 100%;
-}
-
-.select {
-  appearance: none;
-  background: var(--surface);
-  outline: transparent;
-  border: 1px solid var(--surface);
-  text-align: center;
-  color: var(--text);
-  padding: 12px 20px;
-}
-
-.text-success {
-  color: var(--success);
-}
-
-.text-error {
-  color: var(--error);
-}
-
-.text-warn {
-  color: var(--warn);
-}
-
-table {
-  table-layout: fixed;
-}
-
-th,
-td {
-  text-align: left;
-  padding: 8px 12px;
-  padding-left: 0px;
-  word-wrap: break-word;
-}
-
-th:last-child,
-td:last-child {
-  text-align: right;
-  padding-right: 0px;
 }
