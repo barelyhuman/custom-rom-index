@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
+      @import url('https://unpkg.com/zinccolors@0.0.1/css/zinc.min.css');
+      @import url('https://rsms.me/inter/inter.css');
+
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI,
+          Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+          Helvetica Neue, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      :root {
+        /* the brightest color */
+        --bright: var(--zinc-50);
+        /* the darkest color */
+        --dark: var(--zinc-900);
+
+        /* set of colors that control visual elements */
+        --base: var(--zinc-900);
+        --surface: var(--zinc-800);
+        --overlay: var(--zinc-700);
+        --text: var(--zinc-400);
+        --dim: var(--zinc-500);
+        --dimmer: var(--zinc-600);
+        --accent: #4f46e5;
+
+        --success: #98c379;
+        --error: #e06c75;
+        --warn: #e5c07b;
+      }
+
+      body {
+        background-color: var(--base);
+        color: var(--text);
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+
+      a {
+        color: var(--text);
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        font-weight: 400;
+      }
+
+      a:hover {
+        color: var(--bright);
+      }
+
+      p,
+      article,
+      main,
+      li {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(16px * 1.5);
+        margin: 8px 0px;
+        padding: 0px;
+      }
+
+      code {
+        font-family: monospace;
+        display: inline-block;
+        font-weight: 400;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 4px;
+        background: var(--surface);
+      }
+
+      pre.code {
+        padding: 8px;
+        background: var(--surface);
+        border-radius: 4px;
+      }
+
+      pre.code > code {
+        background: none;
+      }
+
+      .button {
+        --btn-background: var(--surface);
+        background-color: var(--btn-background);
+        appearance: none;
+        border: 2px solid var(--btn-background);
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+          'Segoe UI Symbol';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        min-height: 60px;
+        min-width: 0;
+        outline: none;
+        padding: 16px 24px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        will-change: transform;
+      }
+
+      .button.primary {
+        --btn-background: var(--success);
+      }
+
+      .button:disabled {
+        pointer-events: none;
+      }
+
+      .button:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+      }
+
+      .button:active {
+        box-shadow: none;
+        transform: translateY(0);
+      }
+    </style>
+    <style id="uno">
+      [uncloak] {
+        display: none;
+      }
+    </style>
+
+    <!-- app-head-placeholder -->
+  </head>
+  <body uncloak>
+    <div id="app" class="min-h-[100vh]">
+      <!-- app-content-placeholder -->
+    </div>
+    <!-- app-scripts-placeholder -->
+    <script type="module" defer>
+      import presetWind from 'https://esm.sh/@unocss/preset-wind@0.57.7';
+      import presetUno from 'https://esm.sh/@unocss/preset-uno@0.57.7';
+      import presetTypography from 'https://esm.sh/@unocss/preset-typography@0.57.7';
+      import { createGenerator } from 'https://esm.sh/@unocss/core@0.57.7';
+
+      const uno = createGenerator({
+        theme: {
+          colors: {
+            base: 'var(--base)',
+            surface: 'var(--surface)',
+            overlay: 'var(--overlay)',
+            dimmer: 'var(--dimmer)',
+            dim: 'var(--dim)',
+            text: 'var(--text)',
+            success: 'var(--success)',
+            error: 'var(--error)',
+            warn: 'var(--warn)',
+          },
+        },
+        presets: [presetUno(), presetWind(), presetTypography()],
+      });
+
+      const style = document.querySelector('style#uno');
+
+      const container = document.body.parentElement.innerHTML;
+      const { css } = await uno.generate(container, {
+        id: 'index.html',
+      });
+
+      style.innerHTML = css;
+    </script>
+  </body>
+</html>

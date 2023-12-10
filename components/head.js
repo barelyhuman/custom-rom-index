@@ -1,8 +1,6 @@
-import NextHead from 'next/head';
-
 export function Head({ ...props }) {
   return (
-    <NextHead {...props}>
+    <head {...props}>
       <title>Custom Rom Index | CRI </title>
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link rel='icon' href='logo.svg' type='image/x-icon' />
@@ -35,6 +33,6 @@ export function Head({ ...props }) {
         content='https://cri.reaper.im/og-image.png'
       />
       {props.children}
-    </NextHead>
+    </head>
   );
 }

@@ -1,6 +1,5 @@
-import { options } from 'db/options';
-import { useRouter } from 'next/router';
-import { useRef } from 'react';
+import { options } from '../db/options.js';
+import { useRef } from 'preact/hooks';
 
 const STATUS_COLOR_ENUM = {
   [options.STATUS.active.value]: 'bg-green-700/60 text-white',
@@ -17,7 +16,29 @@ function parseUrl(text) {
   return url.hostname;
 }
 
-export function DevicesListTable({
+const router = { query: {} };
+
+router.query = new Proxy(
+  {},
+  {
+    get(...args) {
+      const [t, k] = args;
+      const map = {};
+      const params = new URLSearchParams(window.location.search);
+      for (const [k, v] of params.entries()) map[k] = v;
+      return map[k];
+    },
+    set(...args) {
+      const [t, k, n] = args;
+      const params = new URLSearchParams(window.location.search);
+      params.set(k, n);
+      window.location.search = params.toString();
+      return Reflect.set(...args);
+    },
+  }
+);
+
+export default function DevicesListTable({
   list,
   searchTerm,
   sortOrder,
@@ -28,7 +49,6 @@ export function DevicesListTable({
   ...props
 }) {
   const sortDropRef = useRef();
-  const router = useRouter();
 
   const pageLimits = [15, 25, 50, 100];
 
@@ -37,14 +57,12 @@ export function DevicesListTable({
     if (_pageNum > maxPage) return;
 
     router.query.page = _pageNum;
-    router.push(router);
   };
   const onPrevPage = () => {
     const _pageNum = parseInt(currPage, 10) - 1;
     if (_pageNum < 0) return;
 
     router.query.page = _pageNum;
-    router.push(router);
   };
 
   return (
@@ -62,7 +80,7 @@ export function DevicesListTable({
               name='q'
               pattern='.{3,}'
               placeholder='Search device or rom...'
-              defaultValue={searchTerm}
+              value={searchTerm}
               className='px-3 h-9 w-full bg-surface text-sm text-text border-none rounded-md placeholder:text-sm placeholder:text-dim'
             />
           </div>
@@ -112,7 +130,7 @@ export function DevicesListTable({
               <select
                 id='sort'
                 name='sort'
-                defaultValue={sortOrder}
+                value={sortOrder}
                 onChange={() => sortDropRef.current.submit()}
                 className='w-full cursor-pointer appearance-none rounded py-1 pl-2 pr-10 text-sm text-dim transition border-none bg-surface hover:bg-overlay hover:text-text'
               >
@@ -137,7 +155,7 @@ export function DevicesListTable({
               <select
                 id='status'
                 name='status'
-                defaultValue={statusFilter}
+                value={statusFilter}
                 onChange={() => sortDropRef.current.submit()}
                 className='w-full cursor-pointer appearance-none rounded py-1 pl-2 pr-10 text-sm text-dim transition border-none bg-surface hover:bg-overlay hover:text-text'
               >
@@ -166,7 +184,7 @@ export function DevicesListTable({
               <select
                 id='limit'
                 name='limit'
-                defaultValue={limitFilter}
+                value={limitFilter}
                 onChange={() => sortDropRef.current.submit()}
                 className='w-full cursor-pointer appearance-none rounded py-1 pl-2 pr-10 text-sm text-dim transition border-none bg-surface hover:bg-overlay hover:text-text'
               >

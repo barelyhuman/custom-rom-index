@@ -1,4 +1,4 @@
-const options = {
+export const options = {
   STATUS: {
     unknown: {
       value: 0,
@@ -18,7 +18,7 @@ const options = {
   },
 };
 
-const findInOptions = (identifier, value) => {
+export const findInOptions = (identifier, value) => {
   let opt;
   Object.entries(options).forEach(([k, v]) => {
     if (k !== identifier) return;
@@ -31,9 +31,4 @@ const findInOptions = (identifier, value) => {
   if (!opt) return null;
 
   return opt;
-};
-
-module.exports = {
-  findInOptions,
-  options,
 };

@@ -1,5 +1,5 @@
-const knex = require('knex');
-const kconfig = require('../knexfile');
+import knex from 'knex';
+import kconfig from '../knexfile.js';
 
 /**
  * @type { import("knex").Knex }
@@ -17,6 +17,4 @@ const createConnection = () => {
   return connection;
 };
 
-const db = createConnection();
-
-exports.db = db;
+export const db = createConnection();
