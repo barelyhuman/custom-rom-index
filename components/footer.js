@@ -20,7 +20,7 @@ export function Footer({ ...props }) {
         <div>
           <p>
             2021 - present &copy;{' '}
-            <a href='https://reaper.im' className=' hover:text-black'>
+            <a href='https://reaper.is' className=' hover:text-black'>
               Reaper
             </a>
           </p>
