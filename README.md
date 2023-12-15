@@ -20,11 +20,11 @@ time like I did.
 
 ## Link
 
-You can access all the devices at [https://cri.reaper.im](https://cri.reaper.im).
+You can access all the devices at [https://cri.barelyhuman.dev](https://cri.barelyhuman.dev).
 
 ## Contribute
 
-If you wish to add more devices/ROMs to the list you can follow the steps [here](https://cri.reaper.im/submit-rom).
+If you wish to add more devices/ROMs to the list you can follow the steps [here](https://cri.barelyhuman.dev/submit-rom).
 
 ## Data Credits
 

@@ -15,16 +15,16 @@ export function Head({ ...props }) {
       />
       {/* Open Graph / Facebook */}
       <meta property='og:type' content='website' />
-      <meta property='og:url' content='https://cri.reaper.im/' />
+      <meta property='og:url' content='https://cri.barelyhuman.dev/' />
       <meta property='og:title' content='Custom Rom Index | CRI' />
       <meta
         property='og:description'
         content='Easiest way to find phones that support custom ROMs'
       />
-      <meta property='og:image' content='https://cri.reaper.im/og-image.png' />
+      <meta property='og:image' content='https://cri.barelyhuman.dev/og-image.png' />
       {/* Twitter */}
       <meta property='twitter:card' content='summary_large_image' />
-      <meta property='twitter:url' content='https://cri.reaper.im/' />
+      <meta property='twitter:url' content='https://cri.barelyhuman.dev/' />
       <meta property='twitter:title' content='Custom Rom Index | CRI' />
       <meta
         property='twitter:description'
@@ -32,7 +32,7 @@ export function Head({ ...props }) {
       />
       <meta
         property='twitter:image'
-        content='https://cri.reaper.im/og-image.png'
+        content='https://cri.barelyhuman.dev/og-image.png'
       />
       {props.children}
     </NextHead>
