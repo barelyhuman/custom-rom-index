@@ -61,6 +61,7 @@ export function DevicesListTable({
               id='search'
               name='q'
               pattern='.{3,}'
+              type='search'
               placeholder='Search device or rom...'
               defaultValue={searchTerm}
               className='px-3 h-9 w-full bg-surface text-sm text-text border-none rounded-md placeholder:text-sm placeholder:text-dim'
