@@ -1,17 +1,19 @@
-import React from 'react';
+import { h as createElement } from 'preact';
 import { modsToStyle } from 'spacery';
 
 const Box = function ({ elm = 'div', children, ...props }) {
-  const { style, sanitizedProps } = modsToStyle(props, ''); // pass dimension as an empty string so it used the actual numbers
-
-  return React.createElement(
+  const { sanitizedProps, style } = modsToStyle(props, 'px');
+  return createElement(
     elm,
     {
-      style,
       ...sanitizedProps,
+      style:{
+        ...style ,
+        ...props.style
+      }
     },
     children
   );
 };
 
-export default Box;
+export default Box

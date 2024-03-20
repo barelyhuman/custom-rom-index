@@ -3,15 +3,9 @@ import { DevicesListTable } from 'containers';
 
 import { getDevices } from 'lib/sdk';
 
-function Devices({
-  deviceList,
-  searchTerm,
-  sort,
-  status,
-  limit,
-  currPage,
-  maxPage,
-}) {
+export function render({ props }) {
+  const { deviceList, searchTerm, sort, status, limit, currPage, maxPage } =
+    props;
   return (
     <>
       <Header />
@@ -37,8 +31,6 @@ function Devices({
     </>
   );
 }
-
-export default Devices;
 
 export async function getServerSideProps({ query }) {
   const defaultLimit = 15;

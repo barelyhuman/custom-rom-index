@@ -1,4 +1,4 @@
-import Box from './box';
+import Box from './box.js';
 
 export function Button({ children, primary, ...props }) {
   return (

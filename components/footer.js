@@ -1,8 +1,8 @@
-import { GithubIcon, TwitterIcon } from 'components';
+import { GithubIcon, TwitterIcon } from '../components/icons.js';
 
 export function Footer({ ...props }) {
   return (
-    <footer className='flex flex-col w-100 items-center justify-center'>
+    <footer className='flex flex-col w-full items-center justify-center'>
       <div>
         <span>
           <a className='mx-1 my-1' href='https://twitter.com/barelyreaper'>
