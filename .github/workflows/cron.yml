@@ -16,6 +16,9 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
+    
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v2
@@ -25,7 +28,7 @@ jobs:
       - run: pnpm i
       - run: export GH_TOKEN=${{ secrets.GH_TOKEN }}; npm run sync; node scripts/fill-release-dates.js;
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: ':robot: Sync Services!'
+          commit_message: ":robot: Sync Services!"
           branch: ${{ github.head_ref }}
