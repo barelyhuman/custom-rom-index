@@ -870,6 +870,19 @@ async function main() {
     },
   });
 
+
+  await upsertDevice({
+    deviceName: 'Motorola Edge 30 Fusion',
+    codename: 'tundra',
+    rom: {
+      status: 'active',
+      androidVersion: [14],
+      links: ['https://sourceforge.net/projects/shivam-ingale-s-tundra/files/'],
+      name: 'Project-Matrixx',
+    },
+  });
+
+
   await upsertDevice({
     deviceName: 'Xiaomi Redmi Note 9S/9 Pro/Pro Max/POCO M2 Pro',
     codename: 'miatoll',
