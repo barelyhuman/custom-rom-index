@@ -23,7 +23,10 @@ async function main() {
       async versionDef => {
         const version =
           (versionDef.name === 'ten' && 10) ||
-          (versionDef.name === 'eleven' && 11);
+          (versionDef.name === 'eleven' && 11) ||
+          (versionDef.name === 'twelve' && 12) ||
+          (versionDef.name === 'thirteen' && 13) ||
+          (versionDef.name === 'fourteen' && 14);
         await upsertDevice({
           deviceName,
           codename,

@@ -8,7 +8,7 @@ const { upsertDevice } = require('../lib/sdk');
 const success = kluer.green().bold;
 
 const URL =
-  'https://raw.githubusercontent.com/LineageOS/hudson/master/updater/devices.json';
+  'https://raw.githubusercontent.com/LineageOS/hudson/main/updater/devices.json';
 
 async function main() {
   const response = await got(URL);

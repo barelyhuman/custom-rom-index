@@ -2,7 +2,7 @@
 
 const _got = require('got');
 
-const {conch} = require('@barelyreaper/conch');
+const { conch } = require('@barelyreaper/conch');
 const { logcons } = require('logcons');
 const kluer = require('kleur');
 const { STATUS_ENUM } = require('../db/status_enum');
@@ -10,37 +10,34 @@ const { upsertDevice } = require('../lib/sdk');
 const info = kluer.cyan().bold;
 const success = kluer.green().bold;
 
+const V13_COMMIT =
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=thirteen';
+const V12_COMMIT =
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=twelve';
 const V11_COMMIT =
   'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=eleven';
 const V10_COMMIT =
   'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=ten';
 
 async function main() {
-  await addV11Devices();
-  await addV10Devices();
+  await addDevices(V13_COMMIT, 13);
+  await addDevices(V12_COMMIT, 12);
+  await addDevices(V11_COMMIT, 11);
+  await addDevices(V10_COMMIT, 10);
   console.log(success(`${logcons.tick()} Done, Syncing HavocOS`));
 }
 
-async function addV11Devices() {
+async function addDevices(commit, version) {
   const { parse } = JSON;
-  const response = await got(V11_COMMIT);
+  const response = await got(commit);
   const devices = parse(response.body);
 
-  await conch(devices, item => addHavocOSToDevices(item, 11), {
+  await conch(devices, item => addHavocOSToDevices(item, version), {
     limit: 1,
   });
-  console.log(info(`${logcons.info()} Synced: 11.0 Havoc OS`));
-}
-
-async function addV10Devices() {
-  const { parse } = JSON;
-  const response = await got(V10_COMMIT);
-  const devices = parse(response.body);
-
-  await conch(devices, item => addHavocOSToDevices(item, 10), {
-    limit: 1,
-  });
-  console.log(info(`${logcons.info()} Synced: 10.0 Havoc OS`));
+  console.log(
+    info(`${logcons.info()} Synced: ${Number(version).toFixed(1)} Havoc OS`)
+  );
 }
 
 async function addHavocOSToDevices(item, version) {

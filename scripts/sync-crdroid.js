@@ -2,7 +2,7 @@
 
 const _got = require('got');
 
-const {conch} = require('@barelyreaper/conch');
+const { conch } = require('@barelyreaper/conch');
 const { logcons } = require('logcons');
 const kluer = require('kleur');
 const { STATUS_ENUM } = require('../db/status_enum');
@@ -10,20 +10,32 @@ const { upsertDevice } = require('../lib/sdk');
 const info = kluer.cyan().bold;
 const success = kluer.green().bold;
 
+const V14_COMMIT =
+  'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/14.0';
+const V13_COMMIT =
+  'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/13.0';
+const V12_1_COMMIT =
+  'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/12.1';
+const V12_COMMIT =
+  'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/12.0';
 const V11_COMMIT =
   'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/11.0';
 const V10_COMMIT =
   'https://api.github.com/repos/crdroidandroid/android_vendor_crDroidOTA/branches/10.0';
 
 async function main() {
-  await addV11Devices();
-  await addV10Devices();
+  await addDevices(V14_COMMIT, 14);
+  await addDevices(V13_COMMIT, 13);
+  await addDevices(V12_1_COMMIT, 12.1);
+  await addDevices(V12_COMMIT, 12);
+  await addDevices(V11_COMMIT, 11);
+  await addDevices(V10_COMMIT, 10);
   console.log(success(`${logcons.tick()} Done, Syncing CRDroid`));
 }
 
-async function addV11Devices() {
+async function addDevices(commit, version) {
   const { parse } = JSON;
-  const response = await got(V11_COMMIT);
+  const response = await got(commit);
   const repoTreeUrl = parse(response.body).commit.commit.tree.url;
   const repoTreeResponse = await got(repoTreeUrl);
 
@@ -34,10 +46,10 @@ async function addV11Devices() {
       String(item.path).endsWith('.json')
   );
 
-  await conch(devicesToSync, item => addCRDroidToDevices(item, 11), {
+  await conch(devicesToSync, item => addCRDroidToDevices(item, version), {
     limit: 1,
   });
-  console.log(info(`${logcons.info()} Synced: 11.0 crDroid`));
+  console.log(info(`${logcons.info()} Synced: ${Number(version).toFixed(1)} crDroid`));
 }
 
 async function addV10Devices() {
@@ -99,7 +111,7 @@ async function addCRDroidToDevices(item, version) {
 function got(url) {
   return _got(url, {
     headers: {
-      Authorization: `token ${process.env.GH_TOKEN}`,
+      Authorization: `Bearer ${process.env.GH_TOKEN}`,
     },
   });
 }

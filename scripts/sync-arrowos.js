@@ -2,6 +2,13 @@
 const got = require('got');
 const { upsertDevice } = require('../lib/sdk');
 
+const urlsToSyncV13_1 = [
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_unofficial.json',
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_official.json',
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_community_unofficial.json',
+  'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_community.json',
+];
+
 const urlsToSyncV13 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_official.json',
@@ -70,6 +77,9 @@ async function syncArrowOSData(url, version) {
 }
 
 async function main() {
+  const syncPromisesV13_1 = urlsToSyncV13_1.map(item =>
+    syncArrowOSData(item, 13)
+  );
   const syncPromisesV13 = urlsToSyncV13.map(item => syncArrowOSData(item, 13));
   const syncPromisesV12_1 = urlsToSyncV12_1.map(item =>
     syncArrowOSData(item, 12.1)
@@ -78,6 +88,7 @@ async function main() {
   const syncPromisesV11 = urlsToSyncV11.map(item => syncArrowOSData(item, 11));
   const syncPromisesV10 = urlsToSyncV10.map(item => syncArrowOSData(item, 10));
   await Promise.all([
+    ...syncPromisesV13_1,
     ...syncPromisesV13,
     ...syncPromisesV12_1,
     ...syncPromisesV12,
