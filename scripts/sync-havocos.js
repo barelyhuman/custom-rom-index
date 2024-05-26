@@ -11,9 +11,9 @@ const info = kluer.cyan().bold;
 const success = kluer.green().bold;
 
 const V13_COMMIT =
-  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=thirteen';
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/gapps?ref=thirteen';
 const V12_COMMIT =
-  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=twelve';
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/gapps?ref=twelve';
 const V11_COMMIT =
   'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=eleven';
 const V10_COMMIT =
