@@ -1,16 +1,13 @@
 #!/usr/bin/env node
 
-import fs from 'fs'
-import path from 'path'
 import got from 'got'
 import kluer from 'kleur'
-import { logcons } from 'logcons'
 import YAML from 'yaml'
 const info = kluer.cyan().bold
 import { fileURLToPath } from 'url'
 import { conch } from '@barelyreaper/conch'
 import { db } from '../db/db.js'
-import { dateStringToDate, getReleasedOn } from '../lib/date-utils.js'
+import { getReleasedOn } from '../lib/date-utils.js'
 
 const URL_TEMPLATE = deviceCodeName =>
   `https://raw.githubusercontent.com/PixelExperience/wiki/master/_data/devices/${deviceCodeName}.yml`
