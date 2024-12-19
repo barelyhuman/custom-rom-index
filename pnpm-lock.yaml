@@ -35,9 +35,6 @@ importers:
       preact:
         specifier: ^10.25.3
         version: 10.25.3
-      spacery:
-        specifier: ^0.0.6
-        version: 0.0.6(react@18.3.1)
       sqlite3:
         specifier: ^5.1.7
         version: 5.1.7
@@ -1428,10 +1425,6 @@ packages:
   logcons@0.0.4:
     resolution: {integrity: sha512-fBv9ObAUoOUo0dB92zj5lPTaJnXHpHCXYF5p83p4JjgZKamyp1iItoTqUpFaI/kYOfv8cH1m9rbAz1nNcjZrhQ==, tarball: https://registry.npmjs.org/logcons/-/logcons-0.0.4.tgz}
 
-  loose-envify@1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, tarball: https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz}
-    hasBin: true
-
   lowercase-keys@2.0.0:
     resolution: {integrity: sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==, tarball: https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-2.0.0.tgz}
     engines: {node: '>=8'}
@@ -1867,10 +1860,6 @@ packages:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==, tarball: https://registry.npmjs.org/rc/-/rc-1.2.8.tgz}
     hasBin: true
 
-  react@18.3.1:
-    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==, tarball: https://registry.npmjs.org/react/-/react-18.3.1.tgz}
-    engines: {node: '>=0.10.0'}
-
   read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==, tarball: https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz}
 
@@ -2029,12 +2018,6 @@ packages:
   source-map@0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==, tarball: https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz}
     engines: {node: '>=0.10.0'}
-
-  spacery@0.0.6:
-    resolution: {integrity: sha512-OdWlrPSngXO/dbMIDIsKS9XpkW4lPpuqxYybzfPBAYw5tK6aGbkqt3LkV13K+FAXxdc4aW+9NvA2JiPdDCWOmA==, tarball: https://registry.npmjs.org/spacery/-/spacery-0.0.6.tgz}
-    engines: {node: '>=12'}
-    peerDependencies:
-      react: '>=16.7'
 
   split2@4.2.0:
     resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==, tarball: https://registry.npmjs.org/split2/-/split2-4.2.0.tgz}
@@ -3518,10 +3501,6 @@ snapshots:
     dependencies:
       kleur: 4.1.5
 
-  loose-envify@1.4.0:
-    dependencies:
-      js-tokens: 4.0.0
-
   lowercase-keys@2.0.0: {}
 
   lru-cache@10.4.3: {}
@@ -3952,10 +3931,6 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 2.0.1
 
-  react@18.3.1:
-    dependencies:
-      loose-envify: 1.4.0
-
   read-cache@1.0.0:
     dependencies:
       pify: 2.3.0
@@ -4099,10 +4074,6 @@ snapshots:
 
   source-map@0.6.1:
     optional: true
-
-  spacery@0.0.6(react@18.3.1):
-    dependencies:
-      react: 18.3.1
 
   split2@4.2.0: {}
 

@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <Head />
       <body>
         <div id="app">
-            <Component {...pageProps} />
+          <Component {...pageProps} />
         </div>
       </body>
     </html>

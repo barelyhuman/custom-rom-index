@@ -33,15 +33,15 @@ export function DevicesListTable({
   const onNextPage = () => {
     const _pageNum = parseInt(currPage, 10) + 1
     if (_pageNum > maxPage) return
-    const url = new URL(window.location.href);
-    url.searchParams.set('page', _pageNum);
+    const url = new URL(window.location.href)
+    url.searchParams.set('page', _pageNum)
     window.location.href = url.toString()
   }
   const onPrevPage = () => {
     const _pageNum = parseInt(currPage, 10) - 1
     if (_pageNum < 0) return
-    const url = new URL(window.location.href);
-    url.searchParams.set('page', _pageNum);
+    const url = new URL(window.location.href)
+    url.searchParams.set('page', _pageNum)
     window.location.href = url.toString()
   }
 

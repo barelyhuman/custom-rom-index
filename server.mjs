@@ -38,15 +38,17 @@ async function mapComponent(path, req, res) {
     })
   const toString = renderToString(h(FinalComponent))
   console.log(toString)
-  return toString.replace(
-    /<\/head\>/,
-    '<link rel="stylesheet" href="/client/_app.css"></head>'
-  ).replace(
-    /<\/body\>/,
-    `<script type="module" src="/client/${path.replace("./out/","")}"></script>
+  return toString
+    .replace(
+      /<\/head\>/,
+      '<link rel="stylesheet" href="/client/_app.css"></head>'
+    )
+    .replace(
+      /<\/body\>/,
+      `<script type="module" src="/client/${path.replace('./out/', '')}"></script>
     <script type="application/json" id="pageProps">${JSON.stringify(pageProps.props)}</script>
 </body>`
-  )
+    )
 }
 
 app.get('/', async (req, res) => {
