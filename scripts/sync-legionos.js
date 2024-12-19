@@ -36,9 +36,9 @@ async function main() {
   console.log(success(`${logcons.tick()} Done, Syncing Legion OS`))
 }
 
-exports.syncLegionOS = main
+export const syncLegionOS = main
 
-if (fileURLToPath(import.meta.url) === process.arv[1]) {
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {

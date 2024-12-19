@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { fileURLToPath } from 'node:url'
 import got from 'got'
 import kluer from 'kleur'
 import { logcons } from 'logcons'
@@ -36,7 +37,7 @@ async function main() {
 
 export const syncPotatoProject = main
 
-if (fileURLToPath(import.meta.url) === process.arv[1]) {
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {

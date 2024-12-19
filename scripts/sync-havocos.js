@@ -89,7 +89,7 @@ function got(url) {
 
 export const syncHavocOS = main
 
-if (fileURLToPath(import.meta.url) === process.arv[1]) {
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {

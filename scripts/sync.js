@@ -5,7 +5,7 @@ import { syncAospExtended } from './sync-aospextended.js'
 import { syncArrowOS } from './sync-arrowos.js'
 import { syncColtOS } from './sync-coltos.js'
 import { syncCRAndroid } from './sync-crdroid.js'
-import { syncDotOS } from './sync-dotos'
+import { syncDotOS } from './sync-dotos.js'
 // import { syncParanoidAndroid } from "./sync-aospa".js;
 import { syncHavocOS } from './sync-havocos.js'
 import { syncLegionOS } from './sync-legionos.js'

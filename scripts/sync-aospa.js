@@ -4,7 +4,6 @@ import { fileURLToPath } from 'node:url'
 import got from 'got'
 import kluer from 'kleur'
 import { logcons } from 'logcons'
-import { addDevice } from '../db/db'
 import { STATUS_ENUM } from '../db/status_enum.js'
 import { upsertDevice } from '../lib/sdk'
 

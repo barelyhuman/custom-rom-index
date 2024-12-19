@@ -5,7 +5,7 @@ import got from 'got'
 import kluer from 'kleur'
 import { logcons } from 'logcons'
 import { STATUS_ENUM } from '../db/status_enum.js'
-import { upsertDevice } from '../lib/sdk'
+import { upsertDevice } from '../lib/sdk.js'
 const success = kluer.green().bold
 
 const URL =

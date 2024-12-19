@@ -8,7 +8,7 @@ on:
     branches:
       - dev
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-    
+
     permissions:
       contents: write
 
@@ -26,7 +26,7 @@ jobs:
         with:
           version: 6.32.10
       - run: pnpm i
-      - run: export GH_TOKEN=${{ secrets.GH_TOKEN }}; npm run sync; node scripts/fill-release-dates.js;
+      - run: export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}; npm run sync; node scripts/fill-release-dates.js;
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

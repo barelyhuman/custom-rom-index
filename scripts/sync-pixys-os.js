@@ -3,10 +3,8 @@ import { fileURLToPath } from 'node:url'
 import got from 'got'
 import kluer from 'kleur'
 import { logcons } from 'logcons'
-import { addDevice, devices } from '../db/db'
 import { STATUS_ENUM } from '../db/status_enum.js'
 import { upsertDevice } from '../lib/sdk.js'
-import { generateDevices } from './fill-release-dates.js'
 
 const success = kluer.green().bold
 
@@ -51,7 +49,7 @@ async function main() {
 
 export const syncPixysOS = main
 
-if (fileURLToPath(import.meta.url) === process.arv[1]) {
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {

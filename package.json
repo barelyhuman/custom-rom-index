@@ -2,9 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node build.js",
-    "dev": "node build.js -w",
-    "fix": "eslint --fix .; prettier --write .",
+    "build": "node build.mjs",
+    "fix": "biome check --write",
     "sync": "node scripts/sync.js"
   },
   "dependencies": {
@@ -16,10 +15,7 @@
     "knex": "^2.5.1",
     "logcons": "^0.0.4",
     "luxon": "^3.5.0",
-    "next": "^12.3.4",
     "preact": "^10.25.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "spacery": "^0.0.6",
     "sqlite3": "^5.1.7",
     "tiny-glob": "^0.2.9",

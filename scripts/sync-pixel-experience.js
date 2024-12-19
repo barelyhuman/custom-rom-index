@@ -2,8 +2,8 @@
 import got from 'got'
 import kluer from 'kleur'
 import { logcons } from 'logcons'
-import { STATUS_ENUM } from '../db/status_enum'
-import { upsertDevice } from '../lib/sdk'
+import { STATUS_ENUM } from '../db/status_enum.js'
+import { upsertDevice } from '../lib/sdk.js'
 
 import { fileURLToPath } from 'node:url'
 
@@ -49,7 +49,7 @@ async function main() {
 
 export const syncPixelExperience = main
 
-if (fileURLToPath(import.meta.url) === process.arv[1]) {
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {

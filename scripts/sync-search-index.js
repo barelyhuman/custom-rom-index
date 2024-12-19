@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 import { conch } from '@barelyreaper/conch'
 import { db } from '../db/db.js'
 
@@ -29,5 +30,5 @@ async function main() {
 
 export const syncSearchIndex = main
 
-if (fileURLToPath(import.meta.url) === process.arv[1])
+if (fileURLToPath(import.meta.url) === process.argv[1])
   main().then(() => process.exit(0))
