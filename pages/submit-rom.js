@@ -1,4 +1,4 @@
-import { Button, Header } from 'components';
+import { Button, Header } from 'components'
 
 function SubmitRom({ ...props }) {
   return (
@@ -15,8 +15,8 @@ function SubmitRom({ ...props }) {
             <li>
               Visit
               <a
-                href='https://github.com/barelyhuman/custom-rom-index'
-                className=' hover:text-black'
+                href="https://github.com/barelyhuman/custom-rom-index"
+                className=" hover:text-black"
               >
                 {' '}
                 https://github.com/barelyhuman/custom-rom-index
@@ -36,7 +36,7 @@ function SubmitRom({ ...props }) {
             reviewing the addition
           </p>
           <div>
-            <a href='https://github.com/barelyhuman/custom-rom-index/'>
+            <a href="https://github.com/barelyhuman/custom-rom-index/">
               <Button marginY-50 primary>
                 Submit ROM
               </Button>
@@ -45,7 +45,7 @@ function SubmitRom({ ...props }) {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default SubmitRom;
+export default SubmitRom

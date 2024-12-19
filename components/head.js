@@ -1,40 +1,42 @@
-import NextHead from 'next/head';
-
 export function Head({ ...props }) {
   return (
-    <NextHead {...props}>
+    <head {...props}>
       <title>Custom Rom Index | CRI </title>
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
-      <link rel='icon' href='logo.svg' type='image/x-icon' />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <link rel="icon" href="logo.svg" type="image/x-icon" />
 
       {/* Primary Meta Tags */}
-      <meta name='title' content='Custom Rom Index | CRI' />
+      <meta name="title" content="Custom Rom Index | CRI" />
       <meta
-        name='description'
-        content='Easiest way to find phones that support custom ROMs'
+        name="description"
+        content="Easiest way to find phones that support custom ROMs"
       />
       {/* Open Graph / Facebook */}
-      <meta property='og:type' content='website' />
-      <meta property='og:url' content='https://cri.barelyhuman.dev/' />
-      <meta property='og:title' content='Custom Rom Index | CRI' />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://cri.barelyhuman.dev/" />
+      <meta property="og:title" content="Custom Rom Index | CRI" />
       <meta
-        property='og:description'
-        content='Easiest way to find phones that support custom ROMs'
+        property="og:description"
+        content="Easiest way to find phones that support custom ROMs"
       />
-      <meta property='og:image' content='https://cri.barelyhuman.dev/og-image.png' />
+      <meta
+        property="og:image"
+        content="https://cri.barelyhuman.dev/og-image.png"
+      />
       {/* Twitter */}
-      <meta property='twitter:card' content='summary_large_image' />
-      <meta property='twitter:url' content='https://cri.barelyhuman.dev/' />
-      <meta property='twitter:title' content='Custom Rom Index | CRI' />
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://cri.barelyhuman.dev/" />
+      <meta property="twitter:title" content="Custom Rom Index | CRI" />
       <meta
-        property='twitter:description'
-        content='Easiest way to find phones that support custom ROMs'
+        property="twitter:description"
+        content="Easiest way to find phones that support custom ROMs"
       />
       <meta
-        property='twitter:image'
-        content='https://cri.barelyhuman.dev/og-image.png'
+        property="twitter:image"
+        content="https://cri.barelyhuman.dev/og-image.png"
       />
       {props.children}
-    </NextHead>
-  );
+    </head>
+  )
 }

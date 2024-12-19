@@ -16,24 +16,21 @@ const options = {
       sequence: 2,
     },
   },
-};
+}
 
 const findInOptions = (identifier, value) => {
-  let opt;
+  let opt
   Object.entries(options).forEach(([k, v]) => {
-    if (k !== identifier) return;
+    if (k !== identifier) return
     Object.entries(v).forEach(([k1, v1]) => {
-      if (v1.value !== value) return;
-      opt = v[k1];
-    });
-  });
+      if (v1.value !== value) return
+      opt = v[k1]
+    })
+  })
 
-  if (!opt) return null;
+  if (!opt) return null
 
-  return opt;
-};
+  return opt
+}
 
-module.exports = {
-  findInOptions,
-  options,
-};
+export { findInOptions, options }

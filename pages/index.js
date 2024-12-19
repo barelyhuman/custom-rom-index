@@ -1,15 +1,14 @@
-import React from 'react';
-import { Button, Footer, Header, Note } from 'components';
-import Box from 'components/box';
-import { totalDevices, totalActiveRoms } from 'lib/analytical-utils';
-import Link from 'next/link';
+import Box from '../components/box.js'
+import { Button, Footer, Header, Note } from '../components/index.js'
+import { Link } from '../components/link.js'
+import { totalActiveRoms, totalDevices } from '../lib/analytical-utils'
 
 function Home({ totalDevicesCount, totalActiveRomsCount }) {
   return (
     <>
       <Header />
       <Box paddingY-100>
-        <div className='text-left'>
+        <div className="text-left">
           <div>
             <h2> The easiest way to find a rom for your phone. </h2>
             <h1> Custom Rom Index</h1>
@@ -18,9 +17,9 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
               have a custom rom? Well, here's the solution to it all.
             </p>
             <article>
-              With about <h3 className='inline-block'>{totalDevicesCount}</h3>{' '}
+              With about <h3 className="inline-block">{totalDevicesCount}</h3>{' '}
               devices and{' '}
-              <h3 className='inline-block'>{totalActiveRomsCount}</h3> ROM's
+              <h3 className="inline-block">{totalActiveRomsCount}</h3> ROM's
               syncing daily the <strong>Custom Rom Index</strong> has it all
               listed in a friendly and easy to use table.
             </article>
@@ -28,14 +27,13 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
               It is community sourced so if a device is missing, consider
               submitting a request for the same.
             </Note>
-            <Box marginT-50 className='flex flex-wrap'>
-              <Link href='/devices'>
-                <Button primary marginR-16 marginB-12>
-                  Go To Index
-                </Button>
+            <Box marginT-50 className="flex flex-wrap">
+              <Link href="/devices" primary marginR-16 marginB-12>
+                Go To Index
               </Link>
-              <Link href='/submit-rom'>
-                <Button marginB-12>Submit ROM</Button>
+
+              <Link href="/submit-rom" marginB-12>
+                Submit ROM
               </Link>
             </Box>
           </div>
@@ -47,15 +45,15 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
           This project is run by an indie developer and it would be really
           appreciated if you were to support / sponsor the project. You can get
           started by doing so on{' '}
-          <a href='http://github.com/sponsors/barelyhuman'>github sponsors</a>
+          <a href="http://github.com/sponsors/barelyhuman">github sponsors</a>
         </p>
       </Box>
       <Footer />
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home
 
 export async function getServerSideProps() {
   return {
@@ -63,5 +61,5 @@ export async function getServerSideProps() {
       totalDevicesCount: await totalDevices(),
       totalActiveRomsCount: await totalActiveRoms(),
     },
-  };
+  }
 }

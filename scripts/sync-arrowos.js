@@ -1,61 +1,62 @@
 #!/usr/bin/env node
-const got = require('got');
-const { upsertDevice } = require('../lib/sdk');
+import { fileURLToPath } from 'node:url'
+import got from 'got'
+import { upsertDevice } from '../lib/sdk.js'
 
 const urlsToSyncV13_1 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_official.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_community_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.1_vanilla_builds_community.json',
-];
+]
 
 const urlsToSyncV13 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_official.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_community_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-13.0_vanilla_builds_community.json',
-];
+]
 
 const urlsToSyncV12_1 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.1_vanilla_builds_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.1_vanilla_builds_official.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.1_vanilla_builds_community_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.1_vanilla_builds_community.json',
-];
+]
 
 const urlsToSyncV12 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.0_vanilla_builds_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.0_vanilla_builds_official.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.0_vanilla_builds_community_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-12.0_vanilla_builds_community.json',
-];
+]
 
 const urlsToSyncV11 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-11.0_vanilla_builds_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-11.0_vanilla_builds_official.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-11.0_vanilla_builds_community_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-11.0_vanilla_builds_community.json',
-];
+]
 
 const urlsToSyncV10 = [
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-10.0_vanilla_builds_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-10.0_vanilla_builds_official.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-10.0_vanilla_builds_community_unofficial.json',
   'https://raw.githubusercontent.com/ArrowOS/arrow_ota/master/arrow-10.0_vanilla_builds_community.json',
-];
+]
 
 async function syncArrowOSData(url, version) {
-  const response = await got(url);
-  const deviceList = JSON.parse(response.body);
+  const response = await got(url)
+  const deviceList = JSON.parse(response.body)
 
   const promises = Object.keys(deviceList).map(async deviceKey => {
-    const deviceItems = deviceList[deviceKey];
+    const deviceItems = deviceList[deviceKey]
     const _internalPromises = deviceItems.map(async device => {
-      const links = [];
+      const links = []
       if (device.filepath) {
         links.push(
           `https://sourceforge.net/projects/arrow-os/files${device.filepath}`
-        );
+        )
       }
 
       await upsertDevice({
@@ -67,26 +68,26 @@ async function syncArrowOSData(url, version) {
           status: 'active',
           links,
         },
-      });
-    });
+      })
+    })
 
-    return Promise.all(_internalPromises);
-  });
+    return Promise.all(_internalPromises)
+  })
 
-  await Promise.all(promises);
+  await Promise.all(promises)
 }
 
 async function main() {
   const syncPromisesV13_1 = urlsToSyncV13_1.map(item =>
     syncArrowOSData(item, 13)
-  );
-  const syncPromisesV13 = urlsToSyncV13.map(item => syncArrowOSData(item, 13));
+  )
+  const syncPromisesV13 = urlsToSyncV13.map(item => syncArrowOSData(item, 13))
   const syncPromisesV12_1 = urlsToSyncV12_1.map(item =>
     syncArrowOSData(item, 12.1)
-  );
-  const syncPromisesV12 = urlsToSyncV12.map(item => syncArrowOSData(item, 12));
-  const syncPromisesV11 = urlsToSyncV11.map(item => syncArrowOSData(item, 11));
-  const syncPromisesV10 = urlsToSyncV10.map(item => syncArrowOSData(item, 10));
+  )
+  const syncPromisesV12 = urlsToSyncV12.map(item => syncArrowOSData(item, 12))
+  const syncPromisesV11 = urlsToSyncV11.map(item => syncArrowOSData(item, 11))
+  const syncPromisesV10 = urlsToSyncV10.map(item => syncArrowOSData(item, 10))
   await Promise.all([
     ...syncPromisesV13_1,
     ...syncPromisesV13,
@@ -94,16 +95,16 @@ async function main() {
     ...syncPromisesV12,
     ...syncPromisesV11,
     ...syncPromisesV10,
-  ]);
+  ])
 }
 
-exports.syncArrowOS = main;
+export const syncArrowOS = main
 
-if (require.main === module) {
+if (fileURLToPath(import.meta.url) === process.arv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {
-      console.error(err);
-      process.exit(1);
-    });
+      console.error(err)
+      process.exit(1)
+    })
 }

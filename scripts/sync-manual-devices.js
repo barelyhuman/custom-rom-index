@@ -1,4 +1,4 @@
-const { upsertDevice } = require('../lib/sdk');
+import { upsertDevice } from '../lib/sdk.js'
 
 async function main() {
   await upsertDevice({
@@ -10,7 +10,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 5 ',
@@ -21,7 +21,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 4a ',
@@ -32,7 +32,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 4 XL ',
@@ -43,7 +43,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 4 ',
@@ -54,7 +54,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 3a XL ',
@@ -65,7 +65,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 3a ',
@@ -76,7 +76,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 3 XL ',
@@ -87,7 +87,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 3 ',
@@ -98,7 +98,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 2 XL ',
@@ -109,7 +109,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Pixel 2 ',
@@ -120,7 +120,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Mi A2 ',
@@ -131,7 +131,7 @@ async function main() {
       status: 'active',
       links: ['https://calyxos.org/get/'],
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi 9T Pro',
@@ -142,7 +142,7 @@ async function main() {
       links: ['https://evolution-x.org/device/raphael'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Zenfone Max Pro M1',
@@ -153,7 +153,7 @@ async function main() {
       links: ['https://evolution-x.org/device/X00TD'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Zenfone 5Z',
@@ -164,7 +164,7 @@ async function main() {
       links: ['https://evolution-x.org/device/Z01R'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'G7 ThinQ',
@@ -175,7 +175,7 @@ async function main() {
       links: ['https://evolution-x.org/device/judyln'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Moto G7 Plus',
@@ -186,7 +186,7 @@ async function main() {
       links: ['https://evolution-x.org/device/lake'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Moto G5S Plus',
@@ -197,7 +197,7 @@ async function main() {
       links: ['https://evolution-x.org/device/sanders'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'One Fusion+',
@@ -208,7 +208,7 @@ async function main() {
       links: ['https://evolution-x.org/device/liber'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 7 Pro',
@@ -219,7 +219,7 @@ async function main() {
       links: ['https://evolution-x.org/device/guacamole'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 7',
@@ -230,7 +230,7 @@ async function main() {
       links: ['https://evolution-x.org/device/guacamoleb'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 8',
@@ -241,7 +241,7 @@ async function main() {
       links: ['https://evolution-x.org/device/instantnoodle'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 8 Pro',
@@ -252,7 +252,7 @@ async function main() {
       links: ['https://evolution-x.org/device/instantnoodlep'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 8T',
@@ -263,7 +263,7 @@ async function main() {
       links: ['https://evolution-x.org/device/kebab'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 9',
@@ -274,7 +274,7 @@ async function main() {
       links: ['https://evolution-x.org/device/lemonade'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 9 Pro',
@@ -285,7 +285,7 @@ async function main() {
       links: ['https://evolution-x.org/device/lemonadep'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Realme 5 Pro',
@@ -296,7 +296,7 @@ async function main() {
       links: ['https://evolution-x.org/device/RMX1971'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Realme 6',
@@ -307,7 +307,7 @@ async function main() {
       links: ['https://evolution-x.org/device/RMX2001'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Realme 6 Pro',
@@ -318,7 +318,7 @@ async function main() {
       links: ['https://evolution-x.org/device/RMX206X'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'POCO F3',
@@ -329,7 +329,7 @@ async function main() {
       links: ['https://evolution-x.org/device/alioth'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi 10T',
@@ -340,7 +340,7 @@ async function main() {
       links: ['https://evolution-x.org/device/apollo'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Poco M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G',
@@ -351,7 +351,7 @@ async function main() {
       links: ['https://evolution-x.org/device/juice'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi K30 / POCO X2',
@@ -362,7 +362,7 @@ async function main() {
       links: ['https://evolution-x.org/device/phoenix'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi K30 Pro / POCO F2 Pro',
@@ -373,7 +373,7 @@ async function main() {
       links: ['https://evolution-x.org/device/lmi'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi 10',
@@ -384,7 +384,7 @@ async function main() {
       links: ['https://evolution-x.org/device/umi'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi 10 Pro',
@@ -395,7 +395,7 @@ async function main() {
       links: ['https://evolution-x.org/device/cmi'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi 9T',
@@ -406,7 +406,7 @@ async function main() {
       links: ['https://evolution-x.org/device/davinci'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi 8',
@@ -417,7 +417,7 @@ async function main() {
       links: ['https://evolution-x.org/device/dipper'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi Note 8',
@@ -428,7 +428,7 @@ async function main() {
       links: ['https://evolution-x.org/device/ginkgo'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi A3',
@@ -439,7 +439,7 @@ async function main() {
       links: ['https://evolution-x.org/device/laurel_sprout'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi Note 7',
@@ -450,7 +450,7 @@ async function main() {
       links: ['https://evolution-x.org/device/lavender'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi Note 9S, 9 Pro, 9 Pro Max / POCO M2 Pro',
@@ -461,7 +461,7 @@ async function main() {
       links: ['https://evolution-x.org/device/miatoll'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi 9 Lite',
@@ -472,7 +472,7 @@ async function main() {
       links: ['https://evolution-x.org/device/pyxis'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi Mix 2s',
@@ -483,7 +483,7 @@ async function main() {
       links: ['https://evolution-x.org/device/polaris'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Poco X3',
@@ -494,7 +494,7 @@ async function main() {
       links: ['https://evolution-x.org/device/surya'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Mi A1',
@@ -505,7 +505,7 @@ async function main() {
       links: ['https://evolution-x.org/device/tissot'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi Note 6 Pro',
@@ -516,7 +516,7 @@ async function main() {
       links: ['https://evolution-x.org/device/tulip'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi Note 5/5 Plus',
@@ -527,7 +527,7 @@ async function main() {
       links: ['https://evolution-x.org/device/vince'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi Note 7 Pro',
@@ -538,7 +538,7 @@ async function main() {
       links: ['https://evolution-x.org/device/violet'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Redmi Note 5',
@@ -549,7 +549,7 @@ async function main() {
       links: ['https://evolution-x.org/device/whyred'],
       name: 'Evolution X',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Asus ROG 2 ',
@@ -560,7 +560,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Asus ROG 3 ',
@@ -571,7 +571,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Asus Zenfone 5Z ',
@@ -582,7 +582,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Asus Zenfone 6 ',
@@ -593,7 +593,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Google Pixel 3A ',
@@ -604,7 +604,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Google Pixel 3A XL ',
@@ -615,7 +615,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Google Pixel 4 XL ',
@@ -626,7 +626,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Google Pixel 4A ',
@@ -637,7 +637,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Motorola Moto G7 Play ',
@@ -648,7 +648,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 3/3T ',
@@ -659,7 +659,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 6 ',
@@ -670,7 +670,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 6T ',
@@ -681,7 +681,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'OnePlus 7 Pro ',
@@ -692,7 +692,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Poco X3 NFC ',
@@ -703,7 +703,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Realme 2 Pro ',
@@ -714,7 +714,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Realme 5 Pro ',
@@ -725,7 +725,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Realme XT ',
@@ -736,7 +736,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Samsung Galaxy Note 9 ',
@@ -747,7 +747,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Samsung Galaxy S9 ',
@@ -758,7 +758,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Samsung Galaxy S9+ ',
@@ -769,7 +769,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Mi 10T ',
@@ -780,7 +780,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Mi 9 Lite/Mi CC9 Meitu ',
@@ -791,7 +791,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Mi 9T ',
@@ -802,7 +802,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi POCO M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G ',
@@ -813,7 +813,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Poco F1 ',
@@ -824,7 +824,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Redmi K20 Pro / Mi 9T Pro ',
@@ -835,7 +835,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Redmi Note 5 Pro ',
@@ -846,7 +846,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Redmi Note 7 Pro ',
@@ -857,7 +857,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Redmi Note 7/7S ',
@@ -868,8 +868,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
-
+  })
 
   await upsertDevice({
     deviceName: 'Motorola Edge 30 Fusion',
@@ -880,8 +879,7 @@ async function main() {
       links: ['https://sourceforge.net/projects/shivam-ingale-s-tundra/files/'],
       name: 'Project-Matrixx',
     },
-  });
-
+  })
 
   await upsertDevice({
     deviceName: 'Xiaomi Redmi Note 9S/9 Pro/Pro Max/POCO M2 Pro',
@@ -892,7 +890,7 @@ async function main() {
       links: ['https://downloads.blissroms.org/'],
       name: 'BlissROMS',
     },
-  });
+  })
 }
 
-exports.syncManualDevices = main;
+export const syncManualDevices = main

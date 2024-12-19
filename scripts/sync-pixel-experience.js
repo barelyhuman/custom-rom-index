@@ -1,32 +1,33 @@
 #!/usr/bin/env node
-const { upsertDevice } = require('../lib/sdk');
-const got = require('got');
-const kluer = require('kleur');
-const { logcons } = require('logcons');
-const { STATUS_ENUM } = require('../db/status_enum');
+import got from 'got'
+import kluer from 'kleur'
+import { logcons } from 'logcons'
+import { STATUS_ENUM } from '../db/status_enum'
+import { upsertDevice } from '../lib/sdk'
 
-const success = kluer.green().bold;
+import { fileURLToPath } from 'node:url'
+
+const success = kluer.green().bold
 
 const URL =
-  'https://raw.githubusercontent.com/PixelExperience/official_devices/master/devices.json';
+  'https://raw.githubusercontent.com/PixelExperience/official_devices/master/devices.json'
 
-const ignoreVersionKeys = '_plus';
+const ignoreVersionKeys = '_plus'
 
 async function main() {
-  const response = await got(URL);
-
-  (JSON.parse(response.body) || []).forEach(deviceItem => {
-    const codename = deviceItem.codename;
-    const deviceName = `${deviceItem.brand} ${deviceItem.name}`;
+  const response = await got(URL)
+  ;(JSON.parse(response.body) || []).forEach(deviceItem => {
+    const codename = deviceItem.codename
+    const deviceName = `${deviceItem.brand} ${deviceItem.name}`
 
     deviceItem.supported_versions
       .filter(x => !x.version_code.includes(ignoreVersionKeys))
       .forEach(deviceVersionItem => {
-        const versions = [];
+        const versions = []
 
-        if (deviceVersionItem.version_code === 'eleven') versions.push(11);
+        if (deviceVersionItem.version_code === 'eleven') versions.push(11)
 
-        if (deviceVersionItem.version_code === 'ten') versions.push(10);
+        if (deviceVersionItem.version_code === 'ten') versions.push(10)
 
         upsertDevice({
           deviceName,
@@ -39,20 +40,20 @@ async function main() {
             links: [`https://download.pixelexperience.org/${codename}`],
             name: 'Pixel Experience',
           },
-        });
-      });
-  });
+        })
+      })
+  })
 
-  console.log(success(`${logcons.tick()} Done, Syncing Pixel Experience`));
+  console.log(success(`${logcons.tick()} Done, Syncing Pixel Experience`))
 }
 
-exports.syncPixelExperience = main;
+export const syncPixelExperience = main
 
-if (require.main === module) {
+if (fileURLToPath(import.meta.url) === process.arv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {
-      console.error(err);
-      process.exit(1);
-    });
+      console.error(err)
+      process.exit(1)
+    })
 }
