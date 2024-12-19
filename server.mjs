@@ -10,8 +10,8 @@ const app = fastify({ logger: true })
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 app.register(fastifyStatic, {
-  root: path.join(__dirname, 'out'),
-  prefix: '/',
+  root: path.join(__dirname, 'out/client'),
+  prefix: '/client',
 })
 
 async function mapComponent(path, req, res) {
@@ -40,7 +40,7 @@ async function mapComponent(path, req, res) {
   console.log(toString)
   return toString.replace(
     /<\/head\>/,
-    '<link rel="stylesheet" href="/_app.css"></head>'
+    '<link rel="stylesheet" href="/client/_app.css"></head>'
   ).replace(
     /<\/body\>/,
     `<script type="module" src="/client/${path.replace("./out/","")}"></script>

@@ -42,6 +42,7 @@ await esbuild.build({
     '.js': 'jsx',
   },
   plugins: [
+    postcss(),
     {
       name: 'remove-server-code',
       setup(builder) {
