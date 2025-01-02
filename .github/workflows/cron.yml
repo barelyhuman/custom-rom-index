@@ -22,10 +22,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v4
         with:
-          version: 6.32.10
-      - run: pnpm i
+          version: 9.9.0
+      - run: pnpm i --frozen-lockfile
       - run: export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}; npm run sync; node scripts/fill-release-dates.js;
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
