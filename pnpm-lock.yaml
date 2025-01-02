@@ -26,6 +26,9 @@ importers:
       knex:
         specifier: ^2.5.1
         version: 2.5.1(sqlite3@5.1.7)
+      logcons:
+        specifier: ^0.0.4
+        version: 0.0.4
       luxon:
         specifier: ^3.5.0
         version: 3.5.0
@@ -1240,6 +1243,9 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, tarball: https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz}
+
+  logcons@0.0.4:
+    resolution: {integrity: sha512-fBv9ObAUoOUo0dB92zj5lPTaJnXHpHCXYF5p83p4JjgZKamyp1iItoTqUpFaI/kYOfv8cH1m9rbAz1nNcjZrhQ==, tarball: https://registry.npmjs.org/logcons/-/logcons-0.0.4.tgz}
 
   lowercase-keys@2.0.0:
     resolution: {integrity: sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==, tarball: https://registry.npmjs.org/lowercase-keys/-/lowercase-keys-2.0.0.tgz}
@@ -3066,6 +3072,10 @@ snapshots:
   lodash.camelcase@4.3.0: {}
 
   lodash@4.17.21: {}
+
+  logcons@0.0.4:
+    dependencies:
+      kleur: 4.1.5
 
   lowercase-keys@2.0.0: {}
 
