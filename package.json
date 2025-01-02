@@ -2,6 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "node server.mjs",
     "build": "node build.mjs",
     "fix": "biome check --write",
     "sync": "node scripts/sync.js"
