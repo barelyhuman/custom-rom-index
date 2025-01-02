@@ -6,5 +6,5 @@ export function Note({ children, ...props }) {
         {children}
       </p>
     </>
-  );
+  )
 }

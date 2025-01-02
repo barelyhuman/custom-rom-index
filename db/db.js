@@ -1,22 +1,20 @@
-const knex = require('knex');
-const kconfig = require('../knexfile');
+import knex from 'knex'
+import kconfig from '../knexfile.js'
 
 /**
  * @type { import("knex").Knex }
  */
-let connection;
+let connection
 
 const createConnection = () => {
-  if (connection) return connection;
+  if (connection) return connection
 
   connection = knex({
     ...kconfig[process.env.NODE_ENV || 'development'],
     useNullAsDefault: true,
-  });
+  })
 
-  return connection;
-};
+  return connection
+}
 
-const db = createConnection();
-
-exports.db = db;
+export const db = createConnection()

@@ -1,70 +1,72 @@
 #!/usr/bin/env node
 
-const _got = require('got');
+import _got from 'got'
 
-const { conch } = require('@barelyreaper/conch');
-const { logcons } = require('logcons');
-const kluer = require('kleur');
-const { STATUS_ENUM } = require('../db/status_enum');
-const { upsertDevice } = require('../lib/sdk');
-const info = kluer.cyan().bold;
-const success = kluer.green().bold;
+import { fileURLToPath } from 'node:url'
+import { conch } from '@barelyreaper/conch'
+import kluer from 'kleur'
+import { logcons } from 'logcons'
+import { STATUS_ENUM } from '../db/status_enum.js'
+import { upsertDevice } from '../lib/sdk.js'
+
+const info = kluer.cyan().bold
+const success = kluer.green().bold
 
 const V13_COMMIT =
-  'https://api.github.com/repos/Havoc-OS/OTA/contents/gapps?ref=thirteen';
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/gapps?ref=thirteen'
 const V12_COMMIT =
-  'https://api.github.com/repos/Havoc-OS/OTA/contents/gapps?ref=twelve';
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/gapps?ref=twelve'
 const V11_COMMIT =
-  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=eleven';
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=eleven'
 const V10_COMMIT =
-  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=ten';
+  'https://api.github.com/repos/Havoc-OS/OTA/contents/vanilla?ref=ten'
 
 async function main() {
-  await addDevices(V13_COMMIT, 13);
-  await addDevices(V12_COMMIT, 12);
-  await addDevices(V11_COMMIT, 11);
-  await addDevices(V10_COMMIT, 10);
-  console.log(success(`${logcons.tick()} Done, Syncing HavocOS`));
+  await addDevices(V13_COMMIT, 13)
+  await addDevices(V12_COMMIT, 12)
+  await addDevices(V11_COMMIT, 11)
+  await addDevices(V10_COMMIT, 10)
+  console.log(success(`${logcons.tick()} Done, Syncing HavocOS`))
 }
 
 async function addDevices(commit, version) {
-  const { parse } = JSON;
-  const response = await got(commit);
-  const devices = parse(response.body);
+  const { parse } = JSON
+  const response = await got(commit)
+  const devices = parse(response.body)
 
   await conch(devices, item => addHavocOSToDevices(item, version), {
     limit: 1,
-  });
+  })
   console.log(
     info(`${logcons.info()} Synced: ${Number(version).toFixed(1)} Havoc OS`)
-  );
+  )
 }
 
 async function addHavocOSToDevices(item, version) {
-  const { parse } = JSON;
-  const deviceBlob = await got(item.url);
+  const { parse } = JSON
+  const deviceBlob = await got(item.url)
   const fileContent = Buffer.from(
     parse(deviceBlob.body).content,
     'base64'
-  ).toString('utf8');
+  ).toString('utf8')
 
-  if (!fileContent) return true;
+  if (!fileContent) return true
 
-  let parsedFileData;
+  let parsedFileData
   try {
-    parsedFileData = parse(fileContent);
+    parsedFileData = parse(fileContent)
   } catch (_) {
-    parsedFileData = false;
+    parsedFileData = false
   }
 
-  if (!parsedFileData) return true;
+  if (!parsedFileData) return true
 
   const deviceData =
-    (parsedFileData.response && parsedFileData.response[0]) || false;
+    (parsedFileData.response && parsedFileData.response[0]) || false
 
-  if (!deviceData) return true;
+  if (!deviceData) return true
 
-  const codename = deviceData.codename;
+  const codename = deviceData.codename
   await upsertDevice({
     deviceName: deviceData.name,
     codename,
@@ -74,7 +76,7 @@ async function addHavocOSToDevices(item, version) {
       links: [deviceData.url],
       name: 'HavocOS',
     },
-  });
+  })
 }
 
 function got(url) {
@@ -82,16 +84,16 @@ function got(url) {
     headers: {
       Authorization: `token ${process.env.GH_TOKEN}`,
     },
-  });
+  })
 }
 
-exports.syncHavocOS = main;
+export const syncHavocOS = main
 
-if (require.main === module) {
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
   main()
     .then(() => process.exit(0))
     .catch(err => {
-      console.error(err);
-      process.exit(1);
-    });
+      console.error(err)
+      process.exit(1)
+    })
 }

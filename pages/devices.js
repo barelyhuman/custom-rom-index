@@ -1,7 +1,7 @@
-import { Header } from 'components';
-import { DevicesListTable } from 'containers';
+import { Header } from 'components'
+import { DevicesListTable } from 'containers'
 
-import { getDevices } from 'lib/sdk';
+import { getDevices } from '../lib/sdk.js'
 
 function Devices({
   deviceList,
@@ -18,7 +18,7 @@ function Devices({
       <div>
         <div>
           <h1>Devices</h1>
-          <a href='https://github.com/barelyhuman/custom-rom-index/'>
+          <a href="https://github.com/barelyhuman/custom-rom-index/">
             <p>Help us add more devices</p>
           </a>
         </div>
@@ -35,30 +35,30 @@ function Devices({
         />
       }
     </>
-  );
+  )
 }
 
-export default Devices;
+export default Devices
 
 export async function getServerSideProps({ query }) {
-  const defaultLimit = 15;
+  const defaultLimit = 15
   const order = {
     release: 'desc',
-  };
-  const limit = query.limit || defaultLimit;
+  }
+  const limit = query.limit || defaultLimit
 
   switch (query.sort) {
     case 'releasedOn:asc': {
-      order.release = 'asc';
-      break;
+      order.release = 'asc'
+      break
     }
     case 'releasedOn:desc': {
-      order.release = 'desc';
-      break;
+      order.release = 'desc'
+      break
     }
     default: {
-      order.release = 'desc';
-      break;
+      order.release = 'desc'
+      break
     }
   }
 
@@ -68,7 +68,7 @@ export async function getServerSideProps({ query }) {
     status: query.status || 'all',
     searchTerm: query.q || '',
     order,
-  });
+  })
 
   return {
     props: {
@@ -80,5 +80,5 @@ export async function getServerSideProps({ query }) {
       currPage: query.page || 0,
       maxPage: Math.floor(count / limit),
     },
-  };
+  }
 }

@@ -1,4 +1,4 @@
-const { options } = require('../db/options');
+const { options } = require('../db/options')
 
 /**
  * @param { import("knex").Knex } knex
@@ -6,8 +6,8 @@ const { options } = require('../db/options');
  */
 exports.seed = async function (knex) {
   // Deletes ALL existing entries
-  await knex('options').del();
-  const rows = [];
+  await knex('options').del()
+  const rows = []
   Object.entries(options).forEach(([identifier, optionDef]) => {
     Object.entries(optionDef).forEach(([_, optValue]) => {
       rows.push({
@@ -15,9 +15,9 @@ exports.seed = async function (knex) {
         value: optValue.value,
         sequence: optValue.sequence,
         label: optValue.label,
-      });
-    });
-  });
+      })
+    })
+  })
 
-  await knex('options').insert(rows);
-};
+  await knex('options').insert(rows)
+}

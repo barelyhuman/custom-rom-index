@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
-const { addDevice } = require('../db/db');
-const got = require('got');
-const { STATUS_ENUM } = require('../db/status_enum');
-const kluer = require('kleur');
-const { logcons } = require('logcons');
-const { upsertDevice } = require('../lib/sdk');
+import { fileURLToPath } from 'node:url'
+import got from 'got'
+import kluer from 'kleur'
+import { logcons } from 'logcons'
+import { STATUS_ENUM } from '../db/status_enum.js'
+import { upsertDevice } from '../lib/sdk'
 
-const success = kluer.green().bold;
+const success = kluer.green().bold
 
-const URL = 'https://api.aospa.co/devices';
+const URL = 'https://api.aospa.co/devices'
 
 async function main() {
-  const response = await got(URL);
-  const deviceList = JSON.parse(response.body);
+  const response = await got(URL)
+  const deviceList = JSON.parse(response.body)
 
   const promises = deviceList.devices.map(async deviceItem => {
     await upsertDevice({
@@ -24,23 +24,22 @@ async function main() {
         status: STATUS_ENUM.unknown,
         links: [`https://aospa.co/downloads/${deviceItem.name}`],
       },
-    });
-  });
+    })
+  })
 
-  await Promise.all(promises);
+  await Promise.all(promises)
 
   console.log(
     success(`${logcons.tick()} Done, Syncing AOSPA - Paranoid Android...`)
-  );
+  )
 }
 
-exports.syncParanoidAndroid = main;
+export const syncParanoidAndroid = main
 
-if (require.main === module) {
+if (fileURLToPath(import.meta.url) === process.argv[1])
   main()
     .then(() => process.exit(0))
     .catch(err => {
-      console.error(err);
-      process.exit(1);
-    });
-}
+      console.error(err)
+      process.exit(1)
+    })
