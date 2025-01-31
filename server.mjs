@@ -14,6 +14,12 @@ app.register(fastifyStatic, {
   prefix: "/client",
 });
 
+app.register(fastifyStatic, {
+  decorateReply: false,
+  root: path.join(__dirname, "public"),
+  prefix: "/",
+});
+
 async function mapComponent(path, req, res) {
   const appFile = await import("./out/_app.js");
   const Component = await import(path);
@@ -37,7 +43,6 @@ async function mapComponent(path, req, res) {
       pageProps: pageProps.props,
     });
   const toString = renderToString(h(FinalComponent));
-  console.log(toString);
   return toString
     .replace(
       /<\/head\>/,
