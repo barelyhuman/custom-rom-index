@@ -1,3 +1,4 @@
+import { relative } from 'path'
 import generatePkg from '@babel/generator'
 import { parse } from '@babel/parser'
 import traversePkg from '@babel/traverse'
@@ -12,11 +13,15 @@ const traverse = traversePkg.default
 
 const files = await glob('./pages/**/*.js', { filesOnly: true })
 
+/**
+ * @type {import("esbuild").BuildOptions}
+ */
 const buildOptions = {
   entryPoints: files,
   bundle: true,
   format: 'esm',
   jsx: 'automatic',
+  minify: true,
   jsxImportSource: 'preact',
   loader: { '.js': 'jsx' },
 }
@@ -43,6 +48,11 @@ await esbuild.build({
         builder.onLoad({ filter: /\.jsx?$/ }, async args => {
           const source = await fs.readFile(args.path, 'utf8')
           const ast = parse(source, { sourceType: 'module', plugins: ['jsx'] })
+
+          const relFromRoot = relative(process.cwd(), args.path)
+          const isPage = relFromRoot.startsWith('pages/')
+
+          if (!isPage) return
 
           const importedDependencies = new Set()
           let defaultExportName
@@ -84,10 +94,10 @@ await esbuild.build({
           if (defaultExportName) {
             return {
               contents: `import { hydrate } from "preact"
-                ${code}
-                const pageProps = JSON.parse(document.getElementById("pageProps").textContent)
-                hydrate(<${defaultExportName} {...pageProps} />, document.getElementById("app"))
-              `,
+                  ${code}
+                  const pageProps = JSON.parse(document.getElementById("pageProps").textContent)
+                  hydrate(<${defaultExportName} {...pageProps} />, document.getElementById("app"))
+                `,
               loader: 'jsx',
             }
           } else {
