@@ -15,10 +15,12 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v4
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
         with:
-          version: 9.9.0
+          node-version-file: .nvmrc
+      - run: npm i -g corepack@latest && corepack enable
       - run: pnpm i --frozen-lockfile
       - run: export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}; npm run sync; node scripts/fill-release-dates.js;
       - name: Commit changes
