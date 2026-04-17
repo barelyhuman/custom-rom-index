@@ -5,6 +5,7 @@ FROM base AS deps
 WORKDIR /app
 COPY package.json .
 COPY pnpm-lock.yaml .
+COPY pnpm-workspace.yaml .
 RUN corepack enable && \
     pnpm i --frozen-lockfile
 
@@ -16,7 +17,7 @@ RUN corepack enable && \
     pnpm build
 
 FROM base AS dist
-WORKDIR /app 
+WORKDIR /app
 COPY --from=builder /app/out ./out
 COPY --from=deps /app/node_modules ./node_modules
 COPY server.mjs .
