@@ -30,6 +30,13 @@ export function DevicesListTable({
 
   const pageLimits = [15, 25, 50, 100]
 
+  const hasFilters =
+    (searchTerm && searchTerm.length > 0) ||
+    (sortOrder && sortOrder !== 'releasedOn:desc') ||
+    (statusFilter && statusFilter !== 'all') ||
+    (limitFilter && `${limitFilter}` !== '15') ||
+    Number(currPage) > 0
+
   const onNextPage = () => {
     const _pageNum = parseInt(currPage, 10) + 1
     if (_pageNum > maxPage) return
@@ -58,12 +65,14 @@ export function DevicesListTable({
             <input
               id="search"
               name="q"
-              pattern=".{3,}"
               type="search"
               placeholder="Search device or rom..."
               defaultValue={searchTerm}
               className="px-3 h-9 w-full bg-surface text-sm text-text border-none rounded-md placeholder:text-sm placeholder:text-dim"
             />
+            <p className="text-xs text-dim mt-1 mb-0">
+              Tip: search by model name, codename, or ROM name.
+            </p>
           </div>
 
           <div className="sm:flex-1" />
@@ -98,6 +107,16 @@ export function DevicesListTable({
               </span>
             </button>
           </div>
+
+          <button type="submit" className="button h-9 min-h-0 py-2 px-4">
+            Apply filters
+          </button>
+
+          {hasFilters ? (
+            <a href="/devices" className="text-sm">
+              Clear filters
+            </a>
+          ) : null}
         </div>
 
         <div className="flex items-center flex-wrap gap-3 sm:gap-6">
@@ -182,10 +201,22 @@ export function DevicesListTable({
             </div>
           </div>
         </div>
-        <button type="submit" className="invisible w-0 h-0 absolute" />
       </form>
 
-      <div className="w-full overflow-x-scroll rounded-md">
+      {list.length === 0 ? (
+        <div className="bg-surface rounded-md p-4 border border-solid border-zinc-700">
+          <h3 className="m-0">No ROM listings found</h3>
+          <p className="mt-2 mb-0">
+            Try a broader search, switch status to All, or clear filters.
+          </p>
+          <a href="/devices" className="inline-block mt-3">
+            Reset and browse all devices
+          </a>
+        </div>
+      ) : null}
+
+      {list.length > 0 ? (
+        <div className="w-full overflow-x-scroll rounded-md">
         <table className="w-full min-w-max border-collapse rounded-md overflow-y-hidden">
           <thead className="bg-surface">
             <tr>
@@ -266,38 +297,8 @@ export function DevicesListTable({
             ))}
           </tbody>
         </table>
-      </div>
-
-      {/* Pagination */}
-      <div className="flex items-center justify-center space-x-3">
-        <button
-          type="button"
-          onClick={onPrevPage}
-          className="flex items-center justify-center w-9 h-9 bg-surface border-none rounded-md cursor-pointer text-dim text-lg hover:bg-overlay hover:text-text"
-        >
-          <span className="sr-only">Previous page</span>{' '}
-          <span aria-hidden="true" className="mt-px">
-            &larr;
-          </span>
-        </button>
-
-        <span className="text-xs text-center tabular-nums">
-          Page
-          <br />
-          {currPage * 1 + 1} of {maxPage * 1 + 1}
-        </span>
-
-        <button
-          type="button"
-          onClick={onNextPage}
-          className="flex items-center justify-center w-9 h-9 bg-surface border-none rounded-md cursor-pointer text-dim text-lg hover:bg-overlay hover:text-text"
-        >
-          <span className="sr-only">Next page</span>{' '}
-          <span aria-hidden="true" className="mt-px">
-            &rarr;
-          </span>
-        </button>
-      </div>
+        </div>
+      ) : null}
 
       <style jsx>{`
         table th,

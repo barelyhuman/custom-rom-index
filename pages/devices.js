@@ -17,9 +17,13 @@ function Devices({
       <Header />
       <div>
         <div>
-          <h1>Devices</h1>
+          <h1>Browse devices by custom ROM support</h1>
+          <p>
+            Use search and filters to compare ROM health before buying, or find
+            active builds for a device you already own.
+          </p>
           <a href="https://github.com/barelyhuman/custom-rom-index/">
-            <p>Help us add more devices</p>
+            <p>Contribute a missing device or ROM listing</p>
           </a>
         </div>
       </div>

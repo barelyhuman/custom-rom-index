@@ -8,18 +8,18 @@ export function Header() {
               <a className="no-underline" href="/">
                 <div>
                   <div />
-                  <h2>cri</h2>
+                  <h2>Custom ROM Index</h2>
                 </div>
               </a>
               <ul className="list-none">
                 <li className="inline-block ml-4">
                   <a href="/devices" className="no-underline">
-                    ROM Index
+                    Browse ROMs
                   </a>
                 </li>
                 <li className="inline-block ml-4">
                   <a href="/submit-rom" className="no-underline">
-                    Submit ROM
+                    Contribute Data
                   </a>
                 </li>
                 <li className="inline-block ml-4">
