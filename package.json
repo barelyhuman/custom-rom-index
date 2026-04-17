@@ -17,7 +17,6 @@
     "logcons": "^0.0.4",
     "luxon": "^3.5.0",
     "preact": "^10.25.3",
-    "sqlite3": "^5.1.7",
     "tiny-glob": "^0.2.9",
     "yaml": "^1.10.2"
   },
@@ -29,6 +28,7 @@
     "@biomejs/biome": "^1.9.4",
     "@evilmartians/lefthook": "^0.8.0",
     "autoprefixer": "^10.4.20",
+    "better-sqlite3": "^12.9.0",
     "esbuild": "^0.24.0",
     "esbuild-plugin-node-externals": "^1.0.1",
     "esbuild-plugin-postcss": "^0.2.1",
@@ -36,7 +36,8 @@
     "postcss": "^8.4.49",
     "preact-render-to-string": "^6.5.12",
     "shx": "^0.3.4",
+    "sqlite3": "^5.1.7",
     "tailwindcss": "^3.4.17"
   },
-  "packageManager": "pnpm@9.9.0"
+  "packageManager": "pnpm@10.32.1"
 }
