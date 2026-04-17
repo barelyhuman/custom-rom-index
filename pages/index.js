@@ -9,8 +9,11 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
       <Header />
       <Box paddingY-100>
         <div className="search-hero">
-          <p className="eyebrow">Custom ROM Index</p>
           <h1>Find ROM support before you buy.</h1>
+          <p className="sub">
+            {totalDevicesCount} devices tracked &middot; {totalActiveRomsCount}{' '}
+            active ROM listings &middot; community-updated
+          </p>
 
           <form action="/devices" method="get" className="landing-search">
             <label htmlFor="home-search" className="sr-only">
@@ -20,34 +23,17 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
               id="home-search"
               type="search"
               name="q"
-              placeholder="Search phone model, codename, or ROM"
+              placeholder="Search phone model, codename, or ROM..."
             />
-            <button type="submit">Search</button>
+            <button type="submit" className="search-btn">
+              Search
+            </button>
           </form>
 
-          <div className="stats-row">
-            <p>
-              <strong>{totalDevicesCount}</strong> devices tracked
-            </p>
-            <p>
-              <strong>{totalActiveRomsCount}</strong> active ROM listings
-            </p>
-            <p>Updated daily from community sources</p>
-          </div>
-
-          <p className="search-helper">
-            Buying new? Start with broad search. Already have a phone? Search by
-            codename for faster results.
+          <p className="hint">
+            Buying new? Try a broad model search. Already have a phone? Search
+            by codename for faster results.
           </p>
-
-          <div className="quick-actions">
-            <Link href="/devices" primary marginR-12 marginB-12>
-              Compare ROM-ready phones
-            </Link>
-            <Link href="/devices" marginB-12>
-              Find ROMs for my phone
-            </Link>
-          </div>
         </div>
       </Box>
 
@@ -83,77 +69,68 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
 
       <style jsx>{`
         .search-hero {
-          max-width: 860px;
-          margin: 0 auto;
-          text-align: center;
+          max-width: 680px;
+          padding: 24px 0 8px;
         }
 
-        .eyebrow {
-          text-transform: uppercase;
-          letter-spacing: 0.06em;
-          font-size: 12px;
+        h1 {
+          margin-bottom: 6px;
+        }
+
+        .sub {
           color: var(--dim);
+          font-size: 14px;
+          margin: 0 0 20px;
         }
 
         .landing-search {
-          margin-top: 20px;
           display: flex;
-          gap: 12px;
+          gap: 8px;
           align-items: center;
-          justify-content: center;
         }
 
         .landing-search input {
           flex: 1;
-          max-width: 620px;
           background: var(--surface);
           border: 1px solid var(--overlay);
           color: var(--text);
-          border-radius: 999px;
-          min-height: 52px;
-          padding: 0 18px;
-        }
-
-        .landing-search button {
-          min-height: 52px;
-          padding: 0 20px;
-          border: none;
-          border-radius: 999px;
-          color: white;
-          background: var(--success);
-          font-weight: 600;
-          cursor: pointer;
-        }
-
-        .stats-row {
-          margin-top: 16px;
-          display: flex;
-          gap: 16px;
-          flex-wrap: wrap;
-          justify-content: center;
-        }
-
-        .stats-row p {
-          margin: 0;
+          border-radius: 4px;
+          height: 40px;
+          padding: 0 12px;
           font-size: 14px;
         }
 
-        .search-helper {
-          margin-top: 14px;
+        .landing-search input::placeholder {
           color: var(--dim);
         }
 
-        .quick-actions {
-          margin-top: 22px;
+        .search-btn {
+          height: 40px;
+          padding: 0 16px;
+          border: 1px solid var(--overlay);
+          border-radius: 4px;
+          background: transparent;
+          color: var(--bright);
+          font-size: 14px;
+          font-weight: 500;
+          cursor: pointer;
+          white-space: nowrap;
         }
 
-        @media (max-width: 900px) {
+        .search-btn:hover {
+          border-color: var(--bright);
+        }
+
+        .hint {
+          color: var(--dim);
+          font-size: 13px;
+          margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
           .landing-search {
             flex-direction: column;
-          }
-
-          .landing-search input {
-            width: 100%;
+            align-items: stretch;
           }
         }
       `}</style>

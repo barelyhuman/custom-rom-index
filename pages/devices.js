@@ -15,18 +15,21 @@ function Devices({
   return (
     <>
       <Header />
-      <div>
-        <div>
+      <section className="devices-hero">
+        <div className="devices-hero-inner">
           <h1>Browse devices by custom ROM support</h1>
           <p>
             Use search and filters to compare ROM health before buying, or find
             active builds for a device you already own.
           </p>
-          <a href="https://github.com/barelyhuman/custom-rom-index/">
-            <p>Contribute a missing device or ROM listing</p>
+          <a
+            href="https://github.com/barelyhuman/custom-rom-index/"
+            className="contribute-link"
+          >
+            Contribute a missing device or ROM listing
           </a>
         </div>
-      </div>
+      </section>
       {
         <DevicesListTable
           list={deviceList}
@@ -38,6 +41,22 @@ function Devices({
           currPage={currPage}
         />
       }
+
+      <style jsx>{`
+        .devices-hero {
+          margin: 8px 0 20px;
+        }
+
+        .devices-hero-inner {
+          padding: 0;
+        }
+
+        .contribute-link {
+          display: inline-block;
+          margin-top: 6px;
+          font-size: 14px;
+        }
+      `}</style>
     </>
   )
 }
