@@ -11,26 +11,33 @@ function Devices({
   limit,
   currPage,
   maxPage,
+  error,
 }) {
   return (
     <>
       <Header />
-      <section className="devices-hero">
-        <div className="devices-hero-inner">
-          <h1>Browse devices by custom ROM support</h1>
-          <p>
-            Use search and filters to compare ROM health before buying, or find
-            active builds for a device you already own.
-          </p>
-          <a
-            href="https://github.com/barelyhuman/custom-rom-index/"
-            className="contribute-link"
-          >
-            Contribute a missing device or ROM listing
-          </a>
-        </div>
-      </section>
-      {
+      {error ? (
+        <section className="error-section">
+          <p>{error}</p>
+        </section>
+      ) : (
+        <section className="devices-hero">
+          <div className="devices-hero-inner">
+            <h1>Browse devices by custom ROM support</h1>
+            <p>
+              Use search and filters to compare ROM health before buying, or find
+              active builds for a device you already own.
+            </p>
+            <a
+              href="https://github.com/barelyhuman/custom-rom-index/"
+              className="contribute-link"
+            >
+              Contribute a missing device or ROM listing
+            </a>
+          </div>
+        </section>
+      )}
+      {!error && (
         <DevicesListTable
           list={deviceList}
           searchTerm={searchTerm}
@@ -40,7 +47,7 @@ function Devices({
           maxPage={maxPage}
           currPage={currPage}
         />
-      }
+      )}
 
       <style jsx>{`
         .devices-hero {
@@ -55,6 +62,16 @@ function Devices({
           display: inline-block;
           margin-top: 6px;
           font-size: 14px;
+        }
+
+        .error-section {
+          margin: 20px 0;
+          text-align: center;
+        }
+
+        .error-section p {
+          font-size: 18px;
+          color: #e74c3c;
         }
       `}</style>
     </>
@@ -85,23 +102,39 @@ export async function getServerSideProps({ query }) {
     }
   }
 
-  const { deviceList, count } = await getDevices({
-    page: query.page || 0,
-    limit,
-    status: query.status || 'all',
-    searchTerm: query.q || '',
-    order,
-  })
-
-  return {
-    props: {
-      deviceList,
-      searchTerm: query.q || '',
-      sort: query.sort || 'releasedOn:desc',
-      status: query.status || 'all',
+  try {
+    const { deviceList, count } = await getDevices({
+      page: query.page || 0,
       limit,
-      currPage: query.page || 0,
-      maxPage: Math.floor(count / limit),
-    },
+      status: query.status || 'all',
+      searchTerm: query.q || '',
+      order,
+    })
+
+    return {
+      props: {
+        deviceList,
+        searchTerm: query.q || '',
+        sort: query.sort || 'releasedOn:desc',
+        status: query.status || 'all',
+        limit,
+        currPage: query.page || 0,
+        maxPage: Math.floor(count / limit),
+      },
+    }
+  } catch (err) {
+    console.error(err)
+    return {
+      props: {
+        deviceList: [],
+        searchTerm: query.q || '',
+        sort: query.sort || 'releasedOn:desc',
+        status: query.status || 'all',
+        limit,
+        currPage: query.page || 0,
+        maxPage: 0,
+        error: 'Oops! Something went wrong.',
+      },
+    }
   }
 }

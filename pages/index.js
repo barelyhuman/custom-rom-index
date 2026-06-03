@@ -24,6 +24,7 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
               type="search"
               name="q"
               placeholder="Search phone model, codename, or ROM..."
+              className='control-input px-3 h-10 min-h-10 w-full text-sm'
             />
             <button type="submit" className="search-btn">
               Search
@@ -95,9 +96,6 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
           border: 1px solid var(--overlay);
           color: var(--text);
           border-radius: 4px;
-          height: 40px;
-          padding: 0 12px;
-          font-size: 14px;
         }
 
         .landing-search input::placeholder {
@@ -119,6 +117,18 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
 
         .search-btn:hover {
           border-color: var(--bright);
+        }
+
+        .control-input {
+          background: var(--surface);
+          border: 1px solid var(--overlay);
+          color: var(--text);
+          border-radius: 4px;
+        }
+
+        .control-input:focus {
+          outline: 2px solid var(--bright);
+          outline-offset: 1px;
         }
 
         .hint {
