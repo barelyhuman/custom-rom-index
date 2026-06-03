@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { readFileSync } from 'fs'
 import { fileURLToPath } from 'node:url'
+import { readFileSync } from 'fs'
 import { join, resolve } from 'path'
 import { db } from '../db/db.js'
 import { options } from '../db/options.js'

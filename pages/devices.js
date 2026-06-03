@@ -25,8 +25,8 @@ function Devices({
           <div className="devices-hero-inner">
             <h1>Browse devices by custom ROM support</h1>
             <p>
-              Use search and filters to compare ROM health before buying, or find
-              active builds for a device you already own.
+              Use search and filters to compare ROM health before buying, or
+              find active builds for a device you already own.
             </p>
             <a
               href="https://github.com/barelyhuman/custom-rom-index/"

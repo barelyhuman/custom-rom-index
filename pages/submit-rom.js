@@ -24,7 +24,9 @@ function SubmitRom({ ...props }) {
                 https://github.com/barelyhuman/custom-rom-index
               </a>
             </li>
-            <li>Create a new issue with your device codename, ROM name, and links</li>
+            <li>
+              Create a new issue with your device codename, ROM name, and links
+            </li>
             <li>We review and add it to the index</li>
           </ol>
 
@@ -37,9 +39,7 @@ function SubmitRom({ ...props }) {
             </li>
             <li>Raise a new Pull Request</li>
           </ol>
-          <p>
-            Your listing will be added once we complete the review.
-          </p>
+          <p>Your listing will be added once we complete the review.</p>
           <div>
             <a href="https://github.com/barelyhuman/custom-rom-index/">
               <Button marginY-50 primary>

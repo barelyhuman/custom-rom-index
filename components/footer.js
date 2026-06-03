@@ -5,7 +5,10 @@ export function Footer({ ...props }) {
     <footer className="footer-shell flex flex-col w-100 items-center justify-center">
       <div>
         <span>
-          <a className="mx-2 my-1 social-link" href="https://twitter.com/barelyreaper">
+          <a
+            className="mx-2 my-1 social-link"
+            href="https://twitter.com/barelyreaper"
+          >
             <TwitterIcon />
           </a>
           <a

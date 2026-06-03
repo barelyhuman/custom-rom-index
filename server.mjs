@@ -1,9 +1,9 @@
-import path, { dirname } from 'path'
-import { fileURLToPath } from 'url'
 import fastifyStatic from '@fastify/static'
 import fastify from 'fastify'
+import path, { dirname } from 'path'
 import { h } from 'preact'
 import { renderToString } from 'preact-render-to-string'
+import { fileURLToPath } from 'url'
 
 const app = fastify({ logger: true })
 

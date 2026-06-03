@@ -1,4 +1,3 @@
-import { relative } from 'path'
 import generatePkg from '@babel/generator'
 import { parse } from '@babel/parser'
 import traversePkg from '@babel/traverse'
@@ -6,6 +5,7 @@ import esbuild from 'esbuild'
 import { nodeExternals } from 'esbuild-plugin-node-externals'
 import postcss from 'esbuild-postcss'
 import fs from 'fs/promises'
+import { relative } from 'path'
 import glob from 'tiny-glob'
 
 const generate = generatePkg.default

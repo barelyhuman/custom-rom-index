@@ -25,7 +25,7 @@
     "@babel/parser": "^7.29.2",
     "@babel/traverse": "^7.29.0",
     "@barelyhuman/prettier-config": "^2.0.2",
-    "@biomejs/biome": "^2.4.12",
+    "@biomejs/biome": "^2.4.16",
     "@evilmartians/lefthook": "^2.1.6",
     "autoprefixer": "^10.5.0",
     "better-sqlite3": "^12.9.0",

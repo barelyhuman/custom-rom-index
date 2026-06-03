@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
-import _got from 'got'
-
 import { fileURLToPath } from 'node:url'
 import { conch } from '@barelyreaper/conch'
+import _got from 'got'
 import kluer from 'kleur'
 import { logcons } from 'logcons'
 import { STATUS_ENUM } from '../db/status_enum.js'

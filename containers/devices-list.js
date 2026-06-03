@@ -79,11 +79,7 @@ export function DevicesListTable({
 
           {/* Pagination */}
           <div className="flex items-center justify-center sm:justify-start space-x-3">
-            <button
-              type="button"
-              onClick={onPrevPage}
-              className="page-btn"
-            >
+            <button type="button" onClick={onPrevPage} className="page-btn">
               <span className="sr-only">Previous page</span>{' '}
               <span aria-hidden="true">&larr;</span>
             </button>
@@ -94,17 +90,16 @@ export function DevicesListTable({
               {currPage * 1 + 1} of {maxPage * 1 + 1}
             </span>
 
-            <button
-              type="button"
-              onClick={onNextPage}
-              className="page-btn"
-            >
+            <button type="button" onClick={onNextPage} className="page-btn">
               <span className="sr-only">Next page</span>{' '}
               <span aria-hidden="true">&rarr;</span>
             </button>
           </div>
 
-          <button type="submit" className="button primary h-10 min-h-0 py-2 px-4">
+          <button
+            type="submit"
+            className="button primary h-10 min-h-0 py-2 px-4"
+          >
             Apply filters
           </button>
 
@@ -247,13 +242,17 @@ export function DevicesListTable({
                     )}
                   </td>
                   <td>
-                    <span className={`status-label ${STATUS_COLOR[item.status]}`}>
+                    <span
+                      className={`status-label ${STATUS_COLOR[item.status]}`}
+                    >
                       {item.status_label}
                     </span>
                   </td>
                   <td>
                     {item.released_on_formatted ? (
-                      <span className="text-sm">{item.released_on_formatted}</span>
+                      <span className="text-sm">
+                        {item.released_on_formatted}
+                      </span>
                     ) : (
                       <span className="text-sm text-dim">N/A</span>
                     )}

@@ -1,15 +1,18 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.4.16/schema.json",
   "files": {
-    "include": [
+    "includes": [
       "**/*.mjs",
       "**/*.js",
       "**/*.css",
       "**/*.json",
       "**/*.jsx",
-      "**/*.njk"
-    ],
-    "ignore": ["node_modules", ".next", "tmp", "dist"]
+      "**/*.njk",
+      "!**/node_modules",
+      "!**/.next",
+      "!**/tmp",
+      "!**/dist"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -22,7 +25,7 @@
     "attributePosition": "auto",
     "bracketSpacing": true
   },
-  "organizeImports": { "enabled": true },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": false,
     "rules": {
@@ -30,10 +33,9 @@
       "complexity": {
         "noExtraBooleanCast": "error",
         "noForEach": "error",
-        "noMultipleSpacesInRegularExpressionLiterals": "error",
         "noUselessCatch": "error",
-        "noWith": "error",
-        "useArrowFunction": "off"
+        "useArrowFunction": "off",
+        "noAdjacentSpacesInRegex": "error"
       },
       "correctness": {
         "noConstAssign": "error",
@@ -58,7 +60,8 @@
         "noUnusedVariables": "error",
         "useIsNan": "error",
         "useValidForDirection": "error",
-        "useYield": "error"
+        "useYield": "error",
+        "useValidTypeof": "error"
       },
       "style": { "useBlockStatements": "error", "useForOf": "warn" },
       "suspicious": {
@@ -85,7 +88,7 @@
         "noSparseArray": "error",
         "noUnsafeNegation": "error",
         "useGetterReturn": "error",
-        "useValidTypeof": "error"
+        "noWith": "error"
       }
     }
   },

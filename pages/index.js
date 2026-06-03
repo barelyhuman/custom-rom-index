@@ -24,7 +24,7 @@ function Home({ totalDevicesCount, totalActiveRomsCount }) {
               type="search"
               name="q"
               placeholder="Search phone model, codename, or ROM..."
-              className='control-input px-3 h-10 min-h-10 w-full text-sm'
+              className="control-input px-3 h-10 min-h-10 w-full text-sm"
             />
             <button type="submit" className="search-btn">
               Search

@@ -1,23 +1,24 @@
-import path from "node:path";
+import path from 'node:path'
+
 // Update with your config settings.
 
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 
-const dbPath = path.resolve(path.join(process.cwd(), "db", "db.sqlite3"));
+const dbPath = path.resolve(path.join(process.cwd(), 'db', 'db.sqlite3'))
 
 export default {
   development: {
-    client: "better-sqlite3",
+    client: 'better-sqlite3',
     connection: {
       filename: dbPath,
     },
   },
   production: {
-    client: "better-sqlite3",
+    client: 'better-sqlite3',
     connection: {
       filename: dbPath,
     },
   },
-};
+}

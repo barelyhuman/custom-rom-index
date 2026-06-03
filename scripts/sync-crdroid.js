@@ -7,6 +7,7 @@ import kluer from 'kleur'
 import { logcons } from 'logcons'
 import { STATUS_ENUM } from '../db/status_enum.js'
 import { upsertDevice } from '../lib/sdk.js'
+
 const info = kluer.cyan().bold
 const success = kluer.green().bold
 
