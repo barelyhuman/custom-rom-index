@@ -20,3 +20,6 @@ primary_region = 'sin'
   memory = '256mb'
   cpu_kind = 'shared'
   cpus = 1
+
+[env]
+NODE_OPTIONS = "--max-old-space-size=256"
