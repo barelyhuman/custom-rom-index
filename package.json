@@ -31,7 +31,6 @@
     "better-sqlite3": "^12.10.0",
     "esbuild": "^0.28.0",
     "esbuild-plugin-node-externals": "^1.0.1",
-    "esbuild-plugin-postcss": "^0.3.0",
     "esbuild-postcss": "^0.0.4",
     "postcss": "^8.5.15",
     "preact-render-to-string": "^6.7.0",
